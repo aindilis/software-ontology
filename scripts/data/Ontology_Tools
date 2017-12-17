@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" /><title>Ontology Tools - OSF Wiki</title>
+<meta name="generator" content="MediaWiki 1.23alpha" />
+<link rel="shortcut icon" href="/skins/common/images/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="OSF Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://wiki.opensemanticframework.org/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="OSF Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.opensemanticframework.org/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cext.rtlcite%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: wiki_osf-osf_:resourceloader:filter:minify-css:7:33fbaa5c4b9e39f6c9a12629b5853731 */</style>
+
+<script src="http://wiki.opensemanticframework.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ontology_Tools","wgTitle":"Ontology Tools","wgCurRevisionId":8245,"wgRevisionId":8245,"wgArticleId":233,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["ZWiki","Related Links","Ontology Tools"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Ontology_Tools","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr"},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"vector-simplesearch":1,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0
+,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"useeditwarning":1,"prefershttps":1,"visualeditor-enable":1,"visualeditor-enable-experimental":0,"visualeditor-enable-mwmath":0,"visualeditor-betatempdisable":0,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs300":false,"searchNs301":false,"searchNs310":false,"searchNs311":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: wiki_osf-osf_:resourceloader:filter:minify-js:7:978ce9cd0e2d4b01ef782c783b5590c2 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.visualEditor.viewPageTarget.init","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><script type="text/javascript" src="/menu/menu.js"></script><link rel="stylesheet" type="text/css" href="/menu/menu.css" media="screen, projection, tv" />	</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Ontology_Tools skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Ontology Tools</span></h1>
+			<div id="bodyContent">
+								<div id="siteSub">From OSF Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This listing received its last major update on Aug 22, 2010 (though with minor additions since). All tools added at that time are marked with <b>&lt;New&gt;</b> (new only means newly discovered; some had yet to be discovered in prior listings). There are now a total of <b>185</b> tools in the listing, <b>31</b> of which are new, and 45 from the first release. <b>&lt;Newest&gt; </b>reflects updates — most from the developers themselves — since the original publication of this post.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Comprehensive_Ontology_Tools"><span class="tocnumber">1</span> <span class="toctext">Comprehensive Ontology Tools</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Not_Apparently_in_Active_Use"><span class="tocnumber">1.1</span> <span class="toctext">Not Apparently in Active Use</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#Vocabulary_Prompting_Tools"><span class="tocnumber">2</span> <span class="toctext">Vocabulary Prompting Tools</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Initial_Ontology_Development"><span class="tocnumber">3</span> <span class="toctext">Initial Ontology Development</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Ontology_Editing"><span class="tocnumber">4</span> <span class="toctext">Ontology Editing</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Not_Apparently_in_Active_Use_2"><span class="tocnumber">4.1</span> <span class="toctext">Not Apparently in Active Use</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Ontology_Mapping"><span class="tocnumber">5</span> <span class="toctext">Ontology Mapping</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Not_Apparently_in_Active_Use_3"><span class="tocnumber">5.1</span> <span class="toctext">Not Apparently in Active Use</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Ontology_Visualization.2FAnalysis"><span class="tocnumber">6</span> <span class="toctext">Ontology Visualization/Analysis</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Miscellaneous_Ontology_Tools"><span class="tocnumber">7</span> <span class="toctext">Miscellaneous Ontology Tools</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Not_Apparently_in_Active_Use_4"><span class="tocnumber">7.1</span> <span class="toctext">Not Apparently in Active Use</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#To_Be_Completed.3B_Categorized"><span class="tocnumber">8</span> <span class="toctext">To Be Completed; Categorized</span></a></li>
+</ul>
+</div>
+
+<h3><span class="mw-headline" id="Comprehensive_Ontology_Tools">Comprehensive Ontology Tools</span></h3>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.altova.com/products_semanticworks.html">Altova SemanticWorks</a> is a visual RDF and OWL editor that auto-generates RDF/XML or nTriples based on visual ontology design. No open source version available
+</li>
+<li> <a rel="nofollow" class="external text" href="http://amine-platform.sourceforge.net/">Amine</a> is a rather comprehensive, open source platform for the development of intelligent and multi-agent systems written in Java. As one of its components, it has an ontology GUI with text- and tree-based editing modes, with some graph visualization
+</li>
+<li> The <a rel="nofollow" class="external text" href="http://apelon-dts.sourceforge.net/index.html">Apelon DTS</a> (Distributed Terminology System) is an integrated set of open source components that provides comprehensive terminology services in distributed application environments. DTS supports national and international data standards, which are a necessary foundation for comparable and interoperable health information, as well as local vocabularies. Typical applications for DTS include clinical data entry, administrative review, problem-list and code-set management, guideline creation, decision support and information retrieval.. Though not strictly an ontology management system, Apelon DTS has plug-ins that provide visualization of concept graphs and related functionality that make it close to a complete solution
+</li>
+<li> <a rel="nofollow" class="external text" href="http://dome.sourceforge.net/">DOME</a> is a programmable XML editor which is being used in a knowledge extraction role to transform Web pages into RDF, and available as Eclipse plug-ins. DOME stands for DERI Ontology Management Environment
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.thechiselgroup.org/flexviz">FlexViz</a> is a Flex-based, Protégé-like client-side ontology creation, management and viewing tool; very impressive. The code is distributed from <a rel="nofollow" class="external text" href="http://sourceforge.net/projects/flexviz/">Sourceforge</a>; there is a nice <a rel="nofollow" class="external text" href="http://keg.cs.uvic.ca/ncbo/flexviz/FlexoViz.html#">online demo</a> available; there is a nice <a rel="nofollow" class="external text" href="http://webhome.cs.uvic.ca/%7Eseanf/files/demo_submission_flexviz.pdf">explanatory paper</a> on the system, and the developer, Chris Callendar, has a useful <a rel="nofollow" class="external text" href="http://flexdevtips.blogspot.com/">blog</a> with Flex development tips
+</li>
+<li> <b>&lt;Newest&gt;</b> <a rel="nofollow" class="external text" href="http://dbs.uni-leipzig.de/GOMMA">GOMMA</a> is a generic infrastructure for managing and analyzing life science ontologies and their evolution. The component-based infrastructure utilizes a generic repository to uniformly and efficiently manage many versions of ontologies and different kinds of mappings. Different functional components focus on matching life science ontologies, detecting and analyzing evolutionary changes and patterns in these ontologies
+</li>
+<li><b>&lt;Newest&gt;</b> <a rel="nofollow" class="external text" href="http://mondeca.com/index.php/en/products/itm">ITM</a> supports the management of complex knowledge structures (metadata repositories, terminologies, thesauri, taxonomies, ontologies, and knowledge bases) throughout their lifecycle, from authoring to delivery. ITM can also manage alignments between multiple knowledge structures, such as thesauri or ontologies, via the integration of INRIA’s Alignment API. Commercial; from Mondeca
+</li>
+<li> <a rel="nofollow" class="external text" href="http://knoodl.com/ui/home.html">Knoodl</a> facilitates community-oriented development of OWL based ontologies and RDF knowledge bases. It also serves as a semantic technology platform, offering a Java service-based interface or a SPARQL-based interface so that communities can build their own semantic applications using their ontologies and knowledgebases. It is hosted in the Amazon EC2 cloud and is available for free; private versions may also be obtained. See especially the <a rel="nofollow" class="external text" href="http://knoodl.com/ui/site/webcast/intro.jsp">screencast</a> for a quick introduction
+</li>
+<li> The <a rel="nofollow" class="external text" href="http://neon-toolkit.org/wiki/Main_Page">NeOn toolkit</a> is a state-of-the-art, open source multi-platform ontology engineering environment, which provides comprehensive support for the ontology engineering life-cycle. The <a rel="nofollow" class="external text" href="http://neon-toolkit.org/wiki/NTK_2.3_Release">v2.3.0 toolkit</a> is based on the Eclipse platform, a leading development environment, and provides an extensive set of <a rel="nofollow" class="external text" href="http://neon-toolkit.org/wiki/Neon_Plugins">plug-ins</a> covering a variety of ontology engineering activities. You can add these plug-ins or get a current listing from the built-in updating mechanism
+</li>
+<li><b>&lt;Newest&gt;</b> <a rel="nofollow" class="external text" href="http://iew3.technion.ac.il/OntoBuilder/">OntoBuilder</a> is a comprehensive ontology building and managing framework
+</li>
+<li> <a rel="nofollow" class="external text" href="http://code.google.com/p/ontopia/">ontopia</a> is a relative complete suite of tools for building, maintaining, and deploying Topic Maps-based applications; open source, and written in Java. Could not find online demos, but there are <a rel="nofollow" class="external text" href="http://code.google.com/p/ontopia/wiki/Screenshots">screenshots</a> and there is visualization of topic relationships
+</li>
+<li> <a rel="nofollow" class="external text" href="http://protege.stanford.edu/">Protégé</a> is a free, open source visual ontology editor and knowledge-base framework. The Protégé platform supports two main ways of modeling ontologies via the Protégé-Frames and Protégé-OWL editors. Protégé ontologies can be exported into a variety of formats including RDF(S), OWL, and XML Schema. There are a large number of third-party plugins that extends the platform’s functionality
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://protege.cim3.net/cgi-bin/wiki.pl?ProtegePluginsLibraryByType">Protégé Plugin Library</a> – frequently consult this page to review new additions to the Protégé editor; presently there are dozens of specific plugins, most related to the semantic Web and most open source
+</li>
+<li> <a rel="nofollow" class="external text" href="http://protegewiki.stanford.edu/index.php/Collaborative_Protege">Collaborative Protégé</a> is a plug-in extension of the existing Protégé system that supports collaborative ontology editing as well as annotation of both ontology components and ontology changes. In addition to the common ontology editing operations, it enables annotation of both ontology components and ontology changes. It supports the searching and filtering of user annotations, also known as notes, based on different criteria. There is also an <a rel="nofollow" class="external text" href="http://smi-protege.stanford.edu/collab-protege/">online demo</a>
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://webprotege.stanford.edu/">Web Protégé</a> is an online version of Protégé attempting to capture all of the native functionality; still under development
+</li>
+</ul>
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://sigmakee.sourceforge.net/">Sigma</a> is open source knowledge engineering environment that includes ontology mapping, theorem proving, language generation in multiple languages, browsing, OWL read/write, and analysis. It includes the Suggested Upper Merged Ontology (<a rel="nofollow" class="external text" href="http://www.ontologyportal.org/">SUMO</a>), a comprehensive formal ontology. It’s under active development and use
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.topquadrant.com/products/TB_Composer.html">TopBraid Composer</a> is an enterprise-class modeling environment for developing Semantic Web ontologies and building semantic applications. Fully compliant with W3C standards, Composer offers comprehensive support for developing, managing and testing configurations of knowledge models and their instance knowledge bases. It is based on the Eclipse IDE. There is a free version (after registration) for small ontologies
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://code.google.com/p/twouse/">TwoUse Toolkit</a> is an implementation of current OMG and W3C standards for developing ontology-based software models and model-based OWL2 ontologies, largely based around UML. There are a variety of tools, including graphics editors, with more to come
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://www.wandora.org/wandora/wiki/index.php?title=Main_Page">Wandora</a> is a topic maps engine written in Java with support for both in-memory topic maps and persisting topic maps in MySQL and SQL Server. It also contains an editor and a publishing system, and has support for automatic classification. It can read OBO, RDF(S), and many other formats, and can export topic maps to various graph formats. There is also a web-based topic maps browser, and graphical visualization.
+</li>
+</ul>
+<h4><span class="mw-headline" id="Not_Apparently_in_Active_Use">Not Apparently in Active Use</span></h4>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.aktors.org/technologies/adaptiva/">Adaptiva</a> is a user-centred ontology building environment, based on using multiple strategies to construct an ontology, minimising user input by using adaptive information extraction
+</li>
+<li> <a rel="nofollow" class="external text" href="http://exteca.sourceforge.net/">Exteca</a> is an ontology-based technology written in Java for high-quality knowledge management and document categorisation, including entity extraction. Though code is still available, no updates have been provided since 2006. It can be used in conjunction with search engines
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.alphaworks.ibm.com/tech/semanticstk">IODT</a> is IBM’s toolkit for ontology-driven development. The toolkit includes EMF Ontolgy Definition Metamodel (EODM), EODM workbench, and an OWL Ontology Repository (named Minerva)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://kaon.semanticweb.org/">KAON</a> is an open-source ontology management infrastructure targeted for business applications. It includes a comprehensive tool suite allowing easy ontology creation and management and provides a framework for building ontology-based applications. An important focus of KAON is scalable and efficient reasoning with ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.ksl.stanford.edu/software/ontolingua/">Ontolingua</a> provides a distributed collaborative environment to browse, create, edit, modify, and use ontologies. The server supports over 150 active users, some of whom have provided us with descriptions of their projects. Provided as an online service; software availability not known.
+</li>
+</ul>
+<h3><span class="mw-headline" id="Vocabulary_Prompting_Tools">Vocabulary Prompting Tools</span></h3>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.alchemyapi.com/api/keyword/">AlchemyAPI</a> from Orchestr8 provides an API based application that uses statistical and natural language processing methods. Applicable to webpages, text files and any input text in several languages
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.boowa.com/">BooWa</a> is a set expander for any language (formerly known as SEALS); developed by RC Wang of Carnegie Mellon
+</li>
+<li> <a rel="nofollow" class="external text" href="https://adwords.google.com/select/KeywordToolExternal">Google Keywords</a> allows you to enter a few descriptive words or phrases or a site URL to generate keyword ideas
+</li>
+<li> <a rel="nofollow" class="external text" href="http://labs.google.com/sets">Google Sets</a> for automatically creating sets of items from a few examples
+</li>
+<li> <a rel="nofollow" class="external text" href="http://opencalais.com/">Open Calais</a> is free limited API web service to automatically attach semantic metadata to content, based on either entities (people, places, organizations, etc.), facts (person ‘x’ works for company ‘y’), or events (person ‘z’ was appointed chairman of company ‘y’ on date ‘x’). The metadata results are stored centrally and returned to you as industry-standard RDF constructs accompanied by a Globally Unique Identifier (GUID)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.blogscope.net//tools/phrase.jsp">Query-by-document</a> from BlogScope has a nice phrase extraction service, with a choice of ranking methods. Can also be used in a Firefox plug-in (not texted with 3.5+)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.semantichacker.com/api">SemanticHacker</a> (from <a rel="nofollow" class="external text" href="http://www.textwise.com/">Textwise</a>) is an API that does a number of different things, including categorization, search, etc. By using ‘concept tags’, the API can be leveraged to generate metadata or tags for content
+</li>
+<li> <a rel="nofollow" class="external text" href="http://zingosoft.com/tagfinder.htm">TagFinder</a> is a Web service that automatically extracts tags from a piece of text. The tags are chosen based on both statistical and linguistic analysis of the original text
+</li>
+<li> <a rel="nofollow" class="external text" href="http://tagthe.net/">Tagthe.net</a> has a demo and an API for automatic tagging of web documents and texts. Tags can be single words only. The tool also recognizes named entities such as people names and locations
+</li>
+<li> <a rel="nofollow" class="external text" href="http://lcl2.uniroma1.it/termextractor/">TermExtractor</a> extracts terminology consensually referred in a specific application domain. The software takes as input a corpus of domain documents, parses the documents, and extracts a list of “syntactically plausible” terms (e.g. compounds, adjective-nouns, etc.)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://labs.translated.net/terminology-extraction/">TermFinder</a> uses Poisson statistics, the Maximum Likelihood Estimation and Inverse Document Frequency between the frequency of words in a given document and a generic corpus of 100 million words per language; available for English, French and Italian
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.nactem.ac.uk/software/termine/">TerMine</a> is an online and batch term extractor that emphasizes part of speech (POS) and n-gram (phrase extraction). TerMine is the terminological management system with the C-Value term extraction and AcroMine acronym recognition integrated
+</li>
+<li> <a rel="nofollow" class="external text" href="http://pypi.python.org/pypi/topia.termextract/1.1.0">Topia term extractor</a> is a part-of-speech and frequency based term extraction tool implemented in python. Here is a <a rel="nofollow" class="external text" href="http://fivefilters.org/term-extraction/">term extraction demo</a> based on this tool
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.topicalizer.com/">Topicalizer</a> is a service which automatically analyses a document specified by a URL or a plain text regarding its word, phrase and text structure. It provides a variety of useful information on a given text including the following: Word, sentence and paragraph count, collocations, syllable structure, lexical density, keywords, readability and a short abstract on what the given text is about
+</li>
+</ul>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.trmkft.hu/en/extract/">TrMExtractor</a> does glossary extraction on pure text files for either English or Hungarian
+</li>
+</ul>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.wikifyer.com/">Wikify!</a> is a system to automatically “wikify” a text by adding Wikipedia-like tags throughout the document. The system extracts keywords and then disambiguates and matches them to their corresponding Wikipedia definition
+</li>
+<li> <a rel="nofollow" class="external text" href="http://developer.yahoo.com/geo/placemaker/">Yahoo! Placemaker</a> is a freely available geoparsing Web service. It helps developers make their applications location-aware by identifying places in unstructured and atomic content – feeds, web pages, news, status updates – and returning geographic metadata for geographic indexing and markup
+</li>
+<li> <a rel="nofollow" class="external text" href="http://developer.yahoo.com/search/content/V1/termExtraction.html">Yahoo! Term Extraction Service</a> is an API to Yahoo’s term extraction service, as well as many other APIs and services in a variety of languages and for a variety of tasks; good general resource. The service has been reported to be shut down numerous times, but apparently is kept alive due to popular demand.
+</li>
+</ul>
+<h3><span class="mw-headline" id="Initial_Ontology_Development">Initial Ontology Development</span></h3>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://cmap.ihmc.us/coe">COE</a> COE (CmapTools Ontology Editor) is a specialized version of the CmapTools from IMHC. COE — and its CmapTools parent — is based on the idea of concept maps. A concept map is a graph diagram that shows the relationships among concepts. Concepts are connected with labeled arrows, with the relations manifesting in a downward-branching hierarchical structure. COE is an integrated suite of software tools for constructing, sharing and viewing OWL encoded ontologies based on these constructs
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.conzilla.org/wiki/Overview/Main">Conzilla2</a> is a second generation concept browser and knowledge management tool with many purposes. It can be used as a visual designer and manager of RDF classes and ontologies, since its native storage is in RDF. It also has an online collaboration server [apparently last updated in 2008]
+</li>
+<li> <a rel="nofollow" class="external free" href="http://diagramic.com/">http://diagramic.com/</a> has an online Flex network graph demo, which also has a neat facility for quick entry and visualization of relationships; mostly small scale; pretty cool. Does not appear to be code available anywhere
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://dl-learner.org">DL-Learner</a> is a tool for learning OWL class expressions from examples and background knowledge. It extends Inductive Logic Programming (ILP) to Description Logics and the Semantic Web. DL-Learner now has a flexible component based design, which allows to extend it easily with new learning algorithms, learning problems, reasoners, and supported background knowledge sources. A new type of supported knowledge sources are SPARQL endpoints, where DL-Learner can extract knowledge fragments, which enables learning classes even on large knowledge sources like DBpedia, and includes an OWL API reasoner interface and Web service interface.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.jarrar.info/Dogmamodeler/index.htm">DogmaModeler</a> is a free and open source, ontology modeling tool based on ORM. The philosophy of DogmaModeler is to enable non-IT experts to model ontologies with a little or no involvement of an ontology engineer; project is quite old, but the software is still available and it may provide some insight into naive ontology development
+</li>
+<li> <a rel="nofollow" class="external text" href="http://code.google.com/p/erca/">Erca</a> is a framework that eases the use of Formal and Relational Concept Analysis, a neat clustering technique. Though not strictly an ontology tool, Erca could be implemented in a work flow that allows easy import of formal contexts from CSV files, then algorithms that computes the concept lattice of the formal contexts that can be exported as dot graphs (or in JPG, PNG, EPS and SVG formats). Erca is provided as an Eclipse plug-in
+</li>
+<li> <a rel="nofollow" class="external text" href="http://drupal.org/project/graphmind">GraphMind</a> is a mindmap editor for Drupal. It has the basic mindmap features and some Drupal specific enhancements. There is a <a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=5_mVw_j1ukk">quick screencast</a> about how GraphMind looks like and what is does. The Flex source is also available from <a rel="nofollow" class="external text" href="http://github.com/itarato/GraphMind/tree/master">Github</a>
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://www.ideenscout.org/dnn/HMaps/Software.aspx">H-Maps</a> is a commercial suite of tools for building topic maps applications, consisting of a topic maps engine and server, a mapping framework for converting from legacy data, and a navigator for visualizing data. It is typically used in bioinformatics (drug discovery and research, toxicological studies, etc), engineering (support and expert systems), and for integration of hetereogeneous data. It supports the XTM 1.0 and TMAPI 1.0 specifications
+</li>
+<li> <a rel="nofollow" class="external text" href="http://openstructs.org/iron">irON</a> using spreadsheets, via its notation and specification. Spreadsheets can be used for initial authoring, esp if the irON guidelines are followed. See further this case study of Sweet Tools in a <a rel="nofollow" class="external text" href="http://openstructs.org/iron/common-swt-annex">spreadsheet using irON (commON)</a>
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://projects.semwebcentral.org/projects/jxml2owl/">JXML2OWL</a> API is a library for mapping XML schemas to OWL Ontologies on the JAVA platform. It creates an XSLT which transforms instances of the XML schema into instances of the OWL ontology. JXML2OWL Mapper is GUI application using the JXML2OWL API
+</li>
+<li> <a rel="nofollow" class="external text" href="http://mindraider.sourceforge.net/index.html">MindRaider</a> is Semantic Web outliner. It aims to connect the tradition of outline editors with emerging technologies. MindRaider mission is to organize not only the content of your hard drive but also your cognitive base and social relationships in a way that enables quick navigation, concise representation and inferencing
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://neologism.deri.ie/">Neologism</a> is a simple web-based RDF Schema vocabulary editor and publishing system. Use it to create RDF classes and properties, which are needed to publish data on the Semantic Web. Its main goal is to dramatically reduce the time required to create, publish and modify vocabularies for the Semantic Web. It is written in PHP and built on the Drupal platform. Neologism is currently in alpha
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://ocs.kask.eti.pg.gda.pl/pages/home.jsf">OCS - Ontology Creation System</a> is software to develop ontologies in cooperative way with a graphical interface
+</li>
+<li> <a rel="nofollow" class="external text" href="http://ebiquity.umbc.edu/project/html/id/82/RDF123">RDF123</a> is an application and web service for converting data in simple spreadsheets to an RDF graph. Users control how the spreadsheet's data is converted to RDF by constructing a graphical RDF123 template that specifies how each row in the spreadsheet is converted as well as metadata for the spreadsheet and its RDF translation
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://www.afsg.nl/InformationManagement/index.php?option=com_content&amp;task=view&amp;id=6&amp;Itemid=51&amp;lang=en">ROC</a> (Rapid Ontology Construction) is a tool that allows domain experts to quickly build a basic vocabulary for their domain, re-using existing terminology whenever possible. How this works is that the ROC tool asks the domain expert for a set of keywords that are 'core' terms of the domain, and then queries remote sources for concepts matching those terms. These are then presented to the user, who can select terms from the list, find relations to other terms, and expand the set of terms and relations, iteratively. The resulting vocabulary (or 'proto-ontology', basically a SKOS-like thesaurus) can be used as is, or can be used as input for a knowledge engineer to base a more comprehensive domain ontology on.  Interface "triples-oriented," not graphical.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.cerny-online.com/topincs/">Topincs</a> is a Topic Map authoring software that allows groups to share their knowledge over the web. It makes use of a variety of modern technologies. The most important are Topic Maps, REST and Ajax. It consists of three components: the Wiki, the Editor, and the Server. The servier requires AMP; the Editor and Wiki are based on browser plug-ins.
+</li>
+</ul>
+<h3><span class="mw-headline" id="Ontology_Editing">Ontology Editing</span></h3>
+<ul>
+<li> First, see all of the <b>Comprehensive Tools</b> and Ontology Development listings above
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.cambridgesemantics.com/products/anzo_for_excel">Anzo for Excel</a> includes an (RDFS and OWL-based) ontology editor that can be used directly within Excel. In addition to that, Anzo for Excel includes the capability to automatically generate an ontology from existing spreadsheet data, which is very useful for quick bootstrapping of an ontology
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/atop/">ATop</a> is a topic map browser and editor written in Java and supports the XTM 1.0 specification; project has not been updated since 2008
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://www.cognitum.eu/semantics/FluentEditor/">Fluent Editor</a> is a comprehensive tool for editing and manipulating complex ontologies using Controlled English as the knowledge modeling language; it is supported via a Predictive Editor that prohibits entry of grammatically or morphologically incorrect instructions; free version for academic or non-commercial use
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.hozo.jp/ckc07demo/">Hozo</a> is an ontology visualization and development tool that brings version control constructs to group ontology development; limited to a prototype, with no online demo
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.vocman.com/?q=lexauruseditor">Lexaurus Editor</a> is for off-line creation and editing of vocabularies, taxonomies and thesauri. It supports import and export in Zthes and SKOS XML formats, and allows hierarchical / poly-hierarchical structures to be loaded for editing, or even multiple vocabularies to be loaded simultaneously, so that terms from one taxonomy can be re-used in another, using drag and drop. Not available in open source
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.modelfutures.com/owl">Model Futures OWL Editor</a> combines simple OWL tools, featuring UML (XMI), ErWin, thesaurus and imports. The editor is tree-based and has a “navigator” tool for traversing property and class-instance relationships. It can import XMI (the interchange format for UML) and Thesaurus Descriptor (BT-NT XML), and EXPRESS XML files. It can export to MS Word.
+</li>
+<li><b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://oboedit.org/">OBO-Edit</a> is an open source ontology editor written in Java. OBO-Edit is optimized for the OBO biological ontology file format. It features an easy to use editing interface, a simple but fast reasoner, and powerful search capabilities
+</li>
+<li><b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://onotoa.topicmapslab.de/">Onotoa</a> is an Eclipse-based ontology editor for topic maps. It has a graphical UML-like interface, an export function for the current TMCL-draft and a XTM export
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.informatik.uni-ulm.de/ki/ontotrack/">OntoTrack</a> is a browsing and editing ontology authoring tool for OWL Lite. It combines a sophisticated graphical layout with mouse enabled editing features optimized for efficient navigation and manipulation of large ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.co-ode.org/downloads/owlviz/">OWLViz</a> is an attractive visual editor for OWL and is available as a Protégé plug-in
+</li>
+<li> <a rel="nofollow" class="external text" href="http://poolparty.punkt.at/">PoolParty</a> is a triple store-based thesaurus management environment which uses SKOS and text extraction for tag recommendations. See further this <a rel="nofollow" class="external text" href="http://www.punkt.at/file_upload/root_tmpphptOZk8U.pdf">manual</a>, which describes more fully the system’s functionality. Also, there is a PoolParty <a rel="nofollow" class="external text" href="http://demo.semantic-web.at:8080/SkosServices/zthes">Web service</a> that enables a Zthes thesaurus in XML format to be uploaded and converted to SKOS (via skos:Concepts)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://code.google.com/p/skoseditor/">SKOSEd</a> is a plugin for Protege 4 that allows you to create and edit thesauri (or similar artefacts) represented in the Simple Knowledge Organisation System (SKOS).
+</li>
+<li> <b>&lt;Newest&gt;</b><a rel="nofollow" class="external text" href="http://semanticturkey.uniroma2.it/">Semantic Turkey</a> is a platform for semantic bookmarking and ontology development. it is based on RDF, RDFS and OWL, and is an add-on to the Firefox Web browser. Users can track relevant information from visited Web sites and organize collected content according to their own ontologies, which can also be built in the tool.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://sourceforge.net/projects/tematres/">TemaTres</a> is a Web application to manage controlled vocabularies, taxonomies and thesaurus. The vocabularies may be exported in Zthes, Skos, TopicMap, etc.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://thmanager.sourceforge.net/">ThManager</a> is a tool for creating and visualizing SKOS RDF vocabularies. ThManager facilitates the management of thesauri and other types of controlled vocabularies, such as taxonomies or classification schemes
+</li>
+<li> <a rel="nofollow" class="external text" href="http://vitro.mannlib.cornell.edu/">Vitro</a> is a general-purpose web-based ontology and instance editor with customizable public browsing. Vitro is a Java web application that runs in a Tomcat servlet container. With Vitro, you can: 1) create or load ontologies in OWL format; 2) edit instances and relationships; 3) build a public web site to display your data; and 4) search your data with Lucene. Still in somewhat early phases, with no online demos and with minimal interfaces.
+</li>
+<li><b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://code.google.com/p/tesis-e/">Vocab Editor</a> is an RDF/OWL/SKOS vocabulary-diagram editor. It has both client- (Javascript) and server-side (Python) implmentations. It is open source with a <a rel="nofollow" class="external text" href="http://tesis-e.googlecode.com/svn/trunk/editor/index.html">demo</a>. There is a <a rel="nofollow" class="external text" href="http://tesis-e.blogspot.com/">blog</a> (Spanish) and online sample vocabulary <a rel="nofollow" class="external text" href="http://tesis-e.appspot.com/">app editor</a>.
+</li>
+</ul>
+<h4><span class="mw-headline" id="Not_Apparently_in_Active_Use_2">Not Apparently in Active Use</span></h4>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.ontopia.net/omnigator/models/index.jsp">Omnigator</a> The Omnigator is a form-based manipulaton tool centered on Topic Maps, though it enables the loading and navigation of any conforming topic map in XTM, HyTM, LTM or RDF formats. There is a free evaluation version.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://ontogen.ijs.si/">OntoGen</a> is a semi-automatic and data-driven ontology editor focusing on editing of topic ontologies (a set of topics connected with different types of relations). The system combines text-mining techniques with an efficient user interface. It requires .Net.
+</li>
+<li> OntoLight is a set of software modules for: transforming raw ontology data for several ontologies from their specific formats into a unifying light-weight ontology format, grounding the ontology and storing it into grounded ontology format, populating grounded ontologies with new instance data, and creating mappings between grounded ontologies; includes Cyc. Download no longer available. See <a rel="nofollow" class="external free" href="http://analytics.ijs.si/~blazf/papers/Context_SiKDD07.pdf">http://analytics.ijs.si/~blazf/papers/Context_SiKDD07.pdf</a>  and <a rel="nofollow" class="external free" href="http://www.neon-project.org/web-content/index.php?option=com_weblinks&amp;task=view&amp;catid=17&amp;id=52">http://www.neon-project.org/web-content/index.php?option=com_weblinks&amp;task=view&amp;catid=17&amp;id=52</a>  or  <a rel="nofollow" class="external free" href="http://www.neon-project.org/web-content/index.php?option=com_weblinks&amp;catid=21&amp;Itemid=73">http://www.neon-project.org/web-content/index.php?option=com_weblinks&amp;catid=21&amp;Itemid=73</a>
+</li>
+<li> <a rel="nofollow" class="external text" href="http://owlseditor.semwebcentral.org/">OWL-S-editor</a> is an editor for the development of services in OWL-S, with graphical, WSDL and import/export support
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.aktors.org/technologies/retax/">ReTAX+</a> is an aide to help a taxonomist create a consistent taxonomy and in particular provides suggestions as to where a new entity could be placed in the taxonomy whilst retaining the integrity of the revised taxonomy (c.f., problems in ontology modelling)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.mindswap.org/2004/SWOOP/">SWOOP</a> is a lightweight ontology editor. (Swoop is no longer under active development at mindswap. Continuing development can be found on SWOOP’s Google Code homepage at <a rel="nofollow" class="external free" href="http://code.google.com/p/swoop/">http://code.google.com/p/swoop/</a>)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://kmi.open.ac.uk/projects/webonto/">WebOnto</a> supports the browsing, creation and editing of ontologies through coarse grained and fine grained visualizations and direct manipulation.
+</li>
+</ul>
+<h3><span class="mw-headline" id="Ontology_Mapping">Ontology Mapping</span></h3>
+<ul>
+<li> The <a rel="nofollow" class="external text" href="http://alignapi.gforge.inria.fr/">Alignment API</a> is an API and implementation for expressing and sharing ontology alignments. The correspondences between entities (e.g., classes, objects, properties) in ontologies is called an alignment. The API provides a format for expressing alignments in a uniform way. The goal of this format is to be able to share on the web the available alignments. The format is expressed in RDF, so it is freely extensible. The Alignment API itself is a Java description of tools for accessing the common format. It defines four main interfaces (Alignment, Cell, Relation and Evaluator)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://somer.fc.ul.pt/aml.php">AgreementMakerLight</a> is an automated and efficient ontology matching system derived from AgreementMaker
+</li>
+<li> <a rel="nofollow" class="external text" href="https://github.com/jainprateek/BLOOMS">Blooms</a> is a tool for ontology matching. It utilizes information from Wikipedia category hierarchy and from the web to identify subclass relationship between entities. See also its <a rel="nofollow" class="external text" href="http://wiki.knoesis.org/index.php/BLOOMS">Wiki page</a>
+</li>
+<li> <a rel="nofollow" class="external text" href="https://code.google.com/p/codi-matcher/">CODI</a> (Combinatorial Optimization for Data Integration) leverages terminological structure for ontology matching. The current implementation produces mappings between concepts, properties, and individuals. CODI is based on the syntax and semantics of Markov logic and transforms the alignment problem to a maximum-a-posteriori optimization problem
+</li>
+<li> <a rel="nofollow" class="external text" href="http://dbs.uni-leipzig.de/Research/coma.html">COMA++</a> is a schema and ontology matching tool with a comprehensive infrastructure. Its graphical interface supports a variety of interaction
+</li>
+<li> * <a rel="nofollow" class="external text" href="http://ws.nju.edu.cn/falcon-ao/">Falcon-AO</a> (Finding, aligning and learning ontologies) is an automatic ontology matching tool that includes the three elementary matchers of String, V-Doc and GMO. In addition, it integrates a partitioner PBM to cope with large-scale ontologies* <a rel="nofollow" class="external text" href="http://sourceforge.net/projects/hmafra">hMAFRA (Harmonize Mapping Framework)</a> is a set of tools supporting semantic mapping definition and data reconciliation between ontologies. The targeted formats are XSD, RDFS and KAON
+</li>
+<li> <a rel="nofollow" class="external text" href="http://dbs.uni-leipzig.de/GOMMA">GOMMA</a> is a generic infrastructure for managing and analyzing life science ontologies and their evolution. The component-based infrastructure utilizes a generic repository to uniformly and efficiently manage many versions of ontologies and different kinds of mappings. Different functional components focus on matching life science ontologies, detecting and analyzing evolutionary changes and patterns in these ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.ke.tu-darmstadt.de/resources/ontology-matching/hertuda">HerTUDA</a> is a simple, fast ontology matching tool, based on syntactic string comparison and filtering of irrelevant mappings. Despite its simplicity, it outperforms many state-of-the-art ontology matching tools
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.ida.liu.se/%7Eiislab/projects/KitAMO/">KitAMO</a> is a tool for evaluating ontology alignment strategies and their combinations. It supports the study, evaluation and comparison of alignment strategies and their combinations based on their performance and the quality of their alignments on test cases. Based on the <a rel="nofollow" class="external text" href="http://www.ida.liu.se/%7Eiislab/projects/SAMBO/">SAMBO</a> project
+</li>
+<li> The linked open data enhancer (<a rel="nofollow" class="external text" href="http://lode.informatik.uni-mannheim.de/">LODE</a>) framework is a set of integrated tools that allow digital humanists, librarians, and information scientists to connect their data collections to the linked open data cloud. It can be applied to any domain with RDF datasets
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.cs.ox.ac.uk/isg/tools/LogMap/">LogMap</a> is highly scalable ontology matching system with 'built-in' reasoning and diagnosis capabilities. LogMap can deal with semantically rich ontologies containing tens (and even hundreds) of thousands of classes
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.cs.toronto.edu/semanticweb/maponto/">MapOnto</a> is a research project aiming at discovering semantic mappings between different data models, e.g, database schemas, conceptual schemas, and ontologies. So far, it has developed tools for discovering semantic mappings between database schemas and ontologies as well as between different database schemas. The Protege plug-in is still available, but appears to be for older versions
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.revelytix.com/?q=content/matchit">MatchIT</a> automates and facilitates schema matching and semantic mapping between different Web vocabularies. MatchIT runs as a stand-alone or plug-in Eclipse application and can be integrated with popular third party applications. MatchIT’s uses Adaptive Lexicon™ as an ontology-driven dictionary and thesaurus of English language terminology to quantify and ank the semantic similarity of concepts. It apparently is not available in open source
+</li>
+<li> <a rel="nofollow" class="external text" href="https://bitbucket.org/tomers77/ontobuilder/wiki/OntoM">OntoM</a> is one component of the <a rel="nofollow" class="external text" href="http://iew3.technion.ac.il/OntoBuilder/">OntoBuilder</a>, which is a comprehensive ontology building and managing framework. OntoM provides a choice of mapping and scoring methods for matching schema
+</li>
+<li> The <a rel="nofollow" class="external text" href="http://sourceforge.net/projects/wsmt/">Ontology Mapping Tool (OMT)</a> is an Eclipse plug-in part of the Web Service Modeling Toolkit (WSMT), designed to offer support for the semi-automatic creation of ontology mappings. OMT offers a set of features such as multiple ontology perspectives, mapping contexts, suggestions, bottom-up and top-down mapping strategies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://cobweb.cs.uga.edu/~uthayasa/Optima/Optima.html">Optima</a> is a state of the art general purpose tool for performing ontology alignment. It automatically identifies and matches relevant concepts between ontologies. The tool is supported by an intuitive user interface that facilitates the visualization and analysis of ontologies in N3, RDF and OWL and the alignment results. This is an open source ontology alignment frame work. Optima is also available as a plugin to Protégé ontology editor
+</li>
+<li> <a rel="nofollow" class="external text" href="http://webdam.inria.fr/paris/">PARIS</a> is a system for the automatic alignment of RDF ontologies. PARIS aligns not only instances, but also relations and classes. Alignments at the instance level cross-fertilize with alignments at the schema level
+</li>
+<li> <a rel="nofollow" class="external text" href="http://semanticmatching.org/">S-Match</a> takes any two tree like structures (such as database schemas, classifications, lightweight ontologies) and returns a set of correspondences between those tree nodes which semantically correspond to one another
+</li>
+<li> <a rel="nofollow" class="external text" href="https://code.google.com/p/servo/downloads/detail?name=ServOMap1.1.zip&amp;can=2&amp;q=">ServOMap</a> is an ontology matching tool based on Information Retrieval technique relying on the ServO system. To run it, please follow the directions described at <a rel="nofollow" class="external free" href="http://oaei.ontologymatching.org/2012/seals-eval.html">http://oaei.ontologymatching.org/2012/seals-eval.html</a>
+</li>
+<li> The <a rel="nofollow" class="external text" href="http://wifo5-03.informatik.uni-mannheim.de/bizer/silk/">Silk</a> framework is a tool for discovering relationships between data items within different Linked Data sources. Data publishers can use Silk to set RDF links from their data sources to other data sources on the Web. While designed for mapping instance data, it can also be used for schema
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www2.lirmm.fr/~dngo/">Yam++</a> (not) Yet Another Matcher is a flexible and self-configuring ontology matching system for discovering semantic correspondences between entities (i.e., classes, object properties and data properties) of ontologies. This new version YAM++ 2013 has a significant improvement from the previous versions. See also the <a rel="nofollow" class="external text" href="http://disi.unitn.it/~p2p/OM-2013/oaei13_paper16.pdf">2013 results</a>. Code not apparently available
+</li>
+</ul>
+<h4><span class="mw-headline" id="Not_Apparently_in_Active_Use_3">Not Apparently in Active Use</span></h4>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://support.infotechsoft.com/integration/ASMOV/index.html">ASMOV</a> (Automated Semantic Mapping of Ontologies with Validation) is an automatic ontology matching tool which has been designed in order to facilitate the integration of heterogeneous systems, using their data source ontologies
+</li>
+<li> The <a rel="nofollow" class="external text" href="http://www.eclipse.org:80/gmt/amw/">AMW</a> (ATLAS Model Weaver) is a tool for establishing relationships (i.e., links) between models. The links are stored in a model, called weaving model
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.ksl.stanford.edu/software/chimaera/">Chimaera</a> is a software system that supports users in creating and maintaining distributed ontologies on the web. Two major functions it supports are merging multiple ontologies together and diagnosing individual or multiple ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://shops.sourceforge.net/frdcsa/binary/conceptool-0.9/index.html">ConcepTool</a> is a system to model, analyse, verify, validate, share, combine, and reuse domain knowledge bases and ontologies, reasoning about their implication
+</li>
+<li> <a rel="nofollow" class="external text" href="http://projects.semwebcentral.org/projects/ontologymapping/">CMS</a> (CROSI Mapping System) is a structure matching system that capitalizes on the rich semantics of the OWL constructs found in source ontologies and on its modular architecture that allows the system to consult external linguistic resources
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.aktors.org/technologies/conref/">ConRef</a> is a service discovery system which uses ontology mapping techniques to support different user vocabularies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://drago.fbk.eu/system-description.html">DRAGO</a> reasons across multiple distributed ontologies interrelated by pairwise semantic mappings, with a vision of peer-to-peer mapping of many distributed ontologies on the Web. It is implemented as an extension to an open source Pellet OWL Reasoner
+</li>
+<li> <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/DSSim">DSSim</a> is an agent-based ontology matching framework; neither application nor source code appears to be available
+</li>
+<li> <a rel="nofollow" class="external text" href="http://semanticweb.org/wiki/Foam">FOAM</a> is the Framework for ontology alignment and mapping. It is based on heuristics (similarity) of the individual entities (concepts, relations, and instances)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://islab.dico.unimi.it/hmatch/">HMatch</a> is a tool for dynamically matching distributed ontologies at different levels of depth. In particular, four different matching models are defined to span from surface to intensive matching, with the goal of providing a wide spectrum of metrics suited for dealing with many different matching scenarios that can be encountered in comparing concept descriptions of real ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.aktors.org/technologies/ifmap/">IF-Map</a> is an Information Flow based ontology mapping method. It is based on the theoretical grounds of logic of distributed systems and provides an automated streamlined process for generating mappings between ontologies of the same domain
+</li>
+<li> <a rel="nofollow" class="external text" href="http://ontomappinglab.googlepages.com/oaei2007">LILY</a> is a system matching heterogeneous ontologies. LILY extracts a semantic subgraph for each entity, then it uses both linguistic and structural information in semantic subgraphs to generate initial alignments. The system is presently in a demo version only
+</li>
+<li> <a rel="nofollow" class="external text" href="http://mafra-toolkit.sourceforge.net/">MAFRA Toolkit</a> – the Ontology MApping FRAmework Toolkit allows users to create semantic relations between two (source and target) ontologies, and apply such relations in translating source ontology instances into target ontology instances
+</li>
+<li> <a rel="nofollow" class="external text" href="http://sourceforge.net/projects/malasco/">Malasco</a> is an ontology matching system for matching large-scale OWL ontologies. It can use different partitioning algorithms and existing matching tools
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.myontology.org/">myOntology</a> is used to produce the theoretical foundations, and deployable technology for the Wiki-based, collaborative and community-driven development and maintenance of ontologies instance data and mappings
+</li>
+<li> <a rel="nofollow" class="external text" href="http://ola.gforge.inria.fr/">OLA</a> stands for OWL Lite Alignment. This is the name of a method for computing alignments between two OWL (non necessary Lite) ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://projects.semwebcentral.org/projects/ontoengine/">OntoEngine</a> is a step toward allowing agents to communicate even though they use different formal languages (i.e., different ontologies). It translates data from a “source” ontology to a “target”
+</li>
+<li> <a rel="nofollow" class="external text" href="http://cs-www.cs.yale.edu/homes/dvm/daml/ontology-translation.html">OntoMerge</a> serves as a semi-automated nexus for agents and humans to find ways of coping with notational differences between ontologies with overlapping subject areas
+</li>
+<li> The <a rel="nofollow" class="external text" href="http://sun.aei.polsl.pl/~niedbyk/oaei2006/">OWL-CTXMATCH</a> application is a Java 5-compliant implementation of the OWL-CTXMATCH algorithm. Beside the Java platform it requires additional libraries and external data source that is WordNet 2.0
+</li>
+<li> <a rel="nofollow" class="external text" href="https://gforge.inria.fr/projects/ola/">OLA/OLA2</a> (OWL-Lite Alignment) matches ontologies written in OWL. It relies on a similarity combining all the knowledge used in entity descriptions. It also deal with one-to-many relationships and circularity in entity descriptions through a fixpoint algorithm
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www-ags.dfki.uni-sb.de/~klusch/owls-xplan/">OWLS-MX</a> is a hybrid semantic Web service matchmaker. OWLS-MX 1.0 utilizes both description logic reasoning, and token based IR similarity measures. It applies different filters to retrieve OWL-S services that are most relevant to a given query
+</li>
+<li> <a rel="nofollow" class="external text" href="http://simile.mit.edu/potluck/">Potluck</a> is a Web-based user interface that lets casual users—those without programming skills and data modeling expertise—mash up data themselves. Potluck is novel in its use of drag and drop for merging fields, its integration and extension of the faceted browsing paradigm for focusing on subsets of data to align, and its application of simultaneous editing for cleaning up data syntactically. Potluck also lets the user construct rich visualizations of data in-place as the user aligns and cleans up the data
+</li>
+<li> <a rel="nofollow" class="external text" href="http://d-scholarship.pitt.edu/6529/">PRIOR+</a> is a generic and automatic ontology mapping tool, based on propagation theory, information retrieval technique and artificial intelligence model. The approach utilizes both linguistic and structural information of ontologies, and measures the profile similarity and structure similarity of different elements of ontologies in a vector space model (VSM)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://keg.cs.tsinghua.edu.cn/project/RiMOM/">RiMOM</a> (Risk Minimization based Ontology Mapping) integrates different alignment strategies: edit-distance based strategy, vector-similarity based strategy, path-similarity based strategy, background-knowledge based strategy, and three similarity-propagation based strategies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.ida.liu.se/%7Eiislab/projects/SAMBO/">SAMBO</a> is a system that assists a user in aligning and merging two ontologies in OWL format. The user performs an alignment process with the help of alignment suggestions proposed by the system. The system carries out the actual merging and derives the logical consequences of the merge operations
+</li>
+<li> <a rel="nofollow" class="external text" href="http://semmf.ag-nbi.de/doc/index.html">semMF</a> is a flexible framework for calculating semantic similarity between objects that are represented as arbitrary RDF graphs. The framework allows taxonomic and non-taxonomic concept matching techniques to be applied to selected object properties
+</li>
+<li> <a rel="nofollow" class="external text" href="http://snoggle.projects.semwebcentral.org/">Snoggle</a> is a graphical, SWRL-based ontology mapper. Snoggle attempts to solve the ontology mapping problem by providing a graphical user interface (similar to which of the Microsoft Visio) to guide the process of ontology vocabulary alignment. In Snoggle, user-defined mappings can be serialized into rules, which is expressed using SWRL
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.seco.tkk.fi/projects/semweb/dist.php">Terminator</a> is a tool for creating term to ontology resource mappings (documentation in Finnish)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://marinemetadata.org/vine">Vine</a> is a tool that allows users to perform fast mappings of terms across ontologies. It performs smart searches, can search using regular expressions, requires a minimum number of clicks to perform mappings, can be plugged into arbitrary mapping framework, is non-intrusive with mappings stored in an external file, has export to text files, and adds metadata to any mapping. See also <a rel="nofollow" class="external free" href="http://sourceforge.net/projects/vine/">http://sourceforge.net/projects/vine/</a>.
+</li>
+</ul>
+<h3><span class="mw-headline" id="Ontology_Visualization.2FAnalysis">Ontology Visualization/Analysis</span></h3>
+<p>Though all are not relevant, see my post from a couple of years back on <a rel="nofollow" class="external text" href="http://www.mkbergman.com/414/large-scale-rdf-graph-visualization-tools/">large-scale RDF graph software</a>.
+</p>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://dml.cs.byu.edu/wiki/index.php/Social_Network_Graphing_Tools">Social network graphing tools</a> (many covered elsewhere)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://cytoscape.org/index.php">Cytoscape</a> is a bioinformatics software platform for visualizing molecular interaction networks and integrating these interactions with gene expression profiles and other state data; I have also written specifically about <a rel="nofollow" class="external text" href="http://www.mkbergman.com/415/cytoscape-hands-down-winner-for-large-scale-graph-visualization/">Cytoscape’s use in UMBEL</a>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.bioinformatics.org/rdfscape/">RDFScape</a> is a project that brings Semantic Web “features” to the popular Systems Biology software Cytoscape
+</li>
+<li> <a rel="nofollow" class="external text" href="http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/">NetworkAnalyzer</a> performs analysis of biological networks and calculates network topology parameters including the diameter of a network, the average number of neighbors, and the number of connected pairs of nodes. It also computes the distributions of more complex network parameters such as node degrees, average clustering coefficients, topological coefficients, and shortest path lengths. It displays the results in diagrams, which can be saved as images or text files; used by SD
+</li>
+</ul>
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.mediavirus.org/graphl/">Graphl</a> is a tool for collaborative editing and visualisation of graphs, representing relationships between resources or concepts of the real world. Graphl may be thought of as a visual wiki, a place where everybody can contribute to a shared repository of knowledge
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://www.graphviz.org/">Graphviz</a> is open source graph visualization software. It has several main graph layout programs. It also has web and interactive graphical interfaces, and auxiliary tools, libraries, and language bindings.
+</li>
+</ul>
+<ul>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://ecoinformatics.uvm.edu/technologies/growl-knowledge-modeler.html">GrOWL</a> is an ontology visualizer and editor. The layout of the GrOWL graph can be defined automatically or loaded from a separate style sheet. GrOWL implements configurable filters that can transform the display by simplifying it, hiding concepts and relationships that have no descriptions associated, or perform more complex translations. Concepts can be stored in ontologies with extensive annotations to provide documentation. GrOWL shows these annotation as tooltips, and supports complex HTML and links within them. The GrOWL browser can be used inside a web browser or as a stand-alone application. When used inside a browser, it supports Javascript interaction so that it can be used as a concept chooser with implementation-defined operations.
+</li>
+</ul>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://igraph.sourceforge.net/index.html">igraph</a> is a free software package for creating and manipulating undirected and directed graphs
+</li>
+<li> <a rel="nofollow" class="external text" href="http://nwb.slis.indiana.edu/">Network Workbench</a> is a very complex, comprehensive; Swiss Army Knife
+</li>
+<li> <a rel="nofollow" class="external text" href="http://networkx.lanl.gov/gallery.html">NetworkX</a> – Python; very clean
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://protegewiki.stanford.edu/wiki/OntoGraf">OntoGraf</a>, a Protege 4 plug-in, gives support for interactively navigating the relationships of your OWL ontologies. Various layouts are supported for automatically organizing the structure of your ontology. Different relationships are supported: subclass, individual, domain/range object properties, and equivalence. Relationships and node types can be filtered.
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://owl2prefuse.sourceforge.net/">OWL2Prefuse</a> is a Java package which creats Prefuse graphs and trees from OWL files (and Jena OntModels). It takes care of converting the OWL data structure to the Prefuse datastructure. This makes it is easy for developers, to use the Prefuse graphs and trees into their Semantic Web applications.
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://semweb.salzburgresearch.at/apps/rdf-gravity/index.html">RDF Gravity</a> is a tool for visualising RDF/OWL Graphs/ ontologies. RDF Gravity is implemented by using the JUNG Graph API and Jena semantic web toolkit. Its main features are:
+</li>
+</ul>
+<ul>
+<li><ul>
+<li> Graph Visualization
+</li>
+<li> Global and Local Filters (enabling specific views on a graph)
+</li>
+<li> Full text Search
+</li>
+<li> Generating views from RDQL Queries
+</li>
+<li> Visualising multiple RDF files
+</li>
+</ul>
+</li>
+<li> <b>&lt;Newest&gt;</b><a rel="nofollow" class="external text" href="http://client2.mondeca.com/mondecalabs/skosReader.html">SKOS Reader</a> is a SKOS browser and an HTML renderer of SKOS thesauri and terminologies that can display a SKOS file hierarchically, alphabetically, or permuted. Commercial; from Mondeca
+</li>
+<li> <a rel="nofollow" class="external text" href="http://snap.stanford.edu/index.html">Stanford Network Analysis Package</a> (SNAP) is a general purpose network analysis and graph mining library. It is written in C++ and easily scales to massive networks with hundreds of millions of nodes
+</li>
+<li> <a rel="nofollow" class="external text" href="http://socnetv.sourceforge.net/">Social Networks Visualizer</a> (SocNetV) is a flexible and user-friendly tool for the analysis and visualization of Social Networks. It lets you construct networks (mathematical graphs) with a few clicks on a virtual canvas or load networks of various formats (GraphViz, GraphML, Adjacency, Pajek, UCINET, etc) and modify them to suit your needs. SocNetV also offers a built-in web crawler, allowing you to automatically create networks from all links found in a given initial URL
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.tulip-software.org/">Tulip</a> may be incredibly strong
+<ul>
+<li> quite active (but not much online stuff): <a rel="nofollow" class="external free" href="http://sourceforge.net/projects/auber/files/">http://sourceforge.net/projects/auber/files/</a>
+</li>
+</ul>
+</li>
+<li> <a rel="nofollow" class="external text" href="http://mark-shepherd.com/blog/springgraph-flex-component/">Springgraph</a> component for Flex
+</li>
+<li> <a rel="nofollow" class="external text" href="http://code.google.com/p/vizierfx/">VizierFX</a> is a Flex library for drawing network graphs. The graphs are laid out using GraphViz on the server side, then passed to VizierFX to perform the rendering. The library also provides the ability to run ActionScript code in response to events on the graph, such as mousing over a node or clicking on it.
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://vue.tufts.edu/">VUE</a> (Visual Understanding Environment) is an open source project focused on creating flexible tools for managing and integrating digital resources in support of teaching, learning and research. VUE provides a flexible visual environment for structuring, presenting, and sharing digital information.
+</li>
+</ul>
+<ul>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://www.yworks.com/en/products_yed_about.html">yEd</a> is a diagram editor that can be used to quickly and effectively generate high-quality drawings of diagrams. It can support OWL imports.
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://zvtm.sourceforge.net/zgrviewer.html">ZGRViewer</a> is a graph visualizer implemented in Java and based upon the Zoomable Visual Transformation Machine. It is specifically aimed at displaying graphs expressed using the DOT language from AT&amp;T GraphViz and processed by programs dot, neato or others such as twopi. ZGRViewer is designed to handle large graphs, and offers a zoomable user interface (ZUI), which enables smooth zooming and easy navigation in the visualized structure.
+</li>
+</ul>
+<h3><span class="mw-headline" id="Miscellaneous_Ontology_Tools">Miscellaneous Ontology Tools</span></h3>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://apolda.sourceforge.net/">Apolda</a> (Automated Processing of Ontologies with Lexical Denotations for Annotation) is a plugin (processing resource) for GATE (<a rel="nofollow" class="external free" href="http://gate.ac.uk/">http://gate.ac.uk/</a>). The Apolda processing resource (PR) annotates a document like a gazetteer, but takes the terms from an (OWL) ontology rather than from a list
+</li>
+<li> <b>&lt;Newest&gt;</b><a rel="nofollow" class="external text" href="http://mondeca.com/index.php/en/products/ca_manager">CA Manager</a> supports customized workflows for semantic annotation of content. Commercial; from Mondeca
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/jena/files/Gloze/">Gloze</a> is a XML to RDF, RDF to XML, and XSD to OWL mapping tool based on Jena; see also <a rel="nofollow" class="external free" href="http://jena.hpl.hp.com/juc2006/proceedings/battle/paper.pdf">http://jena.hpl.hp.com/juc2006/proceedings/battle/paper.pdf</a> . See also <a rel="nofollow" class="external free" href="http://jena.sourceforge.net/contrib/contributions.html">http://jena.sourceforge.net/contrib/contributions.html</a>
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://owl.man.ac.uk/hoolet/">Hoolet</a> is an implementation of an OWL-DL reasoner that uses a first order prover. The ontology is translated to collection of axioms (in an obvious way based on the OWL semantics) and this collection of axioms is then given to a first order prover for consistency checking.
+</li>
+</ul>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.arity.com/?Tab=products&amp;Tab2=lexilink">LexiLink</a> is a tool for building, curating and managing multiple lexicons and ontologies in one enterprise-wide Web-based application. The core of the technology is based on RDF and OWL
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.sourceforge.net/projects/motools">mopy</a> is the Music Ontology Python library, designed to provide easy to use python bindings for ontology terms for the creation and manipulation of music ontology data. mopy can handle information from several ontologies, including the Music Ontology, full FOAF vocab, and the timeline and chord ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://obda.inf.unibz.it/protege-plugin/">OBDA</a> (Ontology Based Data Access) is a plugin for Protégé aimed to be a full-fledged OBDA ontology and component editor. It provides data source and mapping editors, as well as querying facilities that, in sum, allow you to design and test every aspect of an OBDA system. It supports relational data sources (RDBMS) and GLAV-like mappings. In its current beta form, it requires Protege 3.3.1, a reasoner implementing the OBDA extensions to DIG 1.1 (e.g., the DIG server for QuOnto) and Jena 2.5.5
+</li>
+<li><b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/obrowse/files/">oBrowse</a> is a web based ontology browser developed in java. oBrowse parses OWL files of an ontology and displays ontology in a tree view. Protege-API, JSF are used in development
+</li>
+<li> <a rel="nofollow" class="external text" href="http://code.google.com/p/ontocomp/">OntoComP</a> is a Protégé 4 plugin for completing OWL ontologies. It enables the user to check whether an OWL ontology contains “all relevant information” about the application domain, and extend the ontology appropriately if this is not the case
+</li>
+<li> <a rel="nofollow" class="external text" href="http://owl.cs.manchester.ac.uk/browser/manage/">Ontology Browser</a> is a browser created as part of the CO-ODE (<a rel="nofollow" class="external free" href="http://www.co-ode.org/">http://www.co-ode.org/</a>) project; rather simple interface and use
+</li>
+<li> <a rel="nofollow" class="external text" href="http://owl.cs.manchester.ac.uk/metrics/">Ontology Metrics</a> is a web-based tool that displays statistics about a given ontology, including the expressivity of the language it is written in
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://olp.dfki.de/OntoLT/OntoLT.htm">OntoLT</a> aims at a more direct connection between ontology engineering and linguistic analysis. OntoLT is a Protégé plug-in, with which concepts (Protégé classes) and relations (Protégé slots) can be extracted automatically from linguistically annotated text collections. It provides mapping rules, defined by use of a precondition language that allow for a mapping  between linguistic entities in text and class/slot candidates in Protégé. Only available for older Protégé versions
+</li>
+<li> <a rel="nofollow" class="external text" href="http://moustaki.org/ontospec/">OntoSpec</a> is a SWI-Prolog module, aiming at automatically generating XHTML specification from RDF-Schema or OWL ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://owlapi.sourceforge.net/">OWL API</a> is a Java interface and implementation for the W3C Web Ontology Language (OWL), used to represent Semantic Web ontologies. The API is focused towards OWL Lite and OWL DL and offers an interface to inference engines and validation functionality
+</li>
+<li> <a rel="nofollow" class="external text" href="http://owl.cs.manchester.ac.uk/modularity/">OWL Module Extractor</a> is a Web service that extracts a module for a given set of terms from an ontology. It is based on an implementation of locality-based modules that is part of the OWL API.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://owl.cs.manchester.ac.uk/converter/">OWL Syntax Converter</a> is an online tool for converting ontologies between different formats, including several OWL syntaxes, RDF/XML, KRSS
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.ifi.unizh.ch/attempto/documentation/OWL_to_ACE/">OWL Verbalizer</a> is an on-line tool that verbalizes OWL ontologies in (controlled) English
+</li>
+<li> <a rel="nofollow" class="external text" href="http://pellet.owldl.com/ontology-browser/">OwlSight</a> is an OWL ontology browser that runs in any modern web browser; it’s developed with Google Web Toolkit and uses Gwt-Ext, as well as OWL-API. OwlSight is the client component and uses Pellet as its OWL reasoner
+</li>
+<li> <a rel="nofollow" class="external text" href="http://pellet.owldl.com/pellint">Pellint</a> is an open source lint tool for Pellet which flags and (optionally) repairs modeling constructs that are known to cause performance problems. Pellint recognizes several patterns at both the axiom and ontology level.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://protege.stanford.edu/plugins/prompt/prompt.html">PROMPT</a> is a tab plug-in for Protégé is for managing multiple ontologies by comparing versions of the same ontology, moving frames between included and including project, merging two ontologies into one, or extracting a part of an ontology
+</li>
+<li> <b>&lt;New&gt;</b><a rel="nofollow" class="external text" href="http://rhizomik.net/redefer/">ReDeFer</a> is a compendium of RDF-aware utilities organised in a set of packages: <a rel="nofollow" class="external text" href="http://rhizomik.net/html/redefer/#RDF2HTML">RDF2HTML+RDFa</a>: render a piece of RDF/XML as HTML+RDFa; <a rel="nofollow" class="external text" href="http://rhizomik.net/html/redefer/#XSD2OWL">XSD2OWL</a>: transform an XML Schema into an OWL Ontology; <a rel="nofollow" class="external text" href="http://rhizomik.net/html/redefer/#CS2OWL">CS2OWL</a>: transform a MPEG-7 Classification Scheme into an OWL Ontology; <a rel="nofollow" class="external text" href="http://rhizomik.net/html/redefer/#XML2RDF">XML2RDF</a>: transform a piece of XML into RDF; and <a rel="nofollow" class="external text" href="http://rhizomik.net/html/redefer/#RDF2SVG">RDF2SVG</a>: render a piece of RDF/XML as a SVG showing the corresponding graph
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.co-ode.org/galen/">SegmentationApp</a> is a Java application that segments a given ontology according to the approach described in “Web Ontology Segmentation: Analysis, Classification and Use” (<a rel="nofollow" class="external free" href="http://www.co-ode.org/resources/papers/seidenberg-www2006.pdf">http://www.co-ode.org/resources/papers/seidenberg-www2006.pdf</a>)
+</li>
+<li> <a rel="nofollow" class="external text" href="http://seth-scripting.sourceforge.net/">SETH</a> is a software effort to deeply integrate Python with Web Ontology Language (OWL-DL dialect). The idea is to import ontologies directly into the programming context so that its classes are usable alongside standard Python classes
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.heppnetz.de/projects/skos2gentax/">SKOS2GenTax</a> is an online tool that converts hierarchical classifications available in the W3C SKOS (Simple Knowledge Organization Systems) format into RDF-S or OWL ontologies
+</li>
+<li> <a rel="nofollow" class="external text" href="http://forge.morfeo-project.org/wiki_en/index.php/SpecGen">SpecGen</a> (v5) is an ontology specification generator tool. It’s written in Python using Redland RDF library and licensed under the MIT license
+</li>
+<li> <a rel="nofollow" class="external text" href="http://code.google.com/p/text2onto/">Text2Onto</a> is a framework for ontology learning from textual resources that extends and re-engineers an earlier framework developed by the same group (TextToOnto). Text2Onto offers three main features: it represents the learned knowledge at a metalevel by instantiating the modelling primitives of a Probabilistic Ontology Model (POM), thus remaining independent from a specific target language while allowing the translation of the instantiated primitives
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.semanticweb.gr/TheaOWLLib/">Thea</a> is a Prolog library for generating and manipulating OWL (Web Ontology Language) content. Thea OWL parser uses SWI-Prolog’s Semantic Web library for parsing RDF/XML serialisations of OWL documents into RDF triples and then it builds a representation of the OWL ontology
+</li>
+<li> <a rel="nofollow" class="external text" href="http://owl.cs.manchester.ac.uk/repository/">TONES Ontology Repository</a> is primarily designed to be a central location for ontologies that might be of use to tools developers for testing purposes; it is part of the TONES project
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.sandsoft.com/products.html">Visual Ontology Manager</a> (VOM) is a family of tools enables UML-based visual construction of component-based ontologies for use in collaborative applications and interoperability solutions.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.alphaworks.ibm.com/tech/wom?open&amp;S_TACT=105AGX59&amp;S_CMP=GR&amp;ca=dgr-lnxwd01awwom">Web Ontology Manager</a> is a lightweight, Web-based tool using J2EE for managing ontologies expressed in Web Ontology Language (OWL). It enables developers to browse or search the ontologies registered with the system by class or property names. In addition, they can submit a new ontology file
+</li>
+<li> <a rel="nofollow" class="external text" href="http://drupal.org/project/evoc">RDF evoc (external vocabulary importer)</a> is an RDF external vocabulary importer module (evoc) for Drupal caches any external RDF vocabulary and provides properties to be mapped to CCK fields, node title and body. This module requires the RDF and the SPARQL modules.
+</li>
+</ul>
+<h4><span class="mw-headline" id="Not_Apparently_in_Active_Use_4">Not Apparently in Active Use</span></h4>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.tecweb.inf.puc-rio.br:8000/hyperde/wiki/ActiveOntology">ActiveOntology</a> is a library, written in Ruby, for easy manipulation of RDF and RDF-Schema models, thru a dynamic DSL based on Ruby idiom
+</li>
+<li> <a rel="nofollow" class="external text" href="http://ontoware.org/projects/almo">Almo</a> is an ontology-based workflow engine in Java supporting the ARTEMIS project; part of the OntoWare initiative
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.aktors.org/technologies/classakt/">ClassAKT</a> is a text classification web service for classifying documents according to the ACM Computing Classification System
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.openrdf.org/">Elmo</a> provides a simple API to access ontology oriented data inside a Sesame RDF repository. The domain model is simplified into independent concerns that are composed together for multi-dimensional, inter-operating, or integrated applications
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.aktors.org/technologies/extrakt/">ExtrAKT</a> is a tool for extracting ontologies from Prolog knowledge bases.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.aktors.org/technologies/f-life/">F-Life</a> is a tool for analysing and maintaining life-cycle patterns in ontology development.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.aktors.org/technologies/foxtrot/">Foxtrot</a> is a recommender system which represents user profiles in ontological terms, allowing inference, bootstrapping and profile visualization.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://projects.semwebcentral.org/projects/hyperdaml/">HyperDAML</a> creates an HTML representation of OWL content to enable hyperlinking to specific objects, properties, etc.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.landcglobal.com/pages/linkfactory.php">LinKFactory</a> is an ontology management tool, it provides an effective and user-friendly way to create, maintain and extend extensive multilingual terminology systems and ontologies (English, Spanish, French, etc.). It is designed to build, manage and maintain large, complex, language independent ontologies.
+</li>
+<li> <a rel="nofollow" class="external text" href="http://svn.mumble.net:8080/svn/lsw/trunk">LSW</a> – the Lisp semantic Web toolkit enables OWL ontologies to be visualized. It was written by Alan Ruttenberg
+</li>
+<li> <a rel="nofollow" class="external text" href="http://analytics.ijs.si/node/3">OntoClassify</a> is a system for scalable classification of text into large topic ontologies currently including DMoz and Inspec. The system is available as Web service. The software runs under Windows platform.
+</li>
+</ul>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://www.seco.tkk.fi/projects/semweb/dist.php">Ontodella</a> is a Prolog HTTP server for category projection and semantic linking
+</li>
+<li> <a rel="nofollow" class="external text" href="http://kmi.open.ac.uk/projects/akt/ontoweaver/">OntoWeaver</a> is an ontology-based approach to Web sites, which provides high level support for web site design and development
+</li>
+<li> <a rel="nofollow" class="external text" href="http://phpowllib.sourceforge.net/">OWLLib</a> is a PHP library for accessing OWL files. OWL is w3.org standard for storing semantic information
+</li>
+<li> <a rel="nofollow" class="external text" href="http://powl.sourceforge.net/index.php">pOWL</a> is a Semantic Web development platform for ontologies in PHP. pOWL consists of a number of components, including RAP
+</li>
+<li> <a rel="nofollow" class="external text" href="http://projects.semwebcentral.org/projects/rowl/">ROWL</a> is the Rule Extension of OWL; it is from the Mobile Commerce Lab in the School of Computer Science at Carnegie Mellon University
+</li>
+<li> <a rel="nofollow" class="external text" href="https://sourceforge.net/projects/semantag">Semantic Net Generator</a> is a utlity for generating Topic Maps automatically from different data sources by using rules definitions specified with Jelly XML syntax. This Java library provides Jelly tags to access and modify data sources (also RDF) to create a semantic network
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.mindswap.org/2005/SMORE/">SMORE</a> is OWL markup for HTML pages. SMORE integrates the SWOOP ontology browser, providing a clear and consistent way to find and view Classes and Properties, complete with search functionality
+</li>
+<li> <a rel="nofollow" class="external text" href="http://soboleo.fzi.de:8080/webPortal/">SOBOLEO</a> is a system for Web-based collaboration to create SKOS taxonomies and ontologies and to annotate various Web resources using them
+</li>
+<li> <a rel="nofollow" class="external text" href="http://sofa.projects.semwebcentral.org/">SOFA</a> is a Java API for modeling ontologies and Knowledge Bases in ontology and Semantic Web applications. It provides a simple, abstract and language neutral ontology object model, inferencing mechanism and representation of the model with OWL, DAML+OIL and RDFS languages; from java.dev
+</li>
+<li> <a rel="nofollow" class="external text" href="http://www.isi.edu/webscripter/">WebScripter</a> is a tool that enables ordinary users to easily and quickly assemble reports extracting and fusing information from multiple, heterogeneous DAMLized Web sources.
+</li>
+</ul>
+<h3><span class="mw-headline" id="To_Be_Completed.3B_Categorized">To Be Completed; Categorized</span></h3>
+<ul>
+<li> <a rel="nofollow" class="external free" href="http://icatdemo.stanford.edu/">http://icatdemo.stanford.edu/</a>
+</li>
+<li> <a rel="nofollow" class="external text" href="https://semtools.ecoinformatics.org/owlifier">OWLifier</a> is an application for simplifying the creation of OWL-based ontologies. It employs a simple spreadsheet-based syntax for defining ontology classes and properties, allowing for the creation of ontologies using common spreadsheet tools See Shawn Bowersa, Joshua S. Madinb and Mark P. Schildhauer. Owlifier: Creating OWL-DL Ontologies from Simple Spreadsheet-Based Knowledge
+</li>
+<li> <a rel="nofollow" class="external text" href="http://knb.ecoinformatics.org/morphoportal.jsp">Morpho</a> allows you to create and manage your data, and to share it with others. It was created to provide an easy-to-use, cross-platform application for accessing and manipulating metadata and data (both locally and on the network). Morpho allows ecologists to create metadata, (i.e. describe their data in a standardized format), and create a catalog of data &amp; metadata upon which to query, edit and view data collections. In addition, It also provides the means to access network servers, in order to query, view and retrieve all relevant, public ecological data
+</li>
+<li> <a rel="nofollow" class="external free" href="https://semtools.ecoinformatics.org/repository/docs/pubs/ISEI6/main.pdf">https://semtools.ecoinformatics.org/repository/docs/pubs/ISEI6/main.pdf</a>
+</li>
+<li> <a rel="nofollow" class="external free" href="http://web.fumsi.com/go/article/manage/61483">http://web.fumsi.com/go/article/manage/61483</a>
+</li>
+</ul>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.267 seconds
+Real time usage: 0.283 seconds
+Preprocessor visited node count: 56/1000000
+Preprocessor generated node count: 72/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wiki_osf-osf_:pcache:idhash:233-0!*!*!!en!*!* and timestamp 20141122150741
+ -->
+</div>								<div class="printfooter">
+				Retrieved from "<a href="http://wiki.opensemanticframework.org/index.php?title=Ontology_Tools&amp;oldid=8245">http://wiki.opensemanticframework.org/index.php?title=Ontology_Tools&amp;oldid=8245</a>"				</div>
+												<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/index.php/Category:ZWiki" title="Category:ZWiki">ZWiki</a></li><li><a href="/index.php/Category:Related_Links" title="Category:Related Links">Related Links</a></li><li><a href="/index.php/Category:Ontology_Tools" title="Category:Ontology Tools">Ontology Tools</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Ontology+Tools" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/index.php/Ontology_Tools"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Ontology_Tools&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/index.php/Ontology_Tools" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=Ontology_Tools&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Ontology_Tools&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" placeholder="Search" title="Search OSF Wiki [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search the pages for this text" id="searchButton"><img src="/skins/vector/images/search-ltr.png?303" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(/skins/common/images/wiki.png);" href="/index.php/Main_Page"  title="Visit the main page"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/index.php/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-recentchanges"><a href="/index.php/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-randompage"><a href="/index.php/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>Tools</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/index.php/Special:WhatLinksHere/Ontology_Tools" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/index.php/Special:RecentChangesLinked/Ontology_Tools" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/index.php/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-print"><a href="/index.php?title=Ontology_Tools&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Ontology_Tools&amp;oldid=8245" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/index.php?title=Ontology_Tools&amp;action=info">Page information</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-categorytree-portlet' aria-labelledby='p-categorytree-portlet-label'>
+	<h3 id='p-categorytree-portlet-label'>Categories</h3>
+	<div class="body">
+		<div class="CategoryTreeTag" data-ct-mode="0" data-ct-options="{&quot;mode&quot;:0,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Introduction_&amp;_Vision" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Introduction_%26_Vision">Introduction &amp; Vision</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="OSF_Projects" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:OSF_Projects">OSF Projects</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Getting_Started" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Getting_Started">Getting Started</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Background_&amp;_Concepts" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Background_%26_Concepts">Background &amp; Concepts</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="OSF_Architecture" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:OSF_Architecture">OSF Architecture</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Information_Architecture" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Information_Architecture">Information Architecture</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Ontologies" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Ontologies">Ontologies</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Administration_&amp;_Management" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Administration_%26_Management">Administration &amp; Management</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Installation_Guide" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Installation_Guide">Installation Guide</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="OSF_Users_Guide" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:OSF_Users_Guide">OSF Users Guide</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Developers_Guide" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Developers_Guide">Developers Guide</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Supporting_Systems" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Supporting_Systems">Supporting Systems</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Examples_&amp;_Resources" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Examples_%26_Resources">Examples &amp; Resources</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet"><span style="color:#C0C0C0;">►</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Screencast_Tutorials">Screencast Tutorials</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Archives" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Archives">Archives</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet"><span style="color:#C0C0C0;">►</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Sitemap">Sitemap</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Help" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/index.php/Category:Help">Help</a></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		
+		</div>
+			</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 18 November 2014, at 15:02.</li>
+											<li id="footer-info-viewcount">This page has been accessed 57,451 times.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/index.php/OSF_Wiki:Privacy_policy" title="OSF Wiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/index.php/OSF_Wiki:About" title="OSF Wiki:About">About OSF Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/index.php/OSF_Wiki:General_disclaimer" title="OSF Wiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31" /></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=9525119; 
+var sc_invisible=1; 
+var sc_security="abf5c49e"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/free-web-stats/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/9525119/0/abf5c49e/1/"
+alt="site stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+                <div id="sdMenu">
+         	  <script type="text/javascript">
+	            var menuHtmlPageUrl = "/menu/sdmenu.html";		
+        	  </script>
+    	        </div>
+                <script type="text/javascript">
+          	  function postRenderingFixes()
+        	  {
+           	  }
+          	</script>
+
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.categoryTree","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script>if(window.mw){
+mw.loader.state({"site":"ready"});
+}</script>
+<!-- Served in 0.162 secs. -->
+</body>
+</html>

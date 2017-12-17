@@ -1,0 +1,71 @@
+	Misc
+	
+		Multi-agent system (UniLang)
+		Self-directed goal setting (Architect)
+	
+	Natural Language Processing:
+	
+		Question Answering (QUAC/OpenEphyra/Aranea/%TextMine/AnswerBus)
+		Machine Translation (Apertium|Google)
+		Query Expansion (lucqe)
+		Recognizing Textual Entailment (#FreeRTE/CAndC/#Stanford-RTE)
+		
+		Natural Language to Logic (CELT/#Formalize/!ResearchCyc/%APE)
+		Controlled Language (APE|ACEWiki)
+		
+		Shallow Parsing (Assert|#Shalamaneser)
+		Sentiment Analysis (OpinionFinder)
+		Anaphora Resolution (JavaRAP|#BART)
+		Sentence Similarity (%Meteor|%Stanford-RTE)
+		Text Clustering (AI::Categorizer/Rival::AI::Categorizer/PerlLib::Cluster/crossbow/OSKM/)
+		TFIDF (PerlLib)
+		Topic Gisting (ConceptNet)
+		Affective Analysis (ConceptNet)
+		Word Sense Disambiguation (SenseRelate)
+		Named Entity Recognition (Cage/CAndC/NamedEntity/OpenNLP/Simple/Stanford/TagEn/TextMine)
+		Tokenization (treebank/TextMine)
+		
+		Grammar Checking (LinkGrammar)
+		Summarization (ConceptNet/MEAD)
+		Parsing (Charniak/Lingua::EN::Tagger/LinkGrammar)
+		Predicate Parsing (%Assert/Enju)
+		
+		Abbreviation Extraction
+		Body Text Extraction (BTE)
+		Concept Extraction (#TMT)
+		Date Extraction (TempEx)
+		Definitional Extraction ()
+		Fact Extraction (#fact-extraction/%Assert)
+		Information Extraction (T-Rex/MinorThird/Elie/#MDR/#AIE)
+		Logic Form Extraction (FreeLogicForm/CAndC)
+		Temporal Ordering Extraction (TARSQI)
+		Terminology Extraction (TermEx)
+		
+	Semantic Annotation (OpenCalais)
+		
+		Topic Detection and Tracking ()
+		Definitional Question Answering ()
+		
+		Bad Word Lists ()
+		Word Connotation (EAT)
+		Rhyming (rhyme)
+		
+	HTML Processing
+		
+		Event Extraction (%GeekEventAggregator)
+		URI Extraction (WWW::Mechanize/PerlLib::URIExtractor)
+		
+	INFORMATION EXTRACTION
+		
+		MontyLingua - what does that do?
+		
+	AI/Knowledge Representation:
+		Knowledge Based System (#FreeKBS/OpenCYC/#%Sayer)
+		
+	Studying
+		Digital Library (DigiLib/Greenstone/#DSpace)
+		Intelligent Tutoring System (CLEAR/#SystemX)
+		
+	Humanitarian/Life Support
+		
+		Task Management (#Manager Todo/#PSE)

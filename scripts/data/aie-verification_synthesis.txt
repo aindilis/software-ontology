@@ -1,0 +1,520 @@
+Extracting major patterns
+Length: 132706
+.
+..................................................
+..................................................
+................................
+Extracting most useful terms
+Chose token: $VAR1 = 'href="http';
+
+Selected instance 375 of 691
+$VAR1 = [
+          '(.*)href\\=\\"http\\:\\/\\/(.*)re(.*)ht(.*)\\"\\>(.*)\\<\\/a\\>(.*)\\<\\/(.*)\\<a ',
+          '(.*)href\\=\\"http\\:\\/\\/re(.*)\\"\\>(.*)\\<\\/a\\>(.*)\\<\\/(.*)\\<a ',
+          '(.*)href\\=\\"http(.*)\\:\\/\\/(.*)\\"\\>(.*)\\<\\/a\\>(.*)\\<a ',
+          '(.*)href\\=\\"http\\:\\/\\/(.*)\\"\\>(.*)\\<\\/a\\>(.*)\\<\\/(.*)\\<a ',
+          'href\\=\\"http(.*)\\:\\/\\/(.*)\\/a(.*)\\/a(.*)\\"\\>(.*)\\<\\/(.*)\\<\\/a\\>(.*)\\<\\/(.*)\\<\\/(.*)\\<a (.*)\\=\\"(.*)\\=\\"(.*) href\\=\\"(.*)\\=\\"(.*)\\"\\>(.*)\\=\\"(.*)\\"\\>\\<\\/(.*)\\<\\/a\\>(.*)\\<\\/(.*)\\=\\"(.*)\\"\\>(.*)\\<a ',
+          '(.*)href\\=\\"http\\:\\/\\/(.*)\\"\\>(.*)\\<\\/a\\>(.*) h(.*)tt(.*)re(.*)\\<a ',
+          '(.*)href\\=\\"http\\:\\/\\/(.*)\\"\\>(.*)\\<\\/a\\>(.*)\\=\\"(.*)\\"\\>(.*)\\<a ',
+          '(.*)href\\=\\"http\\:\\/\\/(.*)re(.*)ht(.*)\\"\\>(.*)\\<\\/a\\>(.*)\\<\\/(.*)\\<a '
+        ];
+$VAR1 = 'href="http://(.*)">(.*)</a>(.*)<a ';
+
+Extracted 99 records
+$VAR1 = [
+          [
+            'spinroot.com/spin/whatispin.html',
+            'SPIN',
+            ' (FUSC, C): LTL model checking for closed systems in Promela ('
+          ],
+          [
+            'spinroot.com/modex/',
+            'modex',
+            ' (FUSC, C): C -&gt; Promela: model extractor ('
+          ],
+          [
+            'members.tele2.nl/edwin.v/compiler.html',
+            'Promela -&gt; Java',
+            ' (?, Java): translator ('
+          ],
+          [
+            'epispin.ewi.tudelft.nl/',
+            'EpiSpin',
+            ': Eclipse plug-in for editing &amp; verifying Promela using Spin ('
+          ],
+          [
+            'www.dabeaz.com/ply/ply.html',
+            'PLY',
+            ' (Python <code>lex</code>-<code>yacc</code>) ('
+          ],
+          [
+            'www-verimag.imag.fr/%7Etripakis/rtspin.html',
+            'Real-Time SPIN',
+            ': quantitative dense time SPIN extension using Real-Time Promela ('
+          ],
+          [
+            'lcs.ios.ac.cn/%7Ewp/pi2pro_manual.html',
+            'Pi2Promela',
+            ' (?, C/Java): compiler from pi-calculus models to Promela, includes GUI ('
+          ],
+          [
+            'www.montefiore.ulg.ac.be/services/verif/po-pack.html',
+            'POR',
+            ' (?, C): partial-order reduction package for SPIN ('
+          ],
+          [
+            'fmt.cs.utwente.nl/tools/moonwalker/">MoonWalker</a> (Apache-2, C#): model check CIL bytecode programs (<a href="http://www.mono-project.com/Main_Page',
+            'Mono .NET',
+            ' platform apps), '
+          ],
+          [
+            'divine.fi.muni.cz/',
+            'DIVINE-2',
+            ' (BSD-3): Parallel LTL model checking, '
+          ],
+          [
+            'babelfish.arc.nasa.gov/trac/jpf',
+            'JPF',
+            ' ('
+          ],
+          [
+            'code.google.com/p/cunf/',
+            'cunf',
+            ' (GPL-3): Toolset for unfolding-based verification of Petri nets extended with read arcs ('
+          ],
+          [
+            'www.cs.utah.edu/formal_verification/Murphi/',
+            'Murphi',
+            ', '
+          ],
+          [
+            'spot.lip6.fr/wiki/EmptinessCheckAlgorithms',
+            'Genealogy',
+            ' of Emptiness-Checking Algorithms ('
+          ],
+          [
+            'www.pst.informatik.uni-muenchen.de/%7Ehammer/statespaces/manual.html">VMSSG Statespace Converter</a> (GPL, Java): process, analyze, display statespace graphs produced by modified VMSSG virtual machine, <a href="http://www.pst.ifi.lmu.de/%7Ehammer/statespaces/index.html',
+            'state space gallery',
+            ', ('
+          ],
+          [
+            'www.irisa.fr/s4/tools/synet/',
+            'Synet',
+            ' (OCaml): Synthesizer of distributable bounded Petri nets from Finite Automata ('
+          ],
+          [
+            'www.contrib.andrew.cmu.edu/%7Eschaki/publications/NFM-2009.html',
+            'AIR',
+            ' (?): Safety MC of Assembly using predicate abstraction and counterexample guided abstraction refinement ('
+          ],
+          [
+            'osl.cs.illinois.edu/software/iltl/index.html',
+            'iLTL',
+            ' (BSD): MC for iLTL, which specifies temporal changes of expected rewards of a Markov process ('
+          ],
+          [
+            'code.google.com/p/v-n/',
+            'v-n',
+            ' (GPL-2, Java): NDFA visualization and (random or guided) simulation, find and display accepting computations ('
+          ],
+          [
+            'lvl.info.ucl.ac.be/Tools/PyNuSMV',
+            'PyNuSMV',
+            ' (LGPL-2, Python): python interface to NuSMV ('
+          ],
+          [
+            'mtc.epfl.ch/software-tools/mocha/',
+            'Mocha',
+            ', also '
+          ],
+          [
+            'www.ti.inf.uni-due.de/research/tools/augur2/',
+            'Augur 2',
+            ' (GPL-2, C++): verification of systems described by (attributed) graph transformations using approximated unfoldings ('
+          ],
+          [
+            'research.microsoft.com/en-us/projects/boogie/',
+            'Boogie',
+            ' ('
+          ],
+          [
+            'research.microsoft.com/en-us/projects/vcc/default.aspx',
+            'VCC',
+            ' ('
+          ],
+          [
+            'dafny.codeplex.com/">Dafny</a> (<a href="http://dafny.codeplex.com/license',
+            'Ms-PL',
+            ', C#): imperative object-based language with built-in specification constructs and static program verifier for functional correctness ('
+          ],
+          [
+            'specsharp.codeplex.com/',
+            'Spec#',
+            ' ('
+          ],
+          [
+            'why3.lri.fr/',
+            'Why3',
+            ' (GPl-2, OCaml): platform for deductive program verification in WhyML, uses external theorem provers, extracts OCaml from WhyML ('
+          ],
+          [
+            'symbolaris.com/info/KeYmaera.html',
+            'KeYmaera',
+            ' (GPL, Java): Theorem prover for hybrid systems: deductive, real algebraic, and computer algebraic prover technologies ('
+          ],
+          [
+            'symbolaris.com/info/KeYmaeraD.html">KeYmaeraD</a>, its <a href="https://github.com/keymaerad/KeYmaeraD',
+            'github',
+            ' (BSD-3, Scala): Distributed theorem prover for distributed hybrid systems using Quantified differential dynamic logic (QdL) ('
+          ],
+          [
+            'www.cs.cmu.edu/afs/cs/Web/People/smitsch/tools.html',
+            'SPHINX',
+            ' (?): Eclipse plugin for textual &amp; graphical modeling editors to define cyber-physical system structure, discrete/continuous dynamics ('
+          ],
+          [
+            'research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html',
+            'TLA+',
+            ' (MIT, Java/Eclipse/C-like): IDE for TLA+ tools ('
+          ],
+          [
+            'research.microsoft.com/en-us/um/people/lamport/tla/tools.html">TLA+ Tools</a> (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version <a href="http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html',
+            'TLC',
+            ' (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ('
+          ],
+          [
+            'research.microsoft.com/en-us/um/people/lamport/tla/sany.html',
+            'SANY',
+            ' (MIT, Java): Parser &amp; semantic analyzer for TLA+ ('
+          ],
+          [
+            'research.microsoft.com/en-us/um/people/lamport/tla/tlc.html',
+            'TLC',
+            ' (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ('
+          ],
+          [
+            'research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html',
+            'PlusCal',
+            ' (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ('
+          ],
+          [
+            'research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html',
+            'TLATeX',
+            ' (MIT, Java): Program for typesetting TLA+ specs ('
+          ],
+          [
+            'www.kailesu.net/MCTK/',
+            'MCTK',
+            ' (LGPL, C): model checker for epistemic logic as modification of CUDD and NuSMV ('
+          ],
+          [
+            'sourceforge.net/projects/ltl3ba/',
+            'ltl3ba',
+            ' (GPL-2, C): LTL -&gt; BA ('
+          ],
+          [
+            'spot.lip6.fr/wiki/LtlTranslationAlgorithms',
+            'LTL -&gt; Buchi Genealogy',
+            ' ('
+          ],
+          [
+            'www.doc.ic.ac.uk/ltsa/',
+            'LTSA',
+            ' (?, Java): Labelled Transition System Analyzer ('
+          ],
+          [
+            'www.daxc.de/eth/wdba/index.html',
+            'WDBA',
+            ' (BSD, OCaml): Reads safety property BA and negation BA as SPIN never claims -&gt; outputs weak deterministic BA ('
+          ],
+          [
+            'www.ltl2dstar.de/',
+            'ltl2dstar',
+            ' (GPL): LTL -&gt; DRA (deterministic Rabin) ('
+          ],
+          [
+            'www.cds.caltech.edu/%7Eslivings/sandbox/wrapltl.php',
+            'online interface',
+            ' ('
+          ],
+          [
+            'users.isr.ist.utl.pt/%7Epal/cadeiras/deds0708/deds/MatlabFSA.zip">FSA function library</a> (MATLAB): <a href="http://users.isr.ist.utl.pt/%7Epal/cadeiras/deds0708/deds/Projects06-07/BLacerda.pdf',
+            'doc here',
+            ' ('
+          ],
+          [
+            'www.kermeta.org/',
+            'Kermeta',
+            ' (EPL): Metamodel programming environment: editor, OCL, compiler to Java | OSGI, kermeta &lt;-&gt; ecore | XMI ('
+          ],
+          [
+            'www.papyrusuml.org/scripts/home/publigen/content/templates/show.asp?L=EN&amp;P=55&amp;vTicker=alleza&amp;ITEMID=3',
+            'Papyrus',
+            ' (EPL): Graphical UML2 modeling in Eclipse ('
+          ],
+          [
+            'en.wikipedia.org/wiki/Esterel',
+            'Esterel',
+            ', '
+          ],
+          [
+            'www1.cs.columbia.edu/%7Esedwards/cec/',
+            'CEC',
+            ' (BSD-3, C++/ANTLR): Esterel V5 compiler to C | Verilog | BLIF ('
+          ],
+          [
+            'en.wikipedia.org/wiki/Averest',
+            'Averest',
+            ': Synchronous programming language Quartz and compiler to TS, symbolic model checker, tool for hardware/software synthesis from Quartz ('
+          ],
+          [
+            'en.wikipedia.org/wiki/SIGNAL_programming_language',
+            'SIGNAL',
+            ': Synchronized data-flow programming language for systems with multiple clocks ('
+          ],
+          [
+            'www.irisa.fr/vertecs/Softwares/sigali.html',
+            'Sigali',
+            ', '
+          ],
+          [
+            'en.wikipedia.org/wiki/SyncCharts',
+            'SyncCharts',
+            ': Graphical formalism for reactive modeling ('
+          ],
+          [
+            'slivingston.github.io/gr1c/',
+            'gr1c',
+            ' (BSD-3, C, uses CUDD): checking realizability of and synthesizing strategies for GR(1) specifications &amp; much more ('
+          ],
+          [
+            'rat.fbk.eu/ratsy/',
+            'RATSY',
+            ' (LGPL-2+, Python/PyGTK): PSL | BA specs -&gt; gr1 synthesis, game-based debug approach, circuit synthesis ('
+          ],
+          [
+            'www.iaik.tugraz.at/content/research/design_verification/anzu/',
+            'Anzu',
+            ' (Perl, uses CUDD): synthesizes Verilog ('
+          ],
+          [
+            'rat.fbk.eu/',
+            'RAT',
+            ' (?, Python): RATSY\'s pedecessor (FBK, '
+          ],
+          [
+            'lit2.ulb.ac.be/acaciaplus/',
+            'Acacia+',
+            ' (GPL, Python/C): LTL Realizability check &amp; winning strategy synthesis using AntiChains '
+          ],
+          [
+            'lit2.ulb.ac.be/alaska/',
+            'Alaska',
+            ' (GPL-2, Python): Antichains for Logic, Automata and Symbolic Kripke structure Analysis (predecessor of Acacia) ('
+          ],
+          [
+            'lit2.ulb.ac.be/alpaga/">alpaga</a> and <a href="https://github.com/madewulf/alpaga',
+            'github',
+            ' (Python, uses PyCUDD): solver parity games with imperfect information using antichains ('
+          ],
+          [
+            'ltlmop.github.io/',
+            'LTLMoP',
+            ' (GPL-3, Python): designing, testing, and implementing hybrid controllers generated automatically from task specifications written in Structured English or Temporal Logic ('
+          ],
+          [
+            'www.react.uni-saarland.de/tools/synthia/',
+            'Synthia',
+            ' (GPL-3, C/C++): Verification certificates (deductive proofs) and synthesis for partially implemented systems, abstraction refinement ('
+          ],
+          [
+            'www.irisa.fr/s4/tools/mica/Mica__A_Modal_Interface_Compositional_Analysis_Library/Introduction.html',
+            'Mica',
+            ' (CeCILL-C-1, OCaml):  Modal Interface algebra for contract based design ('
+          ],
+          [
+            'www.uppaal.org/',
+            'UPPAAL',
+            ', '
+          ],
+          [
+            'www.idt.mdh.se/%7Eexsched/',
+            'ExSched',
+            ': develop operating system schedulers for VxWorks and Linux w/o modifying the underlying kernel ([Malardalen Univ.]'
+          ],
+          [
+            'www-verimag.imag.fr/%7Easync/IF/index.html">IF</a> (FUSC): static analysis, model-checking, test generation, <a href="http://www-verimag.imag.fr/%7Etripakis/openkronos.html',
+            'Open-Kronos',
+            ', '
+          ],
+          [
+            'www-verimag.imag.fr/%7Etdang/ddt.html',
+            'd/dt',
+            ' (?, ?): Reachability analysis of Continuous and Hybrid Systems with linear differential inclusions ('
+          ],
+          [
+            'www-verimag.imag.fr/%7Efrehse/phaver_web/',
+            'PHAVer',
+            ' (GPL-2, C++): verifying safety properies of hybrid systems (exact arithmetic, on-the-fly over-approximation of PWA dynamics, compositional &amp; assume-guarantee reasoning) ('
+          ],
+          [
+            'www.vim.org/scripts/script.php?script_id=3256',
+            'vim highlight',
+            ', its '
+          ],
+          [
+            'www.mathworks.com/matlabcentral/fx_files/15441/3/content/doc/main.htm',
+            'CheckMate',
+            ' (MATLAB) modeling, simulation &amp; investigation, '
+          ],
+          [
+            'cse.lab.imtlucca.it/%7Ebemporad/hybrid/toolbox/',
+            'Hybrid Toolbox for MATLAB',
+            ' (FUSC, MATLAB/Simulink): Modeling, simulation, verification, constrained MPC, generate linear &amp; hybrid MPC PWA control laws ('
+          ],
+          [
+            'sal.csl.sri.com/hybridsal/',
+            'HybridSal',
+            ' (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems &amp; hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools ('
+          ],
+          [
+            'www-verimag.imag.fr/%7Etdang/NLTOOLBOX/',
+            'NLToolbox',
+            ' (u, C/C++): Non-linear dynamical system reachability: polynomial using Bernstein expansion, more general using hybridization ('
+          ],
+          [
+            'hsolver.sourceforge.net/',
+            'HSolver',
+            ' (LGPL): based on RSOLVER constraint solver, correctness does not depend on floating point rounding errors, handles non-linear ODEs ('
+          ],
+          [
+            'www.dmi.units.it/%7Ecasagran/pyHybridAnalysis/',
+            'pyHybridAnalysis',
+            ' (LGPL-3, Python): ε-semantics reachability ('
+          ],
+          [
+            'www.cds.caltech.edu/%7Eewolff/ltlopt.html',
+            'LtlOpt',
+            ' (BSD-3, MATLAB): optimal control of high-dimensional, nonlinear systems using LTL specs ('
+          ],
+          [
+            'www.cs.ru.nl/%7Efreek/aut/',
+            'Modern Automath implementation',
+            ' (?, C): Languages AUT-68, AUT-QE ('
+          ],
+          [
+            'pvs.csl.sri.com/',
+            'PVS',
+            ', its '
+          ],
+          [
+            'www-verimag.imag.fr/%7Egraf/INVARIANT-CHECKER/',
+            'Invariant-Checker',
+            ': predicate abstraction and verification of invariance reactive properties using theorem-proving and MC, front to PVS ('
+          ],
+          [
+            'www.dfki.de/vse/systems/inka/inka5.html',
+            'INKA5',
+            ', '
+          ],
+          [
+            'www.vprover.org/',
+            'Vampire',
+            ' (FUSC, C++): FOL ('
+          ],
+          [
+            'www.usna.edu/CS/%7Eqepcad/B/QEPCAD.html',
+            'QEPCAD',
+            ' and '
+          ],
+          [
+            'www4.informatik.tu-muenchen.de/%7Eschulz/E/E.html',
+            'E',
+            ' (GPL-2, C): Full first-order logic with equality ('
+          ],
+          [
+            'sat.inesc-id.pt/%7Emikolas/sw/areqs/',
+            'RAReQS',
+            ' (GPL, C++/uses MiniSAT): Recursive abstraction refinement QBF solver ('
+          ],
+          [
+            'www.princeton.edu/%7Echaff/zchaff.html',
+            'zChaff',
+            ' (Princeton Open Source): Chaff algorithm ('
+          ],
+          [
+            'minisat.se/">MiniSat</a> and its <a href="https://github.com/niklasso/minisat',
+            'github',
+            ' (MIT, C++/C): minimalistic high-performance solver to help get started ('
+          ],
+          [
+            'www.msoos.org/cryptominisat2/',
+            'CryptoMiniSat',
+            ', its '
+          ],
+          [
+            'cvc4.cs.nyu.edu/web/',
+            'CVC4',
+            ', its '
+          ],
+          [
+            'z3.codeplex.com/',
+            'Z3',
+            ' ('
+          ],
+          [
+            'rise4fun.com/iZ3',
+            'iZ3',
+            ' ('
+          ],
+          [
+            'kindsoftware.com/products/opensource/Simplify/',
+            'Simplify',
+            ', its '
+          ],
+          [
+            'people.csail.mit.edu/emina/pubs/rosette.onward13.pdf">ROSETTE</a>: Framework for designing solver-aided languages, realized embedded in <a href="http://racket-lang.org/',
+            'Racket',
+            ' ('
+          ],
+          [
+            'lara.epfl.ch/w/leon',
+            'Leon',
+            ', its '
+          ],
+          [
+            'fsl.cs.illinois.edu/index.php/MOP',
+            'MOP',
+            ' (Java): Monitoring-Oriented Programming ('
+          ],
+          [
+            'fsl.cs.illinois.edu/index.php/Circ',
+            'Circ',
+            ':  automated behavioral prover based on the circularity principle for Maude ('
+          ],
+          [
+            'www.matching-logic.org/index.php/Matching_Logic',
+            'Matching Logic',
+            ': regard a language through both operational and axiomatic lenses at the same time ('
+          ],
+          [
+            'fm-wiki.csl.sri.com/index.php/Main_Page',
+            'SRI tools',
+            ' and older '
+          ],
+          [
+            'www-formal.stanford.edu/clt/ARS/',
+            'ARS',
+            ': Database of Automated Reasoning Systems ('
+          ],
+          [
+            'anna.fi.muni.cz/models/',
+            'BEEM',
+            ': MC benchmarks ('
+          ],
+          [
+            'www.automatedreasoning.net/',
+            'Larry Wos\' Notebooks',
+            ': series of notebooks presenting some of Larry Wos’s most recent and hitherto unpublished research in automated reasoning (also in 1st order logic) ('
+          ]
+        ];

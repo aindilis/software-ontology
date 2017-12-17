@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Satisfiability modulo theories - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Satisfiability_modulo_theories","wgTitle":"Satisfiability modulo theories","wgCurRevisionId":791448013,"wgRevisionId":791448013,"wgArticleId":5138563,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Logic in computer science","Constraint programming","NP-complete problems","Formal methods","Electronic design automation","Satisfiability problems","SMT solvers"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Satisfiability_modulo_theories","wgRelevantArticleId":5138563,"wgRequestId":"WXB9ngpAIDkAAAoCBDYAAAAG","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":false,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":false,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q2067766","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["preload","preloadparams","preloadtitle","undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.30.0-wmf.9"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Satisfiability_modulo_theories"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Satisfiability_modulo_theories"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Satisfiability_modulo_theories rootpage-Satisfiability_modulo_theories skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Satisfiability modulo theories</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>In <a href="/wiki/Computer_science" title="Computer science">computer science</a> and <a href="/wiki/Mathematical_logic" title="Mathematical logic">mathematical logic</a>, the <b>satisfiability modulo theories</b> (<b>SMT</b>) problem is a <a href="/wiki/Decision_problem" title="Decision problem">decision problem</a> for logical formulas with respect to combinations of background <a href="/wiki/Theory_(mathematical_logic)" title="Theory (mathematical logic)">theories</a> expressed in classical <a href="/wiki/First-order_logic" title="First-order logic">first-order logic</a> with equality. Examples of theories typically used in computer science are the theory of <a href="/wiki/Real_numbers" class="mw-redirect" title="Real numbers">real numbers</a>, the theory of <a href="/wiki/Integers" class="mw-redirect" title="Integers">integers</a>, and the theories of various <a href="/wiki/Data_structure" title="Data structure">data structures</a> such as <a href="/wiki/List_(computing)" class="mw-redirect" title="List (computing)">lists</a>, <a href="/wiki/Array_data_structure" title="Array data structure">arrays</a>, <a href="/wiki/Bit_vector" class="mw-redirect" title="Bit vector">bit vectors</a> and so on. SMT can be thought of as a form of the <a href="/wiki/Constraint_satisfaction_problem" title="Constraint satisfaction problem">constraint satisfaction problem</a> and thus a certain formalized approach to <a href="/wiki/Constraint_programming" title="Constraint programming">constraint programming</a>.</p>
+<p></p>
+<div id="toc" class="toc">
+<div class="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Basic_terminology"><span class="tocnumber">1</span> <span class="toctext">Basic terminology</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Expressive_power_of_SMT"><span class="tocnumber">2</span> <span class="toctext">Expressive power of SMT</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#SMT_solver_approaches"><span class="tocnumber">3</span> <span class="toctext">SMT solver approaches</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#SMT_for_undecidable_theories"><span class="tocnumber">4</span> <span class="toctext">SMT for undecidable theories</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#SMT_solvers"><span class="tocnumber">5</span> <span class="toctext">SMT solvers</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Applications"><span class="tocnumber">6</span> <span class="toctext">Applications</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Verification"><span class="tocnumber">6.1</span> <span class="toctext">Verification</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Symbolic-execution_based_analysis_and_testing"><span class="tocnumber">6.2</span> <span class="toctext">Symbolic-execution based analysis and testing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Basic_terminology">Basic terminology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=1" title="Edit section: Basic terminology">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Formally speaking, an SMT instance is a <a href="/wiki/Formula" title="Formula">formula</a> in <a href="/wiki/First-order_logic" title="First-order logic">first-order logic</a>, where some function and predicate symbols have additional interpretations, and SMT is the problem of determining whether such a formula is satisfiable. In other words, imagine an instance of the <a href="/wiki/Boolean_satisfiability_problem" title="Boolean satisfiability problem">Boolean satisfiability problem</a> (SAT) in which some of the binary variables are replaced by <a href="/wiki/Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">predicates</a> over a suitable set of non-binary variables. A predicate is basically a binary-valued function of non-binary variables. Example predicates include linear <a href="/wiki/Inequality_(mathematics)" title="Inequality (mathematics)">inequalities</a> (e.g., <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mn>3</mn>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mn>2</mn>
+        <mi>y</mi>
+        <mo>&#x2212;<!-- − --></mo>
+        <mi>z</mi>
+        <mo>&#x2265;<!-- ≥ --></mo>
+        <mn>4</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle 3x+2y-z\geq 4}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8019c8583c948f9d7ae8239cfcf6f599839aab4d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:15.934ex; height:2.509ex;" alt="3x+2y-z\geq 4" /></span>) or equalities involving <a href="/wiki/Uninterpreted_term" class="mw-redirect" title="Uninterpreted term">uninterpreted terms</a> and function symbols (e.g., <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>u</mi>
+        <mo>,</mo>
+        <mi>v</mi>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+        <mi>v</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>u</mi>
+        <mo>,</mo>
+        <mi>v</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle f(f(u,v),v)=f(u,v)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dded28d90f0d77e160025092d4c286eec463fbdb" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:21.694ex; height:2.843ex;" alt="f(f(u,v),v)=f(u,v)" /></span> where <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>f</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle f}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/132e57acb643253e7810ee9702d9581f159a1c61" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:1.289ex; height:2.509ex;" alt="f" /></span> is some unspecified function of two arguments.) These predicates are classified according to each respective theory assigned. For instance, linear inequalities over real variables are evaluated using the rules of the theory of linear real <a href="/wiki/Arithmetic" title="Arithmetic">arithmetic</a>, whereas predicates involving uninterpreted terms and function symbols are evaluated using the rules of the theory of <a href="/wiki/Uninterpreted_function" title="Uninterpreted function">uninterpreted functions</a> with equality (sometimes referred to as the <a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>). Other theories include the theories of <a href="/wiki/Array_data_structure" title="Array data structure">arrays</a> and <a href="/wiki/List_(computing)" class="mw-redirect" title="List (computing)">list</a> structures (useful for modeling and verifying <a href="/wiki/Computer_program" title="Computer program">computer programs</a>), and the theory of <a href="/wiki/Bit_vectors" class="mw-redirect" title="Bit vectors">bit vectors</a> (useful in modeling and verifying <a href="/wiki/Hardware_design" class="mw-redirect" title="Hardware design">hardware designs</a>). Subtheories are also possible: for example, difference logic is a sub-theory of linear arithmetic in which each inequality is restricted to have the form <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>x</mi>
+        <mo>&#x2212;<!-- − --></mo>
+        <mi>y</mi>
+        <mo>&gt;</mo>
+        <mi>c</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x-y&gt;c}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f1e5d7d28050c4f73c5e3bd642dcda484b2e214e" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:9.483ex; height:2.176ex;" alt="x-y&gt;c" /></span> for variables <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>x</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.34ex; height:1.676ex;" alt="x" /></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>y</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle y}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b8a6208ec717213d4317e666f1ae872e00620a0d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:1.166ex; height:2.009ex;" alt="y" /></span> and constant <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>c</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.017ex; height:1.676ex;" alt="c" /></span>.</p>
+<p>Most SMT solvers support only <a href="/w/index.php?title=Quantifier_free&amp;action=edit&amp;redlink=1" class="new" title="Quantifier free (page does not exist)">quantifier free</a> fragments of their logics.</p>
+<h2><span class="mw-headline" id="Expressive_power_of_SMT">Expressive power of SMT</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=2" title="Edit section: Expressive power of SMT">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>An SMT instance is a generalization of a <a href="/wiki/Boolean_satisfiability_problem" title="Boolean satisfiability problem">Boolean SAT</a> instance in which various sets of variables are replaced by <a href="/wiki/Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">predicates</a> from a variety of underlying theories. Obviously, SMT formulas provide a much richer modeling <a href="/wiki/Language" title="Language">language</a> than is possible with Boolean SAT formulas. For example, an SMT formula allows us to model the <a href="/wiki/Datapath" title="Datapath">datapath</a> operations of a <a href="/wiki/Microprocessor" title="Microprocessor">microprocessor</a> at the word rather than the bit level.</p>
+<p>By comparison, <a href="/wiki/Answer_set_programming" title="Answer set programming">answer set programming</a> is also based on predicates (more precisely, on <a href="/wiki/Atomic_sentence" title="Atomic sentence">atomic sentences</a> created from <a href="/wiki/Atomic_formula" title="Atomic formula">atomic formula</a>). Unlike SMT, answer-set programs do not have quantifiers, and cannot easily express constraints such as <a href="/w/index.php?title=Linear_arithmetic&amp;action=edit&amp;redlink=1" class="new" title="Linear arithmetic (page does not exist)">linear arithmetic</a> or <a href="/w/index.php?title=Difference_logic&amp;action=edit&amp;redlink=1" class="new" title="Difference logic (page does not exist)">difference logic</a>—ASP is at best suitable for boolean problems that reduce to the <a href="/wiki/Free_theory" class="mw-redirect" title="Free theory">free theory</a> of uninterpreted functions. Implementing 32-bit integers as bitvectors in ASP suffers from most of the same problems that early SMT solvers faced: "obvious" identities such as <i>x</i>+<i>y</i>=<i>y</i>+<i>x</i> are difficult to deduce.</p>
+<p><a href="/wiki/Constraint_logic_programming" title="Constraint logic programming">Constraint logic programming</a> does provide support for linear arithmetic constraints, but within a completely different theoretical framework.</p>
+<h2><span class="mw-headline" id="SMT_solver_approaches">SMT solver approaches</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=3" title="Edit section: SMT solver approaches">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Early attempts for solving SMT instances involved translating them to Boolean SAT instances (e.g., a 32-bit integer variable would be encoded by 32 bit variables with appropriate weights and word-level operations such as 'plus' would be replaced by lower-level logic operations on the bits) and passing this formula to a Boolean SAT solver. This approach, which is referred to as <i>the eager approach</i>, has its merits: by pre-processing the SMT formula into an equivalent Boolean SAT formula we can use existing Boolean SAT solvers "as-is" and leverage their performance and capacity improvements over time. On the other hand, the loss of the high-level semantics of the underlying theories means that the Boolean SAT solver has to work a lot harder than necessary to discover "obvious" facts (such as <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>x</mi>
+        <mo>+</mo>
+        <mi>y</mi>
+        <mo>=</mo>
+        <mi>y</mi>
+        <mo>+</mo>
+        <mi>x</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle x+y=y+x}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/34531a1a1d79d62f63926487d85bcd05ed2bb3ab" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:13.823ex; height:2.343ex;" alt="x+y=y+x" /></span> for integer addition.) This observation led to the development of a number of SMT solvers that tightly integrate the Boolean reasoning of a <a href="/wiki/DPLL_algorithm" title="DPLL algorithm">DPLL</a>-style search with theory-specific solvers (<i>T-solvers</i>) that handle <a href="/wiki/Logical_conjunction" title="Logical conjunction">conjunctions</a> (ANDs) of predicates from a given theory. This approach is referred to as <i>the lazy approach</i>.</p>
+<p>Dubbed DPLL(T),<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> this architecture gives the responsibility of Boolean reasoning to the DPLL-based SAT solver which, in turn, interacts with a solver for theory T through a well-defined interface. The theory solver only needs to worry about checking the feasibility of conjunctions of theory predicates passed on to it from the SAT solver as it explores the Boolean search space of the formula. For this integration to work well, however, the theory solver must be able to participate in propagation and conflict analysis, i.e., it must be able to infer new facts from already established facts, as well as to supply succinct explanations of infeasibility when theory conflicts arise. In other words, the theory solver must be incremental and <a href="/wiki/Backtracking" title="Backtracking">backtrackable</a>.</p>
+<h2><span class="mw-headline" id="SMT_for_undecidable_theories">SMT for undecidable theories</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=4" title="Edit section: SMT for undecidable theories">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Most of the common SMT approaches support <a href="/wiki/Decidability_(logic)" title="Decidability (logic)">decidable</a> theories. However, many real-world systems can only be modelled by means of non-linear arithmetic over the real numbers involving <a href="/wiki/Transcendental_function" title="Transcendental function">transcendental functions</a>, e.g. an aircraft and its behavior. This fact motivates an extension of the SMT problem to non-linear theories, e.g. determine whether</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtable columnalign="left right" rowspacing="4pt" columnspacing="1em">
+            <mtr>
+              <mtd />
+              <mtd>
+                <mo stretchy="false">(</mo>
+                <mi>sin</mi>
+                <mo>&#x2061;<!-- ⁡ --></mo>
+                <mo stretchy="false">(</mo>
+                <mi>x</mi>
+                <msup>
+                  <mo stretchy="false">)</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>3</mn>
+                  </mrow>
+                </msup>
+                <mo>=</mo>
+                <mi>cos</mi>
+                <mo>&#x2061;<!-- ⁡ --></mo>
+                <mo stretchy="false">(</mo>
+                <mi>log</mi>
+                <mo>&#x2061;<!-- ⁡ --></mo>
+                <mo stretchy="false">(</mo>
+                <mi>y</mi>
+                <mo stretchy="false">)</mo>
+                <mo>&#x22C5;<!-- ⋅ --></mo>
+                <mi>x</mi>
+                <mo stretchy="false">)</mo>
+                <mo>&#x2228;<!-- ∨ --></mo>
+                <mi>b</mi>
+                <mo>&#x2228;<!-- ∨ --></mo>
+                <mo>&#x2212;<!-- − --></mo>
+                <msup>
+                  <mi>x</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mn>2</mn>
+                  </mrow>
+                </msup>
+                <mo>&#x2265;<!-- ≥ --></mo>
+                <mn>2.3</mn>
+                <mi>y</mi>
+                <mo stretchy="false">)</mo>
+                <mo>&#x2227;<!-- ∧ --></mo>
+                <mrow>
+                  <mo>(</mo>
+                  <mi mathvariant="normal">&#x00AC;<!-- ¬ --></mi>
+                  <mi>b</mi>
+                  <mo>&#x2228;<!-- ∨ --></mo>
+                  <mi>y</mi>
+                  <mo>&lt;</mo>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>34.4</mn>
+                  <mo>&#x2228;<!-- ∨ --></mo>
+                  <mi>exp</mi>
+                  <mo>&#x2061;<!-- ⁡ --></mo>
+                  <mo stretchy="false">(</mo>
+                  <mi>x</mi>
+                  <mo stretchy="false">)</mo>
+                  <mo>&gt;</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mi>y</mi>
+                      <mi>x</mi>
+                    </mfrac>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+              </mtd>
+            </mtr>
+          </mtable>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\begin{array}{lr}&amp;(\sin(x)^{3}=\cos(\log(y)\cdot x)\vee b\vee -x^{2}\geq 2.3y)\wedge \left(\neg b\vee y&lt;-34.4\vee \exp(x)&gt;{y \over x}\right)\end{array}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e22883bda7ffa732a5678c2b67c384a00eab72c5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.171ex; width:81.241ex; height:3.509ex;" alt="{\begin{array}{lr}&amp;(\sin(x)^{3}=\cos(\log(y)\cdot x)\vee b\vee -x^{2}\geq 2.3y)\wedge \left(\neg b\vee y&lt;-34.4\vee \exp(x)&gt;{y \over x}\right)\end{array}}" /></span></dd>
+</dl>
+<p>where</p>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>b</mi>
+        <mo>&#x2208;<!-- ∈ --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="double-struck">B</mi>
+          </mrow>
+        </mrow>
+        <mo>,</mo>
+        <mi>x</mi>
+        <mo>,</mo>
+        <mi>y</mi>
+        <mo>&#x2208;<!-- ∈ --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="double-struck">R</mi>
+          </mrow>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle b\in {\mathbb {B} },x,y\in {\mathbb {R} }}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ff13314dfa6448f4fe5f1d5f24b1dbd49e564ffd" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:14.554ex; height:2.509ex;" alt="b\in {\mathbb {B} },x,y\in {\mathbb {R} }" /></span></dd>
+</dl>
+<p>is satisfiable. Then, such problems become <a href="/wiki/Undecidable_problem" title="Undecidable problem">undecidable</a> in general. (It is important to note, however, that the theory of <a href="/wiki/Real_closed_field" title="Real closed field">real closed fields</a>, and thus the full first order theory of the <a href="/wiki/Real_number" title="Real number">real numbers</a>, are <a href="/wiki/Decidability_(logic)" title="Decidability (logic)">decidable</a> using <a href="/wiki/Quantifier_elimination" title="Quantifier elimination">quantifier elimination</a>. This is due to <a href="/wiki/Alfred_Tarski" title="Alfred Tarski">Alfred Tarski</a>.) The first order theory of the <a href="/wiki/Natural_numbers" class="mw-redirect" title="Natural numbers">natural numbers</a> with addition (but not multiplication), called <a href="/wiki/Presburger_arithmetic" title="Presburger arithmetic">Presburger arithmetic</a>, is also decidable. Since multiplication by constants can be implemented as nested additions, the arithmetic in many computer programs can be expressed using Presburger arithmetic, resulting in decidable formulas.</p>
+<p>Examples of SMT solvers addressing Boolean combinations of theory atoms from undecidable arithmetic theories over the reals are ABsolver,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> which employs a classical DPLL(T) architecture with a non-linear optimization packet as (necessarily incomplete) subordinate theory solver, and iSAT <a rel="nofollow" class="external autonumber" href="http://isat.gforge.avacs.org/">[1]</a>, building on a unification of DPLL SAT-solving and <a href="/wiki/Interval_arithmetic#Interval_arithmetic" title="Interval arithmetic">interval constraint propagation</a> called the iSAT algorithm.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup></p>
+<h2><span class="mw-headline" id="SMT_solvers">SMT solvers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=5" title="Edit section: SMT solvers">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The table below summarizes some of the features of the many available SMT solvers. The column "SMT-LIB" indicates compatibility with the SMT-LIB language; many systems marked 'yes' may support only older versions of SMT-LIB, or offer only partial support for the language. The column "CVC" indicates support for the CVC language. The column "DIMACS" indicates support for the <a rel="nofollow" class="external text" href="http://www.satcompetition.org/2009/format-benchmarks2009.html">DIMACS</a> format.</p>
+<p>Projects differ not only in features and performance, but also in the viability of the surrounding community, its ongoing interest in a project, and its ability to contribute documentation, fixes, tests and enhancements.</p>
+<table class="wikitable">
+<tr>
+<th colspan="3">Platform</th>
+<th colspan="6">Features</th>
+<th colspan="1">Notes</th>
+</tr>
+<tr>
+<th style="background:#ffdead;">Name</th>
+<th style="background:#ffdead;">OS</th>
+<th style="background:#ffdead;">License</th>
+<th style="background:#ffdead;">SMT-LIB</th>
+<th style="background:#ffdead;">CVC</th>
+<th style="background:#ffdead;">DIMACS</th>
+<th style="background:#ffdead;">Built-in theories</th>
+<th style="background:#ffdead;">API</th>
+<th style="background:#ffdead;">SMT-COMP <a rel="nofollow" class="external autonumber" href="http://www.smtcomp.org/">[2]</a></th>
+<th></th>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://absolver.sourceforge.net/">ABsolver</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td><a href="/wiki/Common_Public_License" title="Common Public License">CPL</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v1.2</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td>linear arithmetic, non-linear arithmetic</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>no</td>
+<td>DPLL-based</td>
+</tr>
+<tr>
+<td><a href="/wiki/Alt-Ergo" title="Alt-Ergo">Alt-Ergo</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></td>
+<td><a href="/wiki/CeCILL-C" class="mw-redirect" title="CeCILL-C">CeCILL-C</a> (roughly equivalent to <a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a>)</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">partial v1.2 and v2.0</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td><a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>, <a href="/w/index.php?title=Linear_integer_and_rational_arithmetic&amp;action=edit&amp;redlink=1" class="new" title="Linear integer and rational arithmetic (page does not exist)">linear integer and rational arithmetic</a>, <a href="/w/index.php?title=Non-linear_arithmetic&amp;action=edit&amp;redlink=1" class="new" title="Non-linear arithmetic (page does not exist)">non-linear arithmetic</a>, <a href="/w/index.php?title=Polymorphic_array&amp;action=edit&amp;redlink=1" class="new" title="Polymorphic array (page does not exist)">polymorphic arrays</a>, <a href="/w/index.php?title=Enumerated_datatype&amp;action=edit&amp;redlink=1" class="new" title="Enumerated datatype (page does not exist)">enumerated datatypes</a>, <a href="/w/index.php?title=AC_symbol&amp;action=edit&amp;redlink=1" class="new" title="AC symbol (page does not exist)">AC symbols</a>, <a href="/wiki/Bitvector" class="mw-redirect" title="Bitvector">bitvectors</a>, <a href="/w/index.php?title=Record_datatype&amp;action=edit&amp;redlink=1" class="new" title="Record datatype (page does not exist)">record datatypes</a>, <a href="/wiki/Quantifier_(logic)" title="Quantifier (logic)">quantifiers</a></td>
+<td><a href="/wiki/OCaml" title="OCaml">OCaml</a></td>
+<td>2008</td>
+<td>Polymorphic first-order input language à la ML, SAT-solver based, combines Shostak-like and Nelson-Oppen like approaches for reasoning modulo theories</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.lsi.upc.edu/~oliveras/bclt-main.html">Barcelogic</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td>Proprietary</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v1.2</td>
+<td></td>
+<td></td>
+<td><a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>, <a href="/w/index.php?title=Difference_logic&amp;action=edit&amp;redlink=1" class="new" title="Difference logic (page does not exist)">difference logic</a></td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>2009</td>
+<td>DPLL-based, <a href="/wiki/Congruence_closure" class="mw-redirect" title="Congruence closure">congruence closure</a></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://uclid.eecs.berkeley.edu/jha/beaver-dist/beaver.html">Beaver</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></td>
+<td><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v1.2</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td>bitvectors</td>
+<td><a href="/wiki/OCaml" title="OCaml">OCaml</a></td>
+<td>2009</td>
+<td>SAT-solver based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://fmv.jku.at/boolector/index.html">Boolector</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td><a href="/wiki/GPLv3" class="mw-redirect" title="GPLv3">GPLv3</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v1.2</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td><a href="/wiki/Bitvector" class="mw-redirect" title="Bitvector">bitvectors</a>, arrays</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td>2009</td>
+<td>SAT-solver based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.cs.nyu.edu/acsys/cvc3/">CVC3</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v1.2</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td></td>
+<td><a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>, linear arithmetic, arrays, tuples, types, records, bitvectors, <a href="/wiki/Quantifier_(logic)" title="Quantifier (logic)">quantifiers</a></td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>2010</td>
+<td>proof output to <a href="/wiki/Higher-order_logic" title="Higher-order logic">HOL</a></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://cvc4.cs.nyu.edu/">CVC4</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></td>
+<td><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td></td>
+<td>rational and integer linear arithmetic, arrays, tuples, records, inductive data types, bitvectors, strings, and equality over uninterpreted function symbols</td>
+<td>C++</td>
+<td>2010</td>
+<td>version 1.4 released July 2014</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/dpt">Decision Procedure Toolkit (DPT)</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td><a href="/wiki/Apache_license" class="mw-redirect" title="Apache license">Apache</a></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="/wiki/OCaml" title="OCaml">OCaml</a></td>
+<td>no</td>
+<td>DPLL-based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://isat.gforge.avacs.org/">iSAT</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td>Proprietary</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td></td>
+<td></td>
+<td>non-linear arithmetic</td>
+<td></td>
+<td>no</td>
+<td>DPLL-based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://mathsat.fbk.eu/">MathSAT</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></td>
+<td>Proprietary</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td><a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>, linear arithmetic, bitvectors, arrays</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>2010</td>
+<td>DPLL-based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://cl-informatik.uibk.ac.at/software/minismt/">MiniSmt</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td><a href="/wiki/LGPL" class="mw-redirect" title="LGPL">LGPL</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">partial v2.0</td>
+<td></td>
+<td></td>
+<td>non-linear arithmetic</td>
+<td></td>
+<td>2010</td>
+<td>SAT-solver based, Yices-based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="https://link.springer.com/chapter/10.1007/978-3-319-21690-4_29">Norn</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SMT solver for string constraints</td>
+</tr>
+<tr>
+<td><a href="/wiki/OpenCog" title="OpenCog">OpenCog</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td><a href="/wiki/Affero_General_Public_License" title="Affero General Public License">AGPL</a></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td>probabilistic logic, arithmetic. <a href="/wiki/Relational_model" title="Relational model">relational models</a></td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Scheme_(programming_language)" title="Scheme (programming language)">Scheme</a>, <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a></td>
+<td>no</td>
+<td>subgraph isomorphism</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://verify.inf.usi.ch/opensmt">OpenSMT</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></td>
+<td><a href="/wiki/GPLv3" class="mw-redirect" title="GPLv3">GPLv3</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">partial v2.0</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td><a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>, differences, linear arithmetic, bitvectors</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>2011</td>
+<td>lazy SMT Solver</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.jaist.ac.jp/~s1310007/raSAT/">raSAT</a></td>
+<td>Linux</td>
+<td>GPLv3</td>
+<td>v2.0</td>
+<td></td>
+<td></td>
+<td>real and integer nonlinear arithmetics</td>
+<td></td>
+<td>2014, 2015</td>
+<td>extension of the Interval Constraint Propagation with Testing and the Intermediate Value Theorem</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://vlsi.colorado.edu/~hhkim/sateen/">SatEEn</a></td>
+<td>&#160;?</td>
+<td>Proprietary</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v1.2</td>
+<td></td>
+<td></td>
+<td>linear arithmetic, difference logic</td>
+<td>none</td>
+<td>2009</td>
+<td></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://ultimate.informatik.uni-freiburg.de/smtinterpol/">SMTInterpol</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Windows" class="mw-redirect" title="Windows">Windows</a></td>
+<td><a href="/w/index.php?title=LGPLv3&amp;action=edit&amp;redlink=1" class="new" title="LGPLv3 (page does not exist)">LGPLv3</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v2.0</td>
+<td></td>
+<td></td>
+<td>uninterpreted functions, linear real arithmetic, and linear integer arithmetic</td>
+<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>2012</td>
+<td>Focuses on generating high quality, compact interpolants.</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.comp.nus.edu.sg/~gregory/smchr/">SMCHR</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Windows" class="mw-redirect" title="Windows">Windows</a></td>
+<td><a href="/wiki/GPLv3" class="mw-redirect" title="GPLv3">GPLv3</a></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td>linear arithmetic, nonlinear arithmetic, heaps</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td>no</td>
+<td>Can implement new theories using <a href="/wiki/Constraint_Handling_Rules" title="Constraint Handling Rules">Constraint Handling Rules</a>.</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="https://github.com/smtrat/smtrat/wiki">SMT-RAT</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a></td>
+<td><a href="/wiki/MIT_license" class="mw-redirect" title="MIT license">MIT</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v2.0</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td>linear arithmetic, nonlinear arithmetic</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>2015</td>
+<td>Toolbox for strategic and parallel SMT solving consisting of a collection of SMT compliant implementations.</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.informatik.uni-bremen.de/agbs/florian/sonolar/">SONOLAR</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></td>
+<td>Proprietary</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">partial v2.0</td>
+<td></td>
+<td></td>
+<td>bitvectors</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td>2010</td>
+<td>SAT-solver based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.cs.ubc.ca/~babic/index_spear.htm">Spear</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></td>
+<td>Proprietary</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v1.2</td>
+<td></td>
+<td></td>
+<td>bitvectors</td>
+<td></td>
+<td>2008</td>
+<td></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://stp.github.io/">STP</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/OpenBSD" title="OpenBSD">OpenBSD</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a></td>
+<td><a href="/wiki/MIT_license" class="mw-redirect" title="MIT license">MIT</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">partial v2.0</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td>bitvectors, arrays</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>, <a href="/wiki/OCaml" title="OCaml">OCaml</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>2011</td>
+<td>SAT-solver based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.informatik.uni-bremen.de/agra/eng/sword.php">SWORD</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td>Proprietary</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v1.2</td>
+<td></td>
+<td></td>
+<td>bitvectors</td>
+<td></td>
+<td>2009</td>
+<td></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://uclid.eecs.berkeley.edu/wiki/index.php/Main_Page">UCLID</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a></td>
+<td><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td><a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>, linear arithmetic, bitvectors, and constrained lambda (arrays, memories, cache, etc.)</td>
+<td></td>
+<td>no</td>
+<td>SAT-solver based, written in <a href="/wiki/Moscow_ML" title="Moscow ML">Moscow ML</a>. Input language is SMV model checker. Well-documented!</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.verit-solver.org/">veriT</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/OS_X" class="mw-redirect" title="OS X">OS X</a></td>
+<td><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">partial v2.0</td>
+<td></td>
+<td></td>
+<td><a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>, rational and integer linear arithmetics, quantifiers, and equality over uninterpreted function symbols</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>2010</td>
+<td>SAT-solver based</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://yices.csl.sri.com/">Yices</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a></td>
+<td><a href="/wiki/GPLv3" class="mw-redirect" title="GPLv3">GPLv3</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v2.0</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td>rational and integer linear arithmetic, bitvectors, arrays, and equality over uninterpreted function symbols</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td>2014</td>
+<td>Source code is available online</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="https://github.com/Z3Prover/z3">Z3</a></td>
+<td><a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Mac_OS" class="mw-redirect" title="Mac OS">Mac OS</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a>, <a href="/wiki/FreeBSD" title="FreeBSD">FreeBSD</a></td>
+<td><a href="/wiki/MIT_license" class="mw-redirect" title="MIT license">MIT</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">v2.0</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td><a href="/wiki/Empty_theory" class="mw-redirect" title="Empty theory">empty theory</a>, linear arithmetic, nonlinear arithmetic, bitvectors, arrays, datatypes, <a href="/wiki/Quantifier_(logic)" title="Quantifier (logic)">quantifiers</a>, strings</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/.NET_Framework" title=".NET Framework">.NET</a>, <a href="/wiki/OCaml" title="OCaml">OCaml</a>, <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="/wiki/Haskell_(programming_language)" title="Haskell (programming language)">Haskell</a></td>
+<td>2011</td>
+<td></td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=6" title="Edit section: Applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>SMT solvers are useful both for verification, proving the correctness of programs, software testing based on symbolic execution, and for synthesis, generating program fragments by searching over the space of possible programs.</p>
+<h3><span class="mw-headline" id="Verification">Verification</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=7" title="Edit section: Verification">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Computer-aided verification of computer programs often uses SMT solvers. A common technique is to translate preconditions, postconditions, loop conditions, and assertions into SMT formulas in order to determine if all properties can hold.</p>
+<p>There are many verifiers built on top of the <a rel="nofollow" class="external text" href="https://github.com/Z3Prover/z3">Z3</a> SMT solver. <a rel="nofollow" class="external text" href="http://research.microsoft.com/en-us/projects/boogie/">Boogie</a> is an intermediate verification language that uses Z3 to automatically check simple imperative programs. The <a rel="nofollow" class="external autonumber" href="http://vcc.codeplex.com">[3]</a> verifier for concurrent C uses Boogie, as well as <a rel="nofollow" class="external text" href="http://research.microsoft.com/en-us/projects/dafny/">Dafny</a> for imperative object-based programs, <a rel="nofollow" class="external text" href="http://research.microsoft.com/en-us/projects/chalice/">Chalice</a> for concurrent programs, and <a rel="nofollow" class="external text" href="http://research.microsoft.com/en-us/projects/specsharp/">Spec#</a> for C#. <a rel="nofollow" class="external text" href="http://research.microsoft.com/en-us/projects/fstar/">F*</a> is a dependently typed language that uses Z3 to find proofs; the compiler carries these proofs through to produce proof-carrying bytecode. The <a rel="nofollow" class="external text" href="https://hackage.haskell.org/package/sbv">sbv</a> library provides SMT-based verification of Haskell programs, and lets the user choose among a number of solvers such as Z3, ABC, Boolector, CVC4, MathSAT and Yices.</p>
+<p>There are also many verifiers built on top of the <a rel="nofollow" class="external text" href="http://alt-ergo.ocamlpro.com/">Alt-Ergo</a> SMT solver. Here is a list of mature applications:</p>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://why3.lri.fr/">Why3</a>, a platform for deductive program verification, uses Alt-Ergo as its main prover;</li>
+<li>CAVEAT, a C-verifier developed by CEA and used by Airbus; Alt-Ergo was included in the qualification DO-178C of one of its recent aircraft;</li>
+<li><a href="/wiki/Frama-C" title="Frama-C">Frama-C</a>, a framework to analyse C-code, uses Alt-Ergo in the Jessie and WP plugins (dedicated to "deductive program verification");</li>
+<li><a href="/wiki/SPARK_(programming_language)" title="SPARK (programming language)">SPARK</a>, uses CVC4 and Alt-Ergo (behind GNATprove) to automate the verification of some assertions in SPARK 2014;</li>
+<li><a href="/wiki/B-Method" title="B-Method">Atelier-B</a> can use Alt-Ergo instead of its main prover (increasing success from 84% to 98% on the <a rel="nofollow" class="external text" href="http://alt-ergo.lri.fr/documents/ABZ-2014.pdf">ANR Bware project benchmarks</a>);</li>
+<li><a href="/wiki/Rodin_tool" title="Rodin tool">Rodin</a>, a B-method framework developed by Systerel, can use Alt-Ergo as a back-end;</li>
+<li><a rel="nofollow" class="external text" href="http://cubicle.lri.fr/">Cubicle</a>, an open source model checker for verifying safety properties of array-based transition systems.</li>
+<li><a rel="nofollow" class="external text" href="https://www.easycrypt.info/">EasyCrypt</a>, a toolset for reasoning about relational properties of probabilistic computations with adversarial code.</li>
+</ul>
+<p>Many SMT solvers implement a common interface format called <a rel="nofollow" class="external text" href="http://smt-lib.org/">SMTLIB2</a> (such files usually have the extension "<tt>.smt2</tt>"). The <a rel="nofollow" class="external text" href="https://ucsd-progsys.github.io/liquidhaskell-blog/">LiquidHaskell</a> tool implements a refinement type based verifier for Haskell that can use any SMTLIB2 compliant solver, e.g. CVC4, MathSat, or Z3.</p>
+<h3><span class="mw-headline" id="Symbolic-execution_based_analysis_and_testing">Symbolic-execution based analysis and testing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=8" title="Edit section: Symbolic-execution based analysis and testing">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>An important application of SMT solvers is <a href="/wiki/Symbolic_execution" title="Symbolic execution">symbolic execution</a> for analysis and testing of programs (e.g., <a href="/wiki/Concolic_testing" title="Concolic testing">concolic testing</a>), aimed particularly at finding security vulnerabilities. Important actively-maintained tools in this category include <a rel="nofollow" class="external text" href="http://research.microsoft.com/en-us/um/people/pg/public_psfiles/ndss2008.pdf">SAGE</a> from <a href="/wiki/Microsoft_Research" title="Microsoft Research">Microsoft Research</a>, <a rel="nofollow" class="external text" href="https://klee.github.io/">KLEE</a>, <a rel="nofollow" class="external text" href="http://s2e.epfl.ch/">S2E</a>, and <a rel="nofollow" class="external text" href="https://triton.quarkslab.com">Triton</a>. SMT solvers that are particularly useful for symbolic-execution applications include <a rel="nofollow" class="external text" href="https://github.com/Z3Prover/z3">Z3</a>, <a rel="nofollow" class="external text" href="https://sites.google.com/site/stpfastprover/">STP</a>, <a rel="nofollow" class="external text" href="https://sites.google.com/site/z3strsolver/">Z3str2</a>, and <a rel="nofollow" class="external text" href="http://fmv.jku.at/boolector/">Boolector</a>.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=9" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Answer_set_programming" title="Answer set programming">Answer set programming</a></li>
+</ul>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=10" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite id="CITEREFNieuwenhuisOliverasTinelli2006" class="citation">Nieuwenhuis, R.; Oliveras, A.; Tinelli, C. (2006), "Solving SAT and SAT Modulo Theories: From an Abstract Davis-Putnam-Logemann-Loveland Procedure to DPLL(T)", <a rel="nofollow" class="external text" href="http://homepage.cs.uiowa.edu/~tinelli/papers/NieOT-JACM-06.pdf"><i>Journal of the ACM</i></a> <span style="font-size:85%;">(PDF)</span>, <b>53</b> (6), pp.&#160;937–977.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASatisfiability+modulo+theories&amp;rft.atitle=Solving+SAT+and+SAT+Modulo+Theories%3A+From+an+Abstract+Davis-Putnam-Logemann-Loveland+Procedure+to+DPLL%28T%29&amp;rft.au=Oliveras%2C+A.&amp;rft.au=Tinelli%2C+C.&amp;rft.aufirst=R.&amp;rft.aulast=Nieuwenhuis&amp;rft.btitle=Journal+of+the+ACM&amp;rft.date=2006&amp;rft.genre=bookitem&amp;rft.pages=937-977.&amp;rft_id=http%3A%2F%2Fhomepage.cs.uiowa.edu%2F~tinelli%2Fpapers%2FNieOT-JACM-06.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite id="CITEREFBauerPisterTautschnig2007" class="citation">Bauer, A.; Pister, M.; Tautschnig, M. (2007), "Tool-support for the analysis of hybrid systems and models", <i>Proceedings of the 2007 Conference on Design, Automation and Test in Europe (DATE'07)</i>, IEEE Computer Society, p.&#160;1, <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="//doi.org/10.1109%2FDATE.2007.364411">10.1109/DATE.2007.364411</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASatisfiability+modulo+theories&amp;rft.atitle=Tool-support+for+the+analysis+of+hybrid+systems+and+models&amp;rft.au=Pister%2C+M.&amp;rft.au=Tautschnig%2C+M.&amp;rft.aufirst=A.&amp;rft.aulast=Bauer&amp;rft.btitle=Proceedings+of+the+2007+Conference+on+Design%2C+Automation+and+Test+in+Europe+%28DATE%2707%29&amp;rft.date=2007&amp;rft.genre=bookitem&amp;rft.pages=1&amp;rft.pub=IEEE+Computer+Society&amp;rft_id=info%3Adoi%2F10.1109%2FDATE.2007.364411&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite id="CITEREFFr.C3.A4nzleHerdeRatschanSchubert2007" class="citation">Fränzle, M.; Herde, C.; Ratschan, S.; Schubert, T.; Teige, T. (2007), "Efficient Solving of Large Non-linear Arithmetic Constraint Systems with Complex Boolean Structure", <a rel="nofollow" class="external text" href="http://jsat.ewi.tudelft.nl/content/volume1/JSAT1_11_Fraenzle.pdf"><i>JSAT Special Issue on SAT/CP Integration</i></a> <span style="font-size:85%;">(PDF)</span>, <b>1</b>, pp.&#160;209–236</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASatisfiability+modulo+theories&amp;rft.atitle=Efficient+Solving+of+Large+Non-linear+Arithmetic+Constraint+Systems+with+Complex+Boolean+Structure&amp;rft.au=Herde%2C+C.&amp;rft.au=Ratschan%2C+S.&amp;rft.au=Schubert%2C+T.&amp;rft.au=Teige%2C+T.&amp;rft.aufirst=M.&amp;rft.aulast=Fr%C3%A4nzle&amp;rft.btitle=JSAT+Special+Issue+on+SAT%2FCP+Integration&amp;rft.date=2007&amp;rft.genre=bookitem&amp;rft.pages=209-236&amp;rft_id=http%3A%2F%2Fjsat.ewi.tudelft.nl%2Fcontent%2Fvolume1%2FJSAT1_11_Fraenzle.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>C Barrett, R Sebastiani, S Seshia, and C Tinelli, "Satisfiability Modulo Theories." In Handbook of Satisfiability, vol. 185 of Frontiers in Artificial Intelligence and Applications, (A Biere, M J H Heule, H van Maaren, and T Walsh, eds.), IOS Press, Feb. 2009, pp.&#160;825–885.</li>
+<li>Vijay Ganesh (PhD. Thesis 2007), <a rel="nofollow" class="external text" href="https://ece.uwaterloo.ca/~vganesh/Publications_files/vg2007-PhD-STANFORD.pdf">Decision Procedures for Bit-Vectors, Arrays and Integers</a>, Computer Science Department, Stanford University, Stanford, CA, U.S., Sept 2007</li>
+<li>Susmit Jha, Rhishikesh Limaye, and Sanjit A. Seshia. <a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/978-3-642-02658-4_53">Beaver: Engineering an efficient SMT solver for bit-vector arithmetic.</a> In Proceedings of 21st International Conference on Computer-Aided Verification, pp.&#160;668–674, 2009.</li>
+<li>R. E. Bryant, S. M. German, and M. N. Velev, "Microprocessor Verification Using Efficient Decision Procedures for a Logic of Equality with Uninterpreted Functions," in Analytic Tableaux and Related Methods, pp.&#160;1–13, 1999.</li>
+<li>M. Davis and H. Putnam, <a rel="nofollow" class="external text" href="//dx.doi.org/10.1145/321033.321034">A Computing Procedure for Quantification Theory</a>, Journal of the Association for Computing Machinery, vol. 7, no., pp.&#160;201–215, 1960.</li>
+<li>M. Davis, G. Logemann, and D. Loveland, <a rel="nofollow" class="external text" href="//dx.doi.org/10.1145/368273.368557">A Machine Program for Theorem-Proving</a>, Communications of the ACM, vol. 5, no. 7, pp.&#160;394–397, 1962.</li>
+<li>D. Kroening and O. Strichman, Decision Procedures – an algorithmic point of view (2008), Springer (Theoretical Computer Science series) <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/978-3-540-74104-6" title="Special:BookSources/978-3-540-74104-6">978-3-540-74104-6</a>.</li>
+<li>G.-J. Nam, K. A. Sakallah, and R. Rutenbar, <a rel="nofollow" class="external text" href="//dx.doi.org/10.1109/TCAD.2002.1004311">A New FPGA Detailed Routing Approach via Search-Based Boolean Satisfiability</a>, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 21, no. 6, pp.&#160;674–684, 2002.</li>
+<li><a rel="nofollow" class="external text" href="http://smtlib.org/">SMT-LIB: The Satisfiability Modulo Theories Library</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.smtcomp.org">SMT-COMP: The Satisfiability Modulo Theories Competition</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.decision-procedures.org:">Decision procedures - an algorithmic point of view</a></li>
+<li><a rel="nofollow" class="external text" href="http://people.csail.mit.edu/vganesh/summerschool">Summer School on SAT/SMT solvers and their applications</a></li>
+<li>R. Sebastiani, <a rel="nofollow" class="external text" href="http://jsat.ewi.tudelft.nl/content/volume3/JSAT3_9_Sebastiani.pdf">Lazy Satisfiability Modulo Theories</a>, Dipartimento di Ingegneria e Scienza dell'Informazione, Universita di Trento, Italy, Dec 2007</li>
+<li>D.Yurichev, <a rel="nofollow" class="external text" href="https://yurichev.com/writings/SAT_SMT_draft-EN.pdf">Quick introduction into SAT/SMT solvers and symbolic execution</a></li>
+</ul>
+<hr />
+<p><i>This article is adapted from a column in the ACM <a rel="nofollow" class="external text" href="http://www.sigda.org">SIGDA</a> <a rel="nofollow" class="external text" href="http://www.sigda.org/newsletter/index.html">e-newsletter</a> by <a rel="nofollow" class="external text" href="http://www.eecs.umich.edu/~karem">Prof. Karem Sakallah</a>. Original text is <a rel="nofollow" class="external text" href="http://archive.sigda.org/newsletter/2006/061215.txt">available here</a></i></p>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1288
+Cached time: 20170720095231
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.120 seconds
+Real time usage: 0.266 seconds
+Preprocessor visited node count: 786/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 14196/2097152 bytes
+Template argument size: 722/2097152 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 0/500
+Lua time usage: 0.034/10.000 seconds
+Lua memory usage: 1.63 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   80.639      1 -total
+ 74.19%   59.830      3 Template:Citation
+  6.81%    5.495      1 Template:ISBN
+  5.43%    4.376      3 Template:Doi-inline
+  2.77%    2.238     28 Template:Yes
+  2.17%    1.753      1 Template:Main_other
+  1.99%    1.601     22 Template:No
+  1.86%    1.498      3 Template:Only_in_print
+  1.35%    1.090      6 Template:Hide_in_print
+-->
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:5138563-0!canonical!math=5 and timestamp 20170720095250 and revision id 791448013
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Satisfiability_modulo_theories&amp;oldid=791448013">https://en.wikipedia.org/w/index.php?title=Satisfiability_modulo_theories&amp;oldid=791448013</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Logic_in_computer_science" title="Category:Logic in computer science">Logic in computer science</a></li><li><a href="/wiki/Category:Constraint_programming" title="Category:Constraint programming">Constraint programming</a></li><li><a href="/wiki/Category:NP-complete_problems" title="Category:NP-complete problems">NP-complete problems</a></li><li><a href="/wiki/Category:Formal_methods" title="Category:Formal methods">Formal methods</a></li><li><a href="/wiki/Category:Electronic_design_automation" title="Category:Electronic design automation">Electronic design automation</a></li><li><a href="/wiki/Category:Satisfiability_problems" title="Category:Satisfiability problems">Satisfiability problems</a></li><li><a href="/wiki/Category:SMT_solvers" title="Category:SMT solvers">SMT solvers</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Satisfiability+modulo+theories" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Satisfiability+modulo+theories" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Satisfiability_modulo_theories"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:Satisfiability_modulo_theories"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><div></div>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Satisfiability_modulo_theories" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><div></div></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Satisfiability_modulo_theories" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Satisfiability_modulo_theories" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;oldid=791448013" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2067766" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Satisfiability_modulo_theories&amp;id=791448013" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Satisfiability+modulo+theories">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Satisfiability+modulo+theories&amp;action=show-selection-screen&amp;coll-download-url=%2Fw%2Findex.php%3Ftitle%3DSpecial%3ABook%26bookcmd%3Drender_article%26arttitle%3DSatisfiability%2Bmodulo%2Btheories%26returnto%3DSatisfiability%2Bmodulo%2Btheories%26oldid%3D791448013%26writer%3Drdf2latex">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Satisfiability_modulo_theories&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Teor%C3%ADas_de_satisfacibilidad_m%C3%B3dulo" title="Teorías de satisfacibilidad módulo – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Satisfiability_modulo_theories" title="Satisfiability modulo theories – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D4%B2%D5%A1%D5%B6%D5%A1%D5%B1%D6%87%D5%A5%D6%80%D5%AB_%D5%AC%D5%B8%D6%82%D5%AE%D5%A5%D5%AC%D5%AB%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6_%D5%BF%D5%A5%D5%BD%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6%D5%B6%D5%A5%D6%80%D5%B8%D6%82%D5%B4" title="Բանաձևերի լուծելիություն տեսություններում – Armenian" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_%D1%84%D0%BE%D1%80%D0%BC%D1%83%D0%BB_%D0%B2_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%D1%85" title="Задача выполнимости формул в теориях – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/Satisfiability_Modulo_Theories" title="Satisfiability Modulo Theories – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li>					</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2067766#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 20 July 2017, at 09:52.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Satisfiability_modulo_theories&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.120","walltime":"0.266","ppvisitednodes":{"value":786,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":14196,"limit":2097152},"templateargumentsize":{"value":722,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   80.639      1 -total"," 74.19%   59.830      3 Template:Citation","  6.81%    5.495      1 Template:ISBN","  5.43%    4.376      3 Template:Doi-inline","  2.77%    2.238     28 Template:Yes","  2.17%    1.753      1 Template:Main_other","  1.99%    1.601     22 Template:No","  1.86%    1.498      3 Template:Only_in_print","  1.35%    1.090      6 Template:Hide_in_print"]},"scribunto":{"limitreport-timeusage":{"value":"0.034","limit":"10.000"},"limitreport-memusage":{"value":1711822,"limit":52428800}},"cachereport":{"origin":"mw1288","timestamp":"20170720095231","ttl":2592000,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":60,"wgHostname":"mw1187"});});</script>
+	</body>
+</html>

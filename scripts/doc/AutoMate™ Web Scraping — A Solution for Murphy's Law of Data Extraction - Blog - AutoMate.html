@@ -1,0 +1,878 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+	<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+
+	<link rel="stylesheet" type="text/css" href="/js/release/main/dijit/themes/tundra/tundra.css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic|Hind+Vadodara:400,500,600,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="/css/webfonts.css" />
+			<link rel="stylesheet" type="text/css" href="/css/urc.css" />
+	
+		<link href="//vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
+	<style type="text/css">
+		.video-js {
+			background-color: #ffffff;
+		}
+		.video-js-fluid {
+			width: 100% !important;
+			height: auto !important;
+		}
+		.video-js-fluid:after {
+			content: '.';
+			display: block;
+			position: relative;
+			padding: 0;
+			padding-top: 40.1%; /* set this to (height/width)*100% (eg. 56%=16:9, 75%=4:3) */
+			margin: 0 0 0 -100%;
+			visibility: hidden;
+			height: 0;
+		}
+		.video-js-fluid .vjs-poster {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+		}
+		.video-js .vjs-big-play-button {
+			margin: 0 0 0 -1.5em;
+			top: 45%;
+			left: 50%;
+		}
+	</style>
+		<script src="//vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js"></script>
+
+			<script type="text/javascript" src="/js/release/main/dojo/dojo.js"></script>
+		<script type="text/javascript" src="/js/release/main/dojo/main-build.js"></script>
+	
+	<script type="text/javascript">
+		if (dojo.isIE < 9 || dojo.isFF < 4) {
+			document.write('<link rel="stylesheet" type="text/css" href="/css/nofx.css" />');
+		}
+	</script>
+
+	<!--[if IE 6]>
+	<link rel="stylesheet" type="text/css" href="/css/ie6.css" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="/css/ie7.css" />
+	<![endif]-->
+
+	<script type="text/javascript" src="/js/urc.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><link href="/js/src/dojox/layout/resources/ScrollPane.css" media="screen" rel="stylesheet" type="text/css" /><title>AutoMate™ Web Scraping — A Solution for Murphy's Law of Data Extraction - Blog - AutoMate</title>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTNXDR6');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Optimizely Tracking Code -->
+<script src="https://cdn.optimizely.com/js/6206940906.js"></script>
+<!-- // Optimizely -->
+
+<!-- Hotjar Tracking Code for http://www.networkautomation.com -->
+<script>
+
+    (function(h,o,t,j,a,r){
+
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+
+        h._hjSettings={hjid:229629,hjsv:5};
+
+        a=o.getElementsByTagName('head')[0];
+
+        r=o.createElement('script');r.async=1;
+
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+
+        a.appendChild(r);
+
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+
+</script>
+<!-- // Hotjar Tracking Code -->
+ 
+			<meta name="viewport" content="width=1000" />
+
+		<style type="text/css">
+			#navbar-nav-cont {
+				position: relative;
+			}
+			#nav-fluid-cont {
+				width: 978px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		</style>
+	
+
+</head>
+<body class="tundra non-responsive">
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTNXDR6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<div id="page" class="page urc">
+
+		
+		<div id="pre-page-cont" class="clearfix ">
+					</div>
+
+					<div class="subNavWrap">
+				<div class="subNav">
+										<h1 id="urcLogo" class="sel_blog"><a href="/urc/blog/">AutoMate URC Blog</a></h1>
+										<div id="subNavMenu">
+						<ul class="subNavItems" id="urcSubNav">
+							<li id="subNav_home" class="navItem" scrollTo="0" hint="The Automate User Resource Center is your source for Automate news, tutorials, & other educational resources"><a href="/urc/">Home</a></li><li class="sep">&bull;</li><li id="subNav_blog" class="navItem selected" scrollTo="-62" hint="Covers Automate product updates, tips and tricks, previews of new releases, and more"><a href="/urc/blog/">Blog</a></li><li class="sep">&bull;</li><li id="subNav_tutorials" class="navItem" scrollTo="-124" hint="5-10 minute video presentations that provide walkthroughs of a specific solution"><a href="/urc/tutorials/">Tutorials</a></li><li class="sep">&bull;</li><li id="subNav_sample-tasks" class="navItem" scrollTo="-186" hint="Sample Tasks and Workflows, published by NAI employees and customers, highlight specific features of Automate & Automate Enterprise"><a href="/urc/sample-tasks/">Sample Tasks &amp; Workflows</a></li><li class="sep">&bull;</li><li id="subNav_knowledgebase" class="navItem" scrollTo="-248" hint="Up-to-date articles and essays of highlighting technical information about Automate"><a href="/urc/knowledgebase/">Knowledgebase</a></li><li class="sep">&bull;</li><li id="subNav_support" class="navItem" scrollTo="-310" hint="Online, direct communication with our Tech Support department, as well as Automate documentation"><a href="/urc/support/">Support &amp; Documentation</a></li><li class="sep">&bull;</li><li id="subNav_version-history" class="navItem" scrollTo="-372" hint="A timeline of additions and fixes for each version of Automate"><a href="/urc/version-history/">Versions</a></li>						</ul>
+					</div>
+				</div>
+			</div>
+		
+
+		<div id="allContent">
+	<div id="mainContent">
+
+					<div id="breadcrumbs">
+				Welcome to the <span class="blue">Automate User Resource Center</span>, your source for Automate news, tutorials, &amp; other educational resources.
+			</div>
+		
+		
+
+<div class="social">
+	<div class="goog" style="float:left;">
+		<g:plusone size="medium"></g:plusone>
+	</div>
+	<div class="li" style="float:left; padding: 0 1em 0 0;">
+		<style type="text/css">.IN-widget .right{margin:auto;float:none;}</style>
+		<script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-counter="right"></script>
+	</div>
+	<div class="tweet" style="float:left;">
+		<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	</div>
+	<div class="fb" style="float:left">
+		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.networkautomation.com%2Furc%2Fblog%2Fautomate-web-scraping-a-solution-for-murphys-law-of-data-extraction%2F4f70b18badff4%2F&amp;layout=button_count&amp;show_faces=false&amp;width=200&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:35px;" allowTransparency="true"></iframe>
+	</div>
+</div><div style="clear:left" class="articleBody blogPostBody">
+	<h2 class="articleTitle">AutoMate™ Web Scraping — A Solution for Murphy's Law of Data Extraction</h2>
+
+	<div class="details grey">
+									by <a href="/urc/blog/author/jonathan-chan/">Jonathan Chan</a>,
+			
+						in <a href="/urc/blog/category/data-extraction/">Data Extraction</a>, 
+							posted 3/26/12	</div>
+
+		<img style="display:block; margin-bottom:2.5em" src="/images/urc/blog/main/56faa6c27b3f3624131835.jpg" alt="image for article" />
+	
+	<p>We currently live in the information age where everything is at our fingertips. Is Drew Brees the current NFL Passing Leader? Is <a title="What is houndstooth?" href="http://nicholas-morine.suite101.com/what-is-herringbone-what-is-houndstooth-weave-fabric-patterns-a283306" target="_blank">houndstooth or herringbone</a> more &ldquo;in&rdquo; this season? What will the weather be like this weekend? When asked these questions, most of us will hop on Google/Bing/Wikipedia and search for the answer. More and more information is being made available online&mdash;and the business world is no different. People are printing out less physical media. &nbsp;Rather, the information is being made available in digital formats with various consumption methods such as laptops, tablets and smart phones. As more business information makes its way to the web, being able to interact and make sense of that data becomes essential.</p>
+<p>Pulling data from a webpage is nothing new. <a title="Web Scraping" href="http://en.wikipedia.org/wiki/Web_scraping" target="_blank">Web-scraping</a> and Web Data Extraction tools have been around forever. &nbsp;The issue with these tools is the huge amount of processing and filtering required to retrieve usable information. And according to <a title="Murphy's Law Sayings" href="http://quotations.about.com/od/murphyslaws/tp/10_murphys_laws.htm" target="_blank">Murphy &rsquo;s Law</a>, the moment you finish a filtering algorithm to process the data accurately, the web designer will change the site.</p>
+<p>That is where our Extract Table activity comes into play. With the Extract Table action, AutoMate brings structured data extraction capabilities that easily integrate with other components and tools in your infrastructure. Extract Table keeps the information in table format so you can bypass all the processing and references by column/row.</p>
+<p>We recently worked with a customer on a Web Interactivity Task that involved the issue described above. The client had to log into a website with username/password and retrieve a section of information. &nbsp;They needed to pull all of the information from the table and then evaluate particular fields. &nbsp;We could have grabbed each individual element, but that would have proved tedious and cumbersome. So we decided to use the Extract Table action. Once we have verified that the section of data was indeed an HTML Table Element, we used the Extract Table to grab everything into a dataset table. From there we could evaluate the contents and branch appropriately.</p>
+<p>In this particular example, we will be using the stock tickers from Yahoo Finance, and are going to schedule this task to run at the close of market Eastern Time. Once we have retrieved the information, we are going to parse through the values. The values will be written to an Excel workbook: worksheet1 if the changes are positive; worksheet2 if they are negative.</p>
+<p>Our process is going to look something like Figure1.</p>
+<p><img title="Fig. 1" src="/images/urc/blog/4f70f66e7e560424692321.JPG" alt="Fig. 1" /></p>
+<p>Figure1</p>
+<p>So first, let&rsquo;s open up the Yahoo Extract Table Task to look at how to extract the table. The first thing you need to do is create a variable that contains the tickers. (Figure 1A_pt1, Figure 1A_pt2)</p>
+<p><img title="Fig. 1a" src="/images/urc/blog/4f70f689648df431655688.JPG" alt="Fig. 1a" /></p>
+<p>Figure 1A_pt1</p>
+<p><img title="Fig. 1b" src="/images/urc/blog/4f70f69dcf000240912556.JPG" alt="Fig. 1a2" />&nbsp;</p>
+<p>Figure 1A_Pt2</p>
+<p>Next, we need to open a new browser to Yahoo Finance. Select the open activity and specify <em>finance.yahoo.com</em> in the Page URL box. (Figure 1B)</p>
+<p><img title="Fig. 1b" src="/images/urc/blog/4f70f6b55afc0915931825.JPG" alt="Fig. 1b" />&nbsp;</p>
+<p>Next, select the appropriate box to set the values of the stock tickers. &nbsp;(Figure 2A, Figure 2B)</p>
+<p><img title="Fig. 2a" src="/images/urc/blog/4f70f6d294360876944069.jpg" alt="Fig. 2a" /></p>
+<p>Figure 2A</p>
+<p><img title="Fig. 2b" src="/images/urc/blog/4f70f6e28a270488005874.jpg" alt="Fig. 2b" /></p>
+<p>Figure2B</p>
+<p>Once you select the box that you want, scroll down and specify the interaction. You want to place the content of the variable into the search box. (Figure 2C)</p>
+<p><img title="Fig. 2c" src="/images/urc/blog/4f70f6f01a0af611132080.jpg" alt="Fig. 2c" /></p>
+<p>Figure 2C</p>
+<p>Once that step is done, you want to click the &ldquo;get quotes&rdquo; button. Use the Click Action to select the button. (Figure 2D, Figure 2E)</p>
+<p><img title="Fig. 2d" src="/images/urc/blog/4f70f6fe279e0705847433.jpg" alt="Fig. 2d" /></p>
+<p>Figure 2D</p>
+<p><img title="Fig. 2e" src="/images/urc/blog/4f70f70fd02c0293214347.jpg" alt="Fig. 2e" /></p>
+<p>Figure 2E</p>
+<p>Once you have finished that and run it once, your browser should be displaying something like this (Figure3):</p>
+<p><img title="Fig. 3" src="/images/urc/blog/4f70f722973cf451119879.jpg" alt="Fig. 3" /></p>
+<p>Figure 3</p>
+<p>Drag over another web browser and then select the wait action. Once you&rsquo;ve done that, drag over the final web browser action and select the Extract Table activity. (Figure 4)</p>
+<p><img title="Fig. 4" src="/images/urc/blog/4f70f7310fe30217652702.jpg" alt="Fig. 4" /></p>
+<p>Figure 4</p>
+<p>Select the browser by dragging over the magnifying glass. Then drag the hand over to the table. (Figure5)</p>
+<p><img title="Fig. 5" src="/images/urc/blog/4f70f73e4f5cf608819255.jpg" alt="Fig. 5" /></p>
+<p>Figure 5</p>
+<p>If you have done this successfully, there should be some table identifier information located in the details. (Figure 6)</p>
+<p><img title="Fig. 6" src="/images/urc/blog/4f70f74bbc8b0064930694.jpg" alt="Fig. 6" /></p>
+<p>Figure 6</p>
+<p>Scrolling down, be sure to enter the name of a dataset here. It stores the information from the table. (Figure 7)</p>
+<p><img title="Fig. 7" src="/images/urc/blog/4f70f761bb910852460470.jpg" alt="Fig. 7" /></p>
+<p>Figure 7</p>
+<p>Once you have done this, close any IE browsers you have open and run the task. At the bottom you&rsquo;ll see your dataset. (Figure 8)</p>
+<p><img title="Fig. 8" src="/images/urc/blog/4f70f773c3c4f510799935.jpg" alt="Fig. 8" /></p>
+<p>Figure &nbsp;8</p>
+<p>Right click on it and select Inspect. Then re-run your task one more time. You should be able to see all of this information in your dataset. (Figure 9)</p>
+<p><img title="Fig. 9" src="/images/urc/blog/4f70f78434050544564169.jpg" alt="Fig. 9" /></p>
+<p>Figure 9</p>
+<p>Now let&rsquo;s write the information to Excel; it will create a new workbook. (Figure 10)</p>
+<p><img title="Fig. 10" src="/images/urc/blog/4f70f79538ce0378800815.jpg" alt="Fig. 10" /></p>
+<p>Figure 10</p>
+<p>Next we want to loop through our dataset to figure out which sheet we are going to write the information to. (Figure 11)</p>
+<p><img title="Fig, 11" src="/images/urc/blog/4f70f7a626bd0140185850.jpg" alt="Fig, 11" /></p>
+<p>Figure 11</p>
+<p>Lastly we want to build in the logic that places Positive Gains (+) into worksheet 1 and Negative Gains (-) into worksheet 2; and create two variables: one that stores the current row of worksheet 1, and the other that stores the current row of worksheet 2. Then apply the following if-else logic. (Figure 12)</p>
+<p><img title="Fig. 12" src="/images/urc/blog/4f70f7baca500243312234.jpg" alt="Fig. 12" /></p>
+<p>Figure 12</p>
+<p>Now that we have that all taken care of, lets run the task and verify the results. Figure 13 verifies that the positive values have been placed into worksheet1. Figure 14 verifies that the negative values have been placed into worksheet2.</p>
+<p>&nbsp;<img title="Fig. 13" src="/images/urc/blog/4f70f7d029600693860783.jpg" alt="Fig. 13" /></p>
+<p>Figure 13</p>
+<p><img title="Fig. 14" src="/images/urc/blog/4f70f7dd68da0456832932.jpg" alt="Fig. 14" /> Figure 14</p>
+<p>Now that you&rsquo;ve discovered this powerful new tool, go out there and crunch some data!</p>
+<p><a href="https://www.networkautomation.com/solutions/automate-data-extraction/">Learn more about web scraping, screen scraping, and other data extraction here</a>.&nbsp;</p></div>
+
+
+<div style="padding-bottom:1em; padding-top:1.5em; font-size:.8em;">
+	<div dojoType="NetAuto.widget.StarRatingUrcResource" commentOn="4f70b18badff4" rating="5" enableRating="true"></div>
+</div>
+
+<div class="social">
+	<div class="goog" style="float:left;">
+		<g:plusone size="medium"></g:plusone>
+	</div>
+	<div class="li" style="float:left; padding: 0 1em 0 0;">
+		<style type="text/css">.IN-widget .right{margin:auto;float:none;}</style>
+		<script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-counter="right"></script>
+	</div>
+	<div class="tweet" style="float:left;">
+		<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	</div>
+	<div class="fb" style="float:left">
+		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.networkautomation.com%2Furc%2Fblog%2Fautomate-web-scraping-a-solution-for-murphys-law-of-data-extraction%2F4f70b18badff4%2F&amp;layout=button_count&amp;show_faces=false&amp;width=200&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:35px;" allowTransparency="true"></iframe>
+	</div>
+</div>
+		
+			<div style="clear:both; height:1px; overflow:hidden;">&nbsp;</div>
+			<div class="commentHeader">
+									<h2 class="whatsBelow" id="comments">Comments <span class="lightGrey">(2)</span></h2>
+							</div>
+							<ol class="commentList">
+					<li id="comments_52296d5562fcd">
+	<div class="details lightGrey">
+		9/5/13		<span class="black">by Anonymous</span>
+				<div class="rating">
+			<div dojoType="NetAuto.widget.StarRatingUrcResource" rating="5" enableRating="false"></div>
+		</div>
+	</div>
+	
+		<div class="commentBody">How about user need to select value from 2 combo box, click the download button to download the file into computer. Since I have 20 variable, 30 date need to enter this way. Could it be automated?</div>
+	
+	</li><li id="comments_522e2e0351cb3">
+	<div class="details lightGrey">
+		9/9/13		<span class="black">by Leonard Amabile</span>
+				<div class="rating">
+			<div dojoType="NetAuto.widget.StarRatingUrcResource" rating="5" enableRating="false"></div>
+		</div>
+	</div>
+	
+		<div class="commentBody">@Anonymous: There are at least 2-3 different ways to automate any given process. If the above scenario does not apply to your process then there are other scenarios that can be applied. Without knowing your entire process, I recommend you contact us directly by phone or email where our ASE and TS departments will be able to assist you more effectively.</div>
+	
+	</li>				</ol>
+			
+			
+	
+	<form id="updateCommentForm" class="urcFormContent">
+					<strong style="display:block; padding-bottom:2em;" class="red">Please <a href="https://www.networkautomation.com/account/login/?customerLogin_referer=%2Furc%2Fblog%2Fautomate-web-scraping-a-solution-for-murphys-law-of-data-extraction%2F4f70b18badff4%2F&loginMsgKey=5984938a1737b">sign in to your account</a> or your comment will be forever stored under &quot;anonymous&quot;.</strong>
+		
+					<input type="hidden" name="resourceId" value="4f70b18badff4" />
+		
+		<label for="ratingStarCnt">Your Rating: </label>
+		<select id="ratingStarCnt" name="ratingStarCnt">
+							<option value="5" selected="selected">5 Stars</option>
+							<option value="4" >4 Stars</option>
+							<option value="3" >3 Stars</option>
+							<option value="2" >2 Stars</option>
+							<option value="1" >1 Star</option>
+					</select>
+
+		<label for="ratingCommentBody">Your Comment:</label>
+		<textarea id="ratingCommentBody" name="commentBody"></textarea>
+
+		<div style="display:none" id="comment-code-snippet-cont">
+			<label for="ratingCommentCode">AML/Code (optional, can be pasted from Task Builder):</label>
+			<textarea id="ratingCommentCode" name="commentCode"></textarea>
+		</div>
+
+		<div style="display:block; padding: 1.5em 0 .5em;" id="comment-code-snippet-toggle">
+			&#9658; <strong class="fauxLink" onclick="(function(){dojo.style('comment-code-snippet-cont', 'display', 'block'); dojo.style('comment-code-snippet-toggle', 'display', 'none');})();">Include Code Snippet</strong>
+		</div>
+
+		<div class="captcha">
+			
+			<div id="comment-captcha-error" style="margin-top:1em; padding: .5em 1em; background:darkred; color:#fff; display:none"><strong>Whoops! Please try that again. Type the letters in reverse.</strong></div>
+
+			<label for="safetydance">
+				Show you're human. Type this in this code: <strong id="comment-captcha-word" class="red" style="letter-spacing:.15em">h7j3p</strong>
+			</label>
+			<input class="stdTxt" type="text" id="safetydance" name="safetydance[input]" value="" spellcheck="false" />
+			<input type="hidden" id="comment-captcha-id" name="safetydance[id]" value="c44bdb4d5ff88e35dff95e8dd7048213" />
+		</div>
+
+		<br />
+		<button type="submit" id="updateCommentBtn">Add Comment</button>
+
+	</form>
+	<script type="text/javascript">
+		dojo.addOnLoad(function(){
+			var cfh = new NetAuto.urc.CommentFormHandler();
+			cfh.connectCommentUpdateForm();
+		});
+	</script>
+
+
+			</div>
+
+	<div id="sidebarContent">
+		<h2>Search the URC</h2>
+		<style type="text/css">/* chrome */ @media screen and (-webkit-min-device-pixel-ratio:0) { #sidebarContent form { padding-top:0; } }</style>
+		<form action="/urc/search/" method="get" style="padding-bottom:2em;">
+			<input id="sidebar_searchBox" name="searchTerm" value="" style="width: 170px" />
+			<input type="submit" value="Go" />
+		</form>
+
+		<h2><a id="feedIco_5984938a19f01" href="/feed/version-history/" class="rssIcon">Subscribe to <em>Version History</em> via RSS</a>
+<div style="display:none;" dojoType="dijit.Tooltip" connectId="feedIco_5984938a19f01" showDelay="200">Subscribe to <em>Version History</em> via RSS</div>Version Watcher</h2>
+				<div class="versionWatcherVersion v14">
+			<div class="vTxt">
+				<span class="v brightGreen">11.0.1</span>
+				<a href="/urc/version-history/Automate-11/11.0.1/14/">changelog</a>
+			</div>
+			<span class="icon"></span>
+		</div>
+				<div class="versionWatcherVersion v13">
+			<div class="vTxt">
+				<span class="v brightGreen">11.0.1</span>
+				<a href="/urc/version-history/Automate-Enterprise-11/11.0.1/13/">changelog</a>
+			</div>
+			<span class="icon"></span>
+		</div>
+				<div style="position:relative; clear:both; text-align:center; top:-.2em; padding-bottom: 2em;">
+			<a href="/urc/version-history/" style="text-decoration:underline;">other versions</a>
+			<a href="/downloads/" style="text-decoration:underline;">downloads</a>
+		</div>
+
+		<h2>Contribute</h2>
+		<div class="fauxButtons">
+			<a href="/urc/sample-tasks/upload-task/" id="contrib_st" class="fauxButton">Upload a Sample Task</a>
+			<a href="http://forums.networkautomation.com/" id="contrib_df" class="fauxButton">Post to our Discussion Forums</a>
+		</div>
+		<div style="clear:both;height:2.75em;"></div>
+
+		
+		<div class="boxType2 blog">
+			<strong class="brightBlue">in our blog:</strong>
+			<a href="/urc/blog/category/ask-an-ase/">Ask an ASE</a>, <a href="/urc/blog/category/automate-news/">AutoMate News</a>, <a href="/urc/blog/category/automation-strategy/">Automation Strategy</a>, <a href="/urc/blog/category/ceo-corner/">CEO Corner</a>, <a href="/urc/blog/category/cloud-automation/">Cloud Automation</a>, <a href="/urc/blog/category/data-extraction/">Data Extraction</a>, <a href="/urc/blog/category/database-automation/">Database Automation</a>, <a href="/urc/blog/category/email-automation/">Email Automation</a>, <a href="/urc/blog/category/enterprise-application-integration/">Enterprise Application Integration</a>, <a href="/urc/blog/category/erp-automation/">ERP Automation</a>, <a href="/urc/blog/category/file-transfer-automation/">File Transfer Automation</a>, <a href="/urc/blog/category/in-the-news/">In the News</a>, <a href="/urc/blog/category/inside-development/">Inside Development</a>, <a href="/urc/blog/category/job-scheduling/">Job Scheduling</a>, <a href="/urc/blog/category/meet-our-team/">Meet Our Team</a>, <a href="/urc/blog/category/partners-in-crime/">Partners in Crime</a>, <a href="/urc/blog/category/report-generation-and-distribution/">Report Generation and Distribution</a>, <a href="/urc/blog/category/robotic-process-automation/">Robotic Process Automation</a>, <a href="/urc/blog/category/screen-scraping/">Screen Scraping</a>, <a href="/urc/blog/category/sharepoint-automation/">SharePoint Automation</a>, <a href="/urc/blog/category/success-story/">Success Story</a>, <a href="/urc/blog/category/task-or-workflow-of-the-month/">Task or Workflow of the Month</a>, <a href="/urc/blog/category/tech-talk/">Tech Talk</a>, <a href="/urc/blog/category/terminal-emulation-automation/">Terminal Emulation Automation</a>, <a href="/urc/blog/category/thread-of-the-month/">Thread of the Month</a>, <a href="/urc/blog/category/user-provisioning/">User Provisioning</a>, <a href="/urc/blog/category/webinar-schedule/">Webinar Schedule</a>		</div>
+
+		<h2 style="margin-bottom:.15em"><a id="feedIco_5984938a205b1" href="/feed/recent-items/" class="rssIcon">Subscribe to <em>Latest Resources</em> via RSS</a>
+<div style="display:none;" dojoType="dijit.Tooltip" connectId="feedIco_5984938a205b1" showDelay="200">Subscribe to <em>Latest Resources</em> via RSS</div>Latest Resources</h2>
+		<div id="toggled_sbarRsrcFltrs" style="float:left; display:none;">
+			<div class="sbFilters">
+				<div class="title">Resources to include:</div>
+				<form action="/urc/sidebar/set-resource-filters/" method="post" id="sidebarSetFiltersForm">
+					<input type="hidden" name="back_to" id="sbarRsrcFltrs_href" value="" />
+					<div class="row">
+						<div class="ele">
+							<input type="checkbox" name="resources[]" value="bp" id="sbarRsrcFltrs_bp" checked="checked" />
+							<label class="inline" for="sbarRsrcFltrs_bp">blog posts</label>
+						</div>
+						<div class="ele">
+							<input type="checkbox" name="resources[]" value="vt" id="sbarRsrcFltrs_vt" checked="checked" />
+							<label class="inline" for="sbarRsrcFltrs_vt">tutorials</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="ele">
+							<input type="checkbox" name="resources[]" value="st" id="sbarRsrcFltrs_st" checked="checked" />
+							<label class="inline" for="sbarRsrcFltrs_st">sample tasks</label>
+						</div>
+						<div class="ele">
+							<input type="checkbox" name="resources[]" value="kb" id="sbarRsrcFltrs_kb" checked="checked" />
+							<label class="inline" for="sbarRsrcFltrs_kb">knowledgebase</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="ele">
+							<input type="checkbox" name="resources[]" value="vh" id="sbarRsrcFltrs_vh" checked="checked" />
+							<label class="inline" for="sbarRsrcFltrs_vh">version history</label>
+						</div>
+						<div class="ele" style="padding-top:.5em;">
+							<span class="blue" style="text-decoration:underline; cursor:pointer" onclick="postSdbrFiltersFrm();">Save Changes</span>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="toggler lightGrey" id="toggler_sbarRsrcFltrs"><span class="showHideNode">show</span> filter options</div>
+
+		<ul class="resourceList">
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/automated-operations-5-benefits-of-automation/5979ff4432ab4/">Automated Operations: 5 Benefits of Automation</a></span>
+			</li>
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/how-to-build-and-scale-a-digital-workforce/59790bd3d3f7c/">How to Build and Scale a Digital Workforce</a></span>
+			</li>
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/hr-onboarding-and-process-automation-made-easy-on-demand-webinar/596d3d8d11ca4/">HR Onboarding and Process Automation Made Easy (On-Demand Webinar)</a></span>
+			</li>
+						<li>
+				<span class="key grey">version<br />history</span>
+				<span class="val"><a class="black" href="/urc/version-history/Automate-Enterprise-11/11.0.1/13/">Version 11.0.1 Released!</a></span>
+			</li>
+						<li>
+				<span class="key grey">version<br />history</span>
+				<span class="val"><a class="black" href="/urc/version-history/Automate-11/11.0.1/14/">Version 11.0.1 Released!</a></span>
+			</li>
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/go-beyond-basic-macros-with-spreadsheet-automation-on-demand-webinar/5952b80f04cdd/">Go Beyond Basic Macros with Spreadsheet Automation (On-Demand Webinar)</a></span>
+			</li>
+						<li>
+				<span class="key grey">video<br />tutorial</span>
+				<span class="val"><a class="black" href="/urc/tutorials/automate-complete-introduction/594ae911f2034/">Automate Complete Introduction</a></span>
+			</li>
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/meet-automate-enterprise-building-enterprise-level-automation-just-got-easier/594929ae4e58a/">Meet Automate Enterprise: Building Enterprise-level Automation Just Got Easier</a></span>
+			</li>
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/maximizing-informatica-scheduling-with-automate-schedule-on-demand-webinar/5942f39e09396/">Maximizing Informatica Scheduling with Automate Schedule (On-Demand Webinar)</a></span>
+			</li>
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/better-batch-job-scheduling-for-sap-tasks-on-demand-webinar/59303a63aa35c/">Better Batch Job Scheduling for SAP Tasks (On-Demand Webinar)</a></span>
+			</li>
+						<li>
+				<span class="key grey">video<br />tutorial</span>
+				<span class="val"><a class="black" href="/urc/tutorials/the-automate-enterprise-ops-console-overview/591c9143cdf14/">The Automate Enterprise Ops Console Overview</a></span>
+			</li>
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/see-the-automate-enterprise-ops-console-in-action-video/591b2897761f1/">See the Automate Enterprise Ops Console in Action (Video)</a></span>
+			</li>
+						<li>
+				<span class="key grey">sample<br />task</span>
+				<span class="val"><a class="black" href="/urc/sample-tasks/json-loop-structure-encode-decode-sample-task/59069cc12f4f7/">JSON Loop Structure, Encode, Decode Sample (task)</a></span>
+			</li>
+						<li>
+				<span class="key grey">sample<br />task</span>
+				<span class="val"><a class="black" href="/urc/sample-tasks/round-up-to-whole-number-using-vb-round-function/58fe7870a5d83/">Round up to Whole Number Using VB Round() Function</a></span>
+			</li>
+						<li>
+				<span class="key grey">blog<br />post</span>
+				<span class="val"><a class="black" href="/urc/blog/bring-your-business-analytics-to-life-with-automate-on-demand-webinar/58f7f1d1d3949/">Bring Your Business Analytics to Life with Automate (On-Demand Webinar)</a></span>
+			</li>
+					</ul>
+
+		<h2><a id="feedIco_5984938a208b5" href=""http://forums.networkautomation.com/forum/rss.cfm" class="rssIcon">Subscribe to <em>Forum Posts</em> via RSS</a>
+<div style="display:none;" dojoType="dijit.Tooltip" connectId="feedIco_5984938a208b5" showDelay="200">Subscribe to <em>Forum Posts</em> via RSS</div><a class="black" href="http://forums.networkautomation.com/">Forum Posts</a></h2>
+		<ul class="resourceList">
+						<li>
+				<span class="key grey">7/27/17 6:35am</span>
+				<span class="val"><a class="black" href="http://forums.networkautomation.com/forum/messageview.cfm?catid=34&amp;threadid=10879&amp;enterthread=y">How to Open MS Access Databse connection</a></span>
+			</li>
+						<li>
+				<span class="key grey">1/24/17 1:23am</span>
+				<span class="val"><a class="black" href="http://forums.networkautomation.com/forum/messageview.cfm?catid=34&amp;threadid=14174&amp;enterthread=y">Replacement of Move Mouse to Object Action with X & Y co-ordination</a></span>
+			</li>
+						<li>
+				<span class="key grey">7/29/16 1:47pm</span>
+				<span class="val"><a class="black" href="http://forums.networkautomation.com/forum/messageview.cfm?catid=34&amp;threadid=14096&amp;enterthread=y">Help with Regex and why it is not finding text</a></span>
+			</li>
+						<li>
+				<span class="key grey">7/21/16 9:02am</span>
+				<span class="val"><a class="black" href="http://forums.networkautomation.com/forum/messageview.cfm?catid=34&amp;threadid=14083&amp;enterthread=y">Task runs successfully however steps do not run</a></span>
+			</li>
+						<li>
+				<span class="key grey">5/2/16 3:54pm</span>
+				<span class="val"><a class="black" href="http://forums.networkautomation.com/forum/messageview.cfm?catid=34&amp;threadid=6313&amp;enterthread=y">FTP Long_list with no files</a></span>
+			</li>
+						<li>
+				<span class="key grey">4/25/16 1:08pm</span>
+				<span class="val"><a class="black" href="http://forums.networkautomation.com/forum/messageview.cfm?catid=34&amp;threadid=13924&amp;enterthread=y">Variable lost it's value once task run is finshed</a></span>
+			</li>
+						<li>
+				<span class="key grey">4/17/16 1:43am</span>
+				<span class="val"><a class="black" href="http://forums.networkautomation.com/forum/messageview.cfm?catid=34&amp;threadid=6689&amp;enterthread=y">Copying Files based on creation date</a></span>
+			</li>
+					</ul>
+	</div>
+</div>
+<div style="clear:both; height:1px; overflow:hidden;">&nbsp;</div>
+
+        <div class="clear"></div>
+		</div>
+		<!-- Footer -->
+		<div id="footer" class="content" style="margin-top:0;">
+			<div id="footer-page" style="width:1200px;margin:0 auto;padding-left:80px;">
+			<div class="page">
+
+			<div class="row-fluid">
+
+				<div class="span3">
+					<div><a id="foot-na-logo" href="/">Network Automation Home Page</a></div>
+					<form method="get" action="/search/">
+						<input type="text" class="na-site-search" id="footSearch" name="q" />
+					</form>
+					<p style="margin-top: 1.8em;" class="grey"><a href="/company/privacy/">Privacy Statement</a> | <a href="/sitemap/">Sitemap</a></p>
+					<p style="color:#fff;"><span id="footCopy">&copy; 2004-2017 Automate, Inc.<br />All worldwide rights reserved</span></p>
+					<ul id="footOffsite">
+							<li>
+								<div id="footLI" style="margin-top:25px;">
+									<a class="linkedin" href="https://www.linkedin.com/company/115439?trk=tyah" target="_blank" style="margin-left:10px;margin-right:25px;"><a class="twitter" href="https://twitter.com/helpsystemsmn" target="_blank"></a></a>
+								</div>
+							</li>
+					</ul>
+				</div>
+
+				<div class="span7">
+
+					<div class="row-fluid">
+
+						<div class="span4">
+							<h3>PRODUCTS</h3>
+							<ul>
+								<li><a href="/automate/automate/">Automate</a></li>
+								<li><a href="/automate/bpa/">Automate Enterprise</a></li>
+								<li><a href="/automate/schedule">Automate Schedule</a></li>
+								<li><a href="/automate/complete">Automate Complete</a></li>
+							</ul>
+							
+							<h3 style="margin-top:35px !important;">SERVICES</h3>
+							<ul>
+								<li><a href="/services/training/">Product Training</a></li>
+								<li><a href="/services/implementation/">Implementation</a></li>
+								<!--<li><a href="/consulting/">Consulting</a></li> -->
+							</ul>
+						</div>
+
+						<div class="span4">
+							<h3>ABOUT</h3>
+							<ul>
+								<li><a href="https://www.helpsystems.com/about">About HelpSystems</a></li>
+								<li><a href="https://www.helpsystems.com/about/newsroom">Newsroom</a></li>
+								<li><a href="https://www.helpsystems.com/about/careers">Careers</a></li>
+								<li><a href="https://www.helpsystems.com/about/culture-and-benefits">Culture &amp; Benefits</a></li>
+								<li><a href="https://www.helpsystems.com/partner-program">Partners</a></li>
+								<li><a href="https://www.helpsystems.com/about/events">Events</a></li>
+								<li><a href="https://www.helpsystems.com/about/our-leadership-team">Our Team</a></li>
+							</ul>
+						</div>
+
+						<div class="span4">
+							<h3>LEARN</h3>
+							<ul>
+								<li><a href="/urc/blog/">Blog</a></li>
+								<li><a href="/news/webinar/">Webinars</a></li>
+								<li><a href="/automate/demo-videos/">Videos</a></li>
+								<li><a href="/news/literature/">Guides &amp; White Papers</a></li>
+								<li><a href="/urc/">User Resource Center</a></li>
+								<li><a href="/news/faq/">FAQ</a></li>
+							</ul>
+							
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="span2">
+					<h3>BLOG</h3>
+						<ul>
+							<li><a href="/urc/blog/">Automate Blog</a></li>
+							<li><a href="https://www.helpsystems.com/blog">HelpSystems Blog</a></li>
+						</ul>
+						<h3 style="margin-top:35px !important;">SUPPORT</h3>
+						<ul>
+							<li><a href="/urc/knowledgebase/">Knowledgebase</a></li>
+							<li><a href="http://forums.networkautomation.com/forum/index.cfm?forumid=1">Forum</a></li>
+							<li><a href="/urc/version-history/">Version History</a></li>
+							<li><a href="/company/contact/">Contact Us</a></li>
+						</ul>
+				</div>
+			  </div>
+			</div>
+
+            <div class="clear"></div>
+			</div>
+		</div>
+
+	
+
+
+	<div class="navbone black navbone-fixed-top">
+		<div class="navbone-inner">
+			<div class="container-fluid page-cont" id="nav-fluid-cont">
+				<div class="row-fluid">
+					<div class="span3">
+						<a id="logo" href="/">Network Automation Software Home</a>
+					</div>
+					<div class="span9" id="navbar-nav-cont">
+
+						<ul class="nav mainurc">
+    <li>
+        <a id="menu-products" class="hilite" href="http://www.networkautomation.com/automate/">Products</a>
+        <ul>
+            <li>
+                <a id="menu-productsCOM" href="http://www.networkautomation.com/automate/complete/">Automate Complete</a>
+            </li>
+            <li>
+                <a id="menu-productsAM" href="http://www.networkautomation.com/automate/automate/">Automate</a>
+            </li>
+            <li>
+                <a id="menu-productsBPA" href="http://www.networkautomation.com/automate/bpa/">Automate Enterprise</a>
+            </li>
+            <li>
+                <a id="menu-productsAS" href="http://www.networkautomation.com/automate/schedule/">Automate Schedule</a>
+            </li>
+            <li>
+                <a id="menu-productsDemoVids" href="http://www.networkautomation.com/automate/demo-videos/">Product Videos</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a id="menu-useCases" class="hilite" href="http://www.networkautomation.com/automate/business-processes/">Use Cases</a>
+        <ul>
+            <li>
+                <a id="menu-useSolutions" href="http://www.networkautomation.com/automate/business-processes/">Solutions</a>
+            </li>
+            <li>
+                <a id="menu-useCaseStudies" href="http://www.networkautomation.com/news/case-studies/">Customer Stories</a>
+            </li>
+            <li>
+                <a id="menu-useSampTasks" href="http://www.networkautomation.com/urc/sample-tasks/">Sample Workflows</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a id="menu-solutions" class="hilite" href="http://www.networkautomation.com/automate/business-processes/">Solutions</a>
+        <ul>
+            <li>
+                <a id="menu-sol-web-browser-task-automation" href="http://www.networkautomation.com/solutions/web-browser-task-automation/">Web Browser Automation</a>
+            </li>
+            <li>
+                <a id="menu-sol-report-gen" href="http://www.networkautomation.com/solutions/automated-report-generation-and-distribution/">Report Generation</a>
+            </li>
+            <li>
+                <a id="menu-sol-data-extraction" href="http://www.networkautomation.com/solutions/automate-data-extraction/">Data Extraction</a>
+            </li>
+            <li>
+                <a id="menu-sol-file-transfer-automation" href="http://www.networkautomation.com/solutions/file-transfer-automation/">File Transfer</a>
+            </li>
+            <li>
+                <a id="menu-sol-user-provisioning" href="http://www.networkautomation.com/solutions/automated-user-provisioning/">User Provisioning</a>
+            </li>
+            <li>
+                <a id="menu-sol-all" href="http://www.networkautomation.com/automate/business-processes/">More Solutions</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a id="menu-news" class="menu-learn" href="http://www.networkautomation.com/news/">Learn</a>
+        <ul>
+            <li>
+                <a id="menu-newsBlog" class="hilite" href="http://www.networkautomation.com/urc/blog/">Blog</a>
+            </li>
+            <li>
+                <a id="menu-newsWebinar" href="http://www.networkautomation.com/news/webinar/">Webinars</a>
+            </li>
+            <li>
+                <a id="menu-newsDemoVids" href="http://www.networkautomation.com/automate/demo-videos/">Videos</a>
+            </li>
+            <li>
+                <a id="menu-productsLit" href="http://www.networkautomation.com/news/literature/">Guides &amp; White Papers</a>
+            </li>
+            <li>
+                <a id="menu-newsUrcSubHome" href="http://www.networkautomation.com/urc/">User Resource Center</a>
+            </li>
+            <li>
+                <a id="menu-newsFaq" href="http://www.networkautomation.com/news/faq/">FAQ</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a id="menu-services" class="hilite" href="http://www.networkautomation.com/services/">Services</a>
+        <ul>
+            <li>
+                <a id="menu-servTraining" href="http://www.networkautomation.com/services/training/">AutoMate Training</a>
+            </li>
+            <li>
+                <a id="menu-servImple" href="http://www.networkautomation.com/services/implementation/">AutoMate Implementation</a>
+            </li>
+            <li>
+                <a id="menu-servAMA" href="http://www.networkautomation.com/services/automation-audit/">Automation Audit</a>
+            </li>
+            <li>
+                <a id="menu-servAMHC" href="http://www.networkautomation.com/services/health-check/">Automation Health Check</a>
+            </li>
+            <li>
+                <a id="menu-servMigration" href="http://www.networkautomation.com/services/migration/">Version Migration</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a id="menu-purHome" href="https://www.networkautomation.com/order/">Buy</a>
+        <ul>
+            <li>
+                <a id="menu-purLics" class="hilite" href="https://www.networkautomation.com/order/">Licenses</a>
+            </li>
+            <li>
+                <a href="https://www.networkautomation.com/order/new_order.php?goto=installation">Maintenance Renewals</a>
+            </li>
+            <li>
+                <a href="https://www.networkautomation.com/order/new_order.php?goto=train">Services</a>
+            </li>
+            <li>
+                <a href="http://www.networkautomation.com/partner/find-partner/">via Reseller</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a id="menu-urc" href="http://www.networkautomation.com/urc/">Support</a>
+        <ul>
+            <li>
+                <a id="menu-urcKB" href="http://www.networkautomation.com/urc/knowledgebase/">Knowledgebase</a>
+            </li>
+            <li>
+                <a id="menu-forums" href="http://forums.networkautomation.com/">Forum</a>
+            </li>
+            <li>
+                <a id="menu-supportVh" href="http://www.networkautomation.com/urc/version-history/">Version History</a>
+            </li>
+            <li>
+                <a id="menu-supportContact" href="http://www.networkautomation.com/company/contact">Contact Us</a>
+            </li>
+            <li>
+                <a class="hilite" href="http://www.networkautomation.com/urc/support/">Support Tickets</a>
+            </li>
+            <li>
+                <a id="menu-urcTutorials" href="http://www.networkautomation.com/urc/tutorials/">Tutorials</a>
+            </li>
+            <li>
+                <a id="menu-urcSampTasks" href="http://www.networkautomation.com/urc/sample-tasks/">Sample Tasks &amp; Workflows</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a id="menu-getStarted" href="https://www.networkautomation.com/order/">Get Started</a>
+        <ul>
+            <li>
+                <a id="menu-purTrial" class="hilite" href="https://www.networkautomation.com/downloads/">Free Trial</a>
+            </li>
+            <li>
+                <a href="https://www.networkautomation.com/offers/quote-request.html">Quote</a>
+            </li>
+            <li>
+                <a href="https://www.networkautomation.com/offers/demo-request.html">Demo</a>
+            </li>
+            <li>
+                <a href="/services/">Services</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a id="menu-main-blog" href="http://www.networkautomation.com/urc/blog/">Blog</a>
+    </li>
+</ul>
+						<div id="alt-nav">
+							<ul class="nav">
+								<li class="emphasis">
+																			<a href="/downloads/">Free Trial</a>
+																	</li>
+								<li>
+
+									
+										<a href="/account/" rel="nofollow">Login</a>
+
+																	</li>
+								<li>
+									<a href="/company/contact/">Contact Us<!--<span class="lightGrey arw">&#9660</span>--></a>
+									<!--<ul>
+										<li><span class="faux-a pq">Questions? (888) 786-4796</span></li>
+										<li><a href="mailto:&#97;&#117;&#116;&#111;&#109;&#97;&#116;&#101;&#46;&#115;&#97;&#108;&#101;&#115;&#64;&#104;&#101;&#108;&#112;&#115;&#121;&#115;&#116;&#101;&#109;&#115;&#46;&#99;&#111;&#109;">Email Us</a></li>
+										<li><a href="/urc/support/">Online Support</a></li>
+										<li><a href="/company/contact/">All Contact Information</a></li>
+									</ul>-->
+								</li>
+								<li class="search">
+									<a>Search <span class="lightGrey arw">&#9660</span></a>
+									<form action="/search/" method="get">
+										<input type="text" class="na-site-search" name="q" accesskey="s" />
+									</form>
+								</li>
+							</ul>
+
+							<form id="menu-search-form" action="/search/" method="get">
+								<input type="text" class="na-site-search" name="q" accesskey="s" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-554ab84b167c5d5a" async="async"></script>
+
+<!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+	fbq('init', '471877413012339');
+	fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+			   src="https://www.facebook.com/tr?id=471877413012339&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<!-- LiveChat -->
+<script type="text/javascript">
+var __lc = {};
+__lc.license = 1053920;
+__lc.group = 61;
+(function() {
+                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+<!-- End LiveChat -->
+<!-- ClickDimensions 2015 Production -->
+<script type="text/javascript"> 
+   var cdJsHost = (("https:" == document.location.protocol) ? "https://" : "http://"); 
+   document.write(unescape("%3Cscript src='" + cdJsHost + "analytics.clickdimensions.com/ts.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+   var cdAnalytics = new clickdimensions.Analytics('analytics.clickdimensions.com'); 
+   cdAnalytics.setAccountKey('aQ9dAsvkYiU3RaILQwwzbg'); 
+   cdAnalytics.setDomain('helpsystems.com'); 
+   cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+   cdAnalytics.trackPage(); 
+</script>
+<!-- End ClickDimensions 2015 -->
+<!-- Retains URL Parameters cross-site to ensure correct campaign attribution -->
+<script type="text/javascript" src="/js/url-parameter-pass-na.js"></script>
+<!-- End URL Parameter retention -->		<script src="//vjs.zencdn.net/5.0.0/video.js"></script>
+</body>
+</html>

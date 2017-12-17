@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>List of model checking tools - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"List_of_model_checking_tools","wgTitle":"List of model checking tools","wgCurRevisionId":787193535,"wgRevisionId":787193535,"wgArticleId":24594156,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Formal methods tools","Model checkers","Lists of software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"List_of_model_checking_tools","wgRelevantArticleId":24594156,"wgRequestId":"WYJ-oApAME0AAJMSsLMAAAAM","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":false,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":false,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q6628882","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["preload","preloadparams","preloadtitle","undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.30.0-wmf.11"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/List_of_model_checking_tools"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/List_of_model_checking_tools"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-List_of_model_checking_tools rootpage-List_of_model_checking_tools skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">List of model checking tools</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>This article <b>lists <a href="/wiki/Model_checking" title="Model checking">model checking</a> <a href="/wiki/Tools" class="mw-redirect" title="Tools">tools</a></b> classified by some interesting properties. Some articles about: history<sup id="cite_ref-history_1-0" class="reference"><a href="#cite_note-history-1">[1]</a></sup> and introduction<sup id="cite_ref-intro_2-0" class="reference"><a href="#cite_note-intro-2">[2]</a></sup> to Model Checking. There are some books<sup id="cite_ref-Book_1_3-0" class="reference"><a href="#cite_note-Book_1-3">[3]</a></sup> that deal with model checking techniques.</p>
+<p></p>
+<div id="toc" class="toc">
+<div class="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Comparison_of_some_model_checking_tools"><span class="tocnumber">1</span> <span class="toctext">Comparison of some model checking tools</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Modelling_languages"><span class="tocnumber">2</span> <span class="toctext">Modelling languages</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Properties_language"><span class="tocnumber">3</span> <span class="toctext">Properties language</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Abbreviations"><span class="tocnumber">4</span> <span class="toctext">Abbreviations</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Comparison_of_some_model_checking_tools">Comparison of some model checking tools</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit&amp;section=1" title="Edit section: Comparison of some model checking tools">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable" style="text-align:center;">
+<tr>
+<th>Name</th>
+<th colspan="3">Model Checking</th>
+<th colspan="2">Equivalence checking</th>
+<th colspan="3">GUI</th>
+<th colspan="3">Availability</th>
+</tr>
+<tr style="font-size:70%">
+<th></th>
+<th>Plain, Probabilistic, Stochastic, ...</th>
+<th>Modelling language</th>
+<th>Properties language</th>
+<th>Supported equivalences</th>
+<th>Counter example generation</th>
+<th>&#160;&#160;GUI&#160;&#160;</th>
+<th>Graphical Specification</th>
+<th>Counter example visualization</th>
+<th>Software license</th>
+<th>Programming language used</th>
+<th>Platform / OS</th>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://sylvain.berbiqui.org/apmc">APMC</a></td>
+<td>Approximate Probabilistic</td>
+<td><a href="/w/index.php?title=Reactive_modules&amp;action=edit&amp;redlink=1" class="new" title="Reactive modules (page does not exist)">Reactive modules</a></td>
+<td><a href="/wiki/Probabilistic_CTL" title="Probabilistic CTL">PCTL</a>, <a href="/w/index.php?title=Probabilistic_LTL&amp;action=edit&amp;redlink=1" class="new" title="Probabilistic LTL (page does not exist)">PLTL</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free"><a href="#Abbreviations">FUSC</a></td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td>Unix &amp; related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://altarica.labri.fr/">ARC</a></td>
+<td>Plain</td>
+<td><a href="/w/index.php?title=AltaRica&amp;action=edit&amp;redlink=1" class="new" title="AltaRica (page does not exist)">AltaRica</a></td>
+<td><a href="/wiki/%CE%9C-calculus" class="mw-redirect" title="Μ-calculus">μ-calculus</a>, <a href="/wiki/CTL_Star" class="mw-redirect" title="CTL Star">CTL*</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">FUSC</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">ANSI C</a></td>
+<td>Unix &amp; related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://bandera.projects.cis.ksu.edu/">BANDERA</a></td>
+<td>Code analysis</td>
+<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a>, <a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a href="/wiki/BLAST_model_checker" title="BLAST model checker">BLAST</a></td>
+<td>Code analysis</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td><a href="/w/index.php?title=Monitor_automata&amp;action=edit&amp;redlink=1" class="new" title="Monitor automata (page does not exist)">Monitor automata</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/OCaml" title="OCaml">OCaml</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.kenmcmil.com/smv.html">CADENCE SMV</a></td>
+<td>Plain</td>
+<td><a href="/w/index.php?title=Cadence_SMV_input_language&amp;action=edit&amp;redlink=1" class="new" title="Cadence SMV input language (page does not exist)">Cadence SMV</a>, <a href="/w/index.php?title=SMV_input_language&amp;action=edit&amp;redlink=1" class="new" title="SMV input language (page does not exist)">SMV</a>, <a href="/wiki/Verilog" title="Verilog">Verilog</a></td>
+<td><a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a>, <a href="/wiki/Linear_Temporal_Logic" class="mw-redirect" title="Linear Temporal Logic">LTL</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">FUSC</td>
+<td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">?</td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a href="/wiki/CADP" class="mw-redirect" title="CADP">CADP</a></td>
+<td>Probabilistic</td>
+<td><a href="/wiki/Language_Of_Temporal_Ordering_Specification" title="Language Of Temporal Ordering Specification">LOTOS</a>, FSP, LOTOS NT</td>
+<td><a href="/w/index.php?title=Alternation_Free_Modal_mu-Calculus&amp;action=edit&amp;redlink=1" class="new" title="Alternation Free Modal mu-Calculus (page does not exist)">AFMC</a></td>
+<td>SB, WB, BB, OE, STE, WTE, SE, tau*E</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">FUSC</td>
+<td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">?</td>
+<td>Mac OS, Linux, Solaris, Windows</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.cprover.org/cbmc/">CBMC</a></td>
+<td>Code analysis</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td><a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://cpachecker.sosy-lab.org/">CPAchecker</a></td>
+<td>Code analysis</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td><a href="/w/index.php?title=Monitor_automata&amp;action=edit&amp;redlink=1" class="new" title="Monitor automata (page does not exist)">Monitor automata</a></td>
+<td style="font-size:70%" align="left"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td>Java</td>
+<td>Any</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.cs.sunysb.edu/~cwb/">CWB-NC</a></td>
+<td>Plain and Timed</td>
+<td><a href="/wiki/Calculus_of_communicating_systems" title="Calculus of communicating systems">CCS</a>, <a href="/wiki/Communicating_sequential_processes" title="Communicating sequential processes">CSP</a>, <a href="/wiki/Language_Of_Temporal_Ordering_Specification" title="Language Of Temporal Ordering Specification">LOTOS</a>, <a href="/w/index.php?title=Timed_CCS&amp;action=edit&amp;redlink=1" class="new" title="Timed CCS (page does not exist)">TCCS</a></td>
+<td><a href="/w/index.php?title=Alternation_Free_Modal_mu-Calculus&amp;action=edit&amp;redlink=1" class="new" title="Alternation Free Modal mu-Calculus (page does not exist)">AFMC</a>, <a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a>, <a href="/w/index.php?title=Generalized_Computation_Tree_Logic&amp;action=edit&amp;redlink=1" class="new" title="Generalized Computation Tree Logic (page does not exist)">GCTL</a></td>
+<td>SB, WB, me, ME</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">FUSC</td>
+<td><a href="/wiki/Standard_ML" title="Standard ML">SML</a></td>
+<td>Windows and Unix related, Mac OS</td>
+</tr>
+<tr>
+<td>DBRover</td>
+<td>Timed</td>
+<td><a href="/wiki/Ada_(programming_language)" title="Ada (programming language)">Ada</a>, <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="/wiki/VHDL" title="VHDL">VHDL</a>, <a href="/wiki/Verilog" title="Verilog">Verilog</a></td>
+<td><a href="/wiki/Linear_Temporal_Logic" class="mw-redirect" title="Linear Temporal Logic">LTL</a>, <a href="/w/index.php?title=Metric_Temporal_Logic&amp;action=edit&amp;redlink=1" class="new" title="Metric Temporal Logic (page does not exist)">MTL</a></td>
+<td></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #F9D; color: black; vertical-align: middle; text-align: center;" class="nonfree table-nonfree">Non-free Commercial use only</td>
+<td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">?</td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://divine.fi.muni.cz/">DIVINE</a></td>
+<td>Plain</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a> (via <a href="/wiki/LLVM" title="LLVM">LLVM</a> bitcode), <a href="/w/index.php?title=DVE_input_language&amp;action=edit&amp;redlink=1" class="new" title="DVE input language (page does not exist)">DVE input language</a>, <a href="/wiki/Timed_automaton" title="Timed automaton">Timed automata</a></td>
+<td><a href="/wiki/Linear_Temporal_Logic" class="mw-redirect" title="Linear Temporal Logic">LTL</a>, <a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a>, <a href="/wiki/Memory_safety" title="Memory safety">Memory safety</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Unix and related</td>
+</tr>
+<tr>
+<td><a href="/wiki/DREAM_(software)" title="DREAM (software)">DREAM</a></td>
+<td>Real-time</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Timed_automaton" title="Timed automaton">Timed automata</a></td>
+<td><a href="/w/index.php?title=Monitor_automata&amp;action=edit&amp;redlink=1" class="new" title="Monitor automata (page does not exist)">Monitor automata</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://dsverifier.org/">DSVerifier</a></td>
+<td>Digital system analysis</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td><a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.cprover.org/ebmc/">EBMC</a></td>
+<td>Model checking</td>
+<td><a href="/w/index.php?title=SMV_input_language&amp;action=edit&amp;redlink=1" class="new" title="SMV input language (page does not exist)">SMV</a>, <a href="/wiki/Verilog" title="Verilog">Verilog</a></td>
+<td><a href="/wiki/SystemVerilog#Assertions" title="SystemVerilog">SVA</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.lfcs.ed.ac.uk/cwb">Edinburgh CWB</a></td>
+<td>Plain</td>
+<td><a href="/wiki/Calculus_of_Communicating_Systems" class="mw-redirect" title="Calculus of Communicating Systems">CCS</a>, <a href="/w/index.php?title=TCCS&amp;action=edit&amp;redlink=1" class="new" title="TCCS (page does not exist)">TCCS</a>, <a href="/w/index.php?title=Synchronous_calculus_of_communicating_systems&amp;action=edit&amp;redlink=1" class="new" title="Synchronous calculus of communicating systems (page does not exist)">SCCS</a></td>
+<td><a href="/wiki/%CE%9C-calculus" class="mw-redirect" title="Μ-calculus">μ-calculus</a></td>
+<td>SB, WB, BB, me, ME, OE</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">FUSC</td>
+<td><a href="/wiki/Standard_ML" title="Standard ML">SML</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.btc-es.de/index.php?lang=2&amp;idcatside=5">EmbeddedValidator</a></td>
+<td>Hybrid</td>
+<td><a href="/w/index.php?title=Simulink/Stateflow/TargetLink/C&amp;action=edit&amp;redlink=1" class="new" title="Simulink/Stateflow/TargetLink/C (page does not exist)">Simulink/Stateflow/TargetLink/C</a></td>
+<td><a href="/w/index.php?title=Monitor_automata&amp;action=edit&amp;redlink=1" class="new" title="Monitor automata (page does not exist)">Monitor automata</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #F9D; color: black; vertical-align: middle; text-align: center;" class="nonfree table-nonfree">Non-free Commercial use only</td>
+<td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">?</td>
+<td>Windows</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://esbmc.org/">ESBMC</a></td>
+<td>Code analysis</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td><a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://fldit-www.cs.uni-dortmund.de/~peter/ExpNeu/Welcome.html">Expander2</a></td>
+<td>Hybrid</td>
+<td></td>
+<td><a href="/w/index.php?title=Alternation_Free_Modal_mu-Calculus&amp;action=edit&amp;redlink=1" class="new" title="Alternation Free Modal mu-Calculus (page does not exist)">AFMC</a>, <a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a></td>
+<td>SB, OE</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/O%27Haskell" class="mw-redirect" title="O'Haskell">O'Haskell</a></td>
+<td>Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www-sop.inria.fr/meije/verification/">Fc2Tools</a></td>
+<td>Plain</td>
+<td><a href="/w/index.php?title=Common_Format_V2&amp;action=edit&amp;redlink=1" class="new" title="Common Format V2 (page does not exist)">FC2</a></td>
+<td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">?</td>
+<td>SB, WB, BB</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">?</td>
+<td>Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://jabc.cs.tu-dortmund.de/modelchecking/">GEAR</a></td>
+<td>Plain</td>
+<td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">?</td>
+<td><a href="/w/index.php?title=Alternation_Free_Modal_mu-Calculus&amp;action=edit&amp;redlink=1" class="new" title="Alternation Free Modal mu-Calculus (page does not exist)">AFMC</a>, <a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a>, <a href="/wiki/%CE%9C-calculus" class="mw-redirect" title="Μ-calculus">μ-calculus</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="https://github.com/tomahawkins/improve/wiki/ImProve">ImProve</a></td>
+<td>Plain</td>
+<td><a href="/wiki/Haskell_(programming_language)" title="Haskell (programming language)">Haskell</a></td>
+<td><a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/Haskell_(programming_language)" title="Haskell (programming language)">Haskell</a></td>
+<td>Linux, Windows, Mac-OS</td>
+</tr>
+<tr>
+<td><a href="/wiki/Java_Pathfinder" title="Java Pathfinder">Java Pathfinder</a></td>
+<td>Plain and timed</td>
+<td>Java</td>
+<td>unknown</td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td><a href="/w/index.php?title=Open_Source_Agreement&amp;action=edit&amp;redlink=1" class="new" title="Open Source Agreement (page does not exist)">NOSA</a></td>
+<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Mac OS, Windows, Linux</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://llbmc.org/">LLBMC</a></td>
+<td>Code analysis</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a>, all languages supported by <a href="/wiki/LLVM" title="LLVM">LLVM</a></td>
+<td><a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">FUSC</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.doc.ic.ac.uk/~jnm/book/">LTSA</a></td>
+<td>Plain</td>
+<td><a href="/w/index.php?title=Finite_State_Process&amp;action=edit&amp;redlink=1" class="new" title="Finite State Process (page does not exist)">FSP</a></td>
+<td><a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://fmt.cs.utwente.nl/tools/ltsmin/">LTSmin</a></td>
+<td>Plain, Real-time</td>
+<td><a href="/wiki/Promela" title="Promela">Promela</a>, <a href="/w/index.php?title=%CE%9CCRL&amp;action=edit&amp;redlink=1" class="new" title="ΜCRL (page does not exist)">μCRL</a>, <a href="/wiki/MCRL2" title="MCRL2">mCRL2</a>, <a href="/w/index.php?title=DVE_Input_Language&amp;action=edit&amp;redlink=1" class="new" title="DVE Input Language (page does not exist)">DVE Input Language</a></td>
+<td><a href="/wiki/%CE%9C-calculus" class="mw-redirect" title="Μ-calculus">μ-calculus</a>, <a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a>, <a href="/wiki/CTL_Star" class="mw-redirect" title="CTL Star">CTL*</a></td>
+<td>SB, BB</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Unix, Mac OS X, Windows</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://vas.doc.ic.ac.uk/software/mcmas/">MCMAS</a></td>
+<td>Plain, Epistemic</td>
+<td><a href="/w/index.php?title=Interpreted_Systems_Programming_Language&amp;action=edit&amp;redlink=1" class="new" title="Interpreted Systems Programming Language (page does not exist)">ISPL</a></td>
+<td>CTL, CTLK</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Unix, Windows, Mac-OS</td>
+</tr>
+<tr>
+<td><a href="/wiki/MCRL2" title="MCRL2">mCRL2</a></td>
+<td>Plain, Real-time</td>
+<td><a href="/wiki/MCRL2" title="MCRL2">mCRL2</a></td>
+<td><a href="/wiki/Modal_%CE%BC-calculus" title="Modal μ-calculus">μ-calculus</a></td>
+<td>SB, BB, t*E, STE, WTE</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Mac OS, Linux, Solaris, Windows</td>
+</tr>
+<tr>
+<td><a href="/wiki/Markov_Reward_Model_Checker_(MRMC)" class="mw-redirect" title="Markov Reward Model Checker (MRMC)">MRMC</a></td>
+<td>Real-time, Probabilistic</td>
+<td><a href="/w/index.php?title=Plain_MC&amp;action=edit&amp;redlink=1" class="new" title="Plain MC (page does not exist)">Plain MC</a></td>
+<td><a href="/w/index.php?title=Continuous_Stochastic_Logic&amp;action=edit&amp;redlink=1" class="new" title="Continuous Stochastic Logic (page does not exist)">CSL</a>, <a href="/w/index.php?title=CSRL&amp;action=edit&amp;redlink=1" class="new" title="CSRL (page does not exist)">CSRL</a>, <a href="/wiki/PCTL" class="mw-redirect" title="PCTL">PCTL</a>, <a href="/w/index.php?title=PRCTL&amp;action=edit&amp;redlink=1" class="new" title="PRCTL (page does not exist)">PRCTL</a></td>
+<td>SB</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td>Windows, Linux, Mac OS</td>
+</tr>
+<tr>
+<td><a href="/wiki/NuSMV" title="NuSMV">NuSMV</a></td>
+<td>Plain</td>
+<td><a href="/wiki/Symbolic_model_verification" class="mw-redirect" title="Symbolic model verification">SMV</a></td>
+<td><a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a>, <a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a>, <a href="/wiki/Property_Specification_Language" title="Property Specification Language">PSL</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a></td>
+<td>Unix, Windows, Mac OS X</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/redlib/">ompca, OpenMP C Analysis</a></td>
+<td>software symbolic simulation with API control</td>
+<td>C/C++ programs with OpenMP directives</td>
+<td>logic predicates or flexible procedures through API</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Ubuntu Linux, Windows version available soon</td>
+</tr>
+<tr>
+<td><a href="/wiki/PAT_(model_checker)" title="PAT (model checker)">PAT</a></td>
+<td>Plain,Real-time,Probabilistic</td>
+<td><a href="/wiki/Symbolic_model_verification" class="mw-redirect" title="Symbolic model verification">CSP#</a>, <a href="/w/index.php?title=Timed_CSP&amp;action=edit&amp;redlink=1" class="new" title="Timed CSP (page does not exist)">Timed CSP</a>, <a href="/w/index.php?title=Probabilistic_CSP&amp;action=edit&amp;redlink=1" class="new" title="Probabilistic CSP (page does not exist)">Probabilistic CSP</a></td>
+<td><a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a>, <a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a></td>
+<td>Windows, other OS with Mono</td>
+</tr>
+<tr>
+<td><a href="/wiki/PRISM_(model_checker)" class="mw-redirect" title="PRISM (model checker)">PRISM</a></td>
+<td>Probabilistic</td>
+<td><a href="/wiki/PEPA" title="PEPA">PEPA</a>, <a href="/w/index.php?title=PRISM_language&amp;action=edit&amp;redlink=1" class="new" title="PRISM language (page does not exist)">PRISM language</a>, <a href="/w/index.php?title=Plain_MC&amp;action=edit&amp;redlink=1" class="new" title="Plain MC (page does not exist)">Plain MC</a></td>
+<td><a href="/w/index.php?title=Continuous_Stochastic_Logic&amp;action=edit&amp;redlink=1" class="new" title="Continuous Stochastic Logic (page does not exist)">CSL</a>, <a href="/w/index.php?title=Probabilistic_LTL&amp;action=edit&amp;redlink=1" class="new" title="Probabilistic LTL (page does not exist)">PLTL</a>, <a href="/wiki/PCTL" class="mw-redirect" title="PCTL">PCTL</a></td>
+<td></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Windows, Linux, Mac OS</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www3.hhu.de/stups/prob/">ProB</a></td>
+<td>Plain</td>
+<td><a href="/wiki/B-Method" title="B-Method">B-Method</a>, <a href="/wiki/Event-B" class="mw-redirect" title="Event-B">Event-B</a>, <a href="/wiki/Z_notation" title="Z notation">Z</a>, <a href="/wiki/TLA%2B" title="TLA+">TLA+</a>, <a href="/wiki/Communicating_sequential_processes" title="Communicating sequential processes">CSP</a></td>
+<td><a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a>, <a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a>, <a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/Prolog" title="Prolog">Prolog</a>, <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="/wiki/Tcl/Tk" class="mw-redirect" title="Tcl/Tk">Tcl/Tk</a></td>
+<td>Linux, Mac OS, Windows</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="https://project.inria.fr/pscv/">PSCV</a></td>
+<td>Probabilistic</td>
+<td><a href="/wiki/SystemC" title="SystemC">SystemC</a></td>
+<td><a href="/w/index.php?title=Probabilistic_LTL&amp;action=edit&amp;redlink=1" class="new" title="Probabilistic LTL (page does not exist)">PLTL</a></td>
+<td></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Windows, Linux, Mac OS</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.reactive-systems.com/">Reactis Tester</a></td>
+<td>Hybrid</td>
+<td><a href="/wiki/Stateflow" title="Stateflow">Simulink/Stateflow</a></td>
+<td style="background: #ececec; color: #2C2C2C; font-size: smaller; vertical-align: middle; text-align: center;" class="unknown table-unknown">?</td>
+<td></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #F9D; color: black; vertical-align: middle; text-align: center;" class="nonfree table-nonfree">Non-free Commercial use only</td>
+<td><a href="/wiki/Standard_ML" title="Standard ML">SML</a></td>
+<td>Windows, Linux</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/redlib/">RED</a></td>
+<td>dense-time, linear hybrid, fully symbolic</td>
+<td>communicating timed automata (CTA), linear-hybrid automata (LHA)</td>
+<td><a href="/w/index.php?title=TCTL_with_fairness_assumptions,_CTA_with_fairness_assumptions&amp;action=edit&amp;redlink=1" class="new" title="TCTL with fairness assumptions, CTA with fairness assumptions (page does not exist)">TCTL with fairness assumptions, CTA with fairness assumptions</a></td>
+<td><a href="/w/index.php?title=Timed_simuilation,_fair_simulation&amp;action=edit&amp;redlink=1" class="new" title="Timed simuilation, fair simulation (page does not exist)">timed simuilation, fair simulation</a></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C/C%2B%2B" class="mw-redirect" title="C/C++">C/C++</a></td>
+<td>Ubuntu Linux</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://sal.csl.sri.com/">SAL</a></td>
+<td>symbolic, bounded, and infinite</td>
+<td>SAL</td>
+<td>LTL</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td>GPL</td>
+<td><a rel="nofollow" class="external text" href="http://www-sop.inria.fr/mimosa/fp/Bigloo/">Scheme</a></td>
+<td>Linux, Mac OS X, Windows (Cygwin)</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.cprover.org/satabs/">SATABS</a></td>
+<td>Code analysis</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td><a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.ai-lab.it/satmc/">SATMC</a></td>
+<td>Plain, bounded</td>
+<td><a href="/w/index.php?title=ASLan&amp;action=edit&amp;redlink=1" class="new" title="ASLan (page does not exist)">ASLan</a>, <a href="/w/index.php?title=ASLan%2B%2B&amp;action=edit&amp;redlink=1" class="new" title="ASLan++ (page does not exist)">ASLan++</a></td>
+<td><a href="/wiki/LTL" class="mw-redirect" title="LTL">LTL</a>, <a href="/wiki/Assertion_(software_development)" title="Assertion (software development)">Assertions</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/Prolog" title="Prolog">Prolog</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://ctp.di.fct.unl.pt/SLMC/">SLMC</a></td>
+<td>Plain</td>
+<td><a href="/wiki/Pi-calculus" class="mw-redirect" title="Pi-calculus">pi-calculus</a></td>
+<td><a href="/w/index.php?title=MPWL&amp;action=edit&amp;redlink=1" class="new" title="MPWL (page does not exist)">CCL</a></td>
+<td style="font-size:70%; text-align:left;"></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/OCaml" title="OCaml">OCaml</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a href="/wiki/SPIN_model_checker" title="SPIN model checker">SPIN</a></td>
+<td>Plain</td>
+<td><a href="/wiki/Promela" title="Promela">Promela</a></td>
+<td><a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">FUSC</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Windows and Unix related</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://spot.lip6.fr/">Spot</a></td>
+<td>Plain</td>
+<td><a href="/wiki/Petri_nets" class="mw-redirect" title="Petri nets">Petri nets</a>, <a href="/w/index.php?title=DVE_Input_Language&amp;action=edit&amp;redlink=1" class="new" title="DVE Input Language (page does not exist)">DVE Input Language</a></td>
+<td><a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a>, <a href="/wiki/Property_Specification_Language" title="Property Specification Language">PSL</a> subset</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a></td>
+<td>Unix &amp; related</td>
+</tr>
+<tr>
+<td><a href="/wiki/TAPAAL_Model_Checker" title="TAPAAL Model Checker">TAPAAL</a></td>
+<td>Real-time</td>
+<td><a href="/w/index.php?title=Timed-Arc_Petri_Nets&amp;action=edit&amp;redlink=1" class="new" title="Timed-Arc Petri Nets (page does not exist)">Timed-Arc Petri Nets</a>, age invariants, inhibitor arcs, transport arcs</td>
+<td><a href="/wiki/TCTL" class="mw-redirect" title="TCTL">TCTL</a> subset</td>
+<td></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Mac OS, Windows, Linux</td>
+</tr>
+<tr>
+<td><a href="/wiki/TAPAs_model_checker" title="TAPAs model checker">TAPAs</a></td>
+<td>Plain</td>
+<td>CCSP</td>
+<td><a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a>, <a href="/wiki/%CE%9C-calculus" class="mw-redirect" title="Μ-calculus">μ-calculus</a></td>
+<td>SB, WB, BB, STE, WTE, me, ME, OE</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Windows, Mac OS and Unix related</td>
+</tr>
+<tr>
+<td><a href="/wiki/Uppaal_Model_Checker" title="Uppaal Model Checker">UPPAAL</a></td>
+<td>Real-time</td>
+<td><a href="/wiki/Timed_automaton" title="Timed automaton">Timed automata</a>, C subset</td>
+<td><a href="/wiki/TCTL" class="mw-redirect" title="TCTL">TCTL</a> subset</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">FUSC</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Mac OS, Windows, Linux</td>
+</tr>
+<tr>
+<td><a href="/wiki/Romeo_Model_Checker" title="Romeo Model Checker">ROMEO</a></td>
+<td>Real-time</td>
+<td><a href="/w/index.php?title=Time_Petri_Nets&amp;action=edit&amp;redlink=1" class="new" title="Time Petri Nets (page does not exist)">Time Petri Nets</a>, stopwatch parametric Petri nets</td>
+<td><a href="/wiki/TCTL" class="mw-redirect" title="TCTL">TCTL</a> subset</td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/Tcl/tk" class="mw-redirect" title="Tcl/tk">tcl/tk</a></td>
+<td>Mac OS, Windows, Linux</td>
+</tr>
+<tr>
+<td><a href="/w/index.php?title=The_TLA%2B_Model_Checker&amp;action=edit&amp;redlink=1" class="new" title="The TLA+ Model Checker (page does not exist)">TLC</a></td>
+<td>Plain</td>
+<td><a href="/wiki/TLA%2B" title="TLA+">TLA+</a>, <a href="/wiki/PlusCal" title="PlusCal">PlusCal</a></td>
+<td><a href="/wiki/Temporal_logic_of_actions" title="Temporal logic of actions">TLA</a></td>
+<td></td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes">Yes</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">No</td>
+<td style="background: #9FF; color: black; vertical-align: middle; text-align: center;" class="free table-free">Free</td>
+<td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></td>
+<td>Mac OS, Windows, Linux</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Modelling_languages">Modelling languages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit&amp;section=2" title="Edit section: Modelling languages">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://altarica.labri.fr/">AltaRica</a>: a language designed to model both functional and dysfunctional behaviours of critical systems.</li>
+<li><a href="/w/index.php?title=Cadence_SMV_input_language&amp;action=edit&amp;redlink=1" class="new" title="Cadence SMV input language (page does not exist)">Cadence SMV</a>: Cadence SMV Input Language; synchronous modeling language that has features supporting SMV's style of compositional refinement verification and abstract interpretation.</li>
+<li><a href="/wiki/Calculus_of_communicating_systems" title="Calculus of communicating systems">CCS</a>: Calculus of communicating systems; process calculus introduced by Robin Milner around 1980 and the title of a book describing the calculus.</li>
+<li><a href="/w/index.php?title=CCSP_(modeling_language)&amp;action=edit&amp;redlink=1" class="new" title="CCSP (modeling language) (page does not exist)">CCSP</a>: A process calculus obtained from <a href="/wiki/Calculus_of_communicating_systems" title="Calculus of communicating systems">CCS</a> by incorporating some operators of <a href="/wiki/Communicating_sequential_processes" title="Communicating sequential processes">CSP</a>. It is defined by Olderog<sup id="cite_ref-CCSP1_4-0" class="reference"><a href="#cite_note-CCSP1-4">[4]</a></sup> and by van Glabbeek/Vaandrager.<sup id="cite_ref-CCSP2_5-0" class="reference"><a href="#cite_note-CCSP2-5">[5]</a></sup></li>
+<li><a href="/wiki/Communicating_sequential_processes" title="Communicating sequential processes">CSP</a>: Communicating sequential processes; formal language for describing patterns of interaction in concurrent systems. <a href="/wiki/FDR2" class="mw-redirect" title="FDR2">FDR2</a> is a refinement checking tool for CSP, comparing two models for compatibility.</li>
+<li><a href="/w/index.php?title=DVE_input_language&amp;action=edit&amp;redlink=1" class="new" title="DVE input language (page does not exist)">DVE input language</a>: a system is described as Network of Extended Finite State Machines communicating via shared variables and unbuffered channels. Does not contain support for buffered channels and for checking the type of message to be received without performing the receive proper.</li>
+<li><a href="/w/index.php?title=Common_Format_V2&amp;action=edit&amp;redlink=1" class="new" title="Common Format V2 (page does not exist)">FC2</a>: Machine-level ASCII representation for synchronized (hierarchical) networks of automata. Defined by the Esprit Basic Research Action CONCUR, 1992. Used as an input and exchange format by a number of verification tools, mainly in the area of process algebras.</li>
+<li><a href="/w/index.php?title=Format_Interm%C3%A9diaire_pour_les_Architectures_de_Composants_R%C3%A9partis_Embarqu%C3%A9s&amp;action=edit&amp;redlink=1" class="new" title="Format Intermédiaire pour les Architectures de Composants Répartis Embarqués (page does not exist)">Fiacre</a>: Format Intermédiaire pour les Architectures de Composants Répartis Embarqués.</li>
+<li><a href="/w/index.php?title=Finite_State_Processes&amp;action=edit&amp;redlink=1" class="new" title="Finite State Processes (page does not exist)">FSP</a>: Finite State Processes.</li>
+<li><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>: Object-oriented programming language.</li>
+<li><a href="/wiki/Language_Of_Temporal_Ordering_Specification" title="Language Of Temporal Ordering Specification">LOTOS</a>: Language Of Temporal Ordering Specification (ISO standard 8807); formal specification language based on temporal ordering used for protocol specification in ISO OSI standards.</li>
+<li><a href="/wiki/PEPA" title="PEPA">PEPA</a>: Performance Evaluation Process Algebra; it is a stochastic process algebra designed for modelling computer and communication systems.</li>
+<li><a href="/w/index.php?title=Plain_MC&amp;action=edit&amp;redlink=1" class="new" title="Plain MC (page does not exist)">Plain MC</a>: these are simple text-file formats used in MRMC and PRISM.</li>
+<li><a href="/w/index.php?title=PRISM_language&amp;action=edit&amp;redlink=1" class="new" title="PRISM language (page does not exist)">PRISM language</a>: PRISM model description language.</li>
+<li><a href="/wiki/Promela" title="Promela">Promela</a>: Process or Protocol Meta Language; it is a verification modeling language. The language allows for the dynamic creation of concurrent processes to model, for example, distributed systems.</li>
+<li><a href="/w/index.php?title=Reactive_modules&amp;action=edit&amp;redlink=1" class="new" title="Reactive modules (page does not exist)">Reactive modules</a>: a component-based modeling language for synchronous and asynchronous hardware and software systems</li>
+<li><a href="/w/index.php?title=REDLIB&amp;action=edit&amp;redlink=1" class="new" title="REDLIB (page does not exist)">REDLIB</a>: Timed CTL.</li>
+<li>SAL: Symbolic Analysis Laboratory, a functional language with dependent types</li>
+<li><a href="/wiki/Stateflow" title="Stateflow">Simulink/Stateflow</a>: an interactive design and simulation tool for event-driven systems.</li>
+<li><a href="/w/index.php?title=Synchronous_calculus_of_communicating_systems&amp;action=edit&amp;redlink=1" class="new" title="Synchronous calculus of communicating systems (page does not exist)">SCCS</a>: synchronous calculus of communicating systems.</li>
+<li><a href="/w/index.php?title=SMV_input_language&amp;action=edit&amp;redlink=1" class="new" title="SMV input language (page does not exist)">SMV</a>: SMV input language.</li>
+<li><a href="/w/index.php?title=Timed_CCS&amp;action=edit&amp;redlink=1" class="new" title="Timed CCS (page does not exist)">TCCS</a>: Timed CCS.</li>
+<li><a href="/wiki/TLA%2B" title="TLA+">TLA+</a>: General-purpose specification language based on the Temporal Logic of Actions, originally used for distributed and concurrent systems. The language for the specifications and their properties is the same.</li>
+<li><a href="/wiki/Verilog" title="Verilog">Verilog</a>: a hardware description language (HDL) used to model electronic systems.</li>
+<li><a href="/wiki/SystemC" title="SystemC">SystemC</a>: a set of C++ classes and macros which provide an event-driven simulation interface.</li>
+<li><a href="/wiki/SystemVerilog" title="SystemVerilog">SystemVerilog</a>: a hardware description and verification language (HDVL) used to model and verify digital electronic systems.</li>
+<li><a href="/wiki/VHDL" title="VHDL">VHDL</a>: commonly used as a design-entry language for field-programmable gate arrays and application-specific integrated circuits in electronic design automation of digital circuits.</li>
+</ul>
+<h2><span class="mw-headline" id="Properties_language">Properties language</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit&amp;section=3" title="Edit section: Properties language">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/w/index.php?title=Alternation_Free_Modal_mu-Calculus&amp;action=edit&amp;redlink=1" class="new" title="Alternation Free Modal mu-Calculus (page does not exist)">AFMC</a>: Alternation Free Modal mu-Calculus.</li>
+<li><a href="/wiki/Assertion_(computing)" class="mw-redirect" title="Assertion (computing)">Assertions</a>: Imperative assertion statements.</li>
+<li><a href="/w/index.php?title=Continuous_Stochastic_Logic&amp;action=edit&amp;redlink=1" class="new" title="Continuous Stochastic Logic (page does not exist)">CSL</a>: Continuous Stochastic Logic, characterizes bisimulation of continuous-time Markov processes.</li>
+<li><a href="/w/index.php?title=Continuous_Stochastic_Reward_Logic&amp;action=edit&amp;redlink=1" class="new" title="Continuous Stochastic Reward Logic (page does not exist)">CSRL</a>: Continuous Stochastic Reward Logic; a logic to specify measures over CTMCs extended with a reward structure (so-called Markov reward models).</li>
+<li><a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a>: Computation Tree Logic; a branching-time logic, meaning that its model of time is a tree-like structure in which the future is not determined; there are different paths in the future, any one of which might be an actual path that is realized.</li>
+<li><a href="/w/index.php?title=Generalized_Computation_Tree_Logic&amp;action=edit&amp;redlink=1" class="new" title="Generalized Computation Tree Logic (page does not exist)">GCTL</a>: Generalized Computation Tree Logic, it's both state based and action based.</li>
+<li><a href="/wiki/Linear_temporal_logic" title="Linear temporal logic">LTL</a>: Linear temporal logic; a modal temporal logic with modalities referring to time.</li>
+<li><a href="/w/index.php?title=Monitor_automata&amp;action=edit&amp;redlink=1" class="new" title="Monitor automata (page does not exist)">Monitor automata</a>:&#160;???.</li>
+<li><a href="/w/index.php?title=MCRL2_mu-calculus&amp;action=edit&amp;redlink=1" class="new" title="MCRL2 mu-calculus (page does not exist)">mCRL2 mu-calculus</a>: Kozen's propositional modal mu-calculus (excluding atomic propositions), extended with: - data-depended processes - quantification over data types - multi actions - time - regular formulas.</li>
+<li><a href="/wiki/Mu_calculus" class="mw-redirect" title="Mu calculus">mu-calculus</a>: temporal logics with a least fix-point operator μ.</li>
+<li><a href="/wiki/Probabilistic_CTL" title="Probabilistic CTL">PCTL</a>: Probabilistic <a href="/wiki/Computation_tree_logic" title="Computation tree logic">CTL</a>; an extension of CTL which allows for probabilistic quantification of described properties.</li>
+<li><a href="/w/index.php?title=Probabilistic_Linear_Temporal_Logic&amp;action=edit&amp;redlink=1" class="new" title="Probabilistic Linear Temporal Logic (page does not exist)">PLTL</a>: Probabilistic Linear Temporal Logic.</li>
+<li><a href="/w/index.php?title=Probabilistic_Reward_Computation_Tree_Logic&amp;action=edit&amp;redlink=1" class="new" title="Probabilistic Reward Computation Tree Logic (page does not exist)">PRCTL</a>: Probabilistic Reward Computation Tree Logic; it extends PCTL with reward-bounded properties.</li>
+<li><a href="/wiki/Property_Specification_Language" title="Property Specification Language">PSL</a>: Property specification language</li>
+<li><a href="/wiki/SystemVerilog#Assertions" title="SystemVerilog">SVA</a>: A subset of the SystemVerilog hardware description and verification language similar to PSL.</li>
+</ul>
+<h2><span class="mw-headline" id="Abbreviations">Abbreviations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit&amp;section=4" title="Edit section: Abbreviations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Equivalences:</p>
+<ul>
+<li>SB: Strong Bisimulation</li>
+<li>WB: Weak Bisimulation</li>
+<li>BB: Branching Bisimulation</li>
+<li>STE: Strong Trace Equivalence</li>
+<li>WTE: Weak Trace Equivalence</li>
+<li>me: May Equivalence</li>
+<li>ME: Must Equivalence</li>
+<li>OE: Observational Equivalence</li>
+<li>SE: Safety Equivalence</li>
+<li>t*E: tau*.a Equivalence</li>
+</ul>
+<p>Software license:</p>
+<ul>
+<li>FUSC: Free Under Specific Condition</li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit&amp;section=5" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<div class="mw-references-wrap">
+<ol class="references">
+<li id="cite_note-history-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-history_1-0">^</a></b></span> <span class="reference-text"><a href="/wiki/Edmund_M._Clarke" title="Edmund M. Clarke">E.M. Clarke</a>: <a rel="nofollow" class="external text" href="http://www.springerlink.com/content/j335v4472745r366/"><i>The birth of model checking</i></a></span></li>
+<li id="cite_note-intro-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-intro_2-0">^</a></b></span> <span class="reference-text"><a href="/wiki/E._Allen_Emerson" title="E. Allen Emerson">E. Allen Emerson</a>: <a rel="nofollow" class="external text" href="http://www.cs.utexas.edu/users/emerson/3525.ps"><i>The Beginning of Model Checking: A Personal Perspective</i></a></span></li>
+<li id="cite_note-Book_1-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-Book_1_3-0">^</a></b></span> <span class="reference-text"><a href="/wiki/Edmund_M._Clarke" title="Edmund M. Clarke">Edmund M. Clarke</a>; Orna Grumberg and Doron A. Peled (2000) "Model Checking", <a href="/wiki/MIT_Press" title="MIT Press">MIT Press</a>, <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Special:BookSources/0-262-03270-8" title="Special:BookSources/0-262-03270-8">0-262-03270-8</a></span></li>
+<li id="cite_note-CCSP1-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-CCSP1_4-0">^</a></b></span> <span class="reference-text"><a href="/w/index.php?title=Ernst-R%C3%BCdiger_Olderog&amp;action=edit&amp;redlink=1" class="new" title="Ernst-Rüdiger Olderog (page does not exist)">E.R. Olderog</a>: <a rel="nofollow" class="external text" href="http://portal.acm.org/citation.cfm?id=735293"><i>Operational Petri net semantics for CCSP</i></a></span></li>
+<li id="cite_note-CCSP2-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-CCSP2_5-0">^</a></b></span> <span class="reference-text"><a href="/w/index.php?title=Robert_van_Glabbeek&amp;action=edit&amp;redlink=1" class="new" title="Robert van Glabbeek (page does not exist)">R. van Glabbeek</a>, <a href="/w/index.php?title=Frits_Vaandrager&amp;action=edit&amp;redlink=1" class="new" title="Frits Vaandrager (page does not exist)">F. Vaandrager</a>: <a rel="nofollow" class="external text" href="http://www.springerlink.com/content/6y9cjby2j22t97q0/"><i>Bundle Event Structures and CCSP</i></a></span></li>
+</ol>
+</div>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20151106214218/http://anna.fi.muni.cz/yahoda/">Tools</a>: a database for verification tools</li>
+<li><a rel="nofollow" class="external text" href="https://github.com/johnyf/tool_lists/blob/master/verification_synthesis.md">A list of verification and synthesis tools (public domain repository on GitHub)</a></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1220
+Cached time: 20170724093549
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.104 seconds
+Real time usage: 0.128 seconds
+Preprocessor visited node count: 1319/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 22955/2097152 bytes
+Template argument size: 231/2097152 bytes
+Highest expansion depth: 8/40
+Expensive parser function count: 0/500
+Lua time usage: 0.003/10.000 seconds
+Lua memory usage: 548 KB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   47.414      1 -total
+ 55.28%   26.209      1 Template:Reflist
+ 34.49%   16.354      1 Template:ISBN
+  4.66%    2.208      8 Template:Dunno
+  4.44%    2.107      2 Template:Main_other
+  4.40%    2.085    105 Template:Yes
+  4.24%    2.011     83 Template:No
+  3.78%    1.794     42 Template:Free
+  2.42%    1.149      3 Template:Nonfree
+  2.14%    1.013      1 Template:Unknown
+-->
+</div>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:24594156-0!canonical and timestamp 20170724093549 and revision id 787193535
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=List_of_model_checking_tools&amp;oldid=787193535">https://en.wikipedia.org/w/index.php?title=List_of_model_checking_tools&amp;oldid=787193535</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Formal_methods_tools" title="Category:Formal methods tools">Formal methods tools</a></li><li><a href="/wiki/Category:Model_checkers" title="Category:Model checkers">Model checkers</a></li><li><a href="/wiki/Category:Lists_of_software" title="Category:Lists of software">Lists of software</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=List+of+model+checking+tools" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=List+of+model+checking+tools" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/List_of_model_checking_tools"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:List_of_model_checking_tools"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/List_of_model_checking_tools" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/List_of_model_checking_tools" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/List_of_model_checking_tools" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=List_of_model_checking_tools&amp;oldid=787193535" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=List_of_model_checking_tools&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q6628882" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=List_of_model_checking_tools&amp;id=787193535" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=List+of+model+checking+tools">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=List+of+model+checking+tools&amp;action=show-selection-screen&amp;coll-download-url=%2Fw%2Findex.php%3Ftitle%3DSpecial%3ABook%26bookcmd%3Drender_article%26arttitle%3DList%2Bof%2Bmodel%2Bchecking%2Btools%26returnto%3DList%2Bof%2Bmodel%2Bchecking%2Btools%26oldid%3D787193535%26writer%3Drdf2latex">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=List_of_model_checking_tools&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+											</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q6628882#sitelinks-wikipedia" title="Add interlanguage links" class="wbc-editpage">Add links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last edited on 24 June 2017, at 00:17.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=List_of_model_checking_tools&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.104","walltime":"0.128","ppvisitednodes":{"value":1319,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":22955,"limit":2097152},"templateargumentsize":{"value":231,"limit":2097152},"expansiondepth":{"value":8,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   47.414      1 -total"," 55.28%   26.209      1 Template:Reflist"," 34.49%   16.354      1 Template:ISBN","  4.66%    2.208      8 Template:Dunno","  4.44%    2.107      2 Template:Main_other","  4.40%    2.085    105 Template:Yes","  4.24%    2.011     83 Template:No","  3.78%    1.794     42 Template:Free","  2.42%    1.149      3 Template:Nonfree","  2.14%    1.013      1 Template:Unknown"]},"scribunto":{"limitreport-timeusage":{"value":"0.003","limit":"10.000"},"limitreport-memusage":{"value":561268,"limit":52428800}},"cachereport":{"origin":"mw1220","timestamp":"20170724093549","ttl":2592000,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":49,"wgHostname":"mw1242"});});</script>
+	</body>
+</html>

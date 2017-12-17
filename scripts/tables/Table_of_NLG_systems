@@ -1,0 +1,3307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.15.1" />
+		<meta name="keywords" content="Table of NLG systems,Accord,Advisor,AGILE,AlethGen/La Redoute,ALFRESCO,ANA,ANTLIMA-1,ARIANNA,Artequakt,Astrogen" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/sys/opensearch_desc.php" title="NLG Systems Wiki (en)" />
+		<link title="Creative Commons" type="application/rdf+xml" href="/sys/index.php?title=Table_of_NLG_systems&amp;action=creativecommons" rel="meta" />
+		<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+		<link rel="alternate" type="application/rss+xml" title="NLG Systems Wiki RSS Feed" href="/sys/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="NLG Systems Wiki Atom Feed" href="/sys/index.php?title=Special:RecentChanges&amp;feed=atom" />
+		<title>Table of NLG systems - NLG Systems Wiki</title>
+		<link rel="stylesheet" href="/sys/skins/common/shared.css?207" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/sys/skins/common/commonPrint.css?207" type="text/css" media="print" />
+		<link rel="stylesheet" href="/sys/skins/monobook/main.css?207" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="/sys/skins/monobook/IE50Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="/sys/skins/monobook/IE55Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="/sys/skins/monobook/IE60Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="/sys/skins/monobook/IE70Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="/sys/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/sys/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="/sys/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/sys/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="/sys/skins/common/IEFixes.js?207"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "monobook";
+		var stylepath = "/sys/skins";
+		var wgArticlePath = "/systems/$1";
+		var wgScriptPath = "/sys";
+		var wgScript = "/sys/index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "http://www.nlg-wiki.org";
+		var wgCanonicalNamespace = "";
+		var wgCanonicalSpecialPageName = false;
+		var wgNamespaceNumber = 0;
+		var wgPageName = "Table_of_NLG_systems";
+		var wgTitle = "Table of NLG systems";
+		var wgAction = "view";
+		var wgArticleId = "405";
+		var wgIsArticle = true;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "en";
+		var wgContentLanguage = "en";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = 1312;
+		var wgVersion = "1.15.1";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = ["autoconfirmed"];
+		var wgRestrictionMove = ["autoconfirmed"];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="/sys/skins/common/wikibits.js?207"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/sys/skins/common/ajax.js?207"></script>
+		
+<style type="text/css">
+<!--
+.highlight {
+    background-color: yellow;
+}
+.blockquote {
+	border-left: 12px solid #BBBBBB;
+	margin:5px 0 5px -25px;
+	padding:0;
+	padding-left: 15px;
+}
+-->
+</style>		<link rel="stylesheet" type="text/css" href="/sys/extensions/SemanticMediaWiki/skins/SMW_custom.css" />
+		<script type="text/javascript" src="/sys/extensions/SemanticMediaWiki/skins/SMW_sorttable.js"></script>
+		<link rel="alternate" type="application/rdf+xml" title="Table of NLG systems" href="/sys/index.php?title=Special:ExportRDF/Table_of_NLG_systems&amp;xmlmime=rdf" />
+		<script type="text/javascript" src="/sys/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+	</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Table_of_NLG_systems skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">Table of NLG systems</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From NLG Systems Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p>This wiki knows 388 NLG systems, summarized below. 
+</p>
+<ul><li> Click the funny grey symbols on top of the columns (and wait) to change sorting criteria.
+</li><li> Click a system name to view details.
+</li></ul>
+<p><br />
+</p>
+<table class="smwtable" width="100%" id="querytable2">
+	<tr>
+		<th>System</th>
+		<th><a href="/systems/Property:Started" title="Property:Started">Dev. started</a></th>
+		<th><a href="/systems/Property:Ended" title="Property:Ended">Dev. ended</a></th>
+		<th><a href="/systems/Property:Language" title="Property:Language">Languages</a></th>
+		<th><a href="/systems/Property:Domain" title="Property:Domain">Domain</a></th>
+		<th><a href="/systems/Property:Description" title="Property:Description">Description</a></th>
+	</tr>
+	<tr>
+		<td><a href="/systems/AGILE" title="AGILE">AGILE</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>Bulgarian<br />Czech<br />Russian</td>
+		<td>CAD<br />instructions</td>
+		<td>generates instructions in the domain of Computer-Aided Design</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ALFRESCO" title="ALFRESCO">ALFRESCO</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>Italian</td>
+		<td></td>
+		<td>multimedia NL based information access</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ANA" title="ANA">ANA</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td>English</td>
+		<td>stock market</td>
+		<td>generation of stock market reports</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ANTLIMA-1" title="ANTLIMA-1">ANTLIMA-1</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>German</td>
+		<td>scene description</td>
+		<td>generating scene descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ARIANNA" title="ARIANNA">ARIANNA</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>Italian</td>
+		<td></td>
+		<td>dynamic hypermedia</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Abella" title="Abella">Abella</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>scene descriptions</td>
+		<td>Spatial language generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Accord" title="Accord">Accord</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>English</td>
+		<td></td>
+		<td>Natural language and graphic interface</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Advisor" title="Advisor">Advisor</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td>arguments</td>
+		<td>Generation of arguments</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/AlethGen/La_Redoute" title="AlethGen/La Redoute">AlethGen/La Redoute</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>French</td>
+		<td>business letters</td>
+		<td>generation of one-page reply letters</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Amalgam" title="Amalgam">Amalgam</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td></td>
+		<td>German<br />French<br />English</td>
+		<td>technical manuals</td>
+		<td>Amalgam is a sentence realization component based on data-driven, machine learning techniques. Amalgam accepts as input a logical form graph.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Anthem" title="Anthem">Anthem</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English<br />Dutch<br />French</td>
+		<td>healthcare<br />medical diagnoses</td>
+		<td>Generation of medical diagnoses</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Artequakt" title="Artequakt">Artequakt</a></td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td></td>
+		<td>English</td>
+		<td>biographies</td>
+		<td>Automatic generation of narrative biographies of artists</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Astrogen" title="Astrogen">Astrogen</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>telecom</td>
+		<td>Generation from formal specifications and STEP/EXPRESS specifications.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Atlastxt" title="Atlastxt">Atlastxt</a></td>
+		<td><span class="smwsortkey">2453737</span>2006</td>
+		<td><span class="smwsortkey">2454833</span>2009</td>
+		<td>English</td>
+		<td>geodata</td>
+		<td>Making geo-referenced data available via natural language generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Autotext" title="Autotext">Autotext</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English<br />Swedish</td>
+		<td>weather</td>
+		<td>Weather forecast report generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/BABEL" title="BABEL">BABEL</a></td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td>English</td>
+		<td></td>
+		<td>paraphrase generation &amp; lexical choice</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/BERTRAND" title="BERTRAND">BERTRAND</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td>English</td>
+		<td></td>
+		<td>generation of definite descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/BLAH" title="BLAH">BLAH</a></td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td>English</td>
+		<td>income tax</td>
+		<td>generation of explanations concerning income taxes</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/BabyTalk" title="BabyTalk">BabyTalk</a></td>
+		<td><span class="smwsortkey">2454102</span>2007</td>
+		<td></td>
+		<td>English</td>
+		<td>medical</td>
+		<td>BabyTalk is developing computerised tools to summarise and interpret data in the Neonatal Intensive Care Unit (NICU).</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/BoyerLapalme" title="BoyerLapalme">BoyerLapalme</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td>French</td>
+		<td></td>
+		<td>generation of paraphrases</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CAT-2" title="CAT-2">CAT-2</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>EU</td>
+		<td></td>
+		<td>formalism used for MT, includes analysis and generation capabilities fro the Eurotra Intermediate Structures.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CDM" title="CDM">CDM</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>explanation</td>
+		<td>generation of explanatory dialogues</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CENTRIFUSER" title="CENTRIFUSER">CENTRIFUSER</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td></td>
+		<td>English</td>
+		<td>summaries</td>
+		<td>A multidocument summarization system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CHARON" title="CHARON">CHARON</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>French<br />German</td>
+		<td></td>
+		<td>grammar development (allegedly including generation) for LFG</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CLE" title="CLE">CLE</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English<br />Swedish<br />French<br />Spanish</td>
+		<td></td>
+		<td>Core Language Engineering: mostly analysis oriented with some generation work</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CLIME" title="CLIME">CLIME</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>English<br />French</td>
+		<td>documentation</td>
+		<td>Automated responses to queries, posed in natural language, of any prescriptive semi-formal documentation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CLINT" title="CLINT">CLINT</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td></td>
+		<td>hybrid template/word-based generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/COMET" title="COMET">COMET</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>English</td>
+		<td>explanation</td>
+		<td>generation of explanations (multimodal output)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/COMIC" title="COMIC">COMIC</a></td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English</td>
+		<td>interior design</td>
+		<td>COnversational Multimodal Interaction with Computers</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/COMMENTATOR" title="COMMENTATOR">COMMENTATOR</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2445701</span>1984</td>
+		<td>Swedish</td>
+		<td>scene description</td>
+		<td>generation of scene descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/COMMUNAL" title="COMMUNAL">COMMUNAL</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td></td>
+		<td>generation with systemic functional grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/COMRIS" title="COMRIS">COMRIS</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>appointments</td>
+		<td>meeting assistant</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CONPAS" title="CONPAS">CONPAS</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>Dutch</td>
+		<td>prosody generation</td>
+		<td>Content-to-Prosodically Adequate Speech</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/COOK" title="COOK">COOK</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td>stock market</td>
+		<td>use of collocation for generating stock market reports</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CORECT" title="CORECT">CORECT</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>electronics</td>
+		<td>Generate documents for requirements definition in the design of electronic test equipment</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Caption_Generation_System" title="Caption Generation System">Caption Generation System</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>figure captions</td>
+		<td>generates captions to complex automatically produced graphical presentations</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Carroll" title="Carroll">Carroll</a></td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td>English</td>
+		<td>teaching English</td>
+		<td>CALL system for teaching English</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Cerbah" title="Cerbah">Cerbah</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>French</td>
+		<td></td>
+		<td>Causal explanation generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Co-Op" title="Co-Op">Co-Op</a></td>
+		<td><span class="smwsortkey">2443875</span>1979</td>
+		<td><span class="smwsortkey">2443875</span>1979</td>
+		<td>English</td>
+		<td></td>
+		<td>Cooperative answer generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CogentHelp" title="CogentHelp">CogentHelp</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>online help</td>
+		<td>on-line help for GUIs</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Color-X" title="Color-X">Color-X</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>communication systems</td>
+		<td>NLG  for verification of  models of information and communication systems</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ConGen" title="ConGen">ConGen</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>English</td>
+		<td>MT</td>
+		<td>ConGen (CONnective GENerator): translation of expressions involving tense and aspect</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Coral" title="Coral">Coral</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td>English</td>
+		<td>route descriptions</td>
+		<td>Automatic generation of navigational route descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Cosma" title="Cosma">Cosma</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>German</td>
+		<td>appointments</td>
+		<td>Appointment scheduling agent</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Cubricon" title="Cubricon">Cubricon</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td></td>
+		<td>Generation in multimedia interfaces</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/CziferszkyWinter" title="CziferszkyWinter">CziferszkyWinter</a></td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>German</td>
+		<td>route descriptions</td>
+		<td>Route description generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/D2S" title="D2S">D2S</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td></td>
+		<td>independent</td>
+		<td>spoken dialogue</td>
+		<td>System for producing spoken language from data</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DEFACTO" title="DEFACTO">DEFACTO</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>stories</td>
+		<td>DEFACT (DEsign Framework for interACTive stOry systems) an interactive system for generating stories.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DIAMOD" title="DIAMOD">DIAMOD</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>German</td>
+		<td>explanation</td>
+		<td>KADS-based expert system explanation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DING" title="DING">DING</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>German</td>
+		<td></td>
+		<td>incremental generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DIOGENES" title="DIOGENES">DIOGENES</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td></td>
+		<td>generation for machine-translation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DISCO" title="DISCO">DISCO</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>German</td>
+		<td>appointments</td>
+		<td>An appointment scheduling agent using natural language</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DME-HTW" title="DME-HTW">DME-HTW</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td></td>
+		<td>A demonstration of 'virtual documents', generated on demand in response to the user's selections</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DORIS" title="DORIS">DORIS</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td></td>
+		<td>planning dialogues (vocal output)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DYD" title="DYD">DYD</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>English</td>
+		<td>music</td>
+		<td>generates a spoken monologue describing a selected music composition and its recording</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Danlos" title="Danlos">Danlos</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>French<br />English</td>
+		<td></td>
+		<td>use of discourse grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Dart-bio" title="Dart-bio">Dart-bio</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td>biographies, art history, layout and text</td>
+		<td>Automatic generation of pages combining textual artist bibliographies and timeline graphs concerning the Bauhaus</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Daydreamer_generator" title="Daydreamer generator">Daydreamer generator</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td></td>
+		<td>A recursive-descent generator for reporting stream of thought</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/DeRoeck" title="DeRoeck">DeRoeck</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td>English</td>
+		<td></td>
+		<td>generation of paraphrases</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Discourser" title="Discourser">Discourser</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>English</td>
+		<td></td>
+		<td>Structured discourse</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Drafter-I" title="Drafter-I">Drafter-I</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>English<br />French</td>
+		<td>instructions</td>
+		<td>helps technical authors write instruction documents</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Drafter-II" title="Drafter-II">Drafter-II</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English<br />French<br />Italian</td>
+		<td>instructions</td>
+		<td>multilingual generation of instructions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Dushka" title="Dushka">Dushka</a></td>
+		<td><span class="smwsortkey">2455563</span>2011</td>
+		<td><span class="smwsortkey">2456294</span>2013</td>
+		<td>Russian</td>
+		<td>artifical intelligence</td>
+		<td>Russian artificial mind thinks with concepts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/EDGE" title="EDGE">EDGE</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>English</td>
+		<td>explanation</td>
+		<td>plan-based generation of explanatory discourse</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/EES" title="EES">EES</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>English</td>
+		<td>explanation</td>
+		<td>generation of explanations</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/EFFENDI" title="EFFENDI">EFFENDI</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>German<br />English</td>
+		<td>train inquiries</td>
+		<td>Efficient Formulation of Dialogue Contributions for train inquiries</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ELIZA" title="ELIZA">ELIZA</a></td>
+		<td><span class="smwsortkey">2439127</span>1966</td>
+		<td><span class="smwsortkey">2439127</span>1966</td>
+		<td>English</td>
+		<td>psychiatry</td>
+		<td>simulation of a dialog with a psychotherapist</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ELU" title="ELU">ELU</a></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Patr-II based MT, analysis and generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/EPICURE" title="EPICURE">EPICURE</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>English</td>
+		<td>recipes</td>
+		<td>generation of cooking recipes</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ERMA" title="ERMA">ERMA</a></td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td>English</td>
+		<td>psychiatry</td>
+		<td>simulation of performance errors (dialog with a psychiatrist)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/EXCLASS" title="EXCLASS">EXCLASS</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>English<br />French</td>
+		<td>job descriptions</td>
+		<td>generation of job descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Ecran" title="Ecran">Ecran</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>English</td>
+		<td>movie description</td>
+		<td>generates descriptions of movies, using a model of the user's interests</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Edward" title="Edward">Edward</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td></td>
+		<td>Refering expressions in a multimedia environment</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Ex-Demosthenes" title="Ex-Demosthenes">Ex-Demosthenes</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>German</td>
+		<td>wine descriptions</td>
+		<td>Generates spoken monologues on different vine grapes (Riesling, Pinot noir, ...) and their respective wines.  Main focus is on prosody generation.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Exemplars" title="Exemplars">Exemplars</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td></td>
+		<td>dynamic HTML page generation on the basis of a classification hierarchy for text planning</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Exerge" title="Exerge">Exerge</a></td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English</td>
+		<td></td>
+		<td>EXpansivE Rich Generation for English</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Expound" title="Expound">Expound</a></td>
+		<td><span class="smwsortkey">2442779</span>1976</td>
+		<td><span class="smwsortkey">2442779</span>1976</td>
+		<td>English</td>
+		<td>formal proofs</td>
+		<td>translates formal poofs into English</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FERGUS" title="FERGUS">FERGUS</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>English</td>
+		<td>independent</td>
+		<td>Flexible Empiricist/Rationalist Generation Using Syntax</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FIG" title="FIG">FIG</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td></td>
+		<td>connectionist generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FLIGHT" title="FLIGHT">FLIGHT</a></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FN" title="FN">FN</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>English</td>
+		<td></td>
+		<td>avoiding false implicatures</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FOGS" title="FOGS">FOGS</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>German</td>
+		<td>stories</td>
+		<td>generates narratives with a focus background structure</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FRANA" title="FRANA">FRANA</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td>French</td>
+		<td>stock market</td>
+		<td>French version of ANA</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FREGE" title="FREGE">FREGE</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>German</td>
+		<td></td>
+		<td>object-oriented front-end generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FUF" title="FUF">FUF</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td></td>
+		<td>independent<br />English<br />Spanish<br />Hebrew</td>
+		<td>independent</td>
+		<td>implementation of Functional Unification Grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Flaubert" title="Flaubert">Flaubert</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>French<br />English</td>
+		<td></td>
+		<td>multilingual generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/FoG" title="FoG">FoG</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English<br />French</td>
+		<td>weather</td>
+		<td>FoG (Forecast Generator) provides bilingual generation of operational weather forecast reports.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Fournier" title="Fournier">Fournier</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>French</td>
+		<td></td>
+		<td>A meaning-text text generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Fraczak,Lapalme" title="Fraczak,Lapalme">Fraczak,Lapalme</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>French</td>
+		<td>directions</td>
+		<td>Generation of subway directions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Friedman" title="Friedman">Friedman</a></td>
+		<td><span class="smwsortkey">2440223</span>1969</td>
+		<td><span class="smwsortkey">2440223</span>1969</td>
+		<td>English</td>
+		<td></td>
+		<td>testbed for transformational grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GASPAR" title="GASPAR">GASPAR</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td></td>
+		<td>DB queries</td>
+		<td>Paraphrase of SQL queries</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GBgen" title="GBgen">GBgen</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td></td>
+		<td>GB-based generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GCD" title="GCD">GCD</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td></td>
+		<td>recipes</td>
+		<td>cooking definitions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GEA" title="GEA">GEA</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>English</td>
+		<td>arguments</td>
+		<td>Generator of Evaluative Arguments (GEA): GEA is a fully-implemented, complete and modular NLG system for generating user tailored evaluative arguments.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GECO" title="GECO">GECO</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>Bulgarian</td>
+		<td>geometry</td>
+		<td>production of geometrical descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GENARO" title="GENARO">GENARO</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>English</td>
+		<td>picture description</td>
+		<td>description of pictures</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GENESIS" title="GENESIS">GENESIS</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>instructions</td>
+		<td>multilingual spoken instructions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GENESYS" title="GENESYS">GENESYS</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td></td>
+		<td>the large systemic functional grammar component of the Communal system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GENIUSS" title="GENIUSS">GENIUSS</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>English</td>
+		<td></td>
+		<td>generator based on universal semantic syntax</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GENNY" title="GENNY">GENNY</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td>English</td>
+		<td></td>
+		<td>use of RST relations for producing coherent texts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GEOTEX" title="GEOTEX">GEOTEX</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td>German</td>
+		<td>geometry</td>
+		<td>description of geometrical configurations</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GEOTEX-E" title="GEOTEX-E">GEOTEX-E</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td>English<br />German</td>
+		<td>geometry</td>
+		<td>bilingual version of Geotex</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GESTER" title="GESTER">GESTER</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td>English</td>
+		<td>stories</td>
+		<td>story generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GIRL" title="GIRL">GIRL</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td>English</td>
+		<td>Personalised basic skills summary reports</td>
+		<td>Microplanning discourse-level choices for people with poor literacy</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GIST-medical" title="GIST-medical">GIST-medical</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>explanation of the results of a medical expert system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GIST-tax" title="GIST-tax">GIST-tax</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English<br />German<br />Italian</td>
+		<td>tax forms</td>
+		<td>generates instructions for filling in tax forms</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GLINDA" title="GLINDA">GLINDA</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td></td>
+		<td>narration and intercharacter communication</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GOSSIP" title="GOSSIP">GOSSIP</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td></td>
+		<td>implementation of the meaning-text theory, praphrase</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GRUNDY" title="GRUNDY">GRUNDY</a></td>
+		<td><span class="smwsortkey">2443875</span>1979</td>
+		<td><span class="smwsortkey">2443875</span>1979</td>
+		<td>English</td>
+		<td>user modelling</td>
+		<td>user modelling via stereotypes</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GeM" title="GeM">GeM</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>English</td>
+		<td>layout and text</td>
+		<td>multimodal generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GeNet" title="GeNet">GeNet</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>Italian</td>
+		<td>medical</td>
+		<td>dynamic hypermedia generation the medical domain and tailored to the user</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GenKit" title="GenKit">GenKit</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English?</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GeneSys" title="GeneSys">GeneSys</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td></td>
+		<td>Experimental generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GhostWriter" title="GhostWriter">GhostWriter</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td>manuals</td>
+		<td>generation assisting human technical authors in the production of aircraft manuals</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/GoalGetter" title="GoalGetter">GoalGetter</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>Dutch</td>
+		<td>football</td>
+		<td>GoalGetter generates spoken summaries of football (soccer) matches on the basis of tabular data</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Green,_Carberry" title="Green, Carberry">Green, Carberry</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>conversational implicature, indirect answers, answers to Yes-No questions</td>
+		<td>built to model the generation and interpretation of conversational implicatures</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/HAM-ANS" title="HAM-ANS">HAM-ANS</a></td>
+		<td><span class="smwsortkey">2443510</span>1978</td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td>German</td>
+		<td></td>
+		<td>(HAMburg Application-oriented Natural-language System)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/HAM-RPM" title="HAM-RPM">HAM-RPM</a></td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td>German</td>
+		<td>reservations</td>
+		<td>hotel manager</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/HERMES" title="HERMES">HERMES</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>French</td>
+		<td></td>
+		<td>processing of quantifier scoping</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/HIPERFLEX" title="HIPERFLEX">HIPERFLEX</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>English</td>
+		<td></td>
+		<td>navigating hypertext</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/HIPS" title="HIPS">HIPS</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>English</td>
+		<td>spatial relationships</td>
+		<td>developing new  interaction paradigms for navigating  physical spaces</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/HUGG" title="HUGG">HUGG</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>Hebrew</td>
+		<td></td>
+		<td>A syntactic realization component for Hebrew</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/HYPERBUG" title="HYPERBUG">HYPERBUG</a></td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English</td>
+		<td></td>
+		<td>A hybrid NLG system for generating dialogue: 'Hybrid pragmatically embedded realization with bottom-up generation'</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Hakkani,_Oflazer,_Cicekli" title="Hakkani, Oflazer, Cicekli">Hakkani, Oflazer, Cicekli</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>Turkish</td>
+		<td></td>
+		<td>Experimental generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Halogen" title="Halogen">Halogen</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td></td>
+		<td>Statistical generation from interlinguas using a packed forest intermediate representation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Harper-etal" title="Harper-etal">Harper-etal</a></td>
+		<td><span class="smwsortkey">2440223</span>1969</td>
+		<td><span class="smwsortkey">2440223</span>1969</td>
+		<td>English</td>
+		<td></td>
+		<td>random paragraph generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/HealthDoc" title="HealthDoc">HealthDoc</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>generation of medical information</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Herskovitz" title="Herskovitz">Herskovitz</a></td>
+		<td><span class="smwsortkey">2441684</span>1973</td>
+		<td><span class="smwsortkey">2441684</span>1973</td>
+		<td>French</td>
+		<td></td>
+		<td>semantic-based generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Hoffman" title="Hoffman">Hoffman</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>Turkish</td>
+		<td></td>
+		<td>Experimental generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Horace" title="Horace">Horace</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>physics</td>
+		<td>generation of water-cycle texts as an experiment in register-based generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Hylite%2B" title="Hylite+">Hylite+</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>English</td>
+		<td></td>
+		<td>Web-based system that generates adaptive hypertext explanations using a generic user modelling framework. Architecture based on a new recursive pipeline model.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IBMflight" title="IBMflight">IBMflight</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td>flight information</td>
+		<td>IBM Flight Information System</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ICG" title="ICG">ICG</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>English</td>
+		<td>business letters</td>
+		<td>composition of business letters</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ICICLE" title="ICICLE">ICICLE</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td>teaching syntax</td>
+		<td>teaches the syntax of written English to deaf people</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ICONOCLAST" title="ICONOCLAST">ICONOCLAST</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td>layout and text<br />patient information leaflets</td>
+		<td>Combining layout and linguistic constraints</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ICWF" title="ICWF">ICWF</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>weather</td>
+		<td>Interactive Computer Worded Forecast</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IDAS" title="IDAS">IDAS</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td>documentation</td>
+		<td>generation of on-line help documentation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IDP" title="IDP">IDP</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td></td>
+		<td>discourse planner</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IDtension" title="IDtension">IDtension</a></td>
+		<td><span class="smwsortkey">2454102</span>2007</td>
+		<td><span class="smwsortkey">2454102</span>2007</td>
+		<td>English</td>
+		<td>narrative</td>
+		<td>System implementing many aspects of narrative theory in order to support interactive drama</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IFPS" title="IFPS">IFPS</a></td>
+		<td><span class="smwsortkey">2440588</span>1970</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td>weather</td>
+		<td>Weather forecast report generator (template-based)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IGEN" title="IGEN">IGEN</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>weather</td>
+		<td>Weather forecasts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ILEX" title="ILEX">ILEX</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td></td>
+		<td>a system for generating labels for items in an electronic museum or retail catalogue</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ILIAD" title="ILIAD">ILIAD</a></td>
+		<td><span class="smwsortkey">2444606</span>1981</td>
+		<td><span class="smwsortkey">2444606</span>1981</td>
+		<td>English</td>
+		<td>teaching syntax</td>
+		<td>CALL for transformational grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IMAGENE" title="IMAGENE">IMAGENE</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td>instructions</td>
+		<td>instructions for operating telephones</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IMP" title="IMP">IMP</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>English</td>
+		<td>user modelling</td>
+		<td>tailoring the content by taking the user into account</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IPF" title="IPF">IPF</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>Dutch</td>
+		<td></td>
+		<td>parallel-incremental sentence generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IPG" title="IPG">IPG</a></td>
+		<td><span class="smwsortkey">2443875</span>1979</td>
+		<td><span class="smwsortkey">2443875</span>1979</td>
+		<td>Dutch</td>
+		<td></td>
+		<td>simulation of human, incremental sentence production</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/IPaGe" title="IPaGe">IPaGe</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>German</td>
+		<td>description</td>
+		<td>Incremental Parallell Generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ISOLDE" title="ISOLDE">ISOLDE</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>English</td>
+		<td>instructions</td>
+		<td>automatic generation of software instructions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ITEX" title="ITEX">ITEX</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>German</td>
+		<td>medical</td>
+		<td>A hybrid approach to text planning</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/InDiGen" title="InDiGen">InDiGen</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>English</td>
+		<td>general</td>
+		<td>Integrated generation from declarative grammar-semantics-goal specifications</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Ishizaki" title="Ishizaki">Ishizaki</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>Japanese</td>
+		<td>news</td>
+		<td>generation of reports about terrorrist crimes</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/JAPE" title="JAPE">JAPE</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td>jokes</td>
+		<td>JAPE (Joke Analysis and Production Engine) creates riddles using a rule-based system derived from humour theory.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/JOYCE" title="JOYCE">JOYCE</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td>software</td>
+		<td>generates texts about software components and their security on the basis of a specifications for secure, distributed software systems</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KAFKA" title="KAFKA">KAFKA</a></td>
+		<td><span class="smwsortkey">2445701</span>1984</td>
+		<td><span class="smwsortkey">2445701</span>1984</td>
+		<td>English</td>
+		<td></td>
+		<td>sentence generation from a semantic network</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KALOS" title="KALOS">KALOS</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td></td>
+		<td>Knowledge-based generation with revision</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KAMP" title="KAMP">KAMP</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td>English</td>
+		<td></td>
+		<td>modeling of the user's beliefs and goals</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KDS" title="KDS">KDS</a></td>
+		<td><span class="smwsortkey">2444606</span>1981</td>
+		<td><span class="smwsortkey">2444606</span>1981</td>
+		<td>English</td>
+		<td></td>
+		<td>generation of paragraphs</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KING" title="KING">KING</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>English</td>
+		<td>online help</td>
+		<td>help system for UNIX</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KISS-Lexicalizer" title="KISS-Lexicalizer">KISS-Lexicalizer</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>Dutch<br />English<br />German<br />French</td>
+		<td>DB and OO descriptions</td>
+		<td>generation of natural language descriptions of OO-models</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KNIGHT" title="KNIGHT">KNIGHT</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>English</td>
+		<td>biology</td>
+		<td>explains complex biological phenomena</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KOMET" title="KOMET">KOMET</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English<br />German<br />Dutch</td>
+		<td></td>
+		<td>Multilingual generation with systemic functional grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/KPML" title="KPML">KPML</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td></td>
+		<td>English<br />German<br />French<br />Dutch<br />Japanese<br />Czech<br />Russian<br />Bulgarian<br />Spanish<br />Greek<br />Chinese<br />independent</td>
+		<td>independent</td>
+		<td>large-scale multilingual generation and development environment</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Kalita,Shastri,_Shende" title="Kalita,Shastri, Shende">Kalita,Shastri, Shende</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td>English</td>
+		<td>business reports</td>
+		<td>natural language reports in an office environment</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Klein" title="Klein">Klein</a></td>
+		<td><span class="smwsortkey">2442049</span>1974</td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td>English</td>
+		<td>stories</td>
+		<td>An exact model of V. Propp's Morphology of the Folktale</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Klein-coherence" title="Klein-coherence">Klein-coherence</a></td>
+		<td><span class="smwsortkey">2438031</span>1963</td>
+		<td><span class="smwsortkey">2438031</span>1963</td>
+		<td>English</td>
+		<td></td>
+		<td>coherent discourse generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Klein-mysteries" title="Klein-mysteries">Klein-mysteries</a></td>
+		<td><span class="smwsortkey">2441684</span>1973</td>
+		<td><span class="smwsortkey">2441684</span>1973</td>
+		<td>English</td>
+		<td>murder mysteries</td>
+		<td>program for generating murder mysteries on the basis of simulation data</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Klein-para" title="Klein-para">Klein-para</a></td>
+		<td><span class="smwsortkey">2438762</span>1965</td>
+		<td><span class="smwsortkey">2438762</span>1965</td>
+		<td>English</td>
+		<td>paraphrase</td>
+		<td>Multiple paraphrases of the same input texts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Klein-stories" title="Klein-stories">Klein-stories</a></td>
+		<td><span class="smwsortkey">2438762</span>1965</td>
+		<td><span class="smwsortkey">2438762</span>1965</td>
+		<td>English</td>
+		<td>stories</td>
+		<td>story generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Kleist" title="Kleist">Kleist</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>German<br />Japanese</td>
+		<td>route descriptions</td>
+		<td>multilingual generation of route descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Kreyss" title="Kreyss">Kreyss</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>German</td>
+		<td></td>
+		<td>content planning (PhD)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Kukich" title="Kukich">Kukich</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>English</td>
+		<td></td>
+		<td>connectionist-based sentence generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/LEXSYS" title="LEXSYS">LEXSYS</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td>English</td>
+		<td>general</td>
+		<td>A wide-coverage lexicalized grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/LFG-f" title="LFG-f">LFG-f</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>German</td>
+		<td>general</td>
+		<td>Generation from LFG f-structures</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/LFS" title="LFS">LFS</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English<br />French</td>
+		<td>labor market</td>
+		<td>generates summaries of statistical data in the domain of labour market</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/LGM" title="LGM">LGM</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>Dutch<br />English</td>
+		<td>spoken dialogue</td>
+		<td>The generation module of D2S</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/LILOG" title="LILOG">LILOG</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>German<br />English</td>
+		<td></td>
+		<td>large-scale NLP system with a generation component</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/LKB" title="LKB">LKB</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td></td>
+		<td>independent</td>
+		<td></td>
+		<td>General workbench for typed feature grammar formalisms, including a tactical generation component</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/LKP" title="LKP">LKP</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>German</td>
+		<td>independent</td>
+		<td>the Linguistic Kernel Processor (LKP) offers parsing and generating  in TUG</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Lolita" title="Lolita">Lolita</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>independent</td>
+		<td>general NLP including generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/M-PIRO" title="M-PIRO">M-PIRO</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td>English<br />Greek<br />Italian<br />Spanish</td>
+		<td>museums</td>
+		<td>Development of technology for allowing museums to generate automatically textual or spoken descriptions of exhibits for collections across the Web or in virtual reality environments.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MAGIC" title="MAGIC">MAGIC</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>Multimedia Abstract Generation for Intensive Care data</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MARWORDS" title="MARWORDS">MARWORDS</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td>weather</td>
+		<td>Marine weather forecast report generator (another precursor to FoG).</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MATCH" title="MATCH">MATCH</a></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MDA" title="MDA">MDA</a></td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td></td>
+		<td>English<br />French<br />German</td>
+		<td>patient information leaflets</td>
+		<td>Multilingual Document Authoring system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MIGRAINE" title="MIGRAINE">MIGRAINE</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>health explanations</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MIKE" title="MIKE">MIKE</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English<br />French<br />Japanese</td>
+		<td>soccer</td>
+		<td>automatic soccer commentary system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MINSTREL" title="MINSTREL">MINSTREL</a></td>
+		<td><span class="smwsortkey">2445701</span>1984</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>English</td>
+		<td>story generation</td>
+		<td>A story generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MLWFA" title="MLWFA">MLWFA</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>Chinese</td>
+		<td>weather</td>
+		<td>multilingual weather forecast generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MNLG" title="MNLG">MNLG</a></td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td>English</td>
+		<td>animated interfaces</td>
+		<td>NMLG:  Multimodal Natural Language Generation module</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MOOSE" title="MOOSE">MOOSE</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English<br />German</td>
+		<td>manuals</td>
+		<td>multilingual paraphrases from a KL-ONE-representation; domain: technical manuals, emphasis on lexicalization</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MTS" title="MTS">MTS</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>spoken dialogue</td>
+		<td>A message-to-speech system for traffic message control systems</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MUG" title="MUG">MUG</a></td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td></td>
+		<td>independent</td>
+		<td>general</td>
+		<td>Multimodal functional unification generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MUMBLE" title="MUMBLE">MUMBLE</a></td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>English</td>
+		<td>independent</td>
+		<td>surface generator (MUMBLE-86 being portable)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Marciniak" title="Marciniak">Marciniak</a></td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English</td>
+		<td>route descriptions</td>
+		<td>Generator for route descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Melero,_Font-Llitjos" title="Melero, Font-Llitjos">Melero, Font-Llitjos</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td></td>
+		<td>Spanish</td>
+		<td></td>
+		<td>Part of Microsoft's NLP effort</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Mellish,_Evans" title="Mellish, Evans">Mellish, Evans</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>English</td>
+		<td></td>
+		<td>text generation from plans</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Memmi" title="Memmi">Memmi</a></td>
+		<td><span class="smwsortkey">2443875</span>1979</td>
+		<td><span class="smwsortkey">2443875</span>1979</td>
+		<td>French</td>
+		<td></td>
+		<td>phrase generation (PhD)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Meunier" title="Meunier">Meunier</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>French</td>
+		<td></td>
+		<td>TAG-based generation (PhD)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Mind" title="Mind">Mind</a></td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td><span class="smwsortkey">2456294</span>2013</td>
+		<td>English</td>
+		<td>software tutorial</td>
+		<td>Concept-based generation system comprising a miniature Mind</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Mind.Forth" title="Mind.Forth">Mind.Forth</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2456294</span>2013</td>
+		<td>English</td>
+		<td></td>
+		<td>Verbal output of a general artificial intelligence.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Ml-CINESPEAK" title="Ml-CINESPEAK">Ml-CINESPEAK</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English<br />Spanish</td>
+		<td>learning</td>
+		<td>employs both natural language and generated 3D-graphical visualisations and animations</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ModelExplainer" title="ModelExplainer">ModelExplainer</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>English</td>
+		<td>software</td>
+		<td>produces textual descriptions of object-oriented software models</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Moghrabi" title="Moghrabi">Moghrabi</a></td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td>French</td>
+		<td>recipes</td>
+		<td>generation of cooking recipes</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Mooney" title="Mooney">Mooney</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>English</td>
+		<td>explanation</td>
+		<td>macro structure of explanation texts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/MulTex" title="MulTex">MulTex</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>English<br />Chinese</td>
+		<td>news</td>
+		<td>multilingual generation of news reports</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Multimeteo" title="Multimeteo">Multimeteo</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English<br />French<br />Spanish<br />German<br />Dutch</td>
+		<td>weather</td>
+		<td>in-use (interactive and automatic) generation of weather forecasts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/NAOS" title="NAOS">NAOS</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>German</td>
+		<td>scene description</td>
+		<td>generation of coherent scene descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/NAUDA" title="NAUDA">NAUDA</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>German</td>
+		<td></td>
+		<td>sentence generation in the context of database interfaces</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/NL-Soar" title="NL-Soar">NL-Soar</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td></td>
+		<td>generation within the general AI system SOAR</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/NLG-DB" title="NLG-DB">NLG-DB</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td></td>
+		<td>Generation of NL descriptions from information maintained in a conceptual database modelling language</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/NUGGET" title="NUGGET">NUGGET</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>German</td>
+		<td></td>
+		<td>text generation from a linguistic basis</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Namer" title="Namer">Namer</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>French<br />Italian</td>
+		<td>music</td>
+		<td>generation of summaries of Verdi's operas</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/NaturalOWL" title="NaturalOWL">NaturalOWL</a></td>
+		<td><span class="smwsortkey">2453737</span>2006</td>
+		<td><span class="smwsortkey">2454467</span>2008</td>
+		<td>English<br />Greek</td>
+		<td></td>
+		<td>Description of concepts defined in OWL ontologies</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Nitrogen" title="Nitrogen">Nitrogen</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>English</td>
+		<td></td>
+		<td>Statistical generation from interlinguas using a lattice intermediate representation and bigram statistical model</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/OLA" title="OLA">OLA</a></td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td><span class="smwsortkey">2453372</span>2005</td>
+		<td>English</td>
+		<td></td>
+		<td>English Question/Answer (Q&amp;A) system, template-based and not very sophisticated, but the open source NLG system can be used in many practical and online cases.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/OPADE" title="OPADE">OPADE</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>a 'watch-dog' decision support system for medical care containing a generation component for instructional texts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/OSCAR" title="OSCAR">OSCAR</a></td>
+		<td><span class="smwsortkey">2443510</span>1978</td>
+		<td><span class="smwsortkey">2444606</span>1981</td>
+		<td>English</td>
+		<td></td>
+		<td>speech act planning and planning of the message (no linguistic output)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/OVIS" title="OVIS">OVIS</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>Dutch</td>
+		<td>spoken dialogue</td>
+		<td>A dialogue system for providing information about public transportation (OVIS: Openbar Vervoer Informatie System)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/OWL" title="OWL">OWL</a></td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td>English</td>
+		<td>online help</td>
+		<td>Generates explanations of how program produced advice by translating code to English</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Oh,_Rudnicky" title="Oh, Rudnicky">Oh, Rudnicky</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td></td>
+		<td>English Corpus-based stochastic generation for spoken dialog systems</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Ontogeneration" title="Ontogeneration">Ontogeneration</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>Spanish</td>
+		<td>ontology</td>
+		<td>generation of database and ontology definition descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Oxygen" title="Oxygen">Oxygen</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>independent</td>
+		<td></td>
+		<td>A language independent Linearization Engine</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/P.rex" title="P.rex">P.rex</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td></td>
+		<td>English</td>
+		<td>proofs</td>
+		<td>an interactive, user-adaptive proof explanation system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PARDA" title="PARDA">PARDA</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>French</td>
+		<td>arguments</td>
+		<td>generation of arguments</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PAROLE" title="PAROLE">PAROLE</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>German</td>
+		<td>spatial descriptions</td>
+		<td>generates addressee-oriented spatial descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PAUL" title="PAUL">PAUL</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td>English</td>
+		<td></td>
+		<td>generation of coherent texts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PAULINE" title="PAULINE">PAULINE</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td></td>
+		<td>pragmatically motivated text planning</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PCRU" title="PCRU">PCRU</a></td>
+		<td><span class="smwsortkey">2453737</span>2006</td>
+		<td><span class="smwsortkey">2454833</span>2009</td>
+		<td>English</td>
+		<td>weather</td>
+		<td>Probabilistic Generation of Weather Reports</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PEA" title="PEA">PEA</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>tutoring</td>
+		<td>generates a system's dialogue contributions teaching a student about a programming language</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PENMAN" title="PENMAN">PENMAN</a></td>
+		<td><span class="smwsortkey">2444606</span>1981</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td></td>
+		<td>Portable systemic generator for domain-independent large-scale text generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PERFECTION" title="PERFECTION">PERFECTION</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>German</td>
+		<td></td>
+		<td>Performing Self-Corrections During Incremental Generation  of Natural Language</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PERSONAGE" title="PERSONAGE">PERSONAGE</a></td>
+		<td><span class="smwsortkey">2453372</span>2005</td>
+		<td><span class="smwsortkey">2454467</span>2008</td>
+		<td>English</td>
+		<td>Affect</td>
+		<td>Personage is a full natural language generator that can convey various personality traits.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PHRED" title="PHRED">PHRED</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td>English</td>
+		<td></td>
+		<td>multilingual generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PIGLIT" title="PIGLIT">PIGLIT</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>personalized hypertext explanations of on-line patient medical records</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PIT" title="PIT">PIT</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>German</td>
+		<td></td>
+		<td>text planning</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PLANDOC" title="PLANDOC">PLANDOC</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>telecom</td>
+		<td>summary generation reporting changes in a telephone network</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PLANES" title="PLANES">PLANES</a></td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td><span class="smwsortkey">2443510</span>1978</td>
+		<td>English</td>
+		<td></td>
+		<td>database access and retrieval</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PLNLP" title="PLNLP">PLNLP</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>English</td>
+		<td>independent</td>
+		<td>general NLP including generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/POPEL-HOW" title="POPEL-HOW">POPEL-HOW</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td>German</td>
+		<td></td>
+		<td>incremental sentence generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/POPEL-WHAT" title="POPEL-WHAT">POPEL-WHAT</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>German</td>
+		<td></td>
+		<td>incremental sentence generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PPP" title="PPP">PPP</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English<br />German</td>
+		<td>instructions</td>
+		<td>creates an animated character which explains to a user how to perform various tasks, using a mixture of text, speech and graphics</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PPP-case" title="PPP-case">PPP-case</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>CASE models</td>
+		<td>An explanation generation facility for knowledge validation in computer-aided software engineering</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PRACMA" title="PRACMA">PRACMA</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>German</td>
+		<td></td>
+		<td>dialogue system with user modelling</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PREPLAN" title="PREPLAN">PREPLAN</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>German</td>
+		<td></td>
+		<td>plan-based multimedia generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PRETEXTE" title="PRETEXTE">PRETEXTE</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>French</td>
+		<td></td>
+		<td>generation of temporal expressions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PROSENET" title="PROSENET">PROSENET</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PROTECTOR" title="PROTECTOR">PROTECTOR</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td></td>
+		<td>flexible generation of sentences from conceptual graphs</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PROTEUS" title="PROTEUS">PROTEUS</a></td>
+		<td><span class="smwsortkey">2443510</span>1978</td>
+		<td><span class="smwsortkey">2443510</span>1978</td>
+		<td>English</td>
+		<td>game commentary</td>
+		<td>generation of comments when playing TIC-TAC-TOE</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PROVERB" title="PROVERB">PROVERB</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td>formal proofs</td>
+		<td>natural language presention of machine-found proofs</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Paiva-style" title="Paiva-style">Paiva-style</a></td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>Stylistic control for generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Parry" title="Parry">Parry</a></td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td>English</td>
+		<td>psychiatry</td>
+		<td>simulation of paranoid processes</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Patent_Claim_Expert" title="Patent Claim Expert">Patent Claim Expert</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>patents</td>
+		<td>generates patent claims</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Peba-II" title="Peba-II">Peba-II</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td>animal comparisons</td>
+		<td>produces web pages that describe or compare animals, with embedded hypertext links</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Pen%26Pad_Reporter" title="Pen&amp;Pad Reporter">Pen&amp;Pad Reporter</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>Describes a NLG scheme for use with the Pen&amp;Pad patient care workstation system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Picard" title="Picard">Picard</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td></td>
+		<td>sentence generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PlayMoBild" title="PlayMoBild">PlayMoBild</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>German<br />Dutch</td>
+		<td></td>
+		<td>bidirectional linguistic deduction, parsing and generation of single sentences</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Polibox" title="Polibox">Polibox</a></td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td></td>
+		<td>English<br />German</td>
+		<td></td>
+		<td>Hypertext generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Polly" title="Polly">Polly</a></td>
+		<td><span class="smwsortkey">2454102</span>2007</td>
+		<td><span class="smwsortkey">2454467</span>2008</td>
+		<td>English</td>
+		<td>ESL</td>
+		<td>POliteness in Language Learning</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Polygloss" title="Polygloss">Polygloss</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English<br />German</td>
+		<td>independent</td>
+		<td>typed-unification-based generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/PostGraphe" title="PostGraphe">PostGraphe</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>French</td>
+		<td></td>
+		<td>combined text and graphics generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Power" title="Power">Power</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>museums</td>
+		<td>another virtual museum system dynamically generating descriptions of museum objects</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Presentor" title="Presentor">Presentor</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td></td>
+		<td>A Framework for Customizable Generation of Hypertext Presentations</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ProfGlot" title="ProfGlot">ProfGlot</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English<br />French<br />Dutch</td>
+		<td></td>
+		<td>sentence generation with Functional Grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Project_Reporter" title="Project Reporter">Project Reporter</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>Commercial</td>
+		<td>generates dynamic web-based project status reports</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Promethius" title="Promethius">Promethius</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>English</td>
+		<td></td>
+		<td>sentence generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/QUALM" title="QUALM">QUALM</a></td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td><span class="smwsortkey">2443510</span>1978</td>
+		<td>English</td>
+		<td></td>
+		<td>goal sensitive elaboration of a response (the depth  depending on the nature of the question)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/RAGS" title="RAGS">RAGS</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>independent</td>
+		<td></td>
+		<td>aims to develop a generic architecture for applied NLG systems</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/RAREAS" title="RAREAS">RAREAS</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td>French<br />English</td>
+		<td>weather</td>
+		<td>generation of weather forecast reports (a precursor to FoG)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/RENDEZVOUS" title="RENDEZVOUS">RENDEZVOUS</a></td>
+		<td><span class="smwsortkey">2442779</span>1976</td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td>English</td>
+		<td>DB</td>
+		<td>database query formulation system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/RICHES" title="RICHES">RICHES</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td>instructions</td>
+		<td>Instructional texts for patients</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ROIS" title="ROIS">ROIS</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>Dutch</td>
+		<td>medical</td>
+		<td>Medical domain generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ROMPER" title="ROMPER">ROMPER</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td>English</td>
+		<td></td>
+		<td>correction and anticipation of wrong inferences</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/RTPI" title="RTPI">RTPI</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>integration and aggregation of RST-style trees for generating medical critiques</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Ratnaparkhi" title="Ratnaparkhi">Ratnaparkhi</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>English</td>
+		<td>air travel</td>
+		<td>Air travel reservation dialogue system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/RealPro" title="RealPro">RealPro</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>English</td>
+		<td>independent</td>
+		<td>a syntactic realisation system based on meaning-text theory</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/RoadSafe" title="RoadSafe">RoadSafe</a></td>
+		<td><span class="smwsortkey">2453737</span>2006</td>
+		<td><span class="smwsortkey">2454833</span>2009</td>
+		<td>English</td>
+		<td>geodata</td>
+		<td>Automatically Generating Advisory Text for Road Maintenance Vehicle Routing</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SAGE" title="SAGE">SAGE</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>English</td>
+		<td>explanation</td>
+		<td>multimodal explanations</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SCHOLAR" title="SCHOLAR">SCHOLAR</a></td>
+		<td><span class="smwsortkey">2441684</span>1973</td>
+		<td><span class="smwsortkey">2441684</span>1973</td>
+		<td>English</td>
+		<td>teaching geography</td>
+		<td>natural language interface for teaching geography</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SEEC" title="SEEC">SEEC</a></td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English</td>
+		<td>text structuring</td>
+		<td>System for Evaluating Entity Coherence</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SEGUE" title="SEGUE">SEGUE</a></td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English</td>
+		<td>general</td>
+		<td>Hybrid case-based surface generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SEMSYN" title="SEMSYN">SEMSYN</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>German</td>
+		<td>labor market</td>
+		<td>summaries about the labor market</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SHRDLU" title="SHRDLU">SHRDLU</a></td>
+		<td><span class="smwsortkey">2441318</span>1972</td>
+		<td><span class="smwsortkey">2441318</span>1972</td>
+		<td>English</td>
+		<td>spatial relationships</td>
+		<td>description of a microworld (cubes, blocks)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SIC!" title="SIC!">SIC!</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td></td>
+		<td>integrated multimodal interaction to information systems</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SLANG" title="SLANG">SLANG</a></td>
+		<td><span class="smwsortkey">2445701</span>1984</td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td>English</td>
+		<td></td>
+		<td>use of systemic grammars for NLG</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SOCCER" title="SOCCER">SOCCER</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td>German</td>
+		<td>soccer</td>
+		<td>generation of soccer reports</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SOLE" title="SOLE">SOLE</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td></td>
+		<td>the project aims to develop and evaluate a rhetorically-oriented interface between a natural language generation system and a speech synthesis system.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SPEAK!" title="SPEAK!">SPEAK!</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>German</td>
+		<td>metadialog</td>
+		<td>spoken language generation for supporting database access</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SPIN" title="SPIN">SPIN</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>French</td>
+		<td>instructions</td>
+		<td>planning of instructional texts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SPIRIT" title="SPIRIT">SPIRIT</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td>English</td>
+		<td></td>
+		<td>determination of the adequacy of information</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SPOKESMAN" title="SPOKESMAN">SPOKESMAN</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td></td>
+		<td>producing texts by revising</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SPUD" title="SPUD">SPUD</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td></td>
+		<td>English</td>
+		<td></td>
+		<td>sentence planning using descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/STAGE" title="STAGE">STAGE</a></td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English</td>
+		<td>general</td>
+		<td>Generating using an Assumption-Based Truth Maintenance System (ATMS)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/STOP" title="STOP">STOP</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>English</td>
+		<td>medical<br />smoking cessation</td>
+		<td>Generates personalized smoking-cessation letters</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/STREAK" title="STREAK">STREAK</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td>baseball</td>
+		<td>revision-based generation of summaries of baseball games</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SUNDIAL" title="SUNDIAL">SUNDIAL</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>English</td>
+		<td>spoken dialogue</td>
+		<td>spoken language dialogue system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SUREGEN-2" title="SUREGEN-2">SUREGEN-2</a></td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td></td>
+		<td>German</td>
+		<td>medical</td>
+		<td>Medical document generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SURGE" title="SURGE">SURGE</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>independent</td>
+		<td>the English grammar used with FUF</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SUTRA" title="SUTRA">SUTRA</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>German</td>
+		<td>reservations</td>
+		<td>surface generator of HAM-ANS dialog system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SWIM" title="SWIM">SWIM</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>French</td>
+		<td>teaching French</td>
+		<td>CALL system for learning to speak French</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SYLAE" title="SYLAE">SYLAE</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>French</td>
+		<td></td>
+		<td>sentence generation from conceptual graphs</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Salix" title="Salix">Salix</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>English</td>
+		<td>house layouts</td>
+		<td>generates extended texts in domains including house layouts and family relations.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Scribe" title="Scribe">Scribe</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>French<br />English</td>
+		<td>weather</td>
+		<td>Weather forecast report generator (template-based).</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Script_generator_of_Verbmobil" title="Script generator of Verbmobil">Script generator of Verbmobil</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English<br />German</td>
+		<td>summary</td>
+		<td>Generation of summaries and minutes for spoken multilingual negotiation dialogues</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SeReal" title="SeReal">SeReal</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>German</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SemScribe" title="SemScribe">SemScribe</a></td>
+		<td><span class="smwsortkey">2455198</span>2010</td>
+		<td><span class="smwsortkey">2455563</span>2011</td>
+		<td></td>
+		<td>Medical (cardiology)</td>
+		<td>SemScribe is an implemented natural language generation system that produces parts of clinical reports, in particular descriptions of cardiological findings.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SemTex" title="SemTex">SemTex</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>German</td>
+		<td>news</td>
+		<td>Automated newsagency</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SenGarden" title="SenGarden">SenGarden</a></td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>French</td>
+		<td>paraphrase</td>
+		<td>A generator of paraphrases based on Igor Mel'cuk's Meaning-Text Theory</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Shapiro" title="Shapiro">Shapiro</a></td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td><span class="smwsortkey">2444971</span>1982</td>
+		<td>English</td>
+		<td></td>
+		<td>generation from semantic networks</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Simmons,_Slocum" title="Simmons, Slocum">Simmons, Slocum</a></td>
+		<td><span class="smwsortkey">2441318</span>1972</td>
+		<td><span class="smwsortkey">2441318</span>1972</td>
+		<td>English</td>
+		<td></td>
+		<td>sentence generation by using an ATN</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Simonin" title="Simonin">Simonin</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>French</td>
+		<td>economics</td>
+		<td>optimization, i.e. restructuring of plans in order to describe the economic situation of different countries</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SimpleNLG" title="SimpleNLG">SimpleNLG</a></td>
+		<td><span class="smwsortkey">2454102</span>2007</td>
+		<td><span class="smwsortkey">2455563</span>2011</td>
+		<td>English</td>
+		<td>general</td>
+		<td>A simple Java-based generation framework</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Siren" title="Siren">Siren</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English<br />French</td>
+		<td>weather</td>
+		<td>Marine weather forecast report generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SkillSum" title="SkillSum">SkillSum</a></td>
+		<td><span class="smwsortkey">2452641</span>2003</td>
+		<td><span class="smwsortkey">2453372</span>2005</td>
+		<td>English</td>
+		<td>Personalised basic skills summary reports</td>
+		<td>Planning content, structure, discourse-level and lexical choices for people with poor literacy and numeracy</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SmartKom" title="SmartKom">SmartKom</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td><span class="smwsortkey">2453737</span>2006</td>
+		<td>German</td>
+		<td></td>
+		<td>A project to develop a multimodal, multimedia, self-explanatory, user-adaptive interface for the dialogic interaction of humans and technology.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Spyropoulos,Karkaletsis" title="Spyropoulos,Karkaletsis">Spyropoulos,Karkaletsis</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>Greek</td>
+		<td>online help</td>
+		<td>automatic generation of software messages</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/StockReporter" title="StockReporter">StockReporter</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>stock market</td>
+		<td>produces descriptions of stock market data</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/StoryBook" title="StoryBook">StoryBook</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>English<br />Spanish</td>
+		<td>little red-riding hood</td>
+		<td>Multi-page narratives in the Little Red Riding Hood domain</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SumTime" title="SumTime">SumTime</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td></td>
+		<td>English</td>
+		<td>weather<br />gas turbines</td>
+		<td>English summary descriptions of time-series data sets</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SumTime-Mousam" title="SumTime-Mousam">SumTime-Mousam</a></td>
+		<td><span class="smwsortkey">2453372</span>2005</td>
+		<td></td>
+		<td>English</td>
+		<td>weather</td>
+		<td>Weather Forecast System</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SumTime-Neonate" title="SumTime-Neonate">SumTime-Neonate</a></td>
+		<td><span class="smwsortkey">2453372</span>2005</td>
+		<td><span class="smwsortkey">2454102</span>2007</td>
+		<td>English</td>
+		<td>medicine</td>
+		<td>Medical Care Reports</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/SumTime-Turbine" title="SumTime-Turbine">SumTime-Turbine</a></td>
+		<td><span class="smwsortkey">2453372</span>2005</td>
+		<td><span class="smwsortkey">2453372</span>2005</td>
+		<td>English</td>
+		<td>industrial</td>
+		<td>System for generating textual summaries of sensor data from a gas turbine</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Summum" title="Summum">Summum</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td>abstracting</td>
+		<td>Generates indicative and informative abstracts in English</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Suspenser" title="Suspenser">Suspenser</a></td>
+		<td><span class="smwsortkey">2453372</span>2005</td>
+		<td><span class="smwsortkey">2453737</span>2006</td>
+		<td>English</td>
+		<td>narrative</td>
+		<td>A framework for narrative generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Susy" title="Susy">Susy</a></td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td><span class="smwsortkey">2445336</span>1983</td>
+		<td>English<br />French<br />Dutch</td>
+		<td></td>
+		<td>MT system with some attention to generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Synphonics" title="Synphonics">Synphonics</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>German</td>
+		<td>spoken dialogue</td>
+		<td>Spoken dialogue contribution generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TAG-GEN" title="TAG-GEN">TAG-GEN</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>German<br />English</td>
+		<td></td>
+		<td>syntactic generator exploiting an incremental and parallel processing scheme</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TAILOR" title="TAILOR">TAILOR</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td>user modelling</td>
+		<td>tailoring the text to the user's knowledge</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TALE-SPIN" title="TALE-SPIN">TALE-SPIN</a></td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td><span class="smwsortkey">2443145</span>1977</td>
+		<td>English</td>
+		<td>stories</td>
+		<td>planning and generation of fables</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TBTA" title="TBTA">TBTA</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2454467</span>2008</td>
+		<td>English<br />Korean<br />Jula<br />Kewa</td>
+		<td>translation</td>
+		<td>The Bible Translator's Assistant</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TECHDOC" title="TECHDOC">TECHDOC</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>German</td>
+		<td>instructions</td>
+		<td>multilingual instructions for automobile maintenance</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TELEGRAM" title="TELEGRAM">TELEGRAM</a></td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td><span class="smwsortkey">2444971</span>1982</td>
+		<td>English</td>
+		<td></td>
+		<td>planning for generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TELOS" title="TELOS">TELOS</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>German</td>
+		<td>temporal connectives</td>
+		<td>temporal connective generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TEMPLOG" title="TEMPLOG">TEMPLOG</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>German</td>
+		<td>temporal connectives</td>
+		<td>temporal connective generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TEMSIS" title="TEMSIS">TEMSIS</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>German<br />French<br />English<br />Portuguese</td>
+		<td>environment</td>
+		<td>provides environmental information</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TENDUM" title="TENDUM">TENDUM</a></td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td><span class="smwsortkey">2446797</span>1987</td>
+		<td>English</td>
+		<td></td>
+		<td>generating with pragmatic information</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TEXNET" title="TEXNET">TEXNET</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>generation of clinical summaries</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TEXPLAN" title="TEXPLAN">TEXPLAN</a></td>
+		<td></td>
+		<td></td>
+		<td>English</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TEXT" title="TEXT">TEXT</a></td>
+		<td><span class="smwsortkey">2444240</span>1980</td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td>English</td>
+		<td></td>
+		<td>use of schemata for determining content &amp; text structure</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TG/2" title="TG/2">TG/2</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td></td>
+		<td>independent</td>
+		<td>independent</td>
+		<td>shallow generation component using generalized templates</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/THINKER" title="THINKER">THINKER</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>English</td>
+		<td>formal proofs</td>
+		<td>explanation of natural deduction proofs</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TIGGER" title="TIGGER">TIGGER</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>Time-based Explanation Generation  includes an explicit psychological model of patients' information needs.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TOPCAT" title="TOPCAT">TOPCAT</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td>English</td>
+		<td>whisky</td>
+		<td>Produces descriptions of malt whiskies</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TREE" title="TREE">TREE</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>English<br />Greek</td>
+		<td>job adverts</td>
+		<td>multilingual generation of job advertisements</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TREND" title="TREND">TREND</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>English</td>
+		<td>time-series</td>
+		<td>Time-series description</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Tait" title="Tait">Tait</a></td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td><span class="smwsortkey">2446067</span>1985</td>
+		<td>English</td>
+		<td></td>
+		<td>An English Generator for a Case-Labelled Dependency Representation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TextPro" title="TextPro">TextPro</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>German</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ThoughtTreasure" title="ThoughtTreasure">ThoughtTreasure</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English<br />French</td>
+		<td></td>
+		<td>Generates any ThoughtTreasure assertion for which appropriate lexical entries are defined</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Tiddler" title="Tiddler">Tiddler</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td></td>
+		<td>English</td>
+		<td>tourism</td>
+		<td>Personalized travel guides</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/TraumGen" title="TraumGen">TraumGen</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>medical</td>
+		<td>Communication of information in clinical environments and for medical support systems</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/UNL" title="UNL">UNL</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td></td>
+		<td>German</td>
+		<td></td>
+		<td>An international cooperation  to provide information on  the internet in the languages of the members of the  United Nations</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Unitran" title="Unitran">Unitran</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English<br />Spanish</td>
+		<td></td>
+		<td>MT system with some attention to generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VIE-DU" title="VIE-DU">VIE-DU</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>German</td>
+		<td></td>
+		<td>dialogue generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VIE-GEN" title="VIE-GEN">VIE-GEN</a></td>
+		<td><span class="smwsortkey">2445701</span>1984</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>German</td>
+		<td></td>
+		<td>sentence generation from a semantic network</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VINCI" title="VINCI">VINCI</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td></td>
+		<td>English<br />French</td>
+		<td>CALL</td>
+		<td>VINCI is a natural language generation environment used since 1986 for language learning and testing, subject testing, and modelling of diverse linguistic phenomena ranging from word-formation, to narrative structure, to generation of verbal humour.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VINST" title="VINST">VINST</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>English</td>
+		<td></td>
+		<td>database retrieval result aggregation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VITRA" title="VITRA">VITRA</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>German</td>
+		<td></td>
+		<td>Generation of dynamically changing scene descriptions</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VM-GECO" title="VM-GECO">VM-GECO</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td>English</td>
+		<td></td>
+		<td>VerbMobil Generation Components (I)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VM-GECO-II" title="VM-GECO-II">VM-GECO-II</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>German<br />English<br />Japanese</td>
+		<td>appointments</td>
+		<td>VerbMobil Generation Components (II)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VM-GEN" title="VM-GEN">VM-GEN</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>German</td>
+		<td></td>
+		<td>German surface generator for the Verbmobil project; incremental</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/VOLVEX" title="VOLVEX">VOLVEX</a></td>
+		<td><span class="smwsortkey">2450084</span>1996</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English</td>
+		<td>formal specifications</td>
+		<td>Validation Of Specifications by Natural Language Generation for VOLVO expressed in STEP/EXPRESS</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Verbmobil-dialog" title="Verbmobil-dialog">Verbmobil-dialog</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>German</td>
+		<td></td>
+		<td>dialogue management within the Verbmobil translation system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ViewGen" title="ViewGen">ViewGen</a></td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td></td>
+		<td>English</td>
+		<td>hypertext</td>
+		<td>ViewGen (Viewpoint Generation) is an approach to dialogue understanding and belief modelling being implemented in a suite of programs. It includes natural language generation for hypertext as part of this overall project.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/WAG" title="WAG">WAG</a></td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>English</td>
+		<td>independent</td>
+		<td>a system for developing and using systemic grammars for generation and analysis</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/WEBCOOP" title="WEBCOOP">WEBCOOP</a></td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td><span class="smwsortkey">2453006</span>2004</td>
+		<td>English<br />French</td>
+		<td>transportation</td>
+		<td>Logic-based model for question answering</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/WEIVER" title="WEIVER">WEIVER</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>Japanese</td>
+		<td></td>
+		<td>revision-based architecture</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/WIP" title="WIP">WIP</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>German</td>
+		<td>instructions</td>
+		<td>multimodal generation, instructions for technical products</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/WISBER" title="WISBER">WISBER</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>German</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/WISHFUL" title="WISHFUL">WISHFUL</a></td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td><span class="smwsortkey">2448258</span>1991</td>
+		<td>English</td>
+		<td>teaching algebra</td>
+		<td>content planning for teaching algebra</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/WISHFUL-II" title="WISHFUL-II">WISHFUL-II</a></td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td><span class="smwsortkey">2449719</span>1995</td>
+		<td>English</td>
+		<td>explanation</td>
+		<td>explanation generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/WYSIWYM" title="WYSIWYM">WYSIWYM</a></td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td></td>
+		<td>English</td>
+		<td>knowledge editing</td>
+		<td>What you see is what you meant': knowledge-editing with natural language generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Wagner-med" title="Wagner-med">Wagner-med</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>English<br />French</td>
+		<td>medical</td>
+		<td>Medical domain generation</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Wanner" title="Wanner">Wanner</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td>German</td>
+		<td></td>
+		<td>lexical resources for generation (PhD)</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Weathra" title="Weathra">Weathra</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td>Swedish<br />English</td>
+		<td>weather</td>
+		<td>Weather forecast report generator</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Wilcock" title="Wilcock">Wilcock</a></td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td><span class="smwsortkey">2448989</span>1993</td>
+		<td>English</td>
+		<td>interactive MT</td>
+		<td>generation of complex English modal and auxiliary verb groups are presented in Japanese to a Japanese user</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Wong" title="Wong">Wong</a></td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td><span class="smwsortkey">2442414</span>1975</td>
+		<td>English</td>
+		<td></td>
+		<td>sentence generation from a semantic network</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Wotan" title="Wotan">Wotan</a></td>
+		<td><span class="smwsortkey">2455563</span>2011</td>
+		<td><span class="smwsortkey">2456294</span>2013</td>
+		<td>German</td>
+		<td>artifical intelligence</td>
+		<td>German artificial mind thinks with concepts</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/XEplainer" title="XEplainer">XEplainer</a></td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td><span class="smwsortkey">2451911</span>2001</td>
+		<td>Korean</td>
+		<td>homeshopping</td>
+		<td>Generation from a database for homeshopping sites</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/XIG" title="XIG">XIG</a></td>
+		<td><span class="smwsortkey">2450450</span>1997</td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td>Italian</td>
+		<td>tourist info</td>
+		<td>generates sentences from an interlingua content representation in the application area of tourist information.</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/XPLAIN" title="XPLAIN">XPLAIN</a></td>
+		<td><span class="smwsortkey">2444606</span>1981</td>
+		<td><span class="smwsortkey">2444606</span>1981</td>
+		<td>English</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/XTRA" title="XTRA">XTRA</a></td>
+		<td><span class="smwsortkey">2446432</span>1986</td>
+		<td><span class="smwsortkey">2447893</span>1990</td>
+		<td>German</td>
+		<td></td>
+		<td>Natural-Language Access System to Expert Systems incorporating generation functionalities</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/XtraGen" title="XtraGen">XtraGen</a></td>
+		<td><span class="smwsortkey">2452276</span>2002</td>
+		<td></td>
+		<td>independent</td>
+		<td></td>
+		<td>Template-based generation with XML and Java interfaces</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/YAG" title="YAG">YAG</a></td>
+		<td><span class="smwsortkey">2451180</span>1999</td>
+		<td><span class="smwsortkey">2451545</span>2000</td>
+		<td>English</td>
+		<td></td>
+		<td>YAG is a real-time, general-purpose, template-based generation system</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/YH" title="YH">YH</a></td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td><span class="smwsortkey">2447162</span>1988</td>
+		<td>English</td>
+		<td>simulation</td>
+		<td>simulation of conscious processes of writing</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Yang" title="Yang">Yang</a></td>
+		<td><span class="smwsortkey">2448623</span>1992</td>
+		<td><span class="smwsortkey">2450815</span>1998</td>
+		<td>Chinese</td>
+		<td></td>
+		<td>systemic-functional oriented tactical generation of Chinese</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Yngve" title="Yngve">Yngve</a></td>
+		<td><span class="smwsortkey">2437301</span>1961</td>
+		<td><span class="smwsortkey">2437301</span>1961</td>
+		<td>English</td>
+		<td></td>
+		<td>random generation with a generative grammar</td>
+	</tr>
+	<tr>
+		<td><a href="/systems/ZORA" title="ZORA">ZORA</a></td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td><span class="smwsortkey">2447528</span>1989</td>
+		<td>German</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="/systems/Zardoz" title="Zardoz">Zardoz</a></td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td><span class="smwsortkey">2449354</span>1994</td>
+		<td>Sign</td>
+		<td></td>
+		<td>an English to Sign-Language Translation System</td>
+	</tr>
+</table>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 853/1000000
+Post-expand include size: 99484/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key nlgwikidb:pcache:idhash:405-0!1!0!!en!2!edit=0 and timestamp 20130814132843 -->
+<div class="printfooter">
+Retrieved from "<a href="http://www.nlg-wiki.org/systems/Table_of_NLG_systems">http://www.nlg-wiki.org/systems/Table_of_NLG_systems</a>"</div>
+						<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="/systems/Table_of_NLG_systems" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="/sys/index.php?title=Talk:Table_of_NLG_systems&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/sys/index.php?title=Table_of_NLG_systems&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/sys/index.php?title=Table_of_NLG_systems&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+				 <li id="ca-purge"><a href="/sys/index.php?title=Table_of_NLG_systems&amp;action=purge">purge</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/sys/index.php?title=Special:UserLogin&amp;returnto=Table_of_NLG_systems" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/sys/B2z-icon.gif);" href="/systems/NLG_Systems_Wiki" title="Visit the main page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/systems/NLG_Systems_Wiki">Main Page</a></li>
+				<li id="n-Bibliography"><a href="http://www.nlg-wiki.org/systems/Special:Bibliography/new.bib">Bibliography</a></li>
+				<li id="n-NLG-systems"><a href="http://www.nlg-wiki.org/systems/Table_of_NLG_systems">NLG systems</a></li>
+				<li id="n-recentchanges"><a href="/systems/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="/systems/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="/systems/Help:Contents" title="The place to find out">Help</a></li>
+				<li id="n-ACL-SIGGEN"><a href="http://www.siggen.org/">ACL SIGGEN</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/sys/index.php" id="searchform"><div>
+				<input type='hidden' name="title" value="Special:Search"/>
+				<input id="searchInput" name="search" type="text" title="Search NLG Systems Wiki [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/systems/Special:WhatLinksHere/Table_of_NLG_systems" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/systems/Special:RecentChangesLinked/Table_of_NLG_systems" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/systems/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/sys/index.php?title=Table_of_NLG_systems&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/sys/index.php?title=Table_of_NLG_systems&amp;oldid=1312" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-smwbrowselink"><a href="/systems/Special:Browse/Table_of_NLG_systems" title="Special:Browse/Table of NLG systems">Browse properties</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/sys/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+				<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt='Attribution-Noncommercial-Share Alike 3.0 Unported' /></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 29 October 2011, at 08:57.</li>
+					<li id="copyright">Content is available under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" class="external " title="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution-Noncommercial-Share Alike 3.0 Unported</a>.</li>
+					<li id="privacy"><a href="/systems/NLG_Systems_Wiki:Privacy_policy" title="NLG Systems Wiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="/systems/NLG_Systems_Wiki:About" title="NLG Systems Wiki:About">About NLG Systems Wiki</a></li>
+					<li id="disclaimer"><a href="/systems/NLG_Systems_Wiki:General_disclaimer" title="NLG Systems Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 4.359 secs. --></body><!-- Cached 20130814132843 -->
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.15.4" />
+		<meta name="keywords" content="SparqlImplementations,DawgShows,JavaScript,SPARQL,SparqlEndpoints" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ESW Wiki (en)" />
+		<link rel="alternate" type="application/rss+xml" title="ESW Wiki RSS feed" href="/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="ESW Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+		<title>SparqlImplementations - ESW Wiki</title>
+		<link rel="stylesheet" href="/skins/common/shared.css?207" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/skins/common/commonPrint.css?207" type="text/css" media="print" />
+		<link rel="stylesheet" href="/skins/w3cmonobook/main.css?207" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/w3cmonobook/IE50Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/w3cmonobook/IE55Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="/skins/w3cmonobook/IE60Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="/skins/w3cmonobook/IE70Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="/index.php?title=MediaWiki:W3cmonobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?207"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "w3cmonobook";
+		var stylepath = "/skins";
+		var wgArticlePath = "/$1";
+		var wgScriptPath = "";
+		var wgScript = "/index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "http://esw.w3.org";
+		var wgCanonicalNamespace = "";
+		var wgCanonicalSpecialPageName = false;
+		var wgNamespaceNumber = 0;
+		var wgPageName = "SparqlImplementations";
+		var wgTitle = "SparqlImplementations";
+		var wgAction = "view";
+		var wgArticleId = "973";
+		var wgIsArticle = true;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "en";
+		var wgContentLanguage = "en";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = 45403;
+		var wgVersion = "1.15.4";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="/skins/common/wikibits.js?207"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/skins/common/ajax.js?207"></script>
+		<link rel="alternate" type="application/rdf+xml" title="SparqlImplementations" href="/index.php?title=Special:ExportRDF/SparqlImplementations&amp;xmlmime=rdf" />
+		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=w3cmonobook"><!-- site js --></script>
+	</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SparqlImplementations skin-w3cmonobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">SparqlImplementations</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From ESW Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p>This page lists some implementations of <a href="/SPARQL" title="SPARQL">SPARQL</a>, a query language and protocol
+for RDF acccess released by the W3C RDF Data Access Working Group - 
+<a href="http://www.w3.org/2001/sw/DataAccess/" class="external text" title="http://www.w3.org/2001/sw/DataAccess/">DAWG</a>.
+</p>
+<pre><a href="http://www.w3.org/TR/rdf-sparql-query/" class="external text" title="http://www.w3.org/TR/rdf-sparql-query/">SPARQL query language spec</a>
+</pre>
+<pre><a href="http://www.w3.org/TR/rdf-sparql-protocol/" class="external text" title="http://www.w3.org/TR/rdf-sparql-protocol/">SPARQL Protocol spec</a>
+</pre>
+<pre><a href="http://www.w3.org/TR/rdf-sparql-XMLres/" class="external text" title="http://www.w3.org/TR/rdf-sparql-XMLres/">SPARQL XML results spec</a>
+</pre>
+<pre><a href="http://www.w3.org/2001/sw/DataAccess/tests/implementations" class="external text" title="http://www.w3.org/2001/sw/DataAccess/tests/implementations">SPARQL Implementation Survey</a>
+</pre>
+<p>See <a href="/DawgShows" title="DawgShows">DawgShows</a> for online demos and services.
+</p>
+<a name="Client_Side" id="Client_Side"></a><h2> <span class="mw-headline"> Client Side </span></h2>
+<ul><li> <a href="http://rdf2go.semweb4j.org" class="external text" title="http://rdf2go.semweb4j.org">RDF2Go</a> Java Triple Store Abstraction  Layer, adapters for Jena and Sesame - one RDF API, many stores
+</li><li> <a href="http://cyparkler.monrai.com" class="external text" title="http://cyparkler.monrai.com">SPARQL Software</a> Monrai Cyparkler 1.0 is a software framework which implements a query factory for SPARQL and SeRQL
+</li><li> <a href="http://cypher.monrai.com" class="external text" title="http://cypher.monrai.com">NLP Software for RDF &amp; SPARQL</a> Monrai Cypher is a software program which generates the RDF graph and SPARQL/SeRQL query representation of a plain language input
+</li><li> <a href="http://www.thefigtrees.net/lee/blog/2006/04/sparql_calendar_demo_a_sparql.html" class="external text" title="http://www.thefigtrees.net/lee/blog/2006/04/sparql_calendar_demo_a_sparql.html">SPARQL JavaScript Library</a>, works with SPARQL/JSON-capable servers
+</li><li> <a href="http://demo.openlinksw.com/sparql_demo/" class="external text" title="http://demo.openlinksw.com/sparql_demo/">OpenLink Virtuoso's Web based SPARQL Client</a>, works with in-built or 3rd party SPARQL Query Services
+</li><li> <a href="http://www.wiwiss.fu-berlin.de/suhl/bizer/ng4j/semwebclient" class="external text" title="http://www.wiwiss.fu-berlin.de/suhl/bizer/ng4j/semwebclient">Semantic Web Client Library</a>, represents the complete Semantic Web as a single RDF graph and enables applications to query this global graph using SPARQL queries. Implemented in Java based on Jena.
+</li><li> <a href="https://sourceforge.net/projects/sesamewinclient" class="external text" title="https://sourceforge.net/projects/sesamewinclient">Sesame Windows Client</a>, is an open-source desktop application for interacting with a Sesame 2 RDF server or SPARQL endpoints. SWC offers a graphical user interface that lets you administrate a Sesame server, do SPARQL queries, export, add and remove data. It works with Novell Mono on Unix.  
+</li><li> <a href="http://www.arielworks.net/works/codeyard/hercules" class="external text" title="http://www.arielworks.net/works/codeyard/hercules">Hercules - Ajax Object/Rdf mapper</a>, works with SPARQL servers
+</li><li> <a href="http://sites.wiwiss.fu-berlin.de/suhl/bizer/rdfapi/tutorial/usingtheSparqlClient.htm" class="external text" title="http://sites.wiwiss.fu-berlin.de/suhl/bizer/rdfapi/tutorial/usingtheSparqlClient.htm">RAP's SPARQL Client Library</a> PHP library to query remote SPARQL endpoints.
+</li><li> <a href="http://www.topbraidcomposer.com/" class="external text" title="http://www.topbraidcomposer.com/">TopQuadrant's TopBraid Composer</a>, is a complete standards-based platform for developing, testing and maintaining Semantic Web applications. Testing, consistency checking and debugging is supported by a bundled version of Pellet.
+</li><li> <a href="http://sparql-wrapper.sourceforge.net/" class="external text" title="http://sparql-wrapper.sourceforge.net/">SPARQL Python Wrapper</a> is a python implementation by Ivan Herman and others.
+</li><li> <a href="http://code.google.com/p/pysparql/" class="external text" title="http://code.google.com/p/pysparql/">pysparql</a> is a python client that originates in the above <a href="/JavaScript" title="JavaScript">JavaScript</a> library.
+</li><li> <a href="http://www.ldodds.com/projects/twinkle/" class="external text" title="http://www.ldodds.com/projects/twinkle/">Twinkle</a> is a simple GUI interface that wraps the ARQ SPARQL query engine. The tool should be useful both for people wanting to learn the SPARQL query language, as well as those doing Semantic Web development.
+</li></ul>
+<a name="Query_Engines" id="Query_Engines"></a><h2> <span class="mw-headline"> Query Engines </span></h2>
+<ul><li> [http:www.SemanticDiscoverySystems.com/ The Semantic Discovery System] SPARQL Query Over Distributed Data (Oracle, any RDBMS, Web Services, Excel, Non Relational Data...) SPARQL Endpoint, Automated Mapping to/from OWL all Connected Data Sources (end Q4 2007)
+</li><li> <a href="http://www.wiwiss.fu-berlin.de/suhl/bizer/rdfapi/" class="external text" title="http://www.wiwiss.fu-berlin.de/suhl/bizer/rdfapi/">RDF API for PHP</a>, esp <a href="http://www.wiwiss.fu-berlin.de/suhl/bizer/rdfapi/tutorial/usingtheSparqlEngine.htm" class="external text" title="http://www.wiwiss.fu-berlin.de/suhl/bizer/rdfapi/tutorial/usingtheSparqlEngine.htm">SPARQL support</a>; the new SPARQL engine in RAP V0.95 passes many DAWG test cases. 
+</li><li> <a href="http://jena.sourceforge.net/ARQ/" class="external text" title="http://jena.sourceforge.net/ARQ/">ARQ</a> - Implements the SPARQL query language for <a href="http://jena.sourceforge.net/" class="external text" title="http://jena.sourceforge.net/">Jena</a> - License: BSD. Stable releases now part of the Jena distributions (binary, documentation) while continuing development releases as a separate system (code, documentation).
+</li><li> <a href="http://www.joseki.org/" class="external text" title="http://www.joseki.org/">Joseki</a> - Implements the SPARQL protocol - License: BSD.  Implements both HTTP and SOAP versions of the SPARQL protocol.
+</li><li> <a href="http://librdf.org/rasqal/" class="external text" title="http://librdf.org/rasqal/">Rasqal</a> - Implements the SPARQL query language for Redland (C) - License: LGPL/GPL2/Apache2.0.  <a href="http://librdf.org/bindings/" class="external text" title="http://librdf.org/bindings/">Redland Bindings</a> provides interfaces to it in at least perl, php, python, ruby and others.  <a href="http://librdf.org/query" class="external text" title="http://librdf.org/query">Rasqal demo</a> using the perl interface. <a href="http://sebastian.dietzold.de/archive/2005/03/02/sparqlTool.php" class="external text" title="http://sebastian.dietzold.de/archive/2005/03/02/sparqlTool.php">PHP query demo</a>
+</li><li> <a href="http://www.openrdf.org/" class="external text" title="http://www.openrdf.org/">Sesame 2</a> - Implements the SPARQL query language and protocol in Java - License: BSD. 
+</li><li> <a href="http://www.w3.org/2000/10/swap/doc/cwm" class="external text" title="http://www.w3.org/2000/10/swap/doc/cwm">cwm</a> has a --sparql option and --sparqlServer mode sinde  <a href="http://lists.w3.org/Archives/Public/public-cwm-announce/2005JulSep/0000.html" class="external text" title="http://lists.w3.org/Archives/Public/public-cwm-announce/2005JulSep/0000.html">Cwm Release 1.1.0rc1</a> 11 Aug 2005
+</li><li> <a href="http://dev.w3.org/cvsweb/%7Echeckout%7E/2004/PythonLib-IH/Overview.html" class="external text" title="http://dev.w3.org/cvsweb/%7Echeckout%7E/2004/PythonLib-IH/Overview.html">sparql-p</a>, a SPARQL API in Python, distributed as part of <a href="http://rdflib.net" class="external text" title="http://rdflib.net">RDFLib</a>, <a href="http://rdflib.net/2005/09/10/rdflib-2.2.2/README/" class="external text" title="http://rdflib.net/2005/09/10/rdflib-2.2.2/README/">version 2.2.2 and higher</a>. This is an updated version of an <a href="http://dev.w3.org/cvsweb/~checkout~/2004/PythonLib-IH/Doc/sparqlDesc.html?rev=1.8" class="external text" title="http://dev.w3.org/cvsweb/~checkout~/2004/PythonLib-IH/Doc/sparqlDesc.html?rev=1.8">older version of sparql-p</a> which was a separate package on top of RDFLib. The separate version is now deprecated. An effort to include a parser of the SPARQL query language, with a mapping on sparql-p, has been <a href="http://copia.ogbuji.net/blog/2006-06-23/rdf_query_apis_for_rdflib" class="external text" title="http://copia.ogbuji.net/blog/2006-06-23/rdf_query_apis_for_rdflib">completed</a>.
+</li><li> <a href="http://sourceforge.net/projects/sparql4j/" class="external text" title="http://sourceforge.net/projects/sparql4j/">SPARQL4J</a> SPARQL JDBC type 4 driver (Release 0.1 out) - License: Apache.  See the <a href="http://www.profium.com/news/2005/jan11_2005.html" class="external text" title="http://www.profium.com/news/2005/jan11_2005.html">announcement</a> 2006-03-31
+</li><li> <a href="http://rdfstore.sourceforge.net" class="external text" title="http://rdfstore.sourceforge.net">RDFStore</a> (<a href="http://cvs.sourceforge.net/viewcvs.py/rdfstore/rdfstore/" class="external text" title="http://cvs.sourceforge.net/viewcvs.py/rdfstore/rdfstore/">CVS</a> 0.51) from <a href="http://www.asemantics.com/" class="external text" title="http://www.asemantics.com/">asemantics</a> - License: BSD.  See also the SPARQL protocol <a href="http://demo2.asemantics.com/rdfstore/sparql/" class="external text" title="http://demo2.asemantics.com/rdfstore/sparql/">demo</a> and <a href="http://demo.asemantics.com/zparqler/" class="external text" title="http://demo.asemantics.com/zparqler/">Zparqler demo</a> and  <a href="http://demo.asemantics.com/zparqler/examples/index.html" class="external text" title="http://demo.asemantics.com/zparqler/examples/index.html">examples</a> 
+</li><li> <a href="http://kasei.us/code/rdf-query/" class="external text" title="http://kasei.us/code/rdf-query/">RDF::Query</a> perl module for querying Redland, RDF::Trine and RDF::Core models with SPARQL and RDQL. - License: Perl (Artistic/GPL). See <a href="http://kasei.us/archives/categories/projects/rdf-query/" class="external text" title="http://kasei.us/archives/categories/projects/rdf-query/">weblog updates</a> for the project status.
+</li><li> <a href="http://www.holygoat.co.uk/projects/twinql/" class="external text" title="http://www.holygoat.co.uk/projects/twinql/">Twinql</a> Common Lisp SPARQL processor by Richard Newman.  License: TBD, probably BSDish.  See also the <a href="http://www.noctua.co.uk/sparql/" class="external text" title="http://www.noctua.co.uk/sparql/">twinql demo</a>
+</li><li> <a href="http://sourceforge.net/projects/sparql" class="external text" title="http://sourceforge.net/projects/sparql">SPARQL Engine</a>.  License: LGPL.  See also the <a href="http://sparql.sourceforge.net/design.html" class="external text" title="http://sparql.sourceforge.net/design.html">Design for SPARQL engine in Sesame</a> document.  Plugs into <a href="http://www.openrdf.org/" class="external text" title="http://www.openrdf.org/">Sesame</a> and used in <a href="http://taubz.for.net/code/semweb" class="external text" title="http://taubz.for.net/code/semweb">SemWeb .NET library</a>.
+</li><li> <a href="http://kaon2.semanticweb.org/" class="external text" title="http://kaon2.semanticweb.org/">KAON2</a> OWL-DL and SWRL inference engine with SPARQL support.
+</li><li> <a href="http://www.mindswap.org/2003/pellet" class="external text" title="http://www.mindswap.org/2003/pellet">Pellet</a> Complete OWL-DL inference engine with SPARQL support, including for non-distinguished variable. The <a href="http://www.mindswap.org/2003/pellet/demo.shtml" class="external text" title="http://www.mindswap.org/2003/pellet/demo.shtml">Web Demo</a> has some SPARQL examples.
+</li><li> <a href="http://www-sop.inria.fr/acacia/soft/corese/" class="external text" title="http://www-sop.inria.fr/acacia/soft/corese/">Corese</a> Corese stands for Conceptual Resource Search Engine. It is an RDF engine based on Conceptual Graphs (CG). It enables the processing of RDF Schema and RDF statements within the CG formalism, provides a rule engine and a query engine accepting the SPARQL syntax. See <a href="http://www-sop.inria.fr/acacia/soft/corese/CoreseSparql.html" class="external text" title="http://www-sop.inria.fr/acacia/soft/corese/CoreseSparql.html">discussion of SPARQL features and extensions supported</a>. non-commercial use license to java binaries.
+</li><li> <a href="http://www.alphaworks.ibm.com/tech/semanticstk" class="external text" title="http://www.alphaworks.ibm.com/tech/semanticstk">SOR</a> "is a high-performance OWL ontology storage, inference, and query system based on RDBMS (Relational Database Management Systems). This technology runs on Windows® and Linux®."  "SPARQL specification (April 2006) has been implemented". Developed by IBM. Previously known as The Minerva.
+</li><li> <a href="http://virtuoso.openlinksw.com/wiki/main/Main" class="external text" title="http://virtuoso.openlinksw.com/wiki/main/Main">OpenLink Virtuoso</a> supports SPARQL, and SPARQL embedded in SQL, for querying RDF data stored in Virtuoso's Object-Relational Database. In Virtuoso, SPARQL benefits from low-level support in the core engine via features such as; SPARQL aware type casting rules and a dedicated IRI data type. The <a href="http://virtuoso.openlinksw.com/wiki/main/Main/VOSRDFWP" class="external text" title="http://virtuoso.openlinksw.com/wiki/main/Main/VOSRDFWP">Virtuoso RDF Triple Store</a> is the fastest developing functionality realm of Virtuoso at the current time. Virtuoso Open Source (license: GPL) and Commercial Editions (version 4.5.2) are now Available. 
+</li><li> <a href="http://ontotext.com/owlim" class="external text" title="http://ontotext.com/owlim">Ontotext OWLIM</a> supports SPARQL and SeRQL. OWLIM is a triple storage with a built-in reasoner. It has a free edition called <a href="http://ontotext.com/owlim/SwiftOWLIM-registration-form.html" class="external text" title="http://ontotext.com/owlim/SwiftOWLIM-registration-form.html">SwiftOWLIM</a>.
+</li><li> <a href="http://arc.semsol.org/" class="external text" title="http://arc.semsol.org/">ARC</a> is "a flexible RDF system for semantic web and PHP practitioners" by <a href="http://semsol.com/" class="external text" title="http://semsol.com/">semsol web semantics</a>. License: W3C Software License, <a href="http://lists.w3.org/Archives/Public/semantic-web/2007Nov/0188.html" class="external text" title="http://lists.w3.org/Archives/Public/semantic-web/2007Nov/0188.html">new version (ARC2) announced on November 28, 2007</a>.
+</li><li> <a href="http://www.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/" class="external text" title="http://www.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/">D2R Server</a>, turns relational databases into SPARQL endpoints, implements the SPARQL query language and the SPARQL protocol, based on Joseki and ARQ.
+</li><li> <a href="http://con.fusion.at/dlvhex/download.php" class="external text" title="http://con.fusion.at/dlvhex/download.php">dlvhex SPARQL-engine</a> A prototype SPARQL-plugin for the declarative logic programming engine <a href="http://www.dlvsystem.com/" class="external text" title="http://www.dlvsystem.com/">dlv</a>. Translates SPARQL to datalog rules. The generic translation, also applicable to other Datalog or logic programming engines is described in a detailed <a href="http://www.polleres.net/publications/GIA-TR-2006-11-28.pdf" class="external text" title="http://www.polleres.net/publications/GIA-TR-2006-11-28.pdf">Technical Report</a>
+</li><li> <a href="http://www.openanzo.org/index.html" class="external text" title="http://www.openanzo.org/index.html">Open Anzo</a> is "a server capable of storing millions of RDF triples in an underlying relational database (IBM DB/2, Oracle, MySQL, Postgres and Apache Derby are currently supported)". Features "Typed full-text search capabilities for text literals are supported through Glitter SPARQL queries". License: Eclipse Public License 1.0
+</li><li> <a href="http://opensource.joost.com/libb/" class="external text" title="http://opensource.joost.com/libb/">Joost's Lib B</a>. "We have been developing a triple store called B". Donated to ASF inactive incubator project <a href="http://incubator.apache.org/triplesoup/" class="external text" title="http://incubator.apache.org/triplesoup/">TripleSoup</a> which aims to build "a SPARQL endpoint for httpd".
+</li><li> <a href="http://hercules.arielworks.net/" class="external text" title="http://hercules.arielworks.net/">Hercules</a> is a semantic web framework in JavaScript. It has a SAPRQL query engine implementation in pure JavaScript which is runnable on web browsers. Hercules is distributed on the public domain.
+</li><li> <a href="http://4store.org/" class="external text" title="http://4store.org/">4store</a> is is a clustered database storage and query engine that holds RDF data. 4store's main strengths are its performance, scalability and stability. It does not provide many features over and above RDF storage and SPARQL queries. 4store is available under the GPLv3 license.
+</li><li> <a href="http://www.springerlink.com/content/c126511h03gx3014/" class="external text" title="http://www.springerlink.com/content/c126511h03gx3014/">The RDF-3X engine for scalable management of RDF data</a>, VLDB Journal, 2010.
+</li><li> <a href="http://www.strixDB.com/" class="external text" title="http://www.strixDB.com/">StrixDB</a> is a RDF graph store, SPARQL compliant, with Lua API and Datalog inference capabilities.
+</li></ul>
+<a name="Grammars_and_Parsers_for_SPARQL" id="Grammars_and_Parsers_for_SPARQL"></a><h2> <span class="mw-headline"> Grammars and Parsers for SPARQL </span></h2>
+<ul><li> <a href="http://jena.sourceforge.net/ARQ/" class="external text" title="http://jena.sourceforge.net/ARQ/">ARQ</a> - Contains a JavaCC grammar <a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/jena/ARQ/Grammar/sparql.jj" class="external text" title="http://cvs.sourceforge.net/viewcvs.py/*checkout*/jena/ARQ/Grammar/sparql.jj">sparql.jj</a>
+</li><li> An ANTLRv3 fully compliant <a href="http://www.antlr.org/grammar/1193765395834/sparql-1.0.tgz" class="external text" title="http://www.antlr.org/grammar/1193765395834/sparql-1.0.tgz">grammar</a> - See <a href="http://www.antlr.org" class="external text" title="http://www.antlr.org">ANTLR</a>
+</li><li> <a href="http://arc.semsol.org/docs/v2/misc/sparql_parsing" class="external text" title="http://arc.semsol.org/docs/v2/misc/sparql_parsing">ARC SPARQL Parser</a> - PHP parser for SPARQL by Benjamin Nowack. License: W3C Software License. Builds a structure representing the query from the syntax. Supports all SPARQL syntax features.
+</li><li> <a href="http://rdflib.net" class="external text" title="http://rdflib.net">RDFLib</a>'s <a href="http://copia.ogbuji.net/blog/2005-04-27/Of_BisonGe" class="external text" title="http://copia.ogbuji.net/blog/2005-04-27/Of_BisonGe">BisonGen</a>-based <a href="http://svn.rdflib.net/trunk/rdflib/sparql/bison/" class="external text" title="http://svn.rdflib.net/trunk/rdflib/sparql/bison/">parser</a> which is implemented as a Python/C extension which builds a library of SPARQL syntax objects.
+</li><li> <a href="http://www.openrdf.org/" class="external text" title="http://www.openrdf.org/">Sesame 2</a>'s SPARQL parser - contains a JJTree grammar <a href="http://repo.aduna-software.org/websvn/filedetails.php?repname=aduna&amp;path=%2Forg.openrdf%2Fsesame%2Fbranches%2F2.2%2Fcore%2Fqueryparser%2Fsparql%2Fsrc%2Fmain%2Fjava%2Forg%2Fopenrdf%2Fquery%2Fparser%2Fsparql%2Fast%2Fsparql.jjt" class="external text" title="http://repo.aduna-software.org/websvn/filedetails.php?repname=aduna&amp;path=%2Forg.openrdf%2Fsesame%2Fbranches%2F2.2%2Fcore%2Fqueryparser%2Fsparql%2Fsrc%2Fmain%2Fjava%2Forg%2Fopenrdf%2Fquery%2Fparser%2Fsparql%2Fast%2Fsparql.jjt">sparql.jjt</a>.
+</li><li> <a href="http://www.logilab.org/project/fyzz" class="external text" title="http://www.logilab.org/project/fyzz">Fyzz</a> a SPARQL parser written in pure python and licensed under the LGPL - some documentation in this <a href="http://www.cubicweb.org/blogentry/344822" class="external text" title="http://www.cubicweb.org/blogentry/344822">blog post</a>.
+</li></ul>
+<a name="SPARQL_.22Endpoints.22" id="SPARQL_.22Endpoints.22"></a><h2> <span class="mw-headline"> SPARQL "Endpoints" </span></h2>
+<p>These endpoints offer a URI with a SPARQL service that can be accessed using the <a href="http://www.w3.org/TR/rdf-sparql-protocol/" class="external text" title="http://www.w3.org/TR/rdf-sparql-protocol/">SPARQL Protocol spec</a>, and return XML and/or JSON.
+</p>
+<ul><li> <a href="/SparqlEndpoints" title="SparqlEndpoints">Collection of SPARQL Endpoints</a>
+</li><li> <a href="http://sparql.org/sparql" class="external text" title="http://sparql.org/sparql">SPARQLer</a> (see <a href="http://sparql.org" class="external free" title="http://sparql.org">http://sparql.org</a> for a description)
+</li><li> <a href="http://demo.openlinksw.com/sparql/" class="external text" title="http://demo.openlinksw.com/sparql/">OpenLink Virtuoso</a> (the SPARQL Query Service endpoint for our Live Demo Server). 
+</li><li> <a href="http://www.SemanticDiscoverySystems.com/" class="external text" title="http://www.SemanticDiscoverySystems.com/">The Semantic Discovery System</a> SPARQL Query Over Distributed Data (Oracle, any RDBMS, Web Services, Excel, Non Relational Data...) SPARQL Endpoint, Automated Mapping to/from OWL all Connected Data Sources (end Q4 2007)
+</li></ul>
+<hr />
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 5/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-esw_:pcache:idhash:973-0!1!0!!en!2!edit=0 and timestamp 20100919110656 -->
+<div id='RDFa' about='http://esw.w3.org/SparqlImplementations' xmlns:wiki_1='http://esw.w3.org/index.php/'xmlns:wiki_1_property='http://esw.w3.org/index.php/Property:'xmlns:wiki_1_category='http://esw.w3.org/index.php/Category:' typeof='wiki_1_categorySwTools'>
+<div property='wiki_1_property:Modification_date' content='3 September 2010 11:40:47'></div>
+</div><div style='display:none' ></div><div class="printfooter">
+Retrieved from "<a href="http://esw.w3.org/SparqlImplementations">http://esw.w3.org/SparqlImplementations</a>"</div>
+			<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>:&#32;<span dir='ltr'><a href="/Category:SwTools" title="Category:SwTools">SwTools</a></span></div></div>			<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="/SparqlImplementations" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="/index.php?title=Talk:SparqlImplementations&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/index.php?title=SparqlImplementations&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/index.php?title=SparqlImplementations&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=SparqlImplementations" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://www.w3.org/Icons/w3c_home);" href="/Main_Page" title="Visit the main page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/Main_Page" title="Visit the main page">Main Page</a></li>
+				<li id="n-Browse-categories"><a href="/Special:Categories">Browse categories</a></li>
+				<li id="n-recentchanges"><a href="/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-Help"><a href="http://www.mediawiki.org/wiki/Help:Contents">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php" id="searchform"><div>
+				<input type='hidden' name="title" value="Special:Search"/>
+				<input id="searchInput" name="search" type="text" title="Search ESW Wiki [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/SparqlImplementations" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/SparqlImplementations" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=SparqlImplementations&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=SparqlImplementations&amp;oldid=45403" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-smwbrowselink"><a href="/Special:Browse/SparqlImplementations" title="Special:Browse/SparqlImplementations">Browse properties</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 3 September 2010, at 11:41.</li>
+					<li id="viewcount">This page has been accessed 18,146 times.</li>
+					<li id="privacy"><a href="/ESW_Wiki:Privacy_policy" title="ESW Wiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="/ESW_Wiki:About" title="ESW Wiki:About">About ESW Wiki</a></li>
+					<li id="disclaimer"><a href="/ESW_Wiki:General_disclaimer" title="ESW Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.250 secs. --></body></html>

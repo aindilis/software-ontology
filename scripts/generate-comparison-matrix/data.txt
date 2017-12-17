@@ -1,0 +1,27 @@
+Aximo - a tool for verifying knowledge in dynamic multi-agent scenarios based on the algebraic axiomatics of dynamic epistemic logic. Implemented by Simon Richards and Mehrnoosh Sadrzadeh.
+BLIKSEM - Hans de Nivelle's resolution based theorem prover for modal logic and first-order logic with equality.
+DLP - An experimental tableaux-based inference system by Peter Patel-Schneider for a range of description logics.
+FaCT++ - A tableaux-based description logic OWL reasoner by Ian Horrocks and Dmitry Tsarkov. Successor of FaCT.
+Gost - A Lisp implementation of a tableau algorithm for GF1-, a sublogic of the "First Guarded Fragment".
+Herod and Pilate - Two tableau decision procedures for the hybrid logic HL(@) implemented by Marta Cialdea, Serenella Cerrito and their students. Based on internalized tableau calculi, without loop-checking and no restriction on the order of the application of the rules.
+J-prover - A connection/matrix based prover that produces sequent proofs for FO-Intuitionistic, and propositional S4 and S4nJ logics, implemented as a module of the MetaPRL logical framework. Web interface for modal logic.
+KtSeqC - A theorem prover for the minimal tense logic Kt.
+LoTREC - A generic tableau theorem prover for modal logic, which is suitable for creating, testing and analysing tableau method implementations. Web interface
+Logics Workbench (LWB) - A sequent based theorem prover for a range of propositional logics, including modal logics, temporal logics, intuitionistic logics and nonmonotonic logics. Web interface
+MetTeL - a general tableau prover core allowing specifications of several, different tableau provers in a plug-in style. Implemented by Dmitry Tishkovsky.
+MLTP - An efficient and generic modal logic tableau prover inplemented by Zhen Li.
+ModLeanTAP - A lean implementation of a free variable tableau calculus for a range of propositional modal logics.
+Molle - A cross-platform prover written in Java that implements Fitting's 1969 semantic tableaux algorithm for propositional modal logic. It can prove the validity of modal formulae and generate (counter-)models.
+MSPASS - An enhancement of the first-order theorem prover SPASS with a translator of modal formulae and formulae of the relational calculus into first-order logic with equality. The features of MSPASS are now incorporated in the latest release of SPASS. Web interface
+pdl-tableau - A prototypical implementation of the tableau calculus for PDL. Implemented by Renate Schmidt. Web interface
+ptl - A propositional temporal logic (PTL) tautology checker developed by Geert Janssen at Eindhoven University of Technology. (28/03/2005: It seems that this tool is no longer available on-line.) Web interface
+pttf - A satisfiability checker for propositional temporal transition formulae developed by Anatol Ursu. Web interface
+RACER - A description logic reasoner for the Semantic Web languages OWL/RDF.
+Saga - A Lisp program implementing a tableau algorithm for the Guarded Fragment of Predicate Logic.
+Saturate - An experimental theorem prover for first-order logic, primarily based on saturation. It includes a translator for modal logic into first-order logic by semantic embedding.
+SPASS - A saturation-based resolution theorem prover for first-order logic with equality, sorted logic, and many non-classical logics including traditional style modal logics, dynamic modal logics, description logics and relational logics.
+*SAT - An experimentation platform of SAT-based decision procedures for expressive description logics, modal and temporal logics.
+STeP - The Stanford Temporal Prover, combines deductive methods with algorithmic techniques to verify linear-time temporal logic specifications of reactive and real-time systems.
+TRP - A protoypical implementation of a theorem prover for propositional linear-time logic based on the temporal resolution calculus.
+TRP++ - A C++ implementation of a theorem prover for propositional linear-time logic based on the temporal resolution calculus.
+TeMP - A C++ implementation of a theorem prover for the monodic fragment of first-order linear-tim

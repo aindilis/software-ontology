@@ -1,0 +1,1653 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" /><title>Knowledge extraction - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" /><meta name="generator" content="MediaWiki 1.23wmf11" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Knowledge_extraction&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Knowledge_extraction&amp;action=edit" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://en.wikipedia.org/wiki/Knowledge_extraction" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.geshi.local%7Cext.rtlcite%2Cwikihiero%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.common.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:3904d24a08aa08f6a68dc338f9be277e */</style>
+
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Knowledge_extraction","wgTitle":"Knowledge extraction","wgCurRevisionId":591341607,"wgRevisionId":591341607,"wgArticleId":31002435,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with links needing disambiguation from October 2013","Knowledge"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Knowledge_extraction","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false,"aft-noone":false},"wgBetaFeaturesFeatures":[],"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.23wmf11/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr"},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":31002435,"title":"Knowledge extraction","namespace":0,"categories":["Articles with links needing disambiguation from October 2013","Knowledge"],"permissionLevel":false},"wgWikibaseItemId":"Q1582085"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"vector-simplesearch":1,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,
+"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"useeditwarning":1,"prefershttps":1,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"visualeditor-enable":0,"visualeditor-enable-experimental":0,"visualeditor-enable-mwmath":0,"visualeditor-betatempdisable":0,"wikilove-enabled":1,"echo-subscriptions-web-page-review":true,"echo-subscriptions-email-page-review":false,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"echo-subscriptions-web-education-program":true,"echo-subscriptions-email-education-program":false,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,
+"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"gettingstarted-task-toolbar-show-intro":true,"uls-preferences":"","uls-enable":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,
+"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs118":false,"searchNs119":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"searchNs828":false,"searchNs829":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:264b5b04c69e37444d5b2d63c2a65dc9 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","ext.visualEditor.viewPageTarget.init","wikibase.client.init","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-sparql {line-height: normal;}
+.source-sparql li, .source-sparql pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for sparql
+ * CSS class: source-sparql, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.sparql.source-sparql .de1, .sparql.source-sparql .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;font-family: monospace, monospace;}
+.sparql.source-sparql  {font-family:monospace;}
+.sparql.source-sparql .imp {font-weight: bold; color: red;}
+.sparql.source-sparql li, .sparql.source-sparql .li1 {font-weight: normal; vertical-align:top;}
+.sparql.source-sparql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.sparql.source-sparql .li2 {font-weight: bold; vertical-align:top;}
+.sparql.source-sparql .kw1 {color: #993333; font-weight: bold;}
+.sparql.source-sparql .co0 {color: #808080; font-style: italic;}
+.sparql.source-sparql .co1 {color: #000078;}
+.sparql.source-sparql .coMULTI {color: #808080; font-style: italic;}
+.sparql.source-sparql .es0 {color: #000099; font-weight: bold;}
+.sparql.source-sparql .sy0 {color: #0000FF;}
+.sparql.source-sparql .sy1 {color: #FF8000; font-weight: bold;}
+.sparql.source-sparql .st0 {color: #ff0000;}
+.sparql.source-sparql .nu0 {color: #FF63C3;}
+.sparql.source-sparql .re1 {color: #007800;}
+.sparql.source-sparql .re2 {color: #780078;}
+.sparql.source-sparql .re3 {color: #005078;}
+.sparql.source-sparql .ln-xtra, .sparql.source-sparql li.ln-xtra, .sparql.source-sparql div.ln-xtra {background-color: #ffc;}
+.sparql.source-sparql span.xtra { display:block; }
+
+/*]]>*/
+</style><script src="//bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.23wmf11/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Knowledge_extraction skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<div id="siteNotice"><!-- CentralNotice --></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Knowledge extraction</span></h1>
+			<div id="bodyContent">
+								<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Knowledge extraction</b> is the creation of <a href="/wiki/Knowledge_representation_and_reasoning" title="Knowledge representation and reasoning">knowledge</a> from structured (relational databases, XML) and unstructured (text, documents, images) sources. The resulting knowledge needs to be in a machine-readable and machine-interpretable format and must <a href="/wiki/Knowledge_representation_and_reasoning" title="Knowledge representation and reasoning">represent knowledge</a> in a manner that facilitates inferencing. Although it is methodically similar to <a href="/wiki/Information_extraction" title="Information extraction">information extraction</a> (<a href="/wiki/NLP" title="NLP">NLP</a><sup class="plainlinks noprint Inline-Template" style="vertical-align:text-top;white-space:nowrap;">[<i><a rel="nofollow" class="external text" href="//toolserver.org/%7Edispenser/cgi-bin/dab_solver.py?page=Knowledge_extraction&amp;editintro=Template:Disambiguation_needed/editintro&amp;client=Template:Dn"><span title="Link needs disambiguation. (October 2013)">disambiguation needed</span></a></i>]</sup>) and <a href="/wiki/Extract,_transform,_load" title="Extract, transform, load">ETL</a> (data warehouse), the main criteria is that the extraction result goes beyond the creation of structured information or the transformation into a relational schema. It requires either the reuse of existing <a href="/wiki/Knowledge_representation_and_reasoning" title="Knowledge representation and reasoning">formal knowledge</a> (reusing identifiers or ontologies) or the generation of a schema based on the source data.</p>
+<p>The RDB2RDF W3C group <sup id="cite_ref-RDB2RDF_1-0" class="reference"><a href="#cite_note-RDB2RDF-1"><span>[</span>1<span>]</span></a></sup> is currently standardizing a language for extraction of RDF from relational databases. Another popular example for knowledge extraction is the transformation of Wikipedia into structured data and also the mapping to existing <a href="/wiki/Knowledge_representation_and_reasoning" title="Knowledge representation and reasoning">knowledge</a> (see <a href="/wiki/DBpedia" title="DBpedia">DBpedia</a> and <a href="/wiki/Freebase_(database)" title="Freebase (database)" class="mw-redirect">Freebase</a>).</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Examples"><span class="tocnumber">2</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Entity_linking"><span class="tocnumber">2.1</span> <span class="toctext">Entity linking</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Relational_databases_to_RDF"><span class="tocnumber">2.2</span> <span class="toctext">Relational databases to RDF</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Extraction_from_structured_sources_to_RDF"><span class="tocnumber">3</span> <span class="toctext">Extraction from structured sources to RDF</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#1:1_Mapping_from_RDB_Tables.2FViews_to_RDF_Entities.2FAttributes.2FValues"><span class="tocnumber">3.1</span> <span class="toctext">1:1 Mapping from RDB Tables/Views to RDF Entities/Attributes/Values</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Complex_mappings_of_relational_databases_to_RDF"><span class="tocnumber">3.2</span> <span class="toctext">Complex mappings of relational databases to RDF</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#XML"><span class="tocnumber">3.3</span> <span class="toctext">XML</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Survey_of_Methods_.2F_Tools"><span class="tocnumber">3.4</span> <span class="toctext">Survey of Methods / Tools</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Extraction_from_natural_language_sources"><span class="tocnumber">4</span> <span class="toctext">Extraction from natural language sources</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Traditional_information_extraction_.28IE.29"><span class="tocnumber">4.1</span> <span class="toctext">Traditional information extraction (IE)</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Ontology-based_information_extraction_.28OBIE.29"><span class="tocnumber">4.2</span> <span class="toctext">Ontology-based information extraction (OBIE)</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Ontology_learning_.28OL.29"><span class="tocnumber">4.3</span> <span class="toctext">Ontology learning (OL)</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Semantic_annotation_.28SA.29"><span class="tocnumber">4.4</span> <span class="toctext">Semantic annotation (SA)</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Tools"><span class="tocnumber">4.5</span> <span class="toctext">Tools</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Knowledge_discovery"><span class="tocnumber">5</span> <span class="toctext">Knowledge discovery</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#Input_data"><span class="tocnumber">5.1</span> <span class="toctext">Input data</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Output_formats"><span class="tocnumber">5.2</span> <span class="toctext">Output formats</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>After the standardization of knowledge representation languages such as <a href="/wiki/Resource_Description_Framework" title="Resource Description Framework">RDF</a> and <a href="/wiki/Web_Ontology_Language" title="Web Ontology Language">OWL</a>, much research has been conducted in the area, especially regarding transforming relational databases into RDF, identity resolution, knowledge discovery and ontology learning. The general process uses traditional methods from <a href="/wiki/Information_extraction" title="Information extraction">information extraction</a> and <a href="/wiki/Extract,_transform,_load" title="Extract, transform, load">extract, transform, and load</a> (ETL), which transform the data from the sources into structured formats.</p>
+<p>The following criteria can be used to categorize approaches in this topic (some of them only account for extraction from relational databases):<sup id="cite_ref-lod2_eu_2-0" class="reference"><a href="#cite_note-lod2_eu-2"><span>[</span>2<span>]</span></a></sup></p>
+<table class="wikitable">
+<tr>
+<td>Source</td>
+<td>Which data sources are covered: Text, Relational Databases, XML, CSV</td>
+</tr>
+<tr>
+<td>Exposition</td>
+<td>How is the extracted knowledge made explicit (ontology file, semantic database)? How can you query it?</td>
+</tr>
+<tr>
+<td>Synchronization</td>
+<td>Is the knowledge extraction process executed once to produce a dump or is the result synchronized with the source? Static or dynamic. Are changes to the result written back (bi-directional)</td>
+</tr>
+<tr>
+<td>Reuse of vocabularies</td>
+<td>The tool is able to reuse existing vocabularies in the extraction. For example the table column 'firstName' can be mapped to foaf:firstName. Some automatic approaches are not capable of mapping vocab.</td>
+</tr>
+<tr>
+<td>Automatisation</td>
+<td>The degree to which the extraction is assisted/automated. Manual, GUI, semi-automatic, automatic.</td>
+</tr>
+<tr>
+<td>Requires a domain ontology</td>
+<td>A pre-existing ontology is needed to map to it. So either a mapping is created or a schema is learned from the source (<a href="/wiki/Ontology_learning" title="Ontology learning">ontology learning</a>).</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=2" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Entity_linking">Entity linking</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=3" title="Edit section: Entity linking">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ol>
+<li><a href="/wiki/DBpedia_Spotlight" title="DBpedia Spotlight" class="mw-redirect">DBpedia Spotlight</a>, <a href="/wiki/Calais_(Reuters_Product)" title="Calais (Reuters Product)" class="mw-redirect">OpenCalais</a>, <a rel="nofollow" class="external text" href="http://dandelion.eu/datatxt/">Dandelion dataTXT</a>, the <a href="/wiki/Zemanta" title="Zemanta">Zemanta API</a>, <a rel="nofollow" class="external text" href="http://www.extractiv.com/demo.html">Extractiv</a> and <a rel="nofollow" class="external text" href="http://poolparty.biz/products/poolparty-extractor/">PoolParty Extractor</a> analyze free text via <a href="/wiki/Named_Entity_Recognition" title="Named Entity Recognition" class="mw-redirect">Named Entity Recognition</a> and then disambiguates candidates via <a href="/wiki/Name_resolution#Name_resolution_in_semantics_and_text_extraction" title="Name resolution">Name Resolution</a> and links the found entities to the <a href="/wiki/DBpedia" title="DBpedia">DBpedia</a> knowledge repository<sup id="cite_ref-OpenCalaisLinkedData_3-0" class="reference"><a href="#cite_note-OpenCalaisLinkedData-3"><span>[</span>3<span>]</span></a></sup> (<a rel="nofollow" class="external text" href="https://dandelion.eu/products/datatxt/nex/demo/?exec=true#results">Dandelion dataTXT demo</a> or <a rel="nofollow" class="external text" href="http://spotlight.dbpedia.org/rest/annotate?text=President%20Obama%20called%20Wednesday%20on%20Congress%20to%20extend%20a%20tax%20break%20for%20students%20included%20in%20last%20year%27s%20economic%20stimulus%20package,%20arguing%20that%20the%20policy%20provides%20more%20generous%20assistance.&amp;confidence=0.2&amp;support=20">DBpedia Spotlight web demo</a> or <a rel="nofollow" class="external text" href="http://poolparty.biz/demozone/?url=http%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DKnowledge_extraction%26printable%3Dyes&amp;domain=ssw">PoolParty Extractor Demo</a>).</li>
+</ol>
+<blockquote>
+<p><a rel="nofollow" class="external text" href="http://dbpedia.org/resource/Barack_Obama">President Obama</a> called Wednesday on <a rel="nofollow" class="external text" href="http://dbpedia.org/resource/United_States_Congress">Congress</a> to extend a tax break for students included in last year's economic stimulus package, arguing that the policy provides more generous assistance.</p>
+</blockquote>
+<dl>
+<dd>As President Obama is linked to a DBpedia <a href="/wiki/LinkedData" title="LinkedData" class="mw-redirect">LinkedData</a> resource, further information can be retrieved automatically and a <a href="/wiki/Semantic_Reasoner" title="Semantic Reasoner" class="mw-redirect">Semantic Reasoner</a> can for example infer that the mentioned entity is of the type <a rel="nofollow" class="external text" href="http://xmlns.com/foaf/0.1/Person">Person</a> (using <a href="/wiki/FOAF_(software)" title="FOAF (software)" class="mw-redirect">FOAF (software)</a>) and of type <a rel="nofollow" class="external text" href="http://dbpedia.org/class/yago/PresidentsOfTheUnitedStates">Presidents of the United States</a> (using <a href="/wiki/YAGO_(Ontology)" title="YAGO (Ontology)" class="mw-redirect">YAGO</a>). Counter examples: Methods that only recognize entities or link to Wikipedia articles and other targets that do not provide further retrieval of structured data and formal knowledge.</dd>
+</dl>
+<h3><span class="mw-headline" id="Relational_databases_to_RDF">Relational databases to RDF</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=4" title="Edit section: Relational databases to RDF">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ol>
+<li><a href="/w/index.php?title=Triplify&amp;action=edit&amp;redlink=1" class="new" title="Triplify (page does not exist)">Triplify</a>, D2R Server, <a rel="nofollow" class="external text" href="http://www.capsenta.com/product.html">Ultrawrap</a>, and <a href="/wiki/Virtuoso_Universal_Server" title="Virtuoso Universal Server">Virtuoso</a> RDF Views are tools that transform relational databases to RDF. During this process they allow reusing existing vocabularies and <a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">ontologies</a> during the conversion process. When transforming a typical relational table named <i>users</i>, one column (e.g.<i>name</i>) or an aggregation of columns (e.g.<i>first_name</i> and <i>last_name</i>) has to provide the URI of the created entity. Normally the primary key is used. Every other column can be extracted as a relation with this entity.<sup id="cite_ref-timbl_reldb4semweb_4-0" class="reference"><a href="#cite_note-timbl_reldb4semweb-4"><span>[</span>4<span>]</span></a></sup> Then properties with formally defined semantics are used (and reused) to interpret the information. For example a column in a user table called <i>marriedTo</i> can be defined as symmetrical relation and a column <i>homepage</i> can be converted to a property from the <a href="/wiki/FOAF_(software)" title="FOAF (software)" class="mw-redirect">FOAF Vocabulary</a> called <a rel="nofollow" class="external text" href="http://xmlns.com/foaf/spec/#term_homepage">foaf:homepage</a>, thus qualifying it as an <a href="/wiki/Web_Ontology_Language#Properties" title="Web Ontology Language">inverse functional property</a>. Then each entry of the <i>user</i> table can be made an instance of the class <a rel="nofollow" class="external text" href="http://xmlns.com/foaf/spec/#term_Person">foaf:Person</a> (Ontology Population). Additionally domain knowledge (in form of an ontology) could be created from the <i>status_id</i>, either by manually created rules (if <i>status_id</i> is 2, the entry belongs to class Teacher ) or by (semi)-automated methods (<a href="/wiki/Ontology_learning" title="Ontology learning">ontology learning</a>). Here is an example transformation:</li>
+</ol>
+<table class="wikitable">
+<tr>
+<th>Name</th>
+<th>marriedTo</th>
+<th>homepage</th>
+<th>status_id</th>
+</tr>
+<tr>
+<td>Peter</td>
+<td>Mary</td>
+<td><a rel="nofollow" class="external free" href="http://example.org/Peters_page">http://example.org/Peters_page</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>Claus</td>
+<td>Eva</td>
+<td><a rel="nofollow" class="external free" href="http://example.org/Claus_page">http://example.org/Claus_page</a></td>
+<td>2</td>
+</tr>
+</table>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="sparql source-sparql">
+<pre class="de1">
+ <span class="re2">:</span>Peter <span class="re2">:</span>marriedTo <span class="re2">:</span>Mary <span class="sy0">.</span>  
+ <span class="re2">:</span>marriedTo a <span class="re2">owl:</span>SymmetricProperty <span class="sy0">.</span>  
+ <span class="re2">:</span>Peter <span class="re2">foaf:</span>homepage  <span class="co1">&lt;http://example.org/Peters_page&gt;</span> <span class="sy0">.</span>  
+ <span class="re2">:</span>Peter a <span class="re2">foaf:</span>Person <span class="sy0">.</span>   
+ <span class="re2">:</span>Peter a <span class="re2">:</span>Student <span class="sy0">.</span>  
+ <span class="re2">:</span>Claus a <span class="re2">:</span>Teacher <span class="sy0">.</span>
+</pre></div>
+</div>
+<h2><span class="mw-headline" id="Extraction_from_structured_sources_to_RDF">Extraction from structured sources to RDF</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=5" title="Edit section: Extraction from structured sources to RDF">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="1:1_Mapping_from_RDB_Tables.2FViews_to_RDF_Entities.2FAttributes.2FValues">1:1 Mapping from RDB Tables/Views to RDF Entities/Attributes/Values</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=6" title="Edit section: 1:1 Mapping from RDB Tables/Views to RDF Entities/Attributes/Values">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>When building a RDB representation of a problem domain, the starting point is frequently an entity-relationship diagram (ERD). Typically, each entity is represented as a database table, each attribute of the entity becomes a column in that table, and relationships between entities are indicated by foreign keys. Each table typically defines a particular class of entity, each column one of its attributes. Each row in the table describes an entity instance, uniquely identified by a primary key. The table rows collectively describe an entity set. In an equivalent RDF representation of the same entity set:</p>
+<ul>
+<li>Each column in the table is an attribute (i.e., predicate)</li>
+<li>Each column value is an attribute value (i.e., object)</li>
+<li>Each row key represents an entity ID (i.e., subject)</li>
+<li>Each row represents an entity instance</li>
+<li>Each row (entity instance) is represented in RDF by a collection of triples with a common subject (entity ID).</li>
+</ul>
+<p>So, to render an equivalent view based on RDF semantics, the basic mapping algorithm would be as follows:</p>
+<ol>
+<li>create an RDFS class for each table</li>
+<li>convert all primary keys and foreign keys into IRIs</li>
+<li>assign a predicate IRI to each column</li>
+<li>assign an rdf:type predicate for each row, linking it to an RDFS class IRI corresponding to the table</li>
+<li>for each column that is neither part of a primary or foreign key, construct a triple containing the primary key IRI as the subject, the column IRI as the predicate and the column's value as the object.</li>
+</ol>
+<p>Early mentioning of this basic or direct mapping can be found in <a href="/wiki/Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a>'s comparison of the <a href="/wiki/Entity-relationship_model" title="Entity-relationship model" class="mw-redirect">ER model</a> to the RDF model.<sup id="cite_ref-timbl_reldb4semweb_4-1" class="reference"><a href="#cite_note-timbl_reldb4semweb-4"><span>[</span>4<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Complex_mappings_of_relational_databases_to_RDF">Complex mappings of relational databases to RDF</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=7" title="Edit section: Complex mappings of relational databases to RDF">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The 1:1 mapping mentioned above exposes the legacy data as RDF in a straightforward way, additional refinements can be employed to improve the usefulness of RDF output respective the given Use Cases. Normally, information is lost during the transformation of an entity-relationship diagram (ERD) to relational tables (Details can be found in <a href="/wiki/Object-relational_impedance_mismatch" title="Object-relational impedance mismatch">object-relational impedance mismatch</a>) and has to be <a href="/wiki/Reverse_Engineering" title="Reverse Engineering" class="mw-redirect">reverse engineered</a>. From a conceptual view, approaches for extraction can come from two directions. The first direction tries to extract or learn an OWL schema from the given database schema. Early approaches used a fixed amount of manually created mapping rules to refine the 1:1 mapping.<sup id="cite_ref-Hu_5-0" class="reference"><a href="#cite_note-Hu-5"><span>[</span>5<span>]</span></a></sup><sup id="cite_ref-Ghawi_6-0" class="reference"><a href="#cite_note-Ghawi-6"><span>[</span>6<span>]</span></a></sup><sup id="cite_ref-Li_7-0" class="reference"><a href="#cite_note-Li-7"><span>[</span>7<span>]</span></a></sup> More elaborate methods are employing heuristics or learning algorithms to induce schematic information (methods overlap with <a href="/wiki/Ontology_learning" title="Ontology learning">ontology learning</a>). While some approaches try to extract the information from the structure inherent in the SQL schema<sup id="cite_ref-Tirmizi_8-0" class="reference"><a href="#cite_note-Tirmizi-8"><span>[</span>8<span>]</span></a></sup> (analysing e.g. foreign keys), others analyse the content and the values in the tables to create conceptual hierarchies<sup id="cite_ref-Cerbah_9-0" class="reference"><a href="#cite_note-Cerbah-9"><span>[</span>9<span>]</span></a></sup> (e.g. a columns with few values are candidates for becoming categories). The second direction tries to map the schema and its contents to a pre-existing domain ontology (see also: <a href="/wiki/Ontology_alignment" title="Ontology alignment">ontology alignment</a>). Often, however, a suitable domain ontology does not exist and has to be created first.</p>
+<h3><span class="mw-headline" id="XML">XML</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=8" title="Edit section: XML">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>As XML is structured as a tree, any data can be easily represented in RDF, which is structured as a graph. <a rel="nofollow" class="external text" href="http://rhizomik.net/html/redefer/xml2rdf/">XML2RDF</a> is one example of an approach that uses RDF blank nodes and transforms XML elements and attributes to RDF properties. The topic however is more complex as in the case of relational databases. In a relational table the primary key is an ideal candidate for becoming the subject of the extracted triples. An XML element, however, can be transformed - depending on the context- as a subject, a predicate or object of a triple. <a href="/wiki/XSLT" title="XSLT">XSLT</a> can be used a standard transformation language to manually convert XML to RDF.</p>
+<h3><span class="mw-headline" id="Survey_of_Methods_.2F_Tools">Survey of Methods / Tools</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=9" title="Edit section: Survey of Methods / Tools">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable sortable">
+<tr>
+<th>Name</th>
+<th>Data Source</th>
+<th>Data Exposition</th>
+<th>Data Synchronisation</th>
+<th>Mapping Language</th>
+<th>Vocabulary Reuse</th>
+<th>Mapping Automat.</th>
+<th>Req. Domain Ontology</th>
+<th>Uses GUI</th>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.w3.org/TR/rdb-direct-mapping/">A Direct Mapping of Relational Data to RDF</a></td>
+<td>Relational Data</td>
+<td>SPARQL/ETL</td>
+<td>dynamic</td>
+<td>N/A</td>
+<td>false</td>
+<td>automatic</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://logd.tw.rpi.edu/technology/csv2rdf4lod">CSV2RDF4LOD</a></td>
+<td>CSV</td>
+<td>ETL</td>
+<td>static</td>
+<td>RDF</td>
+<td>true</td>
+<td>manual</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.mindswap.org/~mhgrove/ConvertToRDF/">Convert2RDF</a></td>
+<td>Delimited text file</td>
+<td>ETL</td>
+<td>static</td>
+<td>RDF/DAML</td>
+<td>true</td>
+<td>manual</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/">D2R Server</a></td>
+<td>RDB</td>
+<td>SPARQL</td>
+<td>bi-directional</td>
+<td>D2R Map</td>
+<td>true</td>
+<td>manual</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://ccnt.zju.edu.cn/projects/dartgrid">DartGrid</a></td>
+<td>RDB</td>
+<td>own query language</td>
+<td>dynamic</td>
+<td>Visual Tool</td>
+<td>true</td>
+<td>manual</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://protegewiki.stanford.edu/wiki/DataMaster">DataMaster</a></td>
+<td>RDB</td>
+<td>ETL</td>
+<td>static</td>
+<td>proprietary</td>
+<td>true</td>
+<td>manual</td>
+<td>true</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://lab.linkeddata.deri.ie/2010/grefine-rdf-extension/">Google Refine's RDF Extension</a></td>
+<td>CSV, XML</td>
+<td>ETL</td>
+<td>static</td>
+<td>none</td>
+<td></td>
+<td>semi-automatic</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://kwarc.info/projects/krextor/">Krextor</a></td>
+<td>XML</td>
+<td>ETL</td>
+<td>static</td>
+<td>xslt</td>
+<td>true</td>
+<td>manual</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.cs.toronto.edu/semanticweb/maponto/">MAPONTO</a></td>
+<td>RDB</td>
+<td>ETL</td>
+<td>static</td>
+<td>proprietary</td>
+<td>true</td>
+<td>manual</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://metamorphoses.sourceforge.net/">METAmorphoses</a></td>
+<td>RDB</td>
+<td>ETL</td>
+<td>static</td>
+<td>proprietary xml based mapping language</td>
+<td>true</td>
+<td>manual</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://protege.cim3.net/cgi-bin/wiki.pl?MappingMaster">MappingMaster</a></td>
+<td>CSV</td>
+<td>ETL</td>
+<td>static</td>
+<td>MappingMaster</td>
+<td>true</td>
+<td>GUI</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://neon-toolkit.org/wiki/ODEMapster">ODEMapster</a></td>
+<td>RDB</td>
+<td>ETL</td>
+<td>static</td>
+<td>proprietary</td>
+<td>true</td>
+<td>manual</td>
+<td>true</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://aksw.org/Projects/Stats2RDF">OntoWiki CSV Importer Plug-in - DataCube &amp; Tabular</a></td>
+<td>CSV</td>
+<td>ETL</td>
+<td>static</td>
+<td>The RDF Data Cube Vocaublary</td>
+<td>true</td>
+<td>semi-automatic</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://poolparty.biz/products/poolparty-extractor/">Poolparty Extraktor (PPX)</a></td>
+<td>XML, Text</td>
+<td>LinkedData</td>
+<td>dynamic</td>
+<td>RDF (SKOS)</td>
+<td>true</td>
+<td>semi-automatic</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.tao-project.eu/researchanddevelopment/demosanddownloads/RDBToOnto.html">RDBToOnto</a></td>
+<td>RDB</td>
+<td>ETL</td>
+<td>static</td>
+<td>none</td>
+<td>false</td>
+<td>automatic, the user furthermore has the chance to fine-tune results</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://ebiquity.umbc.edu/project/html/id/82/RDF123">RDF 123</a></td>
+<td>CSV</td>
+<td>ETL</td>
+<td>static</td>
+<td>false</td>
+<td>false</td>
+<td>manual</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/rdote/">RDOTE</a></td>
+<td>RDB</td>
+<td>ETL</td>
+<td>static</td>
+<td>SQL</td>
+<td>true</td>
+<td>manual</td>
+<td>true</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/relational-owl/">Relational.OWL</a></td>
+<td>RDB</td>
+<td>ETL</td>
+<td>static</td>
+<td>none</td>
+<td>false</td>
+<td>automatic</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://ebiquity.umbc.edu/paper/html/id/480/T2LD-An-automatic-framework-for-extracting-interpreting-and-representing-tables-as-Linked-Data">T2LD</a></td>
+<td>CSV</td>
+<td>ETL</td>
+<td>static</td>
+<td>false</td>
+<td>false</td>
+<td>automatic</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://publishing-statistical-data.googlecode.com/svn/trunk/specs/src/main/html/cube.html">The RDF Data Cube Vocabulary</a></td>
+<td>Multidimensional statistical data in spreadsheets</td>
+<td></td>
+<td></td>
+<td>Data Cube Vocabulary</td>
+<td>true</td>
+<td>manual</td>
+<td>false</td>
+<td></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.topquadrant.com/products/TB_Composer.html">TopBraid Composer</a></td>
+<td>CSV</td>
+<td>ETL</td>
+<td>static</td>
+<td>SKOS</td>
+<td>false</td>
+<td>semi-automatic</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://triplify.org">Triplify</a></td>
+<td>RDB</td>
+<td>LinkedData</td>
+<td>dynamic</td>
+<td>SQL</td>
+<td>true</td>
+<td>manual</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.capsenta.com/product.html">Ultrawrap</a></td>
+<td>RDB</td>
+<td>SPARQL/ETL</td>
+<td>dynamic</td>
+<td><a href="/w/index.php?title=R2RML&amp;action=edit&amp;redlink=1" class="new" title="R2RML (page does not exist)">R2RML</a></td>
+<td>true</td>
+<td>semi-automatic</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://virtuoso.openlinksw.com">Virtuoso RDF Views</a></td>
+<td>RDB</td>
+<td>SPARQL</td>
+<td>dynamic</td>
+<td>Meta Schema Language</td>
+<td>true</td>
+<td>semi-automatic</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://virtuoso.openlinksw.com">Virtuoso Sponger</a></td>
+<td>structured and semi-structured data sources</td>
+<td>SPARQL</td>
+<td>dynamic</td>
+<td>Virtuoso PL &amp; XSLT</td>
+<td>true</td>
+<td>semi-automatic</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.cn.ntua.gr/~nkons/essays_en.html#t">VisAVis</a></td>
+<td>RDB</td>
+<td>RDQL</td>
+<td>dynamic</td>
+<td>SQL</td>
+<td>true</td>
+<td>manual</td>
+<td>true</td>
+<td>true</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://xlwrap.sourceforge.net/">XLWrap: Spreadsheet to RDF</a></td>
+<td>CSV</td>
+<td>ETL</td>
+<td>static</td>
+<td>TriG Syntax</td>
+<td>true</td>
+<td>manual</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://rhizomik.net/html/redefer/#XML2RDF">XML to RDF</a></td>
+<td>XML</td>
+<td>ETL</td>
+<td>static</td>
+<td>false</td>
+<td>false</td>
+<td>automatic</td>
+<td>false</td>
+<td>false</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Extraction_from_natural_language_sources">Extraction from natural language sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=10" title="Edit section: Extraction from natural language sources">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The largest portion of information contained in business documents (about 80%<sup id="cite_ref-Wimalasuriya_10-0" class="reference"><a href="#cite_note-Wimalasuriya-10"><span>[</span>10<span>]</span></a></sup>) is encoded in natural language and therefore unstructured. Because <a href="/wiki/Unstructured_data" title="Unstructured data">unstructured data</a> is rather a challenge for knowledge extraction, more sophisticated methods are required, which generally tend to supply worse results compared to structured data. The potential for a massive acquisition of extracted knowledge, however, should compensate the increased complexity and decreased quality of extraction. In the following, natural language sources are understood as sources of information, where the data is given in an unstructured fashion as plain text. If the given text is additionally embedded in a markup document (e. g. HTML document), the mentioned systems normally remove the markup elements automatically.</p>
+<h3><span class="mw-headline" id="Traditional_information_extraction_.28IE.29">Traditional information extraction (IE)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=11" title="Edit section: Traditional information extraction (IE)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Traditional <a href="/wiki/Information_extraction" title="Information extraction">information extraction</a> <sup id="cite_ref-Cunningham_11-0" class="reference"><a href="#cite_note-Cunningham-11"><span>[</span>11<span>]</span></a></sup> is a technology of natural language processing, which extracts information from typically natural language texts and structures these in a suitable manner. The kinds of information to be identified must be specified in a model before beginning the process, which is why the whole process of traditional Information Extraction is domain dependent. The IE is split in the following five subtasks.</p>
+<ul>
+<li><a href="/wiki/Named-entity_recognition" title="Named-entity recognition">Named entity recognition</a> (NER)</li>
+<li><a href="/wiki/Coreference" title="Coreference">Coreference resolution</a> (CO)</li>
+<li>Template element construction (TE)</li>
+<li>Template relation construction (TR)</li>
+<li>Template scenario production (ST)</li>
+</ul>
+<p>The task of named entity recognition is to recognize and to categorize all named entities contained in a text (assignment of a named entity to a predefined category). This works by application of grammar based methods or statistical models.</p>
+<p>Coreference resolution identifies equivalent entities, which were recognized by NER, within a text. There are two relevant kinds of equivalence relationship. The first one relates to the relationship between two different represented entities (e.g. IBM Europe and IBM) and the second one to the relationship between an entity and their <a href="/wiki/Anaphora_(linguistics)" title="Anaphora (linguistics)">anaphoric references</a> (e.g. it and IBM). Both kinds can be recognized by coreference resolution.</p>
+<p>During template element construction the IE system identifies descriptive properties of entities, recognized by NER and CO. These properties correspond to ordinary qualities like red or big.</p>
+<p>Template relation construction identifies relations, which exist between the template elements. These relations can be of several kinds, such as works-for or located-in, with the restriction, that both domain and range correspond to entities.</p>
+<p>In the template scenario production events, which are described in the text, will be identified and structured with respect to the entities, recognized by NER and CO and relations, identified by TR.</p>
+<h3><span class="mw-headline" id="Ontology-based_information_extraction_.28OBIE.29">Ontology-based information extraction (OBIE)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=12" title="Edit section: Ontology-based information extraction (OBIE)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Ontology-based information extraction <sup id="cite_ref-Wimalasuriya_10-1" class="reference"><a href="#cite_note-Wimalasuriya-10"><span>[</span>10<span>]</span></a></sup> is a subfield of information extraction, with which at least one <a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">ontology</a> is used to guide the process of information extraction from natural language text. The OBIE system uses methods of traditional information extraction to identify concepts, instances and relations of the used ontologies in the text, which will be structured to an ontology after the process. Thus, the input ontologies constitute the model of information to be extracted.</p>
+<h3><span class="mw-headline" id="Ontology_learning_.28OL.29">Ontology learning (OL)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=13" title="Edit section: Ontology learning (OL)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="/wiki/Ontology_learning" title="Ontology learning">Ontology learning</a></div>
+<p>Ontology learning is the automatic or semi-automatic creation of ontologies, including extracting the corresponding domain's terms from natural language text. As building ontologies manually is extremely labor intensive and time consuming, there is great motivation to automate the process.</p>
+<h3><span class="mw-headline" id="Semantic_annotation_.28SA.29">Semantic annotation (SA)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=14" title="Edit section: Semantic annotation (SA)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>During semantic annotation <sup id="cite_ref-Erdmann_12-0" class="reference"><a href="#cite_note-Erdmann-12"><span>[</span>12<span>]</span></a></sup>, natural language text is augmented with metadata (often represented in <a href="/wiki/RDFa" title="RDFa">RDFa</a>), which should make the semantics of contained terms machine-understandable. At this process, which is generally semi-automatic, knowledge is extracted in the sense, that a link between lexical terms and for example concepts from ontologies is established. Thus, knowledge is gained, which meaning of a term in the processed context was intended and therefore the meaning of the text is grounded in machine-readable data with the ability to draw inferences. Semantic annotation is typically split into the following two subtasks.</p>
+<ol>
+<li>Terminology extraction</li>
+<li>Entity linking</li>
+</ol>
+<p>At the terminology extraction level, lexical terms from the text are extracted. For this purpose a tokenizer determines at first the word boundaries and solves abbreviations. Afterwards terms from the text, which correspond to a concept, are extracted with the help of a domain-specific lexicon to link these at entity linking.</p>
+<p>In entity linking <sup id="cite_ref-Rao_13-0" class="reference"><a href="#cite_note-Rao-13"><span>[</span>13<span>]</span></a></sup> a link between the extracted lexical terms from the source text and the concepts from an ontology or knowledge base such as <a href="/wiki/DBpedia" title="DBpedia">DBpedia</a> is established. For this, candidate-concepts are detected appropriately to the several meanings of a term with the help of a lexicon. Finally, the context of the terms is analyzed to determine the most appropriate disambiguation and to assign the term to the correct concept.</p>
+<h3><span class="mw-headline" id="Tools">Tools</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=15" title="Edit section: Tools">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The following criteria can be used to categorize tools, which extract knowledge from natural language text.</p>
+<table class="wikitable">
+<tr>
+<td>Source</td>
+<td>Which input formats can be processed by the tool (e.g. plain text, HTML or PDF)?</td>
+</tr>
+<tr>
+<td>Access Paradigm</td>
+<td>Can the tool query the data source or requires a whole dump for the extraction process?</td>
+</tr>
+<tr>
+<td>Data Synchronization</td>
+<td>Is the result of the extraction process synchronized with the source?</td>
+</tr>
+<tr>
+<td>Uses Output Ontology</td>
+<td>Does the tool link the result with an ontology?</td>
+</tr>
+<tr>
+<td>Mapping Automation</td>
+<td>How automated is the extraction process (manual, semi-automtic or automatic)?</td>
+</tr>
+<tr>
+<td>Requires Ontology</td>
+<td>Does the tool need an ontology for the extraction?</td>
+</tr>
+<tr>
+<td>Uses GUI</td>
+<td>Does the tool offer a graphical user interface?</td>
+</tr>
+<tr>
+<td>Approach</td>
+<td>Which approach (IE, OBIE, OL or SA) is used by the tool?</td>
+</tr>
+<tr>
+<td>Extracted Entities</td>
+<td>Which types of entities (e.g. named entities, concepts or relationships) can be extracted by the tool?</td>
+</tr>
+<tr>
+<td>Applied Techniques</td>
+<td>Which techniques are applied (e.g. NLP, statistical methods, clustering or machine learning)?</td>
+</tr>
+<tr>
+<td>Output Model</td>
+<td>Which model is used to represent the result of the tool (e. g. RDF or OWL)?</td>
+</tr>
+<tr>
+<td>Supported Domains</td>
+<td>Which domains are supported (e.g. economy or biology)?</td>
+</tr>
+<tr>
+<td>Supported Languages</td>
+<td>Which languages can be processed (e.g. English or German)?</td>
+</tr>
+</table>
+<p>The following table characterizes some tools for Knowledge Extraction from natural language sources.</p>
+<table class="wikitable sortable">
+<tr>
+<th>Name</th>
+<th>Source</th>
+<th>Access Paradigm</th>
+<th>Data Synchronization</th>
+<th>Uses Output Ontology</th>
+<th>Mapping Automation</th>
+<th>Requires Ontology</th>
+<th>Uses GUI</th>
+<th>Approach</th>
+<th>Extracted Entities</th>
+<th>Applied Techniques</th>
+<th>Output Model</th>
+<th>Supported Domains</th>
+<th>Supported Languages</th>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.rocketsoftware.com/products/aerotext">AeroText</a> <sup id="cite_ref-Rocket-Software-Inc_14-0" class="reference"><a href="#cite_note-Rocket-Software-Inc-14"><span>[</span>14<span>]</span></a></sup></td>
+<td>plain text, HTML, XML, SGML</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>yes</td>
+<td>yes</td>
+<td>IE</td>
+<td>named entities, relationships, events</td>
+<td>linguistic rules</td>
+<td>proprietary</td>
+<td>domain-independent</td>
+<td>English, Spanish, Arabic, Chinese, indonesian</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.alchemyapi.com/api">AlchemyAPI</a> <sup id="cite_ref-Orchestr8_15-0" class="reference"><a href="#cite_note-Orchestr8-15"><span>[</span>15<span>]</span></a></sup></td>
+<td>plain text, HTML</td>
+<td></td>
+<td></td>
+<td></td>
+<td>automatic</td>
+<td></td>
+<td>yes</td>
+<td>SA</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>multilingual</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://gate.ac.uk/sale/tao/splitch6.html#chap:annie">ANNIE</a> <sup id="cite_ref-The-University-of-Sheffield_16-0" class="reference"><a href="#cite_note-The-University-of-Sheffield-16"><span>[</span>16<span>]</span></a></sup></td>
+<td>plain text</td>
+<td>dump</td>
+<td></td>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>yes</td>
+<td>IE</td>
+<td></td>
+<td>finite state algorithms</td>
+<td></td>
+<td></td>
+<td>multilingual</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www-ai.ijs.si/~ilpnet2/systems/asium.html">ASIUM</a> <sup id="cite_ref-ILP-Network-of-Excellence_17-0" class="reference"><a href="#cite_note-ILP-Network-of-Excellence-17"><span>[</span>17<span>]</span></a></sup></td>
+<td>plain text</td>
+<td>dump</td>
+<td></td>
+<td></td>
+<td>semi-automatic</td>
+<td></td>
+<td>yes</td>
+<td>OL</td>
+<td>concepts, concept hierarchy</td>
+<td>NLP, clustering</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.attensity.com/products/technology/semantic-server/exhaustive-extraction/">Attensity Exhaustive Extraction</a> <sup id="cite_ref-Attensity_18-0" class="reference"><a href="#cite_note-Attensity-18"><span>[</span>18<span>]</span></a></sup></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>automatic</td>
+<td></td>
+<td></td>
+<td>IE</td>
+<td>named entities, relationships, events</td>
+<td>NLP</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.dandelion.eu/datatxt/">Dandelion dataTXT</a></td>
+<td>plain text</td>
+<td></td>
+<td></td>
+<td></td>
+<td>automatic</td>
+<td></td>
+<td>yes</td>
+<td>SA</td>
+<td></td>
+<td>statistical methods</td>
+<td>JSON</td>
+<td>domain-independent</td>
+<td>multilingual</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://dbpedia.org/spotlight">DBpedia Spotlight</a> <sup id="cite_ref-Mendes_19-0" class="reference"><a href="#cite_note-Mendes-19"><span>[</span>19<span>]</span></a></sup></td>
+<td>plain text, HTML</td>
+<td>dump, SPARQL</td>
+<td>yes</td>
+<td>yes</td>
+<td>automatic</td>
+<td>no</td>
+<td>yes</td>
+<td>SA</td>
+<td>annotation to each word, annotation to non-stopwords</td>
+<td>NLP, statistical methods, machine learning</td>
+<td>RDFa</td>
+<td>domain-independent</td>
+<td>English</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://wit.istc.cnr.it/stlab-tools/fred">FRED</a></td>
+<td>plain text</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>no</td>
+<td>yes</td>
+<td>OL+IE+SA</td>
+<td>concepts, concept hierarchy, frames, events, relationships, named entities</td>
+<td>NLP, DRT, heuristical rules</td>
+<td>RDF-OWL</td>
+<td>domain-independent</td>
+<td>English</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://idocument.opendfki.de">iDocument</a> <sup id="cite_ref-Adrian_20-0" class="reference"><a href="#cite_note-Adrian-20"><span>[</span>20<span>]</span></a></sup></td>
+<td>HTML, PDF, DOC</td>
+<td>SPARQL</td>
+<td></td>
+<td>yes</td>
+<td></td>
+<td></td>
+<td>yes</td>
+<td>OBIE</td>
+<td>instances, property values</td>
+<td>NLP</td>
+<td></td>
+<td>personal, business</td>
+<td></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.netowl.com/">NetOwl Extractor</a> <sup id="cite_ref-SRA-International-Inc_21-0" class="reference"><a href="#cite_note-SRA-International-Inc-21"><span>[</span>21<span>]</span></a></sup></td>
+<td>plain text, HTML, XML, SGML, PDF, MS Office</td>
+<td>dump</td>
+<td>No</td>
+<td>Yes</td>
+<td>Automatic</td>
+<td>yes</td>
+<td>Yes</td>
+<td>IE</td>
+<td>named entities, relationships, events</td>
+<td>NLP</td>
+<td>XML, RDF-OWL, others</td>
+<td>multiple domains</td>
+<td>English, Arabic Chinese (Simplified and Traditional), French, Korean, Persian (Farsi and Dari), Russian, Spanish</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://ontogen.ijs.si">OntoGen</a> <sup id="cite_ref-Fortuna_22-0" class="reference"><a href="#cite_note-Fortuna-22"><span>[</span>22<span>]</span></a></sup></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>semi-automatic</td>
+<td></td>
+<td>yes</td>
+<td>OL</td>
+<td>concepts, concept hierarchy, non-taxonomic relations, instances</td>
+<td>NLP, machine learning, clustering</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://wwwusers.di.uniroma1.it/~velardi/CL.pdf">OntoLearn</a> <sup id="cite_ref-Missikoff_23-0" class="reference"><a href="#cite_note-Missikoff-23"><span>[</span>23<span>]</span></a></sup></td>
+<td>plain text, HTML</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>yes</td>
+<td>no</td>
+<td>OL</td>
+<td>concepts, concept hierarchy, instances</td>
+<td>NLP, statistical methods</td>
+<td>proprietary</td>
+<td>domain-independent</td>
+<td>English</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://wwwusers.di.uniroma1.it/~navigli/pubs/IJCAI_2011_Navigli_Velardi_Faralli.pdf">OntoLearn Reloaded</a></td>
+<td>plain text, HTML</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>yes</td>
+<td>no</td>
+<td>OL</td>
+<td>concepts, concept hierarchy, instances</td>
+<td>NLP, statistical methods</td>
+<td>proprietary</td>
+<td>domain-independent</td>
+<td>English</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://turing.cs.washington.edu/papers/iswc2006McDowell-final.pdf">OntoSyphon</a> <sup id="cite_ref-McDowell_24-0" class="reference"><a href="#cite_note-McDowell-24"><span>[</span>24<span>]</span></a></sup></td>
+<td>HTML, PDF, DOC</td>
+<td>dump, search engine queries</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>yes</td>
+<td>no</td>
+<td>OBIE</td>
+<td>concepts, relations, instances</td>
+<td>NLP, statistical methods</td>
+<td>RDF</td>
+<td>domain-independent</td>
+<td>English</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://ieg.ifs.tuwien.ac.at/projects/ontox">ontoX</a> <sup id="cite_ref-Yildiz_25-0" class="reference"><a href="#cite_note-Yildiz-25"><span>[</span>25<span>]</span></a></sup></td>
+<td>plain text</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>semi-automatic</td>
+<td>yes</td>
+<td>no</td>
+<td>OBIE</td>
+<td>instances, datatype property values</td>
+<td>heuristic-based methods</td>
+<td>proprietary</td>
+<td>domain-independent</td>
+<td>language-independent</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.opencalais.com/">OpenCalais</a></td>
+<td>plain text, HTML, XML</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>yes</td>
+<td>no</td>
+<td>SA</td>
+<td>annotation to entities, annotation to events, annotation to facts</td>
+<td>NLP, machine learning</td>
+<td>RDF</td>
+<td>domain-independent</td>
+<td>English, French, Spanish</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.semantic-web.at/de/poolparty-extractor">PoolParty Extractor</a> <sup id="cite_ref-semanticweb-org_26-0" class="reference"><a href="#cite_note-semanticweb-org-26"><span>[</span>26<span>]</span></a></sup></td>
+<td>plain text, HTML, DOC, ODT</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>yes</td>
+<td>yes</td>
+<td>OBIE</td>
+<td>named entities, concepts, relations, concepts that categorize the text, enrichments</td>
+<td>NLP, machine learning, statistical methods</td>
+<td>RDF, OWL</td>
+<td>domain-independent</td>
+<td>English, German, Spanish, French</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.rosoka.com/">Rosoka</a> <sup id="cite_ref-IMT_Holdings_27-0" class="reference"><a href="#cite_note-IMT_Holdings-27"><span>[</span>27<span>]</span></a></sup></td>
+<td>plain text, HTML, XML, SGML, PDF, MS Office</td>
+<td>dump</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Automatic</td>
+<td>no</td>
+<td>Yes</td>
+<td>IE</td>
+<td>named entities, relationships, attributes, concepts</td>
+<td>NLP</td>
+<td>XML, JSON, RDF, others</td>
+<td>multiple domains</td>
+<td>Multilingual (230)</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="https://github.com/benjamin-adrian/scoobie">SCOOBIE</a></td>
+<td>plain text, HTML</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>no</td>
+<td>no</td>
+<td>OBIE</td>
+<td>instances, property values, RDFS types</td>
+<td>NLP, machine learning</td>
+<td>RDF, RDFa</td>
+<td>domain-independent</td>
+<td>English, German</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www2003.org/cdrom/papers/refereed/p831/p831-dill.html">SemTag</a> <sup id="cite_ref-Dill_28-0" class="reference"><a href="#cite_note-Dill-28"><span>[</span>28<span>]</span></a></sup><sup id="cite_ref-Uren_29-0" class="reference"><a href="#cite_note-Uren-29"><span>[</span>29<span>]</span></a></sup></td>
+<td>HTML</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>yes</td>
+<td>no</td>
+<td>SA</td>
+<td></td>
+<td>machine learning</td>
+<td>database record</td>
+<td>domain-independent</td>
+<td>language-independent</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.insiders-technologies.de/produkte/smart-produkte/smart-fix/">smart FIX</a></td>
+<td>plain text, HTML, PDF, DOC, e-Mail</td>
+<td>dump</td>
+<td>yes</td>
+<td>no</td>
+<td>automatic</td>
+<td>no</td>
+<td>yes</td>
+<td>OBIE</td>
+<td>named entities</td>
+<td>NLP, machine learning</td>
+<td>proprietary</td>
+<td>domain-independent</td>
+<td>English, German, French, Dutch, polish</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://code.google.com/p/text2onto/">Text2Onto</a> <sup id="cite_ref-Cimiano05_30-0" class="reference"><a href="#cite_note-Cimiano05-30"><span>[</span>30<span>]</span></a></sup></td>
+<td>plain text, HTML, PDF</td>
+<td>dump</td>
+<td>yes</td>
+<td>no</td>
+<td>semi-automatic</td>
+<td>yes</td>
+<td>yes</td>
+<td>OL</td>
+<td>concepts, concept hierarchy, non-taxonomic relations, instances, axioms</td>
+<td>NLP, statistical methods, machine learning, rule-based methods</td>
+<td>OWL</td>
+<td>deomain-independent</td>
+<td>English, German, Spanish</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://texttoonto.sourceforge.net/">Text-To-Onto</a> <sup id="cite_ref-Maedche_31-0" class="reference"><a href="#cite_note-Maedche-31"><span>[</span>31<span>]</span></a></sup></td>
+<td>plain text, HTML, PDF, PostScript</td>
+<td>dump</td>
+<td></td>
+<td></td>
+<td>semi-automatic</td>
+<td>yes</td>
+<td>yes</td>
+<td>OL</td>
+<td>concepts, concept hierarchy, non-taxonomic relations, lexical entities referring to concepts, lexical entities referring to relations</td>
+<td>NLP, machine learning, clustering, statistical methods</td>
+<td></td>
+<td></td>
+<td>German</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://thewikimachine.fbk.eu/html/index.html">The Wiki Machine</a> <sup id="cite_ref-Machine-Linking_32-0" class="reference"><a href="#cite_note-Machine-Linking-32"><span>[</span>32<span>]</span></a></sup></td>
+<td>plain text, HTML, PDF, DOC</td>
+<td>dump</td>
+<td>no</td>
+<td>yes</td>
+<td>automatic</td>
+<td>yes</td>
+<td>yes</td>
+<td>SA</td>
+<td>annotation to proper nouns, annotation to common nouns</td>
+<td>machine learning</td>
+<td>RDFa</td>
+<td>domain-independent</td>
+<td>English, German, Spanish, French, Portuguese, Italian, Russian</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://inxightfedsys.com/products/sdks/tf/">ThingFinder</a> <sup id="cite_ref-Inxight-Federal-Systems_33-0" class="reference"><a href="#cite_note-Inxight-Federal-Systems-33"><span>[</span>33<span>]</span></a></sup></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>IE</td>
+<td>named entities, relationships, events</td>
+<td></td>
+<td></td>
+<td></td>
+<td>multilingual</td>
+</tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.zemanta.com/">Zemanta</a></td>
+<td>plain text, HTML</td>
+<td>dump</td>
+<td>yes</td>
+<td>no</td>
+<td>automatic</td>
+<td>no</td>
+<td>yes</td>
+<td>SA</td>
+<td>named entities, concepts</td>
+<td>NLP, statistical methods</td>
+<td>RDF</td>
+<td>domain-independent</td>
+<td>English</td>
+</tr>
+</table>
+<h2><span class="mw-headline" id="Knowledge_discovery">Knowledge discovery</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=16" title="Edit section: Knowledge discovery">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Knowledge discovery describes the process of automatically searching large volumes of <a href="/wiki/Data" title="Data">data</a> for patterns that can be considered <a href="/wiki/Knowledge" title="Knowledge">knowledge</a> <i>about</i> the data.<sup id="cite_ref-Williams1992_34-0" class="reference"><a href="#cite_note-Williams1992-34"><span>[</span>34<span>]</span></a></sup> It is often described as <i>deriving</i> <a href="/wiki/Knowledge" title="Knowledge">knowledge</a> from the input <a href="/wiki/Data" title="Data">data</a>. Knowledge discovery developed out of the <a href="/wiki/Data_mining" title="Data mining">data mining</a> domain, and is closely related to it both in terms of methodology and terminology.<sup id="cite_ref-Fayyad1996_35-0" class="reference"><a href="#cite_note-Fayyad1996-35"><span>[</span>35<span>]</span></a></sup></p>
+<p>The most well-known branch of <a href="/wiki/Data_mining" title="Data mining">data mining</a> is knowledge discovery, also known as <a href="/wiki/Knowledge_discovery_in_databases" title="Knowledge discovery in databases" class="mw-redirect">knowledge discovery in databases</a> (KDD). Just as many other forms of knowledge discovery it creates <a href="/wiki/Abstraction" title="Abstraction">abstractions</a> of the input data. The <i>knowledge</i> obtained through the process may become additional <i>data</i> that can be used for further usage and discovery.</p>
+<p>Another promising application of knowledge discovery is in the area of <a href="/wiki/Software_modernization" title="Software modernization">software modernization</a>, weakness discovery and compliance which involves understanding existing software artifacts. This process is related to a concept of <a href="/wiki/Reverse_engineering" title="Reverse engineering">reverse engineering</a>. Usually the knowledge obtained from existing software is presented in the form of models to which specific queries can be made when necessary. An <a href="/wiki/Entity_relationship" title="Entity relationship" class="mw-redirect">entity relationship</a> is a frequent format of representing knowledge obtained from existing software. <a href="/wiki/Object_Management_Group" title="Object Management Group">Object Management Group</a> (OMG) developed specification <a href="/wiki/Knowledge_Discovery_Metamodel" title="Knowledge Discovery Metamodel">Knowledge Discovery Metamodel</a> (KDM) which defines an ontology for the software assets and their relationships for the purpose of performing knowledge discovery of existing code. Knowledge discovery from existing software systems, also known as <a href="/wiki/Software_mining" title="Software mining">software mining</a> is closely related to <a href="/wiki/Data_mining" title="Data mining">data mining</a>, since existing software artifacts contain enormous value for risk management and <a href="/wiki/Business_Value" title="Business Value" class="mw-redirect">business value</a>, key for the evaluation and evolution of software systems. Instead of mining individual <a href="/wiki/Data_set" title="Data set">data sets</a>, <a href="/wiki/Software_mining" title="Software mining">software mining</a> focuses on <a href="/wiki/Metadata" title="Metadata">metadata</a>, such as process flows (e.g. data flows, control flows, &amp; call maps), architecture, database schemas, and business rules/terms/process.</p>
+<h3><span class="mw-headline" id="Input_data">Input data</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=17" title="Edit section: Input data">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Data_mining" title="Data mining">Databases</a>
+<ul>
+<li><a href="/wiki/Relational_data_mining" title="Relational data mining">Relational data</a></li>
+<li><a href="/wiki/Database" title="Database">Database</a></li>
+<li><a href="/wiki/Document_warehouse" title="Document warehouse">Document warehouse</a></li>
+<li><a href="/wiki/Data_warehouse" title="Data warehouse">Data warehouse</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Software_mining" title="Software mining">Software</a>
+<ul>
+<li><a href="/wiki/Source_code" title="Source code">Source code</a></li>
+<li><a href="/wiki/Configuration_files" title="Configuration files" class="mw-redirect">Configuration files</a></li>
+<li><a href="/wiki/Build_automation" title="Build automation">Build scripts</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Text_mining" title="Text mining">Text</a>
+<ul>
+<li><a href="/wiki/Concept_mining" title="Concept mining">Concept mining</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Graph_mining" title="Graph mining" class="mw-redirect">Graphs</a>
+<ul>
+<li><a href="/wiki/Molecule_mining" title="Molecule mining">Molecule mining</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Sequence_mining" title="Sequence mining" class="mw-redirect">Sequences</a>
+<ul>
+<li><a href="/wiki/Data_stream_mining" title="Data stream mining">Data stream mining</a></li>
+<li><a href="/wiki/Concept_drift" title="Concept drift">Learning from time-varying data streams under concept drift</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Web_mining" title="Web mining">Web</a></li>
+</ul>
+<h3><span class="mw-headline" id="Output_formats">Output formats</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=18" title="Edit section: Output formats">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Data_model" title="Data model">Data model</a></li>
+<li><a href="/wiki/Metadata" title="Metadata">Metadata</a></li>
+<li><a href="/wiki/Metamodeling" title="Metamodeling">Metamodels</a></li>
+<li><a href="/wiki/Ontology" title="Ontology">Ontology</a></li>
+<li><a href="/wiki/Knowledge_representation" title="Knowledge representation" class="mw-redirect">Knowledge representation</a></li>
+<li><a href="/wiki/Knowledge_tags" title="Knowledge tags" class="mw-redirect">Knowledge tags</a></li>
+<li><a href="/wiki/Business_rule" title="Business rule">Business rule</a></li>
+<li><a href="/wiki/Knowledge_Discovery_Metamodel" title="Knowledge Discovery Metamodel">Knowledge Discovery Metamodel</a> (KDM)</li>
+<li><a href="/wiki/Business_Process_Modeling_Notation" title="Business Process Modeling Notation" class="mw-redirect">Business Process Modeling Notation</a> (BPMN)</li>
+<li><a href="/wiki/Intermediate_representation" title="Intermediate representation" class="mw-redirect">Intermediate representation</a></li>
+<li><a href="/wiki/Resource_Description_Framework" title="Resource Description Framework">Resource Description Framework</a> (RDF)</li>
+<li><a href="/wiki/Software_metric" title="Software metric">Software metrics</a></li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=19" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Cluster_analysis" title="Cluster analysis">Clustering</a></li>
+<li><a href="/wiki/Data_archaeology" title="Data archaeology">Data archaeology</a></li>
+<li><a href="/wiki/Data_mining" title="Data mining">Data mining</a></li>
+<li><a href="/wiki/Data_Mining_in_Agriculture" title="Data Mining in Agriculture" class="mw-redirect">Data Mining in Agriculture</a></li>
+<li><a href="/wiki/Extract,_transform,_load" title="Extract, transform, load">Extract, transform, load</a></li>
+<li><a href="/wiki/Information_Extraction" title="Information Extraction" class="mw-redirect">Information Extraction</a></li>
+<li><a href="/wiki/Knowledge_representation_and_reasoning" title="Knowledge representation and reasoning">Knowledge representation and reasoning</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit&amp;section=20" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-RDB2RDF-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-RDB2RDF_1-0">^</a></b></span> <span class="reference-text">RDB2RDF Working Group, Website: <a rel="nofollow" class="external free" href="http://www.w3.org/2001/sw/rdb2rdf/">http://www.w3.org/2001/sw/rdb2rdf/</a> , charter: <a rel="nofollow" class="external free" href="http://www.w3.org/2009/08/rdb2rdf-charter">http://www.w3.org/2009/08/rdb2rdf-charter</a>, R2RML: RDB to RDF Mapping Language: <a rel="nofollow" class="external free" href="http://www.w3.org/TR/r2rml/">http://www.w3.org/TR/r2rml/</a></span></li>
+<li id="cite_note-lod2_eu-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-lod2_eu_2-0">^</a></b></span> <span class="reference-text">LOD2 EU Deliverable 3.1.1 Knowledge Extraction from Structured Sources <a rel="nofollow" class="external free" href="http://static.lod2.eu/Deliverables/deliverable-3.1.1.pdf">http://static.lod2.eu/Deliverables/deliverable-3.1.1.pdf</a></span></li>
+<li id="cite_note-OpenCalaisLinkedData-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-OpenCalaisLinkedData_3-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.opencalais.com/node/9501">"Life in the Linked Data Cloud"</a>. www.opencalais.com<span class="reference-accessdate">. Retrieved 2009-11-10</span>. "Wikipedia has a Linked Data twin called DBpedia. DBpedia has the same structured information as Wikipedia – but translated into a machine-readable format."</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AKnowledge+extraction&amp;rft.btitle=Life+in+the+Linked+Data+Cloud&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.opencalais.com%2Fnode%2F9501&amp;rft.pub=www.opencalais.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-timbl_reldb4semweb-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-timbl_reldb4semweb_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-timbl_reldb4semweb_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Tim Berners-Lee (1998), <a rel="nofollow" class="external text" href="http://www.w3.org/DesignIssues/RDB-RDF.html">"Relational Databases on the Semantic Web"</a>. Retrieved: February 20, 2011.</span></li>
+<li id="cite_note-Hu-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-Hu_5-0">^</a></b></span> <span class="reference-text">Hu et al. (2007), “Discovering Simple Mappings Between Relational Database Schemas and Ontologies”, In Proc. of 6th International Semantic Web Conference (ISWC 2007), 2nd Asian Semantic Web Conference (ASWC 2007), LNCS 4825, pages 225‐238, Busan, Korea, 11‐15 November 2007. <a rel="nofollow" class="external free" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.6934&amp;rep=rep1&amp;type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.6934&amp;rep=rep1&amp;type=pdf</a></span></li>
+<li id="cite_note-Ghawi-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-Ghawi_6-0">^</a></b></span> <span class="reference-text">R. Ghawi and N. Cullot (2007), "Database-to-Ontology Mapping Generation for Semantic Interoperability". In Third International Workshop on Database Interoperability (InterDB 2007). <a rel="nofollow" class="external free" href="http://le2i.cnrs.fr/IMG/publications/InterDB07-Ghawi.pdf">http://le2i.cnrs.fr/IMG/publications/InterDB07-Ghawi.pdf</a></span></li>
+<li id="cite_note-Li-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-Li_7-0">^</a></b></span> <span class="reference-text">Li et al. (2005) "A Semi-automatic Ontology Acquisition Method for the Semantic Web", WAIM, volume 3739 of Lecture Notes in Computer Science, page 209-220. Springer. <a rel="nofollow" class="external free" href="http://dx.doi.org/10.1007/11563952_19">http://dx.doi.org/10.1007/11563952_19</a></span></li>
+<li id="cite_note-Tirmizi-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-Tirmizi_8-0">^</a></b></span> <span class="reference-text">Tirmizi et al. (2008), “Translating SQL Applications to the Semantic Web”, Lecture Notes in Computer Science, Volume 5181/2008 (Database and Expert Systems Applications). <a rel="nofollow" class="external free" href="http://citeseer.ist.psu.edu/viewdoc/download;jsessionid=15E8AB2A37BD06DAE59255A1AC3095F0?doi=10.1.1.140.3169&amp;rep=rep1&amp;type=pdf">http://citeseer.ist.psu.edu/viewdoc/download;jsessionid=15E8AB2A37BD06DAE59255A1AC3095F0?doi=10.1.1.140.3169&amp;rep=rep1&amp;type=pdf</a></span></li>
+<li id="cite_note-Cerbah-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Cerbah_9-0">^</a></b></span> <span class="reference-text">Farid Cerbah (2008). "Learning Highly Structured Semantic Repositories from Relational Databases", The Semantic Web: Research and Applications, volume 5021 of Lecture Notes in Computer Science, Springer, Berlin / Heidelberg <a rel="nofollow" class="external free" href="http://www.tao-project.eu/resources/publications/cerbah-learning-highly-structured-semantic-repositories-from-relational-databases.pdf">http://www.tao-project.eu/resources/publications/cerbah-learning-highly-structured-semantic-repositories-from-relational-databases.pdf</a></span></li>
+<li id="cite_note-Wimalasuriya-10"><span class="mw-cite-backlink">^ <a href="#cite_ref-Wimalasuriya_10-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Wimalasuriya_10-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Wimalasuriya, Daya C.; Dou, Dejing (2010). "Ontology-based information extraction: An introduction and a survey of current approaches", <i>Journal of Information Science</i>, 36(3), p. 306 - 323, <a rel="nofollow" class="external free" href="http://ix.cs.uoregon.edu/~dou/research/papers/jis09.pdf">http://ix.cs.uoregon.edu/~dou/research/papers/jis09.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Cunningham-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-Cunningham_11-0">^</a></b></span> <span class="reference-text">Cunningham, Hamish (2005). "Information Extraction, Automatic", <i>Encyclopedia of Language and Linguistics</i>, 2, p. 665 - 677, <a rel="nofollow" class="external free" href="http://gate.ac.uk/sale/ell2/ie/main.pdf">http://gate.ac.uk/sale/ell2/ie/main.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Erdmann-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Erdmann_12-0">^</a></b></span> <span class="reference-text">Erdmann, M.; Maedche, Alexander; Schnurr, H.-P.; Staab, Steffen (2000). "From Manual to Semi-automatic Semantic Annotation: About Ontology-based Text Annotation Tools", <i>Proceedings of the COLING</i>, <a rel="nofollow" class="external free" href="http://www.ida.liu.se/ext/epa/cis/2001/002/paper.pdf">http://www.ida.liu.se/ext/epa/cis/2001/002/paper.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Rao-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-Rao_13-0">^</a></b></span> <span class="reference-text">Rao, Delip; McNamee, Paul; Dredze, Mark (2011). "Entity Linking: Finding Extracted Entities in a Knowledge Base", <i>Multi-source, Multi-lingual Information Extraction and Summarization</i>, <a rel="nofollow" class="external free" href="http://www.cs.jhu.edu/~delip/entity-linking.pdf">http://www.cs.jhu.edu/~delip/entity-linking.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Rocket-Software-Inc-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-Rocket-Software-Inc_14-0">^</a></b></span> <span class="reference-text">Rocket Software, Inc. (2012). "technology for extracting intelligence from text", <a rel="nofollow" class="external free" href="http://www.rocketsoftware.com/products/aerotext">http://www.rocketsoftware.com/products/aerotext</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Orchestr8-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-Orchestr8_15-0">^</a></b></span> <span class="reference-text">Orchestr8 (2012): "AlchemyAPI Overview", <a rel="nofollow" class="external free" href="http://www.alchemyapi.com/api">http://www.alchemyapi.com/api</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-The-University-of-Sheffield-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-The-University-of-Sheffield_16-0">^</a></b></span> <span class="reference-text">The University of Sheffield (2011). "ANNIE: a Nearly-New Information Extraction System", <a rel="nofollow" class="external free" href="http://gate.ac.uk/sale/tao/splitch6.html#chap:annie">http://gate.ac.uk/sale/tao/splitch6.html#chap:annie</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-ILP-Network-of-Excellence-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-ILP-Network-of-Excellence_17-0">^</a></b></span> <span class="reference-text">ILP Network of Excellence. "ASIUM (LRI)", <a rel="nofollow" class="external free" href="http://www-ai.ijs.si/~ilpnet2/systems/asium.html">http://www-ai.ijs.si/~ilpnet2/systems/asium.html</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Attensity-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-Attensity_18-0">^</a></b></span> <span class="reference-text">Attensity (2012). "Exhaustive Extraction", <a rel="nofollow" class="external free" href="http://www.attensity.com/products/technology/semantic-server/exhaustive-extraction/">http://www.attensity.com/products/technology/semantic-server/exhaustive-extraction/</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Mendes-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-Mendes_19-0">^</a></b></span> <span class="reference-text">Mendes, Pablo N.; Jakob, Max; Garcia-Sílva, Andrés; Bizer; Christian (2011). "DBpedia Spotlight: Shedding Light on the Web of Documents", <i>Proceedings of the 7th International Conference on Semantic Systems</i>, p. 1 - 8, <a rel="nofollow" class="external free" href="http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/research/publications/Mendes-Jakob-GarciaSilva-Bizer-DBpediaSpotlight-ISEM2011.pdf">http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/research/publications/Mendes-Jakob-GarciaSilva-Bizer-DBpediaSpotlight-ISEM2011.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Adrian-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-Adrian_20-0">^</a></b></span> <span class="reference-text">Adrian, Benjamin; Maus, Heiko; Dengel, Andreas (2009). "iDocument: Using Ontologies for Extracting Information from Text", <a rel="nofollow" class="external free" href="http://www.dfki.uni-kl.de/~maus/dok/AdrianMausDengel09.pdf">http://www.dfki.uni-kl.de/~maus/dok/AdrianMausDengel09.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-SRA-International-Inc-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-SRA-International-Inc_21-0">^</a></b></span> <span class="reference-text">SRA International, Inc. (2012). "NetOwl Extractor", <a rel="nofollow" class="external free" href="http://www.sra.com/netowl/entity-extraction/">http://www.sra.com/netowl/entity-extraction/</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Fortuna-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-Fortuna_22-0">^</a></b></span> <span class="reference-text">Fortuna, Blaz; Grobelnik, Marko; Mladenic, Dunja (2007). "OntoGen: Semi-automatic Ontology Editor", <i>Proceedings of the 2007 conference on Human interface, Part 2</i>, p. 309 - 318, <a rel="nofollow" class="external free" href="http://analytics.ijs.si/~blazf/papers/OntoGen2_HCII2007.pdf">http://analytics.ijs.si/~blazf/papers/OntoGen2_HCII2007.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Missikoff-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-Missikoff_23-0">^</a></b></span> <span class="reference-text">Missikoff, Michele; Navigli, Roberto; Velardi, Paola (2002). "Integrated Approach to Web Ontology Learning and Engineering", <i>Computer</i>, 35(11), p. 60 - 63, <a rel="nofollow" class="external free" href="http://wwwusers.di.uniroma1.it/~velardi/IEEE_C.pdf">http://wwwusers.di.uniroma1.it/~velardi/IEEE_C.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-McDowell-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-McDowell_24-0">^</a></b></span> <span class="reference-text">McDowell, Luke K.; Cafarella, Michael (2006). "Ontology-driven Information Extraction with OntoSyphon", <i>Proceedings of the 5th international conference on The Semantic Web</i>, p. 428 - 444, <a rel="nofollow" class="external free" href="http://turing.cs.washington.edu/papers/iswc2006McDowell-final.pdf">http://turing.cs.washington.edu/papers/iswc2006McDowell-final.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Yildiz-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-Yildiz_25-0">^</a></b></span> <span class="reference-text">Yildiz, Burcu; Miksch, Silvia (2007). "ontoX - A Method for Ontology-Driven Information Extraction", <i>Proceedings of the 2007 international conference on Computational science and its applications</i>, 3, p. 660 - 673, <a rel="nofollow" class="external free" href="http://publik.tuwien.ac.at/files/pub-inf_4769.pdf">http://publik.tuwien.ac.at/files/pub-inf_4769.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-semanticweb-org-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-semanticweb-org_26-0">^</a></b></span> <span class="reference-text">semanticweb.org (2011). "PoolParty Extractor", <a rel="nofollow" class="external free" href="http://semanticweb.org/wiki/PoolParty_Extractor">http://semanticweb.org/wiki/PoolParty_Extractor</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-IMT_Holdings-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-IMT_Holdings_27-0">^</a></b></span> <span class="reference-text">IMT Holdings, Corp (2013). "Rosoka", <a rel="nofollow" class="external free" href="http://rosoka.com/wp-content/uploads/2013/07/PR-Rosoka-3.0.pdf">http://rosoka.com/wp-content/uploads/2013/07/PR-Rosoka-3.0.pdf</a> (retrieved: 08.08.2013).</span></li>
+<li id="cite_note-Dill-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-Dill_28-0">^</a></b></span> <span class="reference-text">Dill, Stephen; Eiron, Nadav; Gibson, David; Gruhl, Daniel; Guha, R.; Jhingran, Anant; Kanungo, Tapas; Rajagopalan, Sridhar; Tomkins, Andrew; Tomlin, John A.; Zien, Jason Y. (2003). "SemTag and Seeker: Bootstraping the Semantic Web via Automated Semantic Annotation", <i>Proceedings of the 12th international conference on World Wide Web</i>, p. 178 - 186, <a rel="nofollow" class="external free" href="http://www2003.org/cdrom/papers/refereed/p831/p831-dill.html">http://www2003.org/cdrom/papers/refereed/p831/p831-dill.html</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Uren-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-Uren_29-0">^</a></b></span> <span class="reference-text">Uren, Victoria; Cimiano, Philipp; Iria, José; Handschuh, Siegfried; Vargas-Vera, Maria; Motta, Enrico; Ciravegna, Fabio (2006). "Semantic annotation for knowledge management: Requirements and a survey of the state of the art", <i>Web Semantics: Science, Services and Agents on the World Wide Web</i>, 4(1), p. 14 - 28, <a rel="nofollow" class="external free" href="http://staffwww.dcs.shef.ac.uk/people/J.Iria/iria_jws06.pdf">http://staffwww.dcs.shef.ac.uk/people/J.Iria/iria_jws06.pdf</a>, (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Cimiano05-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-Cimiano05_30-0">^</a></b></span> <span class="reference-text">Cimiano, Philipp; Völker, Johanna (2005). "Text2Onto - A Framework for Ontology Learning and Data-Driven Change Discovery", <i>Proceedings of the 10th International Conference of Applications of Natural Language to Information Systems</i>, 3513, p. 227 - 238, <a rel="nofollow" class="external free" href="http://www.cimiano.de/Publications/2005/nldb05/nldb05.pdf">http://www.cimiano.de/Publications/2005/nldb05/nldb05.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Maedche-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-Maedche_31-0">^</a></b></span> <span class="reference-text">Maedche, Alexander; Volz, Raphael (2001). "The Ontology Extraction &amp; Maintenance Framework Text-To-Onto", <i>Proceedings of the IEEE International Conference on Data Mining</i>, <a rel="nofollow" class="external free" href="http://users.csc.calpoly.edu/~fkurfess/Events/DM-KM-01/Volz.pdf">http://users.csc.calpoly.edu/~fkurfess/Events/DM-KM-01/Volz.pdf</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Machine-Linking-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-Machine-Linking_32-0">^</a></b></span> <span class="reference-text">Machine Linking. "We connect to the Linked Open Data cloud", <a rel="nofollow" class="external free" href="http://thewikimachine.fbk.eu/html/index.html">http://thewikimachine.fbk.eu/html/index.html</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Inxight-Federal-Systems-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-Inxight-Federal-Systems_33-0">^</a></b></span> <span class="reference-text">Inxight Federal Systems (2008). "Inxight ThingFinder and ThingFinder Professional", <a rel="nofollow" class="external free" href="http://inxightfedsys.com/products/sdks/tf/">http://inxightfedsys.com/products/sdks/tf/</a> (retrieved: 18.06.2012).</span></li>
+<li id="cite_note-Williams1992-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-Williams1992_34-0">^</a></b></span> <span class="reference-text">Frawley William. F. et al. (1992), "Knowledge Discovery in Databases: An Overview", <i>AI Magazine</i> (Vol 13, No 3), 57-70 (online full version: <a rel="nofollow" class="external free" href="http://www.aaai.org/ojs/index.php/aimagazine/article/viewArticle/1011">http://www.aaai.org/ojs/index.php/aimagazine/article/viewArticle/1011</a>)</span></li>
+<li id="cite_note-Fayyad1996-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-Fayyad1996_35-0">^</a></b></span> <span class="reference-text">Fayyad U. et al. (1996), "From Data Mining to Knowledge Discovery in Databases", <i>AI Magazine</i> (Vol 17, No 3), 37-54 (online full version: <a rel="nofollow" class="external free" href="http://www.aaai.org/ojs/index.php/aimagazine/article/viewArticle/1230">http://www.aaai.org/ojs/index.php/aimagazine/article/viewArticle/1230</a></span></li>
+</ol>
+</div>
+<table cellspacing="0" class="navbox" style="border-spacing:0;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Semantic_Web" title="Template:Semantic Web"><span title="View this template" style=";;background:none transparent;border:none;;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Semantic_Web" title="Template talk:Semantic Web"><span title="Discuss this template" style=";;background:none transparent;border:none;;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Semantic_Web&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%;"><a href="/wiki/Semantic_Web" title="Semantic Web">Semantic Web</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Background</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Database" title="Database">Databases</a></li>
+<li><a href="/wiki/Hypertext" title="Hypertext">Hypertext</a></li>
+<li><a href="/wiki/Internet" title="Internet">Internet</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontologies</a></li>
+<li><a href="/wiki/Semantic_network" title="Semantic network">Semantic networks</a></li>
+<li><a href="/wiki/World_Wide_Web" title="World Wide Web">World Wide Web</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Sub-topics</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Data_Web" title="Data Web">Data Web</a></li>
+<li><a href="/wiki/Dataspaces" title="Dataspaces">Dataspaces</a></li>
+<li><a href="/wiki/Dereferenceable_Uniform_Resource_Identifier" title="Dereferenceable Uniform Resource Identifier">Dereferenceable URIs</a></li>
+<li><a href="/wiki/Hyperdata" title="Hyperdata">Hyperdata</a></li>
+<li><a href="/wiki/Linked_data" title="Linked data">Linked data</a></li>
+<li><a href="/wiki/Rule-based_system" title="Rule-based system">Rule-based systems</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Applications</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Semantic_advertising" title="Semantic advertising">Semantic advertising</a></li>
+<li><a href="/wiki/Semantic_analytics" title="Semantic analytics">Semantic analytics</a></li>
+<li><a href="/wiki/Semantic_broker" title="Semantic broker">Semantic broker</a></li>
+<li><a href="/wiki/Semantic_computing" title="Semantic computing">Semantic computing</a></li>
+<li><a href="/wiki/Semantic_mapper" title="Semantic mapper">Semantic mapper</a></li>
+<li><a href="/wiki/Semantic_matching" title="Semantic matching">Semantic matching</a></li>
+<li><a href="/wiki/Semantic_publishing" title="Semantic publishing">Semantic publishing</a></li>
+<li><a href="/wiki/Semantic_reasoner" title="Semantic reasoner">Semantic reasoner</a></li>
+<li><a href="/wiki/Semantic_search" title="Semantic search">Semantic search</a></li>
+<li><a href="/wiki/Semantic_service-oriented_architecture" title="Semantic service-oriented architecture">Semantic service-oriented architecture</a></li>
+<li><a href="/wiki/Semantic_wiki" title="Semantic wiki">Semantic wiki</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Related topics</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Collective_intelligence" title="Collective intelligence">Collective intelligence</a></li>
+<li><a href="/wiki/Description_logic" title="Description logic">Description logic</a></li>
+<li><a href="/wiki/Folksonomy" title="Folksonomy">Folksonomy</a></li>
+<li><a href="/wiki/Geotagging" title="Geotagging">Geotagging</a></li>
+<li><a href="/wiki/Information_architecture" title="Information architecture">Information architecture</a></li>
+<li><strong class="selflink">Knowledge extraction</strong></li>
+<li><a href="/wiki/Knowledge_management" title="Knowledge management">Knowledge management</a></li>
+<li><a href="/wiki/Library_2.0" title="Library 2.0">Library 2.0</a></li>
+<li><a href="/wiki/Metadata" title="Metadata">Metadata</a></li>
+<li><a href="/wiki/Mind_map" title="Mind map">Mind mapping</a></li>
+<li><a href="/wiki/ODBC" title="ODBC">ODBC</a></li>
+<li><a href="/wiki/Reference_(computer_science)" title="Reference (computer science)">References</a></li>
+<li><a href="/wiki/Topic_Maps" title="Topic Maps">Topic Maps</a></li>
+<li><a href="/wiki/Web_2.0" title="Web 2.0">Web 2.0</a></li>
+<li><a href="/wiki/Web_Engineering" title="Web Engineering" class="mw-redirect">Web Engineering</a></li>
+<li><a href="/wiki/Web_Science_Trust" title="Web Science Trust">Web Science Trust</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Standards</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Syntax and supporting technologies</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">HTTP</a></li>
+<li><a href="/wiki/Resource_Description_Framework" title="Resource Description Framework">RDF</a>
+<ul>
+<li><small><a href="/wiki/RDF/XML" title="RDF/XML">RDF/XML</a></small></li>
+<li><small><a href="/wiki/JSON-LD" title="JSON-LD">JSON-LD</a></small></li>
+<li><small><a href="/wiki/Turtle_(syntax)" title="Turtle (syntax)">Turtle</a></small></li>
+<li><small><a href="/wiki/Notation3" title="Notation3">Notation3</a></small></li>
+<li><small><a href="/wiki/N-Triples" title="N-Triples">N-Triples</a></small></li>
+</ul>
+</li>
+<li><a href="/wiki/SPARQL" title="SPARQL">SPARQL</a></li>
+<li><a href="/wiki/Uniform_resource_identifier" title="Uniform resource identifier">URI</a></li>
+<li><a href="/wiki/XML" title="XML">XML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Schemas, ontologies and rules</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Common_logic" title="Common logic">Common logic</a></li>
+<li><a href="/wiki/Web_Ontology_Language" title="Web Ontology Language">OWL</a></li>
+<li><a href="/wiki/RDF_Schema" title="RDF Schema">RDFS</a></li>
+<li><a href="/wiki/Rule_Interchange_Format" title="Rule Interchange Format">Rule Interchange Format</a></li>
+<li><a href="/wiki/Semantic_Web_Rule_Language" title="Semantic Web Rule Language">Semantic Web Rule Language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Semantic annotation</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Embedded_RDF" title="Embedded RDF">eRDF</a></li>
+<li><a href="/wiki/GRDDL" title="GRDDL">GRDDL</a></li>
+<li><a href="/wiki/Microdata_(HTML)" title="Microdata (HTML)">Microdata</a></li>
+<li><a href="/wiki/Microformat" title="Microformat">Microformats</a></li>
+<li><a href="/wiki/RDFa" title="RDFa">RDFa</a></li>
+<li><a href="/wiki/SAWSDL" title="SAWSDL">SAWSDL</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Common vocabularies</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/DOAP" title="DOAP">DOAP</a></li>
+<li><a href="/wiki/Dublin_Core" title="Dublin Core">Dublin Core</a></li>
+<li><a href="/wiki/FOAF_(software)" title="FOAF (software)" class="mw-redirect">FOAF</a></li>
+<li><a href="/wiki/Semantically-Interlinked_Online_Communities" title="Semantically-Interlinked Online Communities">SIOC</a></li>
+<li><a href="/wiki/Simple_Knowledge_Organization_System" title="Simple Knowledge Organization System">SKOS</a></li>
+<li><a href="/wiki/UMBEL" title="UMBEL">UMBEL</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Computable_knowledge" title="Template:Computable knowledge"><span title="View this template" style=";;background:none transparent;border:none;;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Computable_knowledge" title="Template talk:Computable knowledge"><span title="Discuss this template" style=";;background:none transparent;border:none;;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Computable_knowledge&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%;">Computable knowledge</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Topics and<br />
+concepts</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Alphabet_of_human_thought" title="Alphabet of human thought">Alphabet of human thought</a></li>
+<li><a href="/wiki/Authority_control" title="Authority control">Authority control</a></li>
+<li><a href="/wiki/Automated_reasoning" title="Automated reasoning">Automated reasoning</a></li>
+<li><a href="/wiki/Commonsense_knowledge_base" title="Commonsense knowledge base" class="mw-redirect">Commonsense knowledge base</a></li>
+<li><a href="/wiki/Commonsense_reasoning" title="Commonsense reasoning">Commonsense reasoning</a></li>
+<li><a href="/wiki/Computability" title="Computability">Computability</a></li>
+<li><a href="/wiki/Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="/wiki/Inference_engine" title="Inference engine">Inference engine</a></li>
+<li><a href="/wiki/Knowledge_base" title="Knowledge base">Knowledge base</a></li>
+<li><a href="/wiki/Knowledge-based_systems" title="Knowledge-based systems">Knowledge-based systems</a></li>
+<li><a href="/wiki/Knowledge_discovery" title="Knowledge discovery" class="mw-redirect">Knowledge discovery</a></li>
+<li><a href="/wiki/Knowledge_engineering" title="Knowledge engineering">Knowledge engineering</a></li>
+<li><a href="/wiki/Knowledge_representation_and_reasoning" title="Knowledge representation and reasoning">Knowledge representation</a></li>
+<li><a href="/wiki/Knowledge_retrieval" title="Knowledge retrieval">Knowledge retrieval</a></li>
+<li><strong class="selflink">Knowledge extraction</strong></li>
+<li><a href="/wiki/Library_classification" title="Library classification">Library classification</a></li>
+<li><a href="/wiki/Logic_programming" title="Logic programming">Logic programming</a></li>
+<li><a href="/wiki/Ontology_(information_science)" title="Ontology (information science)">Ontology</a></li>
+<li><a href="/wiki/Question_answering#Deep" title="Question answering">Question answering</a></li>
+<li><a href="/wiki/Semantic_reasoner" title="Semantic reasoner">Semantic reasoner</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Proposals and<br />
+implementations</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Zairja" title="Zairja">Zairja</a></li>
+<li><i><a href="/wiki/Ramon_Llull#Ars_generalis_ultima_.28Ars_Magna.29" title="Ramon Llull">Ars Magna</a></i> (<a href="/wiki/Ramon_Llull" title="Ramon Llull">Ramon Llull</a>, 1300)</li>
+<li><i><a href="/wiki/An_Essay_towards_a_Real_Character_and_a_Philosophical_Language" title="An Essay towards a Real Character and a Philosophical Language">An Essay towards a Real Character and a Philosophical Language</a></i> (<a href="/wiki/John_Wilkins" title="John Wilkins">John Wilkins</a>, 1688)</li>
+<li><a href="/wiki/Calculus_ratiocinator" title="Calculus ratiocinator">Calculus ratiocinator</a> &amp; <a href="/wiki/Characteristica_universalis" title="Characteristica universalis">Characteristica universalis</a> (<a href="/wiki/Gottfried_Leibniz" title="Gottfried Leibniz" class="mw-redirect">Gottfried Leibniz</a>, 1700)</li>
+<li><a href="/wiki/Dewey_Decimal_Classification" title="Dewey Decimal Classification">Dewey Decimal Classification</a> (<a href="/wiki/Melvil_Dewey" title="Melvil Dewey">Melvil Dewey</a>, 1876)</li>
+<li><a href="/wiki/Begriffsschrift" title="Begriffsschrift">Begriffsschrift</a> (<a href="/wiki/Gottlob_Frege" title="Gottlob Frege">Gottlob Frege</a>, 1879)</li>
+<li><a href="/wiki/Mundaneum" title="Mundaneum">Mundaneum</a> (<a href="/wiki/Paul_Otlet" title="Paul Otlet">Paul Otlet</a> &amp; <a href="/wiki/Henri_La_Fontaine" title="Henri La Fontaine">Henri La Fontaine</a>, 1910)</li>
+<li><a href="/wiki/Logical_atomism" title="Logical atomism">Logical atomism</a> (<a href="/wiki/Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a>, 1918)</li>
+<li><i><a href="/wiki/Tractatus_Logico-Philosophicus" title="Tractatus Logico-Philosophicus">Tractatus Logico-Philosophicus</a></i> (<a href="/wiki/Ludwig_Wittgenstein" title="Ludwig Wittgenstein">Ludwig Wittgenstein</a>, 1921)</li>
+<li><a href="/wiki/Hilbert%27s_program" title="Hilbert's program">Hilbert's program</a> (<a href="/wiki/David_Hilbert" title="David Hilbert">David Hilbert</a>, 1920s)</li>
+<li><a href="/wiki/G%C3%B6del%27s_incompleteness_theorems" title="Gödel's incompleteness theorems">Incompleteness theorem</a> (<a href="/wiki/Kurt_G%C3%B6del" title="Kurt Gödel">Kurt Gödel</a>, 1931)</li>
+<li><a href="/wiki/Memex" title="Memex">Memex</a> (<a href="/wiki/Vannevar_Bush" title="Vannevar Bush">Vannevar Bush</a>, 1945)</li>
+<li><a href="/wiki/Prolog" title="Prolog">Prolog</a> (1972)</li>
+<li><a href="/wiki/Cyc" title="Cyc">Cyc</a> (1984)</li>
+<li><a href="/wiki/True_Knowledge" title="True Knowledge" class="mw-redirect">True Knowledge</a> (<a href="/wiki/True_Knowledge" title="True Knowledge" class="mw-redirect">True Knowledge Ltd.</a>, 2007)</li>
+<li><a href="/wiki/Wolfram_Alpha" title="Wolfram Alpha">Wolfram Alpha</a> (<a href="/wiki/Wolfram_Research" title="Wolfram Research">Wolfram Research</a>, 2009)</li>
+<li><a href="/wiki/Watson_(computer)" title="Watson (computer)">Watson</a> (<a href="/wiki/IBM" title="IBM">IBM</a>, 2011)</li>
+<li><a href="/wiki/Siri" title="Siri">Siri</a> (<a href="/wiki/Apple_Inc." title="Apple Inc.">Apple</a>, 2011)</li>
+<li><a href="/wiki/Knowledge_Graph" title="Knowledge Graph">Knowledge Graph</a> (<a href="/wiki/Google" title="Google">Google</a>, 2012)</li>
+<li><a href="/wiki/Wikidata" title="Wikidata">Wikidata</a> (<a href="/wiki/Wikimedia_Foundation" title="Wikimedia Foundation">Wikimedia</a>, 2012)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">In fiction</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/The_Engine" title="The Engine">The Engine</a> (<i><a href="/wiki/Gulliver%27s_Travels" title="Gulliver's Travels">Gulliver's Travels</a></i>, 1726)</li>
+<li>Joe ("<a href="/wiki/A_Logic_Named_Joe" title="A Logic Named Joe">A Logic Named Joe</a>," 1946)</li>
+<li>The Librarian (<i><a href="/wiki/Snow_Crash" title="Snow Crash">Snow Crash</a></i>, 1992)</li>
+<li>Dr. Know (<i><a href="/wiki/A.I._Artificial_Intelligence" title="A.I. Artificial Intelligence">A.I. Artificial Intelligence</a></i>, 2001)</li>
+<li>Waterhouse (<i><a href="/wiki/The_Baroque_Cycle" title="The Baroque Cycle">The Baroque Cycle</a></i>, 2003)</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1062
+CPU time usage: 1.044 seconds
+Real time usage: 1.121 seconds
+Preprocessor visited node count: 1859/1000000
+Preprocessor generated node count: 9566/1500000
+Post‐expand include size: 39153/2048000 bytes
+Template argument size: 3222/2048000 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 5/500
+Lua time usage: 0.058s
+Lua memory usage: 1.51 MB
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:31002435-0!*!0!!en!*!* and timestamp 20140131022036
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>								<div class="printfooter">
+				Retrieved from "<a href="http://en.wikipedia.org/w/index.php?title=Knowledge_extraction&amp;oldid=591341607">http://en.wikipedia.org/w/index.php?title=Knowledge_extraction&amp;oldid=591341607</a>"				</div>
+												<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Knowledge" title="Category:Knowledge">Knowledge</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_links_needing_disambiguation_from_October_2013" title="Category:Articles with links needing disambiguation from October 2013">Articles with links needing disambiguation from October 2013</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Knowledge+extraction&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Knowledge+extraction" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Knowledge_extraction"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Knowledge_extraction"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Knowledge_extraction" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Knowledge_extraction&amp;action=edit"  title="You can edit this page. &#10;Please review your changes before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Knowledge_extraction&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="//bits.wikimedia.org/static-1.23wmf11/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+			<li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikimedia Shop">Wikimedia Shop</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+	<h3 id='p-interaction-label'>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>Tools</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Knowledge_extraction" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Knowledge_extraction" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=Knowledge_extraction&amp;oldid=591341607" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/w/index.php?title=Knowledge_extraction&amp;action=info">Page information</a></li>
+			<li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q1582085" title="Link to connected data repository item [g]" accesskey="g">Data item</a></li>
+<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Knowledge_extraction&amp;id=591341607" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+	<h3 id='p-coll-print_export-label'>Print/export</h3>
+	<div class="body">
+		<ul>
+			<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Knowledge+extraction">Create a book</a></li>
+			<li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Knowledge+extraction&amp;oldid=591341607&amp;writer=rl">Download as PDF</a></li>
+			<li id="t-print"><a href="/w/index.php?title=Knowledge_extraction&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+	<h3 id='p-lang-label'>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interlanguage-link interwiki-de"><a href="//de.wikipedia.org/wiki/Knowledge_Discovery_in_Databases" title="Knowledge Discovery in Databases – German" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interlanguage-link interwiki-fr"><a href="//fr.wikipedia.org/wiki/Extraction_de_connaissances" title="Extraction de connaissances – French" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interlanguage-link interwiki-ko"><a href="//ko.wikipedia.org/wiki/%EC%A7%80%EC%8B%9D_%EC%B6%94%EC%B6%9C" title="지식 추출 – Korean" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interlanguage-link interwiki-pt"><a href="//pt.wikipedia.org/wiki/Extra%C3%A7%C3%A3o_de_conhecimento" title="Extração de conhecimento – Portuguese" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interlanguage-link interwiki-sk"><a href="//sk.wikipedia.org/wiki/Objavovanie_znalost%C3%AD_v_datab%C3%A1zach" title="Objavovanie znalostí v databázach – Slovak" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="wbc-editpage"><a href="//www.wikidata.org/wiki/Q1582085#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 18 January 2014 at 23:46.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy.</a> <br/>
+Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a class="external" href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/wiki/Knowledge_extraction" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.23wmf11/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mobile.desktop","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.articleFeedbackv5.startup","ext.wikimediaShopLink.core","ext.navigationTiming","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<!-- Served by mw1104 in 0.198 secs. -->
+	</body>
+</html>

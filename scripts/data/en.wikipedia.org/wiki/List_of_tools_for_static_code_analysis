@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>List of tools for static code analysis - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"List_of_tools_for_static_code_analysis","wgTitle":"List of tools for static code analysis","wgCurRevisionId":680513274,"wgRevisionId":680513274,"wgArticleId":9073051,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from February 2015","All articles needing additional references","Articles with DMOZ links","Static program analysis tools"],"wgBreakFrames":!1,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":
+"List_of_tools_for_static_code_analysis","wgRelevantArticleId":9073051,"wgIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wikilove-recipient":"","wikilove-anon":0,"wgWikiEditorEnabledModules":{"toolbar":!0,"dialogs":!0,"preview":!1,"publish":!1},"wgBetaFeaturesFeatures":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":!0,"usePageDescriptions":!0},"wgGatherShouldShowTutorial":!0,"wgULSAcceptLanguageList":["en-us","en"],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q6643419","wgVisualEditorToolbarScrollOffset":0});mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.gadget.WatchlistBase","ext.gadget.WatchlistGreenIndicators","ext.visualEditor.desktopArticleTarget.init","ext.uls.init","ext.uls.interface","ext.centralNotice.bannerController","skins.vector.js"]);
+} );</script>
+<link rel="stylesheet" href="https://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.WatchlistBase%2CWatchlistGreenIndicators%7Cext.uls.nojs%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.shared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" />
+<link rel="stylesheet" href="https://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint&amp;only=styles&amp;skin=vector" media="print" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="https://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script async="" src="https://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.26wmf22" />
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/List_of_tools_for_static_code_analysis" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit" />
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis" />
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static/1.26wmf22/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-List_of_tools_for_static_code_analysis skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">List of tools for static code analysis</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a href="/wiki/File:Question_book-new.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" data-file-width="262" data-file-height="204" /></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(February 2015)</i></small></span></td>
+</tr>
+</table>
+<p>This is a list of tools for <a href="/wiki/Static_code_analysis" title="Static code analysis" class="mw-redirect">static code analysis</a>.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#By_language"><span class="tocnumber">1</span> <span class="toctext">By language</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Multi-language"><span class="tocnumber">1.1</span> <span class="toctext">Multi-language</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#.NET"><span class="tocnumber">1.2</span> <span class="toctext">.NET</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Ada"><span class="tocnumber">1.3</span> <span class="toctext">Ada</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#C.2FC.2B.2B"><span class="tocnumber">1.4</span> <span class="toctext">C/C++</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Java"><span class="tocnumber">1.5</span> <span class="toctext">Java</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#JavaScript"><span class="tocnumber">1.6</span> <span class="toctext">JavaScript</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Objective-C.2FObjective-C.2B.2B"><span class="tocnumber">1.7</span> <span class="toctext">Objective-C/Objective-C++</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Opa"><span class="tocnumber">1.8</span> <span class="toctext">Opa</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Packaging"><span class="tocnumber">1.9</span> <span class="toctext">Packaging</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Perl"><span class="tocnumber">1.10</span> <span class="toctext">Perl</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#PHP"><span class="tocnumber">1.11</span> <span class="toctext">PHP</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#PL.2FSQL"><span class="tocnumber">1.12</span> <span class="toctext">PL/SQL</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Python"><span class="tocnumber">1.13</span> <span class="toctext">Python</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Formal_methods_tools"><span class="tocnumber">2</span> <span class="toctext">Formal methods tools</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="By_language">By language</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=1" title="Edit section: By language">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Multi-language">Multi-language</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=2" title="Edit section: Multi-language">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Axivion_Bauhaus_Suite" title="Axivion Bauhaus Suite" class="mw-redirect">Axivion Bauhaus Suite</a>&#160;– A tool for Ada, C, C++, C#, and Java code that performs various analyses such as architecture checking, interface analyses, and clone detection.</li>
+<li><a href="/wiki/Black_Duck_Software" title="Black Duck Software">Black Duck Suite</a>&#160;– Analyzes the composition of software source code and binary files, searches for reusable code, manages <a href="/wiki/Open_source" title="Open source">open source</a> and third-party code approval, honors the legal obligations associated with mixed-origin code, and monitors related security vulnerabilities.</li>
+<li><a href="/wiki/CAST_Application_Intelligence_Platform" title="CAST Application Intelligence Platform">CAST Application Intelligence Platform</a> – Detailed, audience-specific dashboards to measure quality and productivity. 30+ languages, C, C++, Java, .NET, Oracle, PeopleSoft, SAP, Siebel, Spring, Struts, Hibernate and all major databases.</li>
+<li><a href="/wiki/Cigital" title="Cigital">Cigital SecureAssist</a>&#160;- A lightweight IDE plugin that points out common security vulnerabilities in real time as the developer is coding. Supports Java, .NET, and PHP.</li>
+<li><a href="/wiki/ConQAT" title="ConQAT">ConQAT</a> – Continuous quality assessment toolkit that allows flexible configuration of quality analyses (architecture conformance, clone detection, quality metrics, etc.) and dashboards. Supports Java, C#, C++, JavaScript, ABAP, Ada and many other languages.</li>
+<li><a href="/wiki/Coverity#Products" title="Coverity">Coverity SAVE</a>&#160;– A static code analysis tool for C, C++, C# and Java source code. Coverity commercialized a research tool for finding bugs through static analysis, the Stanford Checker. Scans using Coverity are available free of charge for <a href="/wiki/Open-source_software" title="Open-source software">open-source</a> projects.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></li>
+<li><a href="/wiki/DMS_Software_Reengineering_Toolkit" title="DMS Software Reengineering Toolkit">DMS Software Reengineering Toolkit</a>&#160;– Supports custom analysis of C, C++, C#, Java, COBOL, PHP, Visual Basic and many other languages. Also COTS tools for clone analysis, dead code analysis, and style checking.</li>
+<li><a href="/wiki/Fortify_Software" title="Fortify Software">HP Fortify Static Code Analyzer</a>&#160;– Helps developers identify software security vulnerabilities in C/C++, Java, JSP, .NET, ASP.NET, classic ASP, ColdFusion, PHP, Visual Basic 6, VBScript, JavaScript, PL/SQL, T-SQL, Python, Objective-C and COBOL and configuration files.</li>
+<li><a href="/wiki/GrammaTech" title="GrammaTech">GrammaTech CodeSonar</a>&#160;– Defect detection (buffer overruns, memory leaks, etc.), concurrency and security checks, architecture visualization and software metrics for C, C++, and Java source code.</li>
+<li><a href="/wiki/IBM_Rational_AppScan" title="IBM Rational AppScan" class="mw-redirect">IBM Rational AppScan Source Edition</a>&#160;– Analyzes source code to identify security vulnerabilities while integrating security testing with software development processes and systems. Supports C/C++, .NET, Java, JSP, JavaScript, ColdFusion, Classic ASP, PHP, Perl, Visual Basic 6, PL/SQL, T-SQL, and COBOL</li>
+<li><a href="/wiki/Imagix_4D" title="Imagix 4D">Imagix 4D</a>&#160;– Identifies problems in variable use, task interaction and concurrency, especially in embedded applications, as part of an overall system for understanding, improving and documenting C, C++ and Java code.</li>
+<li><a href="/wiki/Kiuwan" title="Kiuwan">Kiuwan</a>&#160;– supports <a href="/wiki/Objective-C_(programming_language)" title="Objective-C (programming language)" class="mw-redirect">Objective-C</a>, <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="/wiki/JavaServer_Pages" title="JavaServer Pages">JSP</a>, <a href="/wiki/Javascript_(programming_language)" title="Javascript (programming language)" class="mw-redirect">Javascript</a>, <a href="/wiki/PHP_(programming_language)" title="PHP (programming language)" class="mw-redirect">PHP</a>, <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B_(programming_language)" title="C++ (programming language)" class="mw-redirect">C++</a>, <a href="/wiki/ABAP" title="ABAP">ABAP</a>, <a href="/wiki/COBOL_(programming_language)" title="COBOL (programming language)" class="mw-redirect">COBOL</a>, <a href="/wiki/Java_Class_Library" title="Java Class Library">JCL</a>, <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a>, <a href="/wiki/PL/SQL" title="PL/SQL">PL/SQL</a>, <a href="/wiki/Transact-SQL" title="Transact-SQL">Transact-SQL</a>, <a href="/wiki/SQL_(programming_language)" title="SQL (programming language)" class="mw-redirect">SQL</a>, <a href="/wiki/Visual_Basic" title="Visual Basic">Visual Basic</a>, <a href="/wiki/Visual_Basic_.NET" title="Visual Basic .NET">VB.NET</a>, <a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, and <a href="/wiki/Hibernate" title="Hibernate" class="mw-redirect">Hibernate</a> code.</li>
+<li><a href="/wiki/LDRA_Testbed" title="LDRA Testbed">LDRA Testbed</a>&#160;– A software analysis and testing tool suite for C, C++, Ada83, Ada95 and Assembler (Intel, Freescale, Texas Instruments).</li>
+<li><a href="/wiki/MALPAS_Software_Static_Analysis_Toolset" title="MALPAS Software Static Analysis Toolset">MALPAS</a>&#160;– A software static analysis toolset for a variety of languages including Ada, C, Pascal and Assembler (Intel, PowerPC and Motorola). Used primarily for safety critical applications in Nuclear and Aerospace industries.</li>
+<li><a href="/wiki/Moose_(analysis)" title="Moose (analysis)">Moose</a>&#160;– Moose started as a software analysis platform with many tools to manipulate, assess or visualize software. It can evolve to a more generic data analysis platform. Supported languages are C/C++, Java, Smalltalk, .NET, more may be added.</li>
+<li><a href="/wiki/Parasoft" title="Parasoft">Parasoft</a>&#160;– Provides static analysis (pattern-based, flow-based, in-line, metrics) for C, C++, Java, .NET (C#, VB.NET, etc.), JSP, JavaScript, XML, and other languages. Through a Development Testing Platform, static code analysis functionality is integrated with <a href="/wiki/Unit_testing" title="Unit testing">unit testing</a>, <a href="/wiki/Code_reviews" title="Code reviews" class="mw-redirect">peer code review</a>, <a href="/wiki/Runtime_error_detection" title="Runtime error detection">runtime error detection</a> and <a href="/wiki/Requirements_traceability" title="Requirements traceability">traceability</a>.</li>
+<li><a href="/wiki/PMD_(software)#Copy.2FPaste_Detector_.28CPD.29" title="PMD (software)">Copy/Paste Detector (CPD)</a>&#160;– <a href="/wiki/PMD_(software)" title="PMD (software)">PMDs</a> <a href="/wiki/Duplicate_code" title="Duplicate code">duplicate code</a> detection for (e.g.) <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="/wiki/JavaServer_Pages" title="JavaServer Pages">JSP</a>, <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, <a href="/wiki/C%2B%2B" title="C++">C++</a>, <a href="/wiki/ColdFusion" title="ColdFusion" class="mw-redirect">ColdFusion</a>, <a href="/wiki/PHP" title="PHP">PHP</a> and <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> code.</li>
+<li><a href="/wiki/Polyspace" title="Polyspace">Polyspace</a>&#160;– Uses <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">abstract interpretation</a> to detect and prove the absence of certain <a href="/wiki/Run_time_(program_lifecycle_phase)" title="Run time (program lifecycle phase)">run time errors</a> in <a href="/wiki/Source_code" title="Source code">source code</a> for C, C++, and Ada</li>
+<li><a href="/wiki/Pretty_Diff" title="Pretty Diff">Pretty Diff</a>&#160;- A language-specific <a href="/wiki/Comparison_of_file_comparison_tools" title="Comparison of file comparison tools">code comparison</a> tool that features language-specific analysis reporting in addition to language-specific <a href="/wiki/Minification_(programming)" title="Minification (programming)">minification</a> and <a href="/wiki/Prettyprint" title="Prettyprint">beautification</a> algorithms.</li>
+<li><a href="/wiki/Protecode" title="Protecode">Protecode</a>&#160;– Analyzes the composition of software source code and binary files, searches for open source and third party code and their associated licensing obligations. Can also detect security vulnerabilities.</li>
+<li><a href="/wiki/Klocwork" title="Klocwork">Klocwork</a> – Provides security vulnerability, standards compliance (<a href="/wiki/MISRA" title="MISRA" class="mw-redirect">MISRA</a>, <a href="/wiki/ISO_26262" title="ISO 26262">ISO 26262</a> and others), defect detection and build-over-build trend analysis for C, C++, C# and Java.</li>
+<li><a href="/wiki/Rogue_Wave_Software" title="Rogue Wave Software">Rogue Wave Software</a> OpenLogic – Scans source code and binaries to identify open source code and licenses, manages open source policies and approvals, reports security vulnerabilities, and provides open source technical support.</li>
+<li><a href="/wiki/Semmle" title="Semmle">Semmle</a>&#160;– Supports C, C++, C#, Java, JavaScript, Objective-C, Python and Scala.</li>
+<li><a href="/wiki/SofCheck_Inspector" title="SofCheck Inspector">SofCheck Inspector</a>&#160;– Static detection of logic errors, <a href="/wiki/Race_condition" title="Race condition">race conditions</a>, and <a href="/wiki/Redundant_code" title="Redundant code">redundant code</a> for <a href="/wiki/Ada_(programming_language)" title="Ada (programming language)">Ada</a> and <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>; automatically extracts <a href="/wiki/Precondition" title="Precondition">pre</a>/<a href="/wiki/Postcondition" title="Postcondition">postconditions</a> from code.</li>
+<li><a href="/wiki/SonarQube" title="SonarQube">SonarQube</a>&#160;– A continuous inspection engine to manage the technical debt: unit tests, complexity, duplication, design, comments, coding standards and potential problems. Supports languages: ABAP, C, C++, CSS, Objective-C, COBOL, C#, Flex, Forms, Groovy, Java, JavaScript, Natural, PHP, PL/SQL, Visual Basic 6, Web, XML, Python.</li>
+<li><a href="/wiki/Sotoarc" title="Sotoarc">Sotoarc/Sotograph</a>&#160;– Architecture and quality in-depth analysis and monitoring for C, C++, C#, Java, ABAP.</li>
+<li><a href="/wiki/SQuORE" title="SQuORE">SQuORE</a> is a multi-purpose and multi-language monitoring tool<sup id="cite_ref-squore_3-0" class="reference"><a href="#cite_note-squore-3"><span>[</span>3<span>]</span></a></sup> for software projects.</li>
+<li><a href="/wiki/SourceMeter" title="SourceMeter">SourceMeter</a>&#160;- A platform-independent, command-line static source code analyzer for Java, C/C++, RPG IV (AS/400) and Python.</li>
+<li><a href="/wiki/Veracode" title="Veracode">Veracode</a>&#160;– Finds security flaws in application binaries and bytecode without requiring source. Supported languages include C, C++, .NET (C#, <a href="/wiki/C%2B%2B/CLI" title="C++/CLI">C++/CLI</a>, VB.NET, ASP.NET), Java, JSP, <a href="/wiki/ColdFusion" title="ColdFusion" class="mw-redirect">ColdFusion</a>, <a href="/wiki/PHP" title="PHP">PHP</a>, <a href="/wiki/Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>, <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> (including <a href="/wiki/Node.js" title="Node.js">Node.js</a>), <a href="/wiki/Objective-C" title="Objective-C">Objective-C</a>, <a href="/wiki/Classic_ASP" title="Classic ASP" class="mw-redirect">Classic ASP</a>, <a href="/wiki/Visual_Basic_6" title="Visual Basic 6" class="mw-redirect">Visual Basic 6</a>, and <a href="/wiki/COBOL" title="COBOL">COBOL</a>, including mobile applications on the <a href="/wiki/Windows_Mobile" title="Windows Mobile">Windows Mobile</a>, <a href="/wiki/BlackBerry" title="BlackBerry">BlackBerry</a>, <a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>, and <a href="/wiki/IOS_(Apple)" title="IOS (Apple)" class="mw-redirect">iOS</a> platforms and written in <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> cross platform frameworks.<sup id="cite_ref-veracode_4-0" class="reference"><a href="#cite_note-veracode-4"><span>[</span>4<span>]</span></a></sup></li>
+<li><a href="/wiki/Yasca" title="Yasca">Yasca</a>&#160;– Yet Another Source Code Analyzer, a plugin-based framework to scan arbitrary file types, with plugins for C/C++, Java, JavaScript, ASP, PHP, HTML/CSS, ColdFusion, <a href="/wiki/COBOL" title="COBOL">COBOL</a>, and other file types. It integrates with other scanners, including <a href="/wiki/FindBugs" title="FindBugs">FindBugs</a>, <a href="/wiki/PMD_(software)" title="PMD (software)">PMD</a>, and Pixy.</li>
+</ul>
+<h3><span class="mw-headline" id=".NET"><a href="/wiki/.NET_Framework" title=".NET Framework">.NET</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=3" title="Edit section: .NET">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/.NET_Compiler_Platform" title=".NET Compiler Platform">.NET Compiler Platform</a> (Codename "<a href="/wiki/.NET_Compiler_Platform" title=".NET Compiler Platform">Roslyn</a>") - Open-source compiler framework for <a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> and <a href="/wiki/Visual_Basic_.NET" title="Visual Basic .NET">Visual Basic .NET</a> developed by <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a> .NET. Provides an API for analyzing and manipulating syntax.</li>
+<li><a href="/wiki/CodeIt.Right" title="CodeIt.Right" class="mw-redirect">CodeIt.Right</a>&#160;– Combines static code analysis and automatic refactoring to best practices which allows automatic correction of code errors and violations; supports C# and VB.NET.</li>
+<li><a href="/wiki/CodeRush" title="CodeRush">CodeRush</a>&#160;– A plugin for <a href="/wiki/Visual_Studio" title="Visual Studio" class="mw-redirect">Visual Studio</a> which alerts users to violations of best practices.</li>
+<li><a href="/wiki/FxCop" title="FxCop">FxCop</a>&#160;– Free static analysis for Microsoft .NET programs that compiles to <a href="/wiki/Common_Intermediate_Language" title="Common Intermediate Language">CIL</a>. Standalone and integrated in some <a href="/wiki/Microsoft_Visual_Studio" title="Microsoft Visual Studio">Microsoft Visual Studio</a> editions; by Microsoft.</li>
+<li><a href="/wiki/NDepend" title="NDepend">NDepend</a>&#160;– Simplifies managing a complex .NET code base by analyzing and visualizing code dependencies, by defining design rules, by doing impact analysis, and by comparing different versions of the code. Integrates into <a href="/wiki/Visual_Studio" title="Visual Studio" class="mw-redirect">Visual Studio</a>.</li>
+<li><a href="/wiki/Parasoft" title="Parasoft">Parasoft dotTEST</a>&#160;– A static analysis, unit testing, and code review plugin for <a href="/wiki/Visual_Studio" title="Visual Studio" class="mw-redirect">Visual Studio</a>; works with languages for Microsoft .NET Framework and .NET Compact Framework, including C#, VB.NET, ASP.NET and Managed C++.</li>
+<li><a href="/wiki/StyleCop" title="StyleCop">StyleCop</a>&#160;– Analyzes C# source code to enforce a set of style and consistency rules. It can be run from inside of <a href="/wiki/Microsoft_Visual_Studio" title="Microsoft Visual Studio">Microsoft Visual Studio</a> or integrated into an <a href="/wiki/MSBuild" title="MSBuild">MSBuild</a> project.</li>
+</ul>
+<h3><span class="mw-headline" id="Ada"><a href="/wiki/Ada_(programming_language)" title="Ada (programming language)">Ada</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=4" title="Edit section: Ada">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/AdaControl" title="AdaControl">AdaControl</a>&#160;– A tool to control occurrences of various entities or programming patterns in Ada code, used for checking coding standards, enforcement of safety related rules, and support for various manual inspections.</li>
+<li><a href="/wiki/CodePeer" title="CodePeer">CodePeer</a> – An advanced static analysis tool that detects potential run-time logic errors in Ada programs.</li>
+<li><a href="/wiki/Fluctuat" title="Fluctuat">Fluctuat</a>&#160;– <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">Abstract interpreter</a> for the validation of numerical properties of programs.</li>
+<li><a href="/wiki/LDRA_Testbed" title="LDRA Testbed">LDRA Testbed</a>&#160;– A software analysis and testing tool suite for Ada83/95.</li>
+<li><a href="/wiki/Polyspace" title="Polyspace">Polyspace</a>&#160;– Uses <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">abstract interpretation</a> to detect and prove the absence of certain <a href="/wiki/Run_time_(program_lifecycle_phase)" title="Run time (program lifecycle phase)">run time errors</a> in <a href="/wiki/Source_code" title="Source code">source code</a>.</li>
+<li><a href="/wiki/SofCheck_Inspector" title="SofCheck Inspector">SofCheck Inspector</a>&#160;– (Bought by <a href="/wiki/AdaCore" title="AdaCore">AdaCore</a>) Static detection of logic errors, <a href="/wiki/Race_condition" title="Race condition">race conditions</a>, and redundant code for Ada; automatically extracts <a href="/wiki/Precondition" title="Precondition">pre</a>/<a href="/wiki/Postcondition" title="Postcondition">postconditions</a> from code.</li>
+</ul>
+<h3><span class="mw-headline" id="C.2FC.2B.2B"><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=5" title="Edit section: C/C++">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Astr%C3%A9e_(static_analysis)" title="Astrée (static analysis)">Astrée</a>&#160;– finds all potential <a href="/wiki/Runtime_errors" title="Runtime errors" class="mw-redirect">runtime errors</a> by <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">abstract interpretation</a>, can prove the absence of runtime errors and can prove functional assertions; tailored towards safety-critical C code (e.g. avionics).</li>
+<li><a href="/wiki/BLAST_model_checker" title="BLAST model checker">BLAST</a>&#160;– (Berkeley Lazy Abstraction Software verification Tool)&#160;– An open-source software model checker for C programs based on lazy abstraction (follow-on project is CPAchecker.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup>).</li>
+<li><a href="/wiki/Cppcheck" title="Cppcheck">Cppcheck</a>&#160;– Open-source tool that checks for several types of errors, including use of <a href="/wiki/Standard_Template_Library" title="Standard Template Library">STL</a>.</li>
+<li><a href="/wiki/Cpplint" title="Cpplint">cpplint</a>&#160;– An open-source tool that checks for compliance with Google's style guide for C++ coding.</li>
+<li><a href="/wiki/Clang" title="Clang">Clang</a>&#160;– An open-source compiler that includes a static analyzer (<a rel="nofollow" class="external text" href="http://clang-analyzer.llvm.org">Clang Static Analyzer</a>).</li>
+<li><a href="/wiki/Coccinelle_(software)" title="Coccinelle (software)">Coccinelle</a>&#160;– An open-source source code pattern matching and transformation.</li>
+<li><a href="/wiki/Cppdepend" title="Cppdepend">Cppdepend</a>&#160;– Simplifies managing a complex C/C++ code base by analyzing and visualizing code dependencies, by defining design rules, by doing impact analysis, and comparing different versions of the code.</li>
+<li><a href="/wiki/ECLAIR" title="ECLAIR">ECLAIR</a>&#160;– A platform for the automatic analysis, verification, testing and transformation of C and C++ programs.</li>
+<li><a href="/wiki/Eclipse_(software)" title="Eclipse (software)">Eclipse (software)</a>&#160;– An open-source IDE that includes a static code analyzer (<a rel="nofollow" class="external text" href="http://wiki.eclipse.org/CDT/designs/StaticAnalysis">CODAN</a>).</li>
+<li><a href="/wiki/Fluctuat" title="Fluctuat">Fluctuat</a>&#160;– <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">Abstract interpreter</a> for the validation of numerical properties of programs.</li>
+<li><a href="/wiki/Frama-C" title="Frama-C">Frama-C</a>&#160;– An open-source static analysis framework for C.</li>
+<li><a href="/wiki/Red_Lizard_Software#Products" title="Red Lizard Software">Goanna</a>&#160;– A software analysis tool for C/C++.</li>
+<li><a href="/wiki/Klocwork#Products" title="Klocwork">Klocwork Insight</a>&#160;– A static analysis tool for C/C++.</li>
+<li><a href="/wiki/Lint_(software)" title="Lint (software)">Lint</a>&#160;– The original static code analyzer for C.</li>
+<li><a href="/wiki/LDRA_Testbed" title="LDRA Testbed">LDRA Testbed</a>&#160;– A software analysis and testing tool suite for C/C++.</li>
+<li><a href="/wiki/Parasoft_C/C%2B%2Btest" title="Parasoft C/C++test">Parasoft C/C++test</a>&#160;– A C/C++ tool that does static analysis, unit testing, code review, and runtime error detection; plugins available for <a href="/wiki/Visual_Studio" title="Visual Studio" class="mw-redirect">Visual Studio</a> and <a href="/wiki/Eclipse_(software)" title="Eclipse (software)">Eclipse</a>-based IDEs.</li>
+<li><a href="/wiki/PC-Lint" title="PC-Lint">PC-Lint</a>&#160;– A software analysis tool for C/C++.</li>
+<li><a href="/wiki/Polyspace" title="Polyspace">Polyspace</a>&#160;– Uses <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">abstract interpretation</a> to detect and prove the absence of <a href="/wiki/Run_time_(program_lifecycle_phase)" title="Run time (program lifecycle phase)">run time errors</a>, Dead Code in <a href="/wiki/Source_code" title="Source code">source code</a> as well as used to check all MISRA (2004, 2012) rules (directives, non directives).</li>
+<li><a href="/wiki/PVS-Studio" title="PVS-Studio">PVS-Studio</a>&#160;– A software analysis tool for C, C++, C++11, C++/CX (Component Extensions).</li>
+<li><a href="/wiki/QA-C" title="QA-C">PRQA QA·C and QA·C++</a>&#160;– Deep static analysis of C/C++ for quality assurance and guideline/coding standard enforcement with MISRA support.</li>
+<li><a href="/wiki/SLAM_project" title="SLAM project">SLAM project</a>&#160;– a project of <a href="/wiki/Microsoft_Research" title="Microsoft Research">Microsoft Research</a> for checking that software satisfies critical behavioral properties of the interfaces it uses.</li>
+<li><a href="/wiki/Sparse" title="Sparse">Sparse</a>&#160;– An open-source tool designed to find faults in the <a href="/wiki/Linux" title="Linux">Linux</a> kernel.</li>
+<li><a href="/wiki/Splint_(programming_tool)" title="Splint (programming tool)">Splint</a>&#160;– An open-source evolved version of Lint, for C.</li>
+</ul>
+<h3><span class="mw-headline" id="Java"><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=6" title="Edit section: Java">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Checkstyle" title="Checkstyle">Checkstyle</a>&#160;– Besides some static code analysis, it can be used to show violations of a configured coding standard.</li>
+<li><a href="/wiki/FindBugs" title="FindBugs">FindBugs</a>&#160;– An open-source static bytecode analyzer for Java (based on <a href="/wiki/Jakarta_Project" title="Jakarta Project">Jakarta</a> <a href="/wiki/Byte_Code_Engineering_Library" title="Byte Code Engineering Library">BCEL</a>) from the University of Maryland.</li>
+<li><a href="/wiki/IntelliJ_IDEA" title="IntelliJ IDEA">IntelliJ IDEA</a> – Cross-platform Java IDE with own set of several hundred code inspections available for analyzing code on-the-fly in the editor and bulk analysis of the whole project.</li>
+<li><a href="/wiki/JArchitect" title="JArchitect">JArchitect</a>&#160;– Simplifies managing a complex Java code base by analyzing and visualizing code dependencies, by defining design rules, by doing impact analysis, and by comparing different versions of the code.</li>
+<li><a href="/wiki/Jtest" title="Jtest">Jtest</a>&#160;– Testing and static code analysis product by <a href="/wiki/Parasoft" title="Parasoft">Parasoft</a>.</li>
+<li><a href="/wiki/LDRA_Testbed" title="LDRA Testbed">LDRA Testbed</a>&#160;– A software analysis and testing tool suite for Java.</li>
+<li><a href="/wiki/PMD_(software)" title="PMD (software)">PMD</a>&#160;– A static ruleset based Java source code analyzer that identifies potential problems.</li>
+<li><a href="/wiki/SemmleCode" title="SemmleCode" class="mw-redirect">SemmleCode</a>&#160;– Object oriented code queries for static program analysis.</li>
+<li><a href="/wiki/Sonargraph" title="Sonargraph">Sonargraph</a>&#160;(formerly SonarJ)&#160;– Monitors conformance of code to intended architecture, also computes a wide range of software metrics.</li>
+<li><a href="/wiki/Soot_(software)" title="Soot (software)">Soot</a>&#160;– A language manipulation and optimization framework consisting of intermediate languages for Java.</li>
+<li><a href="/wiki/Squale" title="Squale">Squale</a>&#160;– A platform to manage software quality (also available for other languages, using commercial analysis tools though).</li>
+<li><a href="/wiki/SonarQube" title="SonarQube">SonarQube</a>&#160;– is an open source platform for Continuous Inspection of code quality.</li>
+<li><a href="/wiki/SourceMeter" title="SourceMeter">SourceMeter</a>&#160;- A platform-independent, command-line static source code analyzer for Java, C/C++, RPG IV (AS/400) and Python.</li>
+<li><a href="/wiki/ThreadSafe" title="ThreadSafe">ThreadSafe</a>&#160;– A static analysis tool for Java focused on finding concurrency bugs.</li>
+</ul>
+<h3><span class="mw-headline" id="JavaScript"><a href="/wiki/JavaScript" title="JavaScript">JavaScript</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=7" title="Edit section: JavaScript">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Google_Closure_Tools#Closure_Compiler" title="Google Closure Tools">Google's Closure Compiler</a>&#160;– JavaScript optimizer that rewrites code to be faster and smaller, and checks use of native JavaScript functions.</li>
+<li><a href="/wiki/JSLint" title="JSLint">JSLint</a>&#160;– JavaScript <a href="/wiki/Syntax_checker" title="Syntax checker" class="mw-redirect">syntax checker</a> and validator.</li>
+<li><a href="/wiki/JSHint" title="JSHint">JSHint</a>&#160;– A community driven fork of JSLint.</li>
+</ul>
+<h3><span class="mw-headline" id="Objective-C.2FObjective-C.2B.2B"><a href="/wiki/Objective-C" title="Objective-C">Objective-C</a>/<a href="/wiki/Objective-C%2B%2B" title="Objective-C++" class="mw-redirect">Objective-C++</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=8" title="Edit section: Objective-C/Objective-C++">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Clang" title="Clang">Clang</a>&#160;– The free Clang project includes a static analyzer. As of version 3.2, this analyzer is included in <a href="/wiki/Xcode" title="Xcode">Xcode</a>.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></li>
+</ul>
+<h3><span class="mw-headline" id="Opa"><a href="/wiki/Opa_(programming_language)" title="Opa (programming language)">Opa</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=9" title="Edit section: Opa">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Opa_(programming_language)" title="Opa (programming language)">Opa</a> includes its own static analyzer. As the language is intended for web application development, the strongly statically typed compiler checks the validity of high-level types for web data, and prevents by default many vulnerabilities such as <a href="/wiki/Cross-site_scripting" title="Cross-site scripting">XSS</a> attacks and database code injections.</li>
+</ul>
+<h3><span class="mw-headline" id="Packaging"><a href="/wiki/Package_management_system" title="Package management system" class="mw-redirect">Packaging</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=10" title="Edit section: Packaging">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Lintian" title="Lintian">Lintian</a>&#160;– Checks Debian software packages for common inconsistencies and errors.</li>
+<li><a href="/wiki/RPM_Package_Manager" title="RPM Package Manager">Rpmlint</a>&#160;– Checks for common problems in rpm packages.</li>
+</ul>
+<h3><span class="mw-headline" id="Perl"><a href="/wiki/Perl" title="Perl">Perl</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=11" title="Edit section: Perl">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Perl::Critic" title="Perl::Critic">Perl::Critic</a>&#160;– A tool to help enforce common Perl best practices. Most best practices are based on <a href="/wiki/Damian_Conway" title="Damian Conway">Damian Conway</a>'s <a href="/wiki/Perl_Best_Practices" title="Perl Best Practices">Perl Best Practices</a> book.</li>
+<li><a href="/wiki/PerlTidy" title="PerlTidy">PerlTidy</a>&#160;– Program that acts as a <a href="/wiki/Syntax_checker" title="Syntax checker" class="mw-redirect">syntax checker</a> and tester/enforcer for coding practices in Perl.</li>
+<li><a href="/wiki/Padre_(software)" title="Padre (software)">Padre</a> – An IDE for Perl that also provides static code analysis to check for common beginner errors.</li>
+</ul>
+<h3><span class="mw-headline" id="PHP"><a href="/wiki/PHP" title="PHP">PHP</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=12" title="Edit section: PHP">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/RIPS" title="RIPS">RIPS</a>&#160;– A static code analyzer and audit framework for vulnerabilities in PHP applications.</li>
+</ul>
+<h3><span class="mw-headline" id="PL.2FSQL"><a href="/wiki/PL/SQL" title="PL/SQL">PL/SQL</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=13" title="Edit section: PL/SQL">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/TOAD" title="TOAD" class="mw-redirect">TOAD</a>&#160;- A PL/SQL development environment with a Code xPert component that reports on general code efficiency as well as specific programming issues.</li>
+</ul>
+<h3><span class="mw-headline" id="Python"><a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=14" title="Edit section: Python">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="/wiki/Pylint" title="Pylint">Pylint</a>&#160;– Static code analyzer. Quite stringent; includes many stylistic warnings as well.</li>
+<li><a href="/wiki/PyCharm" title="PyCharm">PyCharm</a>&#160;– Cross-platform Python IDE with code inspections available for analyzing code on-the-fly in the editor and bulk analysis of the whole project.</li>
+</ul>
+<h2><span class="mw-headline" id="Formal_methods_tools">Formal methods tools</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=15" title="Edit section: Formal methods tools">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Tools that use <a href="/wiki/Soundness" title="Soundness">sound</a>, i.e. no false negatives, <a href="/wiki/Formal_methods" title="Formal methods">formal methods</a> approach to static analysis (e.g., using static <a href="/wiki/Assertion_(computing)" title="Assertion (computing)" class="mw-redirect">program assertions</a>):</p>
+<ul>
+<li><a href="/wiki/Astr%C3%A9e_(static_analysis)" title="Astrée (static analysis)">Astrée</a>&#160;– finds all potential <a href="/wiki/Runtime_errors" title="Runtime errors" class="mw-redirect">runtime errors</a> by <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">abstract interpretation</a>, can prove the absence of runtime errors and can prove functional assertions; tailored towards safety-critical C code (e.g. avionics).</li>
+<li><a href="/wiki/CodePeer" title="CodePeer">CodePeer</a>&#160;– Statically determines and documents <a href="/wiki/Precondition" title="Precondition">pre</a>- and <a href="/wiki/Postcondition" title="Postcondition">post-conditions</a> for <a href="/wiki/Ada_(programming_language)" title="Ada (programming language)">Ada</a> subprograms; statically checks <a href="/wiki/Precondition" title="Precondition">preconditions</a> at all call sites.</li>
+<li><a href="/wiki/ECLAIR" title="ECLAIR">ECLAIR</a>&#160;– Uses <a href="/wiki/Formal_methods" title="Formal methods">formal methods</a>-based static code analysis techniques such as <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">abstract interpretation</a> and <a href="/wiki/Model_checking" title="Model checking">model checking</a> combined with <a href="/wiki/Constraint_satisfaction" title="Constraint satisfaction">constraint satisfaction</a> techniques to detect or prove the absence of certain <a href="/wiki/Run_time_(program_lifecycle_phase)" title="Run time (program lifecycle phase)">run time errors</a> in <a href="/wiki/Source_code" title="Source code">source code</a>.</li>
+<li><a href="/wiki/ESC/Java" title="ESC/Java">ESC/Java</a> and <a href="/wiki/ESC/Java2" title="ESC/Java2" class="mw-redirect">ESC/Java2</a>&#160;– Based on <a href="/wiki/Java_Modeling_Language" title="Java Modeling Language">Java Modeling Language</a>, an enriched version of Java.</li>
+<li><a href="/wiki/Frama-C" title="Frama-C">Frama-C</a>&#160;– An open-source static analysis framework for C.</li>
+<li><a href="/wiki/MALPAS_Software_Static_Analysis_Toolset" title="MALPAS Software Static Analysis Toolset">MALPAS</a>&#160;– A formal methods tool that uses <a href="/wiki/Graph_(mathematics)" title="Graph (mathematics)">directed graphs</a> and <a href="/wiki/Regular_algebra" title="Regular algebra" class="mw-redirect">regular algebra</a> to prove that software under analysis correctly meets its mathematical specification.</li>
+<li><a href="/wiki/Polyspace" title="Polyspace">Polyspace</a>&#160;– Uses <a href="/wiki/Abstract_interpretation" title="Abstract interpretation">abstract interpretation</a>, a formal methods based technique,<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> to detect and prove the absence of certain <a href="/wiki/Run_time_(program_lifecycle_phase)" title="Run time (program lifecycle phase)">run time errors</a> in <a href="/wiki/Source_code" title="Source code">source code</a> for C/C++, and Ada</li>
+<li><a href="/wiki/SPARK_Toolset" title="SPARK Toolset" class="mw-redirect">SPARK Toolset</a> including the <a href="/wiki/SPARK_Examiner" title="SPARK Examiner" class="mw-redirect">SPARK Examiner</a>&#160;– Based on the <a href="/wiki/SPARK_(programming_language)" title="SPARK (programming language)">SPARK</a> language, a subset of <a href="/wiki/Ada_(programming_language)" title="Ada (programming language)">Ada</a>.</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=16" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="noprint portal tright" style="border:solid #aaa 1px;margin:0.5em 0 0.5em 1em">
+<table style="background:#f9f9f9;font-size:85%;line-height:110%;max-width:175px">
+<tr style="vertical-align:middle">
+<td style="text-align:center"><a href="/wiki/File:Green_bug_and_broom.svg" class="image"><img alt="Portal icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Green_bug_and_broom.svg/32px-Green_bug_and_broom.svg.png" width="32" height="28" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Green_bug_and_broom.svg/48px-Green_bug_and_broom.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/83/Green_bug_and_broom.svg/64px-Green_bug_and_broom.svg.png 2x" data-file-width="447" data-file-height="385" /></a></td>
+<td style="padding:0 0.2em;vertical-align:middle;font-style:italic;font-weight:bold"><a href="/wiki/Portal:Software_Testing" title="Portal:Software Testing" class="mw-redirect">Software Testing portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="/wiki/Automated_code_review" title="Automated code review">Automated code review</a></li>
+<li><a href="/wiki/Best_Coding_Practices" title="Best Coding Practices" class="mw-redirect">Best Coding Practices</a></li>
+<li><a href="/wiki/Dynamic_code_analysis" title="Dynamic code analysis" class="mw-redirect">Dynamic code analysis</a></li>
+<li><a href="/wiki/Software_metrics" title="Software metrics" class="mw-redirect">Software metrics</a></li>
+<li><a href="/wiki/Integrated_development_environment" title="Integrated development environment">Integrated development environment</a> (IDE) and <a href="/wiki/Comparison_of_integrated_development_environments" title="Comparison of integrated development environments">Comparison of integrated development environments</a>. IDEs will usually come with built-in support for static code analysis, or with an option to integrate such support. <a href="/wiki/Eclipse_(software)" title="Eclipse (software)">Eclipse</a> offers such integration mechanism for most different types of extensions (plug-ins).</li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=17" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="https://scan.coverity.com/">"Coverity Scan - Static Analysis"</a>. <i>scan.coverity.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-06-17</span></span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+tools+for+static+code+analysis&amp;rft.atitle=Coverity+Scan+-+Static+Analysis&amp;rft.genre=article&amp;rft_id=https%3A%2F%2Fscan.coverity.com%2F&amp;rft.jtitle=scan.coverity.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/pmd/files/pmd/5.0.0/">"PMD - Browse /pmd/5.0.0 at SourceForge.net"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">Dec 9,</span> 2012</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+tools+for+static+code+analysis&amp;rft.btitle=PMD+-+Browse+%2Fpmd%2F5.0.0+at+SourceForge.net&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fpmd%2Ffiles%2Fpmd%2F5.0.0%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-squore-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-squore_3-0">^</a></b></span> <span class="reference-text">Baldassari, Boris (2012). <a rel="nofollow" class="external text" href="http://www.squoring.com/images/documents/monitoring_sw_projects_with_squore.pdf">"SQuORE: a new approach to software project assessment"</a>, International Conference on Software and Systems Engineering and their Applications, Nov. 2012, Paris, France.</span></li>
+<li id="cite_note-veracode-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-veracode_4-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.veracode.com/products/binary-static-analysis-sast">"White Box Testing/Binary Static Analysis (SAST)"</a>. <i>Veracode.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2015-04-01</span></span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+tools+for+static+code+analysis&amp;rft.atitle=White+Box+Testing%2FBinary+Static+Analysis+%28SAST%29&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.veracode.com%2Fproducts%2Fbinary-static-analysis-sast&amp;rft.jtitle=Veracode.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://cpachecker.sosy-lab.org/">"CPAchecker"</a>. 2015-02-08.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+tools+for+static+code+analysis&amp;rft.btitle=CPAchecker&amp;rft.date=2015-02-08&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fcpachecker.sosy-lab.org%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://developer.apple.com/mac/library/featuredarticles/StaticAnalysis/index.html">"Static Analysis in Xcode"</a>. Apple<span class="reference-accessdate">. Retrieved <span class="nowrap">2009-09-03</span></span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+tools+for+static+code+analysis&amp;rft.btitle=Static+Analysis+in+Xcode&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fdeveloper.apple.com%2Fmac%2Flibrary%2Ffeaturedarticles%2FStaticAnalysis%2Findex.html&amp;rft.pub=Apple&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation web">Cousot, Patrick (2007). <a rel="nofollow" class="external text" href="http://ieeexplore.ieee.org/Xplore/login.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F4343908%2F4343909%2F04343930.pdf%3Farnumber%3D4343930&amp;authDecision=-203">"The Role of Abstract Interpretation in Formal Methods"</a> <span style="font-size:85%;">(PDF)</span>. IEEE International Conference on Software Engineering and Formal Methods<span class="reference-accessdate">. Retrieved <span class="nowrap">2010-11-08</span></span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+tools+for+static+code+analysis&amp;rft.au=Cousot%2C+Patrick&amp;rft.aufirst=Patrick&amp;rft.aulast=Cousot&amp;rft.btitle=The+Role+of+Abstract+Interpretation+in+Formal+Methods&amp;rft.date=2007&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2FXplore%2Flogin.jsp%3Furl%3Dhttp%253A%252F%252Fieeexplore.ieee.org%252Fiel5%252F4343908%252F4343909%252F04343930.pdf%253Farnumber%253D4343930%26authDecision%3D-203&amp;rft.pub=IEEE+International+Conference+on+Software+Engineering+and+Formal+Methods&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit&amp;section=18" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://projects.webappsec.org/w/page/61622133/StaticCodeAnalysisList">The Web Application Security Consortium's Static Code Analysis Tool List</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.dmoz.org/Computers/Programming/Languages/Java/Development_Tools/Performance_and_Testing/Static_Checkers">Java Static Checkers</a> at <a href="/wiki/DMOZ" title="DMOZ">DMOZ</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.eclipseplugincentral.com/Web_Links-index-req-viewcatlink-cid-14-orderby-rating.html">List of Java static code analysis plugins for Eclipse</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.spinroot.com/static/">List of static source code analysis tools for C</a></li>
+<li><a rel="nofollow" class="external text" href="http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html">SAMATE-Source Code Security Analyzers</a></li>
+<li><a rel="nofollow" class="external text" href="http://samate.nist.gov/SATE.html">SATE&#160;– Static Analysis Tool Exposition</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.cs.umd.edu/~jfoster/papers/issre04.pdf">“A Comparison of Bug Finding Tools for Java”</a>, by Nick Rutar, Christian Almazan, and Jeff Foster, <a href="/wiki/University_of_Maryland,_College_Park" title="University of Maryland, College Park">University of Maryland</a>. Compares Bandera, <a href="/wiki/ESC/Java" title="ESC/Java">ESC/Java</a> 2, <a href="/wiki/FindBugs" title="FindBugs">FindBugs</a>, <a href="/w/index.php?title=JLint&amp;action=edit&amp;redlink=1" class="new" title="JLint (page does not exist)">JLint</a>, and PMD.</li>
+<li><a rel="nofollow" class="external text" href="http://www.oreillynet.com/digitalmedia/blog/2004/03/minireview_of_java_bug_finders.html">“Mini-review of Java Bug Finders”</a>, by Rick Jelliffe, <a href="/wiki/O%27Reilly_Media" title="O'Reilly Media">O'Reilly Media</a>.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1205
+Cached time: 20150911095452
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.170 seconds
+Real time usage: 0.221 seconds
+Preprocessor visited node count: 945/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 13095/2097152 bytes
+Template argument size: 127/2097152 bytes
+Highest expansion depth: 6/40
+Expensive parser function count: 1/500
+Lua time usage: 0.048/10.000 seconds
+Lua memory usage: 2.42 MB/50 MB
+Number of Wikibase entities loaded: 0-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  134.474      1 - -total
+ 45.50%   61.189      1 - Template:Refimprove
+ 38.90%   52.312      1 - Template:Reflist
+ 30.00%   40.348      1 - Template:Ambox
+ 29.59%   39.791      6 - Template:Cite_web
+  7.59%   10.208      1 - Template:Portal
+  2.08%    2.792      1 - Template:Dmoz
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:9073051-0!*!0!!en!4!* and timestamp 20150911095452 and revision id 680513274
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=List_of_tools_for_static_code_analysis&amp;oldid=680513274">https://en.wikipedia.org/w/index.php?title=List_of_tools_for_static_code_analysis&amp;oldid=680513274</a>"					</div>
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Static_program_analysis_tools" title="Category:Static program analysis tools">Static program analysis tools</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_needing_additional_references_from_February_2015" title="Category:Articles needing additional references from February 2015">Articles needing additional references from February 2015</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:Articles_with_DMOZ_links" title="Category:Articles with DMOZ links">Articles with DMOZ links</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=List+of+tools+for+static+code+analysis&amp;type=signup" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=List+of+tools+for+static+code+analysis" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/List_of_tools_for_static_code_analysis"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:List_of_tools_for_static_code_analysis"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/List_of_tools_for_static_code_analysis" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" />							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/List_of_tools_for_static_code_analysis" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/List_of_tools_for_static_code_analysis" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;oldid=680513274" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q6643419" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=List_of_tools_for_static_code_analysis&amp;id=680513274" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=List+of+tools+for+static+code+analysis">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=List+of+tools+for+static+code+analysis&amp;oldid=680513274&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=List_of_tools_for_static_code_analysis&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-de"><a href="//de.wikipedia.org/wiki/Liste_von_Werkzeugen_zur_statischen_Codeanalyse" title="Liste von Werkzeugen zur statischen Codeanalyse – German" lang="de" hreflang="de">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="//es.wikipedia.org/wiki/Anexo:Herramientas_para_el_an%C3%A1lisis_est%C3%A1tico_de_software" title="Anexo:Herramientas para el análisis estático de software – Spanish" lang="es" hreflang="es">Español</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li>					</ul>
+				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a href="//www.wikidata.org/wiki/Q6643419#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 11 September 2015, at 09:54.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=List_of_tools_for_static_code_analysis&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="//wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="https://en.wikipedia.org/static/1.26wmf22/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="https://en.wikipedia.org/static/1.26wmf22/resources/assets/poweredby_mediawiki_132x47.png 1.5x, https://en.wikipedia.org/static/1.26wmf22/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" /></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.loader.state({"ext.globalCssJs.site":"ready","ext.globalCssJs.user":"ready","user":"ready","user.groups":"ready"});
+} );</script>
+<link rel="stylesheet" href="https://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%7Cext.wikimediaBadges&amp;only=styles&amp;skin=vector" />
+<script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.cirrusSearch.loggingSchema","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.wikimediaEvents.statsd","ext.wikimediaEvents.geoFeatures","ext.navigationTiming","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.visualEditor.targetLoader","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage"]);
+} );</script><script>window.RLQ = window.RLQ || []; window.RLQ.push( function () {
+mw.config.set({"wgBackendResponseTime":98,"wgHostname":"mw1092"});
+} );</script>
+	</body>
+</html>
